@@ -1,0 +1,53 @@
+{
+  "officialAtOuterPath": "net/neoforged/neoforge/21.1.241/neoforge-21.1.241-universal.jar",
+  "officialAtOuterSha256": "4ceaf2c6a1bd9520bf77f227bde8e9eeb441764ecadd33ef1a4328dcbaff4d3f",
+  "officialRuleEntry": "META-INF/accesstransformer.cfg",
+  "officialRuleEntrySha256": "e5f6e279a19e7333507d90ab23a3ee6ba479dcbac5512b6122e0a082f38fabee",
+  "exactOfficialRules": [
+    "public net.minecraft.client.gui.screens.MenuScreens$ScreenConstructor",
+    "public net.minecraft.world.inventory.MenuType$MenuSupplier",
+    "public net.minecraft.world.level.block.entity.BlockEntityType$BlockEntitySupplier",
+    "public net.minecraft.world.item.CreativeModeTabs SEARCH # SEARCH",
+    "public net.minecraft.client.renderer.RenderStateShard$ShaderStateShard",
+    "public net.minecraft.client.renderer.RenderStateShard$LineStateShard",
+    "public net.minecraft.client.renderer.RenderStateShard$LayeringStateShard",
+    "public net.minecraft.client.renderer.RenderStateShard$TransparencyStateShard",
+    "public net.minecraft.client.renderer.RenderStateShard$OutputStateShard",
+    "public net.minecraft.client.renderer.RenderStateShard$WriteMaskStateShard",
+    "public net.minecraft.client.renderer.RenderStateShard$CullStateShard",
+    "public net.minecraft.client.renderer.RenderStateShard$DepthTestStateShard"
+  ],
+  "exactAdditionalRenderStateShardRules": [
+    "public net.minecraft.client.renderer.RenderStateShard$ShaderStateShard",
+    "public net.minecraft.client.renderer.RenderStateShard$LineStateShard",
+    "public net.minecraft.client.renderer.RenderStateShard$LayeringStateShard",
+    "public net.minecraft.client.renderer.RenderStateShard$TransparencyStateShard",
+    "public net.minecraft.client.renderer.RenderStateShard$OutputStateShard",
+    "public net.minecraft.client.renderer.RenderStateShard$WriteMaskStateShard",
+    "public net.minecraft.client.renderer.RenderStateShard$CullStateShard",
+    "public net.minecraft.client.renderer.RenderStateShard$DepthTestStateShard"
+  ],
+  "originalTomAtPath": "compiler-profile/original-tom-at.cfg",
+  "originalTomAtSha256": "161d2bc3e2105f4db167b921ec6c96ca30dcae40e520b266ca1e15e7ff752984",
+  "exactOriginalTomRules": [
+    "public net.minecraft.client.gui.screens.recipebook.RecipeBookComponent searchBox",
+    "public net.minecraft.client.gui.screens.recipebook.RecipeBookComponent ghostRecipe",
+    "",
+    "public-f net.minecraft.world.inventory.Slot x",
+    "public-f net.minecraft.world.inventory.Slot y"
+  ],
+  "parents": [
+    {
+      "path": "net/neoforged/neoforge/21.1.241/neoforge-21.1.241-client.jar",
+      "sha256": "8e3563a078289f0f07ee6f87f1c8651294387639c8355983ee207cb753f08b7f",
+      "childPath": "full-original-at-neoforge.jar",
+      "expectedChildSha256": "a5c0c585403c393e898c7fe62d4b0c4069700db4925cd2d760071c7f8350759e"
+    },
+    {
+      "path": "net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "sha256": "a649bd3ce77f122d0f83ae1b37b4b303e662470f928b9bee5fbc76580805ffd4",
+      "childPath": "full-original-at.jar",
+      "expectedChildSha256": "ecf6e312f231a7a360c53f9ded75d2023d3bb3c11487ddbaf231a42523619892"
+    }
+  ]
+}

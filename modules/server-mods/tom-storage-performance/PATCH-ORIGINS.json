@@ -1,0 +1,25 @@
+{
+  "originalPatchSha256": "30eddff94d0bc92f95467a6a3ac36a5d267f56ff14e5f2c711bd137235ac63fb",
+  "originalPatchBytes": 32150,
+  "newReconstructionNotOriginalManuscript": true,
+  "patches": [
+    {
+      "path": "patches/archive-to-reproduction-java.patch",
+      "sha256": "c3db941e2e35fc1c68e9adce6883db9504f5c2ab2ff9bfdd21f137912e46e909",
+      "bytes": 21390,
+      "containsOnlyLicensedJavaHunks": true
+    },
+    {
+      "path": "patches/context-joins-java.patch",
+      "sha256": "6c31a8dbcaaee72390e4905ad774c42d5f5ca48e3903f722f3f4240050cb752e",
+      "bytes": 3424,
+      "containsOnlyLicensedJavaHunks": true
+    },
+    {
+      "path": "patches/original-6e1ce1e8-java.patch",
+      "sha256": "30eddff94d0bc92f95467a6a3ac36a5d267f56ff14e5f2c711bd137235ac63fb",
+      "bytes": 32150,
+      "containsOnlyLicensedJavaHunks": true
+    }
+  ]
+}

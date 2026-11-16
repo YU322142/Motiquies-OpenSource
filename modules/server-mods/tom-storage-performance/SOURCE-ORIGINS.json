@@ -1,0 +1,2034 @@
+{
+  "scope": "182 actual MIT runtime Java files; no runtime resources or artwork. Source ranges are provenance, never a historical manuscript claim.",
+  "archiveSnapshot": "Archived dirty performance-source snapshot, base dbfbce1a5d53ca422a29a418728fbc205fbc58ca; base commit alone is insufficient.",
+  "upstream": "https://github.com/tom5454/Toms-Storage",
+  "fork": "https://github.com/YU322142/Toms-Storage",
+  "newContextAuthor": "Motiquies maintainers, 2026-11-16",
+  "files": [
+    {
+      "path": "src/main/java/com/tom/storagemod/api/EventHandler.java",
+      "sha256": "c611acc2095bfc8c5c18c5d92cd044073e174232e1b0c5562aaeb42440933804",
+      "bytes": 968,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "c611acc2095bfc8c5c18c5d92cd044073e174232e1b0c5562aaeb42440933804",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/api/MultiblockInventoryAPI.java",
+      "sha256": "74fb913f3bd1685c5266c9d5c4f4768b9bd6bc1b3f3de1de8adb8eead5d910c0",
+      "bytes": 677,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "74fb913f3bd1685c5266c9d5c4f4768b9bd6bc1b3f3de1de8adb8eead5d910c0",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/AbstractInventoryHopperBlock.java",
+      "sha256": "af5ec1c2d8c7ae7c06b863641a9a8f46a493ea75c6f344e0229c06336eb7cfe6",
+      "bytes": 4795,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "af5ec1c2d8c7ae7c06b863641a9a8f46a493ea75c6f344e0229c06336eb7cfe6",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/AbstractStorageTerminalBlock.java",
+      "sha256": "203d525e328d84c6fc9a5e0ba812dd08f274395e78f1a0484e7960d3c57634ad",
+      "bytes": 7388,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "203d525e328d84c6fc9a5e0ba812dd08f274395e78f1a0484e7960d3c57634ad",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/BasicInventoryHopperBlock.java",
+      "sha256": "c283e4831639ef767cd727ccb9cb3c1efccf0e44107cb754880bd11a1141c4d6",
+      "bytes": 3923,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "c283e4831639ef767cd727ccb9cb3c1efccf0e44107cb754880bd11a1141c4d6",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/CraftingTerminalBlock.java",
+      "sha256": "b1c9c570b8f495dac3fa292bb6fd6a3d424169a525dc4ab94d1b73e696e08f19",
+      "bytes": 1912,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "688103dda0ba8f55ccd86548efe140be1d1d2699cd14d9f527086ca0225237b9",
+      "sourceType": "exact_recovered_original_source",
+      "historicalIntegratedManuscriptClaimed": false,
+      "originalSourceCommit": "6e1ce1e8da72c14fd88b5b407a70b364c749dabb",
+      "originalGitBlob": "2938039e9443a6702f58bc5d2132c9fd2759275d",
+      "originalSourceSha256": "b1c9c570b8f495dac3fa292bb6fd6a3d424169a525dc4ab94d1b73e696e08f19",
+      "publicEquivalentCommit": "f3a7698c0281a85e2052bacc609d11a657f3944f",
+      "publicEquivalentIsNewlineNormalized": true,
+      "sourceSegments": [
+        {
+          "role": "restored_exact_original_source",
+          "candidateStart": 1,
+          "candidateEnd": 58,
+          "originStart": 1,
+          "originEnd": 58
+        }
+      ],
+      "exactRecoveredWholeFile": true
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/entity/AbstractInventoryHopperBlockEntity.java",
+      "sha256": "51c4270324c9c38889680cfa1745f81fca1eaabdd9431b2ccf75f850f63744f4",
+      "bytes": 1435,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "51c4270324c9c38889680cfa1745f81fca1eaabdd9431b2ccf75f850f63744f4",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/entity/BasicInventoryHopperBlockEntity.java",
+      "sha256": "d752383a93f32d2f1fcdc7e21809e616fa2106d4e3b53b8a5b2662492d91a2d3",
+      "bytes": 5035,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "d752383a93f32d2f1fcdc7e21809e616fa2106d4e3b53b8a5b2662492d91a2d3",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/entity/BlockFilterAttachment.java",
+      "sha256": "6f345e61aef4ad74ab0315aa244502d34cba3ba1cd6e7ecf429162287c8d487d",
+      "bytes": 887,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "6f345e61aef4ad74ab0315aa244502d34cba3ba1cd6e7ecf429162287c8d487d",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/entity/CraftingTerminalBlockEntity.java",
+      "sha256": "e4cf41ea50cab5902bf59c3785ccb66355a4242290b46e00df11634f1b250f83",
+      "bytes": 8470,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "adf3f7a3ba4e5d11f648d3db8356572ebc10002fac17931c2eb890e2f5a37f16",
+      "sourceType": "exact_recovered_original_source",
+      "historicalIntegratedManuscriptClaimed": false,
+      "originalSourceCommit": "6e1ce1e8da72c14fd88b5b407a70b364c749dabb",
+      "originalGitBlob": "83a60b09bbd1b1975a9a06664437a3964dd1137f",
+      "originalSourceSha256": "e4cf41ea50cab5902bf59c3785ccb66355a4242290b46e00df11634f1b250f83",
+      "publicEquivalentCommit": "f3a7698c0281a85e2052bacc609d11a657f3944f",
+      "publicEquivalentIsNewlineNormalized": true,
+      "sourceSegments": [
+        {
+          "role": "restored_exact_original_source",
+          "candidateStart": 1,
+          "candidateEnd": 253,
+          "originStart": 1,
+          "originEnd": 253
+        }
+      ],
+      "exactRecoveredWholeFile": true
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/entity/FilingCabinetBlockEntity.java",
+      "sha256": "f51dbbb3d1bfb0c2a9dfa2b2478580f5f633c348349702ca3db03a0c715ee122",
+      "bytes": 2598,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "f51dbbb3d1bfb0c2a9dfa2b2478580f5f633c348349702ca3db03a0c715ee122",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/entity/IInventoryConnector.java",
+      "sha256": "8f2aac27f5de0b1252f3a303dc0fa8db1e1dd08c6aed611e844a1f9ce1aa3eee",
+      "bytes": 358,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "8f2aac27f5de0b1252f3a303dc0fa8db1e1dd08c6aed611e844a1f9ce1aa3eee",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/entity/InventoryCableConnectorBlockEntity.java",
+      "sha256": "53d9b772ede1286cd35323f7dc72f7e862fd42e37c14c068a6193d718d4dd432",
+      "bytes": 11823,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "53d9b772ede1286cd35323f7dc72f7e862fd42e37c14c068a6193d718d4dd432",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/entity/InventoryConnectorBlockEntity.java",
+      "sha256": "742a98de6c3dbbef2cc9af5ffcc041ed1657414e70ad1f30d414e91e2a2846e7",
+      "bytes": 13014,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "742a98de6c3dbbef2cc9af5ffcc041ed1657414e70ad1f30d414e91e2a2846e7",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/entity/InventoryInterfaceBlockEntity.java",
+      "sha256": "c04960fa05b72fc677c720810c72ec52d0bb769e782674aafd05cb227de8fac3",
+      "bytes": 2558,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "c04960fa05b72fc677c720810c72ec52d0bb769e782674aafd05cb227de8fac3",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/entity/InventoryProxyBlockEntity.java",
+      "sha256": "330000ad67d9586370f1c563156cb88847802836d7c1556138fa4640d4f2e675",
+      "bytes": 1741,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "330000ad67d9586370f1c563156cb88847802836d7c1556138fa4640d4f2e675",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/entity/LevelEmitterBlockEntity.java",
+      "sha256": "284d4c328310f9123d9b31e06dc7c0e46e185e25086f82fd1e5bbef8ffd5c79c",
+      "bytes": 4742,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "284d4c328310f9123d9b31e06dc7c0e46e185e25086f82fd1e5bbef8ffd5c79c",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/entity/OpenCrateBlockEntity.java",
+      "sha256": "ef5d56c19ea6bafe540c6b46f9d278823c5e50b95a37d20b125dde58b8a94b18",
+      "bytes": 3344,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "ef5d56c19ea6bafe540c6b46f9d278823c5e50b95a37d20b125dde58b8a94b18",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/entity/PaintedBlockEntity.java",
+      "sha256": "b3fdb02c197f9b2189c7986ed6c906d73f3ad0f6d1d16c51379df5fb1956d652",
+      "bytes": 3349,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "b3fdb02c197f9b2189c7986ed6c906d73f3ad0f6d1d16c51379df5fb1956d652",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/entity/StorageTerminalBlockEntity.java",
+      "sha256": "32262aa43c8bf2fbf5e284da46d499a801f24b939e163bd5e5836301870e7726",
+      "bytes": 11552,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "32262aa43c8bf2fbf5e284da46d499a801f24b939e163bd5e5836301870e7726",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/FilingCabinetBlock.java",
+      "sha256": "1e07b0c3bb349d8b4af6765a0d788540dacb3004b351dff9535992e5c1f32dec",
+      "bytes": 3838,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "1e07b0c3bb349d8b4af6765a0d788540dacb3004b351dff9535992e5c1f32dec",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/FramedInventoryCableBlock.java",
+      "sha256": "21eb908c67ab428fc39bd90e288bffe5c9235f67bf76c40db30db0cb5cc9a316",
+      "bytes": 8831,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "21eb908c67ab428fc39bd90e288bffe5c9235f67bf76c40db30db0cb5cc9a316",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/FramedInventoryCableConnectorBlock.java",
+      "sha256": "cd4d4be48f9129b5c90c19fa75220499c641685feb3c46b30f2be591502f6ff1",
+      "bytes": 2401,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "cd4d4be48f9129b5c90c19fa75220499c641685feb3c46b30f2be591502f6ff1",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/IConfiguratorHighlight.java",
+      "sha256": "38dac93c5cdfe43245e0e3ab2da737febb9b8144c26bb53bd234069a1ab89830",
+      "bytes": 378,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "38dac93c5cdfe43245e0e3ab2da737febb9b8144c26bb53bd234069a1ab89830",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/IInventoryCable.java",
+      "sha256": "4bb2aba22797f81f69a624a3fdf8af49e69e714e8db05e3ed57c6fbfc4edbd48",
+      "bytes": 981,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "4bb2aba22797f81f69a624a3fdf8af49e69e714e8db05e3ed57c6fbfc4edbd48",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/IInventoryNode.java",
+      "sha256": "436554860cfa9833310038173af4b06e4ad19bc9d015489b5ec20b95b3cf3e90",
+      "bytes": 72,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "436554860cfa9833310038173af4b06e4ad19bc9d015489b5ec20b95b3cf3e90",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/InventoryCableBlock.java",
+      "sha256": "17e7dadceac9f19d7892c2bcafcdc99bb29d447710495da53c387a799d1c3f35",
+      "bytes": 8066,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "17e7dadceac9f19d7892c2bcafcdc99bb29d447710495da53c387a799d1c3f35",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/InventoryCableConnectorBlock.java",
+      "sha256": "2c7b1d437ced8803afae485161cfa432e870da7bd8ee0466159eed9897a233f4",
+      "bytes": 13579,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "2c7b1d437ced8803afae485161cfa432e870da7bd8ee0466159eed9897a233f4",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/InventoryConnectorBlock.java",
+      "sha256": "d2598049c0449b95f2867a8ba1f44533144a327fda2456b2d9a38186ea26d606",
+      "bytes": 4445,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "d2598049c0449b95f2867a8ba1f44533144a327fda2456b2d9a38186ea26d606",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/InventoryInterfaceBlock.java",
+      "sha256": "241438c23ff7240229aa7c6527210fe6c117f597a80821b5188287796464b108",
+      "bytes": 3301,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "241438c23ff7240229aa7c6527210fe6c117f597a80821b5188287796464b108",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/InventoryProxyBlock.java",
+      "sha256": "8c5291589b5be2edadb1b1ccada83606fc33d49fe6dc23daca040d3b1bfef318",
+      "bytes": 4827,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "8c5291589b5be2edadb1b1ccada83606fc33d49fe6dc23daca040d3b1bfef318",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/IPaintable.java",
+      "sha256": "30d6083a070694a048e7adf5d50190637186d0ac82d1c1e070c62b885d45859e",
+      "bytes": 2100,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "30d6083a070694a048e7adf5d50190637186d0ac82d1c1e070c62b885d45859e",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/LevelEmitterBlock.java",
+      "sha256": "319047157464f488580a039fbfa1d2d38d3ecc6ae5b5708db9e834a9948c22c9",
+      "bytes": 7936,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "319047157464f488580a039fbfa1d2d38d3ecc6ae5b5708db9e834a9948c22c9",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/NeoForgeBlock.java",
+      "sha256": "bae429ccca0560fc48342eb8b0adef6152c373f46be748dbd53a1a367e4859c2",
+      "bytes": 71,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "bae429ccca0560fc48342eb8b0adef6152c373f46be748dbd53a1a367e4859c2",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/OpenCrateBlock.java",
+      "sha256": "33d80eb6e7ae152714e882d07b868db2fa6d6ae57601f40e3a550509011e431a",
+      "bytes": 3224,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "33d80eb6e7ae152714e882d07b868db2fa6d6ae57601f40e3a550509011e431a",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/PaintedTrimBlock.java",
+      "sha256": "74fa3a7488224d3cf286ad81217b8ec31f097eb2b6367674a5a8a1571a20ea81",
+      "bytes": 3249,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "74fa3a7488224d3cf286ad81217b8ec31f097eb2b6367674a5a8a1571a20ea81",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/StorageTerminalBlock.java",
+      "sha256": "41807085d060e5d56f6c01801ac04497aac03e4e26617b3958adc5d816fa5f3c",
+      "bytes": 1337,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "41807085d060e5d56f6c01801ac04497aac03e4e26617b3958adc5d816fa5f3c",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/block/TrimBlock.java",
+      "sha256": "6db6f620818be06c235e0976d808d98ebf73a30a934cb47fa035aece0213cb60",
+      "bytes": 1268,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "6db6f620818be06c235e0976d808d98ebf73a30a934cb47fa035aece0213cb60",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/client/BakedPaintedModel.java",
+      "sha256": "dcff66a45ffc6569c9e6d137f10d0adf2a8778796cd20eaefd12f83d68133f2c",
+      "bytes": 2895,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "dcff66a45ffc6569c9e6d137f10d0adf2a8778796cd20eaefd12f83d68133f2c",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/client/ClientUtil.java",
+      "sha256": "e3e7faa9e0457c10277cf0e04b0b44e1621f65096f6d47eb5198ee6720b17b00",
+      "bytes": 10020,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "e3e7faa9e0457c10277cf0e04b0b44e1621f65096f6d47eb5198ee6720b17b00",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/client/CustomRenderTypes.java",
+      "sha256": "f4465a347f256ee6f5357de4fb5420934d574bf01bc78be162a5264bfebeca40",
+      "bytes": 1335,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "f4465a347f256ee6f5357de4fb5420934d574bf01bc78be162a5264bfebeca40",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/client/ViveCraftHelper.java",
+      "sha256": "02178fdcc8e95f76f5c04367415491f9d2d21a99a64226cf1147822549a44b8d",
+      "bytes": 613,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "02178fdcc8e95f76f5c04367415491f9d2d21a99a64226cf1147822549a44b8d",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/components/ConfiguratorComponent.java",
+      "sha256": "4eabb5564f0bc248fae019c0fc0a242115b9f49104b839b43466534d08ee4b27",
+      "bytes": 4527,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "4eabb5564f0bc248fae019c0fc0a242115b9f49104b839b43466534d08ee4b27",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/components/SimpleItemFilterComponent.java",
+      "sha256": "1aaf53cc2b940c87544482d19d313706db18282ceca9276c3cf3cb8016c467f8",
+      "bytes": 798,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "1aaf53cc2b940c87544482d19d313706db18282ceca9276c3cf3cb8016c467f8",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/components/TagFilterComponent.java",
+      "sha256": "d58f48de8d03f9047c681cff2ff577d21c7978e2b3f9d2750b649ac8c85735d8",
+      "bytes": 727,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "d58f48de8d03f9047c681cff2ff577d21c7978e2b3f9d2750b649ac8c85735d8",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/components/WorldPos.java",
+      "sha256": "40467651f9e394ab5985d4f4aa85db4d3494803029f6639d5be59b20e9bcc7d7",
+      "bytes": 988,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "40467651f9e394ab5985d4f4aa85db4d3494803029f6639d5be59b20e9bcc7d7",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/Config.java",
+      "sha256": "63e7fa95686235a061d0e4f18c77ce93727e52da7a45a66d1e0f1f5f9a802a83",
+      "bytes": 10746,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "63e7fa95686235a061d0e4f18c77ce93727e52da7a45a66d1e0f1f5f9a802a83",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/Content.java",
+      "sha256": "f88d3f0d4270283b9618ef7c382af6edfd1e437ddd6b92a88c579e49eac974f4",
+      "bytes": 12171,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "f88d3f0d4270283b9618ef7c382af6edfd1e437ddd6b92a88c579e49eac974f4",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/emi/EmiGhostIngredientHandler.java",
+      "sha256": "1882711d151a1ed17ce48920f61c63df75b8f2c872f3dcc3c8b125ca6ff20c5f",
+      "bytes": 3011,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "1882711d151a1ed17ce48920f61c63df75b8f2c872f3dcc3c8b125ca6ff20c5f",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/emi/EMIPlugin.java",
+      "sha256": "cf277346aaec467d9ac7a03820ed73f424f1b8312dfcd821637c8cf69af33cae",
+      "bytes": 1828,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "cf277346aaec467d9ac7a03820ed73f424f1b8312dfcd821637c8cf69af33cae",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/emi/EmiTransferHandler.java",
+      "sha256": "45132749869fa7d98e586cf3c1c32c0d1790bb0de54e9cf67d4957ed18de0975",
+      "bytes": 4979,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "45132749869fa7d98e586cf3c1c32c0d1790bb0de54e9cf67d4957ed18de0975",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/BlockFilter.java",
+      "sha256": "d0a966094bf4d95387859d85e307eed8bc2935a596c8614f34804f269b254715",
+      "bytes": 6236,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "d0a966094bf4d95387859d85e307eed8bc2935a596c8614f34804f269b254715",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/compat/SophisticatedDoubleBlocks.java",
+      "sha256": "3c07ead864e051d4d4c1f1fd76048988d1bdd3c2db610bf3fb076e42c3251a0b",
+      "bytes": 742,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "3c07ead864e051d4d4c1f1fd76048988d1bdd3c2db610bf3fb076e42c3251a0b",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/filter/IFilter.java",
+      "sha256": "11cc61aace28e6740ffe3c5fb2f5ac0b08a59dcd8129faaa1661b4c5db0cf7d8",
+      "bytes": 2195,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "11cc61aace28e6740ffe3c5fb2f5ac0b08a59dcd8129faaa1661b4c5db0cf7d8",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/filter/ItemFilter.java",
+      "sha256": "182cfaa97d713ed71f061951d3a8c5bbeeee63c03e4a1b7fcd6218915e4b6567",
+      "bytes": 262,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "182cfaa97d713ed71f061951d3a8c5bbeeee63c03e4a1b7fcd6218915e4b6567",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/filter/ItemPredicate.java",
+      "sha256": "ca61e53782f477afd05d7c31c8e0bca9a336df76f9aa575c8f84ea1053b512fb",
+      "bytes": 334,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "ca61e53782f477afd05d7c31c8e0bca9a336df76f9aa575c8f84ea1053b512fb",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/filter/PolyFilter.java",
+      "sha256": "5d4a2c63296f800acc691c9f992a02e84f0d0949c9c76ea45cc4ef2c37cf4ad4",
+      "bytes": 1542,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "5d4a2c63296f800acc691c9f992a02e84f0d0949c9c76ea45cc4ef2c37cf4ad4",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/filter/SimpleItemFilter.java",
+      "sha256": "8ff394fd1518bd41b27cb60bf34938626daf56d2429bc84496715120867bc254",
+      "bytes": 1116,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "8ff394fd1518bd41b27cb60bf34938626daf56d2429bc84496715120867bc254",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/filter/TagFilter.java",
+      "sha256": "22ba46fa2d2d3ef0389bc8f02c02eaa4f90242c19b718f687d57cba4d56accd7",
+      "bytes": 681,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "22ba46fa2d2d3ef0389bc8f02c02eaa4f90242c19b718f687d57cba4d56accd7",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/IChangeTrackerAccess.java",
+      "sha256": "9b20813846a96052e36be8d9331512896debe55b559372b706d1f1994e8d5da0",
+      "bytes": 196,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "9b20813846a96052e36be8d9331512896debe55b559372b706d1f1994e8d5da0",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/IInventoryAccess.java",
+      "sha256": "e6da9a878be2dd32584e5ac6e7e27e9e2748e3b7f10829a106d146b08277a426",
+      "bytes": 6356,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "e6da9a878be2dd32584e5ac6e7e27e9e2748e3b7f10829a106d146b08277a426",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/IInventoryConnectorReference.java",
+      "sha256": "0c3593d48f013c9e3fff4df28d9d243d5c446c96928209638625afc8f0aefdbf",
+      "bytes": 190,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "0c3593d48f013c9e3fff4df28d9d243d5c446c96928209638625afc8f0aefdbf",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/IInventoryLink.java",
+      "sha256": "1e1dcd2fe6f5838987fe66630d8ef0110b2c015b34d48255c405440de55fb337",
+      "bytes": 377,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "1e1dcd2fe6f5838987fe66630d8ef0110b2c015b34d48255c405440de55fb337",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/InventoryCableNetwork.java",
+      "sha256": "e3129649ea70724556cf75f7b437bd6d14c3e4d620ced4d7c84cb3d544e1984e",
+      "bytes": 2920,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "e3129649ea70724556cf75f7b437bd6d14c3e4d620ced4d7c84cb3d544e1984e",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/InventoryChangeTracker.java",
+      "sha256": "7f1e8180dad92e794c81c97f7d532f66cdb567aacc0fda0086fde6e7b49b4305",
+      "bytes": 16067,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "7f1e8180dad92e794c81c97f7d532f66cdb567aacc0fda0086fde6e7b49b4305",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/InventoryDeduplicator.java",
+      "sha256": "949fa795f3f22db0906499a79d5256942c3fc682827741b64b6cdd98fa06e5ab",
+      "bytes": 1896,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "949fa795f3f22db0906499a79d5256942c3fc682827741b64b6cdd98fa06e5ab",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/InventorySlot.java",
+      "sha256": "27070c1449dc02e6edf3ea72d4fc07bf57713f18faa17b3d3351a717b6047e88",
+      "bytes": 1988,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "27070c1449dc02e6edf3ea72d4fc07bf57713f18faa17b3d3351a717b6047e88",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/IProxy.java",
+      "sha256": "dbe6b4c10ae84a974626b4083c1c2d8b1b423a5058372ea9383aa16f67184e9f",
+      "bytes": 144,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "dbe6b4c10ae84a974626b4083c1c2d8b1b423a5058372ea9383aa16f67184e9f",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/MultiInventoryAccess.java",
+      "sha256": "9fcd64a83eb2d45c1b76ef7f127b11cca12c7df5de7a5a3145c31b040cf4f353",
+      "bytes": 15568,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "9fcd64a83eb2d45c1b76ef7f127b11cca12c7df5de7a5a3145c31b040cf4f353",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/NetworkInventory.java",
+      "sha256": "126fb17ead286d72c6d5264efa7b5fda7d5fdbe253e9075e8a24713888710146",
+      "bytes": 2226,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "126fb17ead286d72c6d5264efa7b5fda7d5fdbe253e9075e8a24713888710146",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/PlatformFilteredInventoryAccess.java",
+      "sha256": "5f3ea12e3d2f3fe699316b2f90d446424b1b8569ef0818bff8272bf16ee0a0db",
+      "bytes": 4542,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "5f3ea12e3d2f3fe699316b2f90d446424b1b8569ef0818bff8272bf16ee0a0db",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/PlatformInventoryAccess.java",
+      "sha256": "93355edca57ccfb77d287d131b3777d979575f9c5cfbc9c89f750ec154ca02bd",
+      "bytes": 9682,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "93355edca57ccfb77d287d131b3777d979575f9c5cfbc9c89f750ec154ca02bd",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/PlatformItemHandler.java",
+      "sha256": "c5c69fe65f0cacc3fbc1a0f9f03611944ea07ce43c2a93ea08ce127457de3c71",
+      "bytes": 1278,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "c5c69fe65f0cacc3fbc1a0f9f03611944ea07ce43c2a93ea08ce127457de3c71",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/PlatformMultiInventoryAccess.java",
+      "sha256": "006d5469a410295c3cd5d81306f45a3a4cc43c81038118ec0b3285bda6da142e",
+      "bytes": 3577,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "006d5469a410295c3cd5d81306f45a3a4cc43c81038118ec0b3285bda6da142e",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/PlatformProxyInventoryAccess.java",
+      "sha256": "e9c85e308abda92e3221955acec06205c756acca177cd9cc4391e38fae09dc94",
+      "bytes": 2331,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "e9c85e308abda92e3221955acec06205c756acca177cd9cc4391e38fae09dc94",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/RemoteConnections.java",
+      "sha256": "aa76bdeb9e75501dc89c90b40b55444f1f57d56a0213c7fd16afdf99da1687b2",
+      "bytes": 5274,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "aa76bdeb9e75501dc89c90b40b55444f1f57d56a0213c7fd16afdf99da1687b2",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/sorting/ComparatorAmount.java",
+      "sha256": "2d55b45aed1f1e9b6eed352ee1ef0836a84e967bba49245398574c40205ead5e",
+      "bytes": 440,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "2d55b45aed1f1e9b6eed352ee1ef0836a84e967bba49245398574c40205ead5e",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/sorting/ComparatorID.java",
+      "sha256": "1045101d37af8f33a18405a0499c7049422d6b7e50a7ed2ffcbe9c6d095610c9",
+      "bytes": 352,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "1045101d37af8f33a18405a0499c7049422d6b7e50a7ed2ffcbe9c6d095610c9",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/sorting/ComparatorMod.java",
+      "sha256": "89c7d45d74dc616b864e971137f37bf5bc2f9154ae299aaa3af0eb04c48182ba",
+      "bytes": 434,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "89c7d45d74dc616b864e971137f37bf5bc2f9154ae299aaa3af0eb04c48182ba",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/sorting/ComparatorName.java",
+      "sha256": "0c8ac0f440a0b016355aa56d53f44214f6b27ec2d6add8bb22ce6a1b25302460",
+      "bytes": 350,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "0c8ac0f440a0b016355aa56d53f44214f6b27ec2d6add8bb22ce6a1b25302460",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/sorting/ComparatorSpaceEfficiency.java",
+      "sha256": "215c07f08286b74c3d11631028d3a2667b2db43ed18d904fa203611d0d01ee17",
+      "bytes": 543,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "215c07f08286b74c3d11631028d3a2667b2db43ed18d904fa203611d0d01ee17",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/sorting/ComparatorType.java",
+      "sha256": "b7c690d4b27a1f136d218d4769ae8b72ba1fea08f3cb751e9483a8df0df8f7a7",
+      "bytes": 1700,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "b7c690d4b27a1f136d218d4769ae8b72ba1fea08f3cb751e9483a8df0df8f7a7",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/sorting/SortingTypes.java",
+      "sha256": "da8f3b9495c0c436c61c5a1b76bf7c6aabc846fd760ceccd23009b9831d1be97",
+      "bytes": 743,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "da8f3b9495c0c436c61c5a1b76bf7c6aabc846fd760ceccd23009b9831d1be97",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/StoredItemStack.java",
+      "sha256": "647c88fa5565485fc9cc6656a06d8276e9108a131c3488295988f81386786cb9",
+      "bytes": 2575,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "647c88fa5565485fc9cc6656a06d8276e9108a131c3488295988f81386786cb9",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/TerminalItemStack.java",
+      "sha256": "e2c27ec98ec1643238a08cb34aa825bfc0a1ff9ad77373721502958405dea12a",
+      "bytes": 1802,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "e2c27ec98ec1643238a08cb34aa825bfc0a1ff9ad77373721502958405dea12a",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/inventory/VanillaMultiblockInventories.java",
+      "sha256": "3e0bb1ab17ca3a55cdbf52d05474ae33b28eae99be2bc178db8cfffb0230193b",
+      "bytes": 1022,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "3e0bb1ab17ca3a55cdbf52d05474ae33b28eae99be2bc178db8cfffb0230193b",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/item/AdvWirelessTerminalItem.java",
+      "sha256": "f0200257c0a620bfc66dabc0f8d9413aaf14328a73863d165799410f93511325",
+      "bytes": 4873,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "f0200257c0a620bfc66dabc0f8d9413aaf14328a73863d165799410f93511325",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/item/FilterItem.java",
+      "sha256": "16f69d02f9951c787bdd3402127a55c5759e12684c2f321631423e4211eca16e",
+      "bytes": 3015,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "16f69d02f9951c787bdd3402127a55c5759e12684c2f321631423e4211eca16e",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/item/IItemFilter.java",
+      "sha256": "06c0784e81e2b92d061fcefe7ec538c7a75b4526633017c7905db26d48bce361",
+      "bytes": 466,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "06c0784e81e2b92d061fcefe7ec538c7a75b4526633017c7905db26d48bce361",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/item/ILeftClickListener.java",
+      "sha256": "f93ebee33efc2be75072f689047f8e70497d139d870fcc30bd23f72ba9e89ef5",
+      "bytes": 275,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "f93ebee33efc2be75072f689047f8e70497d139d870fcc30bd23f72ba9e89ef5",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/item/InventoryConfiguratorItem.java",
+      "sha256": "28ab620f6ef8a3ec5f5da7acd0d05dbc5536bd4ec3c0b8093d2a326fce4c63d0",
+      "bytes": 6674,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "28ab620f6ef8a3ec5f5da7acd0d05dbc5536bd4ec3c0b8093d2a326fce4c63d0",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/item/PaintedBlockItem.java",
+      "sha256": "48bcecac07bc05e9e9b27bcaa8563db6dededd8c4da6d6a978542a7d54a247da",
+      "bytes": 1152,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "48bcecac07bc05e9e9b27bcaa8563db6dededd8c4da6d6a978542a7d54a247da",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/item/PaintKitItem.java",
+      "sha256": "8bedf8de6b615df044aaeb7ca5506871e13fb593edd11c2a5e8fe8d845f9de9b",
+      "bytes": 3517,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "8bedf8de6b615df044aaeb7ca5506871e13fb593edd11c2a5e8fe8d845f9de9b",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/item/PolyFilterItem.java",
+      "sha256": "56a45f8b1872558a66af67ee06b68444f2765273b7fefc4143bf5617adbc41b7",
+      "bytes": 1101,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "56a45f8b1872558a66af67ee06b68444f2765273b7fefc4143bf5617adbc41b7",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/item/TagFilterItem.java",
+      "sha256": "7e0f36168065cd194a59598c51bec29af167d6b8b15276176e2abe24dcf40c01",
+      "bytes": 2998,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "7e0f36168065cd194a59598c51bec29af167d6b8b15276176e2abe24dcf40c01",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/item/WirelessTerminal.java",
+      "sha256": "8448dd8e41b6f53fa39b1d940e275f8d0592644eb3ccc71238fb0f3bfc649ed0",
+      "bytes": 279,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "8448dd8e41b6f53fa39b1d940e275f8d0592644eb3ccc71238fb0f3bfc649ed0",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/item/WirelessTerminalItem.java",
+      "sha256": "ceef05b2c85296023523f909b354e2fe14f71d61ec1ab89f63951f4a7079cfae",
+      "bytes": 2228,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "ceef05b2c85296023523f909b354e2fe14f71d61ec1ab89f63951f4a7079cfae",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/jade/InventoryConfigProvider.java",
+      "sha256": "5f1fc70fb95d87106bb1f2894f1ead78f805b453cce65b28af0310cc661e6e99",
+      "bytes": 2056,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "5f1fc70fb95d87106bb1f2894f1ead78f805b453cce65b28af0310cc661e6e99",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/jade/InventoryConnectorProvider.java",
+      "sha256": "f7128580bcdb0ebb698366d0e86f5ecb9bdc7f908b1ad4ee47b5ffde8467642d",
+      "bytes": 1981,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "f7128580bcdb0ebb698366d0e86f5ecb9bdc7f908b1ad4ee47b5ffde8467642d",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/jade/InventoryHopperProvider.java",
+      "sha256": "e72730475c6d447c2b92172afffd683c3e705d0a221c633aa33253c4a7cb6e38",
+      "bytes": 1514,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "e72730475c6d447c2b92172afffd683c3e705d0a221c633aa33253c4a7cb6e38",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/jade/JadePlugin.java",
+      "sha256": "0e76a32b1e183a9007a34685d73a5d4761c1dc53b9ae318b218e1e9e6d1a18c5",
+      "bytes": 1886,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "0e76a32b1e183a9007a34685d73a5d4761c1dc53b9ae318b218e1e9e6d1a18c5",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/jade/JadeUtil.java",
+      "sha256": "02d4b604dd2053af8afc27367926f620e271eb4daffb1996b2b2b35a09f76d39",
+      "bytes": 1267,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "02d4b604dd2053af8afc27367926f620e271eb4daffb1996b2b2b35a09f76d39",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/jei/CraftingTerminalTransferHandler.java",
+      "sha256": "d6e81e6b55049106b56f760f3f5236f37796612739569eacb8133d52f1ad5a36",
+      "bytes": 5830,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "d6e81e6b55049106b56f760f3f5236f37796612739569eacb8133d52f1ad5a36",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/jei/JeiGhostIngredientHandler.java",
+      "sha256": "925f70a0daaa71b25ca294bdf40b68ebc2063cfd92dfce65ed317865483b18b9",
+      "bytes": 2185,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "925f70a0daaa71b25ca294bdf40b68ebc2063cfd92dfce65ed317865483b18b9",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/jei/JEIHandler.java",
+      "sha256": "14862f2c697e90e5f7d234c8d052ac64b0fd921ad09e6b01260f842743669323",
+      "bytes": 3550,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "14862f2c697e90e5f7d234c8d052ac64b0fd921ad09e6b01260f842743669323",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/menu/AbstractFilteredMenu.java",
+      "sha256": "306e2bf84af0cd0541715a2520ea44e03c56561e10652e5de45357485ea48213",
+      "bytes": 3189,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "306e2bf84af0cd0541715a2520ea44e03c56561e10652e5de45357485ea48213",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/menu/CraftingTerminalMenu.java",
+      "sha256": "c1a372f6b4dd04fd8871c44f1e848367d0b6f005a26d915bfbaf0e24a279328f",
+      "bytes": 14790,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "65eccbcc8d8cf638685ea9ac754d2d878f91b38dd01ae751511f631b464ade95",
+      "sourceType": "attributed_context_reconstruction",
+      "historicalIntegratedManuscriptClaimed": false,
+      "originalSourceCommit": "6e1ce1e8da72c14fd88b5b407a70b364c749dabb",
+      "originalGitBlob": "3a523096ffd686b66bd5f3df3148d969292e1ab4",
+      "originalSourceSha256": "ba309c4a324685fbf37ed8bc2926ead02f1e2cc58b9806647ebc327dad387540",
+      "publicEquivalentCommit": "f3a7698c0281a85e2052bacc609d11a657f3944f",
+      "publicEquivalentIsNewlineNormalized": true,
+      "sourceSegments": [
+        {
+          "role": "restored_exact_original_source",
+          "candidateStart": 1,
+          "candidateEnd": 34,
+          "originStart": 1,
+          "originEnd": 34
+        },
+        {
+          "role": "new_reconstruction",
+          "candidateStart": 35,
+          "candidateEnd": 35,
+          "author": "Motiquies maintainers",
+          "date": "2026-11-16",
+          "reason": "Explicit 2026-11-16 TerminalItemStack/context integration; not recovered manuscript"
+        },
+        {
+          "role": "restored_exact_original_source",
+          "candidateStart": 36,
+          "candidateEnd": 170,
+          "originStart": 35,
+          "originEnd": 169
+        },
+        {
+          "role": "new_reconstruction",
+          "candidateStart": 171,
+          "candidateEnd": 171,
+          "author": "Motiquies maintainers",
+          "date": "2026-11-16",
+          "reason": "Explicit 2026-11-16 TerminalItemStack/context integration; not recovered manuscript"
+        },
+        {
+          "role": "restored_exact_original_source",
+          "candidateStart": 172,
+          "candidateEnd": 300,
+          "originStart": 171,
+          "originEnd": 299
+        },
+        {
+          "role": "new_reconstruction",
+          "candidateStart": 301,
+          "candidateEnd": 301,
+          "author": "Motiquies maintainers",
+          "date": "2026-11-16",
+          "reason": "Explicit 2026-11-16 TerminalItemStack/context integration; not recovered manuscript"
+        },
+        {
+          "role": "restored_exact_original_source",
+          "candidateStart": 302,
+          "candidateEnd": 457,
+          "originStart": 301,
+          "originEnd": 456
+        }
+      ],
+      "exactRecoveredWholeFile": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/menu/FilingCabinetMenu.java",
+      "sha256": "6bf81ea1d2655d6c5118385a2e2a7ce32617014df4b996c51c1b10af5fe9b103",
+      "bytes": 3987,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "6bf81ea1d2655d6c5118385a2e2a7ce32617014df4b996c51c1b10af5fe9b103",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/menu/InventoryConfiguratorMenu.java",
+      "sha256": "c68aee9da5408a37f76255e79ce74df8f0119dd994e76c5a354e0809a1354212",
+      "bytes": 4199,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "c68aee9da5408a37f76255e79ce74df8f0119dd994e76c5a354e0809a1354212",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/menu/InventoryLinkMenu.java",
+      "sha256": "ceeea166468c1076c540c81d51599a00c0bd7d601e9e205515f726beaf5857ec",
+      "bytes": 4368,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "ceeea166468c1076c540c81d51599a00c0bd7d601e9e205515f726beaf5857ec",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/menu/ItemFilterMenu.java",
+      "sha256": "60419898daee818db25d7b09b7139fe24f8e1b068d99f27a33f428192fae3470",
+      "bytes": 3344,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "60419898daee818db25d7b09b7139fe24f8e1b068d99f27a33f428192fae3470",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/menu/LevelEmitterMenu.java",
+      "sha256": "5ac4fb42e0206d3a7d187e912a3189742e297487bcaed3e0ab7df26ef5a96bd1",
+      "bytes": 3739,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "5ac4fb42e0206d3a7d187e912a3189742e297487bcaed3e0ab7df26ef5a96bd1",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/menu/slot/FilterSlot.java",
+      "sha256": "e02dbfddb976419dead7c45706ccfb5195d1c076e5600720f65b0e614561cb10",
+      "bytes": 664,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "e02dbfddb976419dead7c45706ccfb5195d1c076e5600720f65b0e614561cb10",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/menu/slot/ItemFilterSlot.java",
+      "sha256": "ca8c8f1d3102a07afa64fab734838b62027ce9d6bbcb9178e2ac7808f8713b5e",
+      "bytes": 550,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "ca8c8f1d3102a07afa64fab734838b62027ce9d6bbcb9178e2ac7808f8713b5e",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/menu/slot/PhantomSlot.java",
+      "sha256": "19ec110dcd205ca55157e893aa98eaa34163ab91703fa7ed01f3cec56e43e3b9",
+      "bytes": 584,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "19ec110dcd205ca55157e893aa98eaa34163ab91703fa7ed01f3cec56e43e3b9",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/menu/StorageTerminalMenu.java",
+      "sha256": "a5e96758a50f267ffd7c158f3269c7b24762c28c43bc30003a5f5d01f0a3d4fb",
+      "bytes": 15276,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "039f5f7e0fbca3f5b697006a397d1717e4745f11f2d44987b3c2ce0bae0f0675",
+      "sourceType": "attributed_context_reconstruction",
+      "historicalIntegratedManuscriptClaimed": false,
+      "originalSourceCommit": "6e1ce1e8da72c14fd88b5b407a70b364c749dabb",
+      "originalGitBlob": "1e26cd9f6892026e27c446b606864a177509977f",
+      "originalSourceSha256": "f97233f063393c95ff64812923d79eccb17b25a2a7845b0dd2e962a282fc31be",
+      "publicEquivalentCommit": "f3a7698c0281a85e2052bacc609d11a657f3944f",
+      "publicEquivalentIsNewlineNormalized": true,
+      "sourceSegments": [
+        {
+          "role": "preserved_archive_source",
+          "candidateStart": 1,
+          "candidateEnd": 70,
+          "originStart": 1,
+          "originEnd": 70
+        },
+        {
+          "role": "restored_exact_original_source",
+          "candidateStart": 71,
+          "candidateEnd": 75,
+          "originStart": 70,
+          "originEnd": 74
+        },
+        {
+          "role": "preserved_archive_source",
+          "candidateStart": 76,
+          "candidateEnd": 76,
+          "originStart": 71,
+          "originEnd": 71
+        },
+        {
+          "role": "restored_exact_original_source",
+          "candidateStart": 77,
+          "candidateEnd": 79,
+          "originStart": 76,
+          "originEnd": 78
+        },
+        {
+          "role": "preserved_archive_source",
+          "candidateStart": 80,
+          "candidateEnd": 238,
+          "originStart": 75,
+          "originEnd": 233
+        },
+        {
+          "role": "restored_exact_original_source",
+          "candidateStart": 239,
+          "candidateEnd": 241,
+          "originStart": 238,
+          "originEnd": 240
+        },
+        {
+          "role": "preserved_archive_source",
+          "candidateStart": 242,
+          "candidateEnd": 347,
+          "originStart": 235,
+          "originEnd": 340
+        },
+        {
+          "role": "restored_exact_original_source",
+          "candidateStart": 348,
+          "candidateEnd": 348,
+          "originStart": 347,
+          "originEnd": 347
+        },
+        {
+          "role": "preserved_archive_source",
+          "candidateStart": 349,
+          "candidateEnd": 352,
+          "originStart": 342,
+          "originEnd": 345
+        },
+        {
+          "role": "restored_exact_original_source",
+          "candidateStart": 353,
+          "candidateEnd": 355,
+          "originStart": 352,
+          "originEnd": 354
+        },
+        {
+          "role": "preserved_archive_source",
+          "candidateStart": 356,
+          "candidateEnd": 476,
+          "originStart": 349,
+          "originEnd": 469
+        }
+      ],
+      "exactRecoveredWholeFile": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/menu/TagItemFilterMenu.java",
+      "sha256": "a73b2dcad07ec25b35b8acd29da21407904a047b616fd244ba99cfd6500b6968",
+      "bytes": 3731,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "a73b2dcad07ec25b35b8acd29da21407904a047b616fd244ba99cfd6500b6968",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/menu/TerminalCraftingFiller.java",
+      "sha256": "64baba9304eb00f300ca9718cacfeb99b15d9c3dce032f5a8e8dc20d23f5b976",
+      "bytes": 9188,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "d6c4aa9c902611c9a72b62bf2d428aa2427e402601c70577e363392feb4f56e0",
+      "sourceType": "exact_recovered_original_source",
+      "historicalIntegratedManuscriptClaimed": false,
+      "originalSourceCommit": "6e1ce1e8da72c14fd88b5b407a70b364c749dabb",
+      "originalGitBlob": "5c500d9e5efdedad20a03c927f5ed94ef8671c01",
+      "originalSourceSha256": "64baba9304eb00f300ca9718cacfeb99b15d9c3dce032f5a8e8dc20d23f5b976",
+      "publicEquivalentCommit": "f3a7698c0281a85e2052bacc609d11a657f3944f",
+      "publicEquivalentIsNewlineNormalized": true,
+      "sourceSegments": [
+        {
+          "role": "restored_exact_original_source",
+          "candidateStart": 1,
+          "candidateEnd": 239,
+          "originStart": 1,
+          "originEnd": 239
+        }
+      ],
+      "exactRecoveredWholeFile": true
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/menu/TerminalRecipePlacer.java",
+      "sha256": "6fcac3bc9b4e1a8baedc4633b16bb60cc5d0948af80e5cbb3cbec821cef73130",
+      "bytes": 1707,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "70440f2143594247bd9e07f831ee47d58c97fa4cdcf49535863ac59920276c7e",
+      "sourceType": "exact_recovered_original_source",
+      "historicalIntegratedManuscriptClaimed": false,
+      "originalSourceCommit": "6e1ce1e8da72c14fd88b5b407a70b364c749dabb",
+      "originalGitBlob": "36c1c16fcd86acedda06597a003f2da240921b9a",
+      "originalSourceSha256": "6fcac3bc9b4e1a8baedc4633b16bb60cc5d0948af80e5cbb3cbec821cef73130",
+      "publicEquivalentCommit": "f3a7698c0281a85e2052bacc609d11a657f3944f",
+      "publicEquivalentIsNewlineNormalized": true,
+      "sourceSegments": [
+        {
+          "role": "restored_exact_original_source",
+          "candidateStart": 1,
+          "candidateEnd": 59,
+          "originStart": 1,
+          "originEnd": 59
+        }
+      ],
+      "exactRecoveredWholeFile": true
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/migration/BlockFilterAttachmentMigration.java",
+      "sha256": "7a9877afce82914c0f67378049a8d44230c8aa01e43da1c6d30ba5ce031b35e1",
+      "bytes": 10498,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "7a9877afce82914c0f67378049a8d44230c8aa01e43da1c6d30ba5ce031b35e1",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/network/DataPacket.java",
+      "sha256": "6240cc589bce230d05d342dd865f410ebc968793ba14a6ee2a2a8bda5e900162",
+      "bytes": 993,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "6240cc589bce230d05d342dd865f410ebc968793ba14a6ee2a2a8bda5e900162",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/network/NetworkHandler.java",
+      "sha256": "5928177631fa8718432c42ceb6be1189b30f7a044a9032684ea53b62485d4980",
+      "bytes": 2567,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "5928177631fa8718432c42ceb6be1189b30f7a044a9032684ea53b62485d4980",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/network/OpenTerminalPacket.java",
+      "sha256": "2b84bcb105340ea645198221962ab45f69db9e6cb62c72909e92064659ed0c3e",
+      "bytes": 854,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "2b84bcb105340ea645198221962ab45f69db9e6cb62c72909e92064659ed0c3e",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/platform/GameObject.java",
+      "sha256": "129e165d6c8f7b95ef32159df10234dd62470931d428c21227ba86bcc97a0e1d",
+      "bytes": 2261,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "129e165d6c8f7b95ef32159df10234dd62470931d428c21227ba86bcc97a0e1d",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/platform/NeoForgeMenu.java",
+      "sha256": "952029236f072883e5341ea61e252d77f5e0169e767494c44cc382d317da9567",
+      "bytes": 72,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "952029236f072883e5341ea61e252d77f5e0169e767494c44cc382d317da9567",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/platform/Platform.java",
+      "sha256": "cb2d6a1d084570965cd52054baf32d936f52d2dc9525954da5f52c5d7d23efe1",
+      "bytes": 5353,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "cb2d6a1d084570965cd52054baf32d936f52d2dc9525954da5f52c5d7d23efe1",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/platform/PlatformBlockEntity.java",
+      "sha256": "25f6510c92d6be52f3d86bbbb1d630a0057533212fc0a6af9b274c9219b760e1",
+      "bytes": 684,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "25f6510c92d6be52f3d86bbbb1d630a0057533212fc0a6af9b274c9219b760e1",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/platform/PlatformItem.java",
+      "sha256": "d70a266ba56854cc04b3a8a14100e48c8c6844638dfcc3eb317a2633d550b298",
+      "bytes": 803,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "d70a266ba56854cc04b3a8a14100e48c8c6844638dfcc3eb317a2633d550b298",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/polymorph/PolymorphHelper.java",
+      "sha256": "df97cc72ba297c1af2b9dfdc54543e0b4d0eb7da5644f40b448551b32bc5f488",
+      "bytes": 740,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "df97cc72ba297c1af2b9dfdc54543e0b4d0eb7da5644f40b448551b32bc5f488",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/polymorph/PolymorphTerminalWidget.java",
+      "sha256": "96b0bf77bd086902a4fab8d91992b6317822e7e34a146ec76db64851df21c459",
+      "bytes": 1649,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "96b0bf77bd086902a4fab8d91992b6317822e7e34a146ec76db64851df21c459",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/rei/ReiGhostIngredientHandler.java",
+      "sha256": "762c32111aac970cdd0028f3f89e05dfd1d7006f6ea7c08c05f7ec5eaf47b50b",
+      "bytes": 3313,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "762c32111aac970cdd0028f3f89e05dfd1d7006f6ea7c08c05f7ec5eaf47b50b",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/rei/REIPlugin.java",
+      "sha256": "109364361a7d050d3d55c56f4595d9cbdfcb9a8cad5ee658e8b9e2c1f4a65cd8",
+      "bytes": 2562,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "109364361a7d050d3d55c56f4595d9cbdfcb9a8cad5ee658e8b9e2c1f4a65cd8",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/rei/REIPluginLoader.java",
+      "sha256": "016fffde155aaf29e2abfb1ed93eb4f4ca8f30cecb297b6e4cdcefabf8dc1262",
+      "bytes": 484,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "016fffde155aaf29e2abfb1ed93eb4f4ca8f30cecb297b6e4cdcefabf8dc1262",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/rei/ReiTransferHandler.java",
+      "sha256": "800a0bd18fa0fbc925d69174a76180d54643cf86e813d69946a59b5ed86037dc",
+      "bytes": 4466,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "800a0bd18fa0fbc925d69174a76180d54643cf86e813d69946a59b5ed86037dc",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/screen/AbstractFilteredScreen.java",
+      "sha256": "98bdf139d2adce3b8c8e4b91704dcf4df6c30a6020cb05810914e060c0dc2318",
+      "bytes": 595,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "98bdf139d2adce3b8c8e4b91704dcf4df6c30a6020cb05810914e060c0dc2318",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/screen/AbstractStorageTerminalScreen.java",
+      "sha256": "4518a8d74ba9afb7f89f77bfdfbba7c433a84095d0eb9573b27a71357909f122",
+      "bytes": 29249,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "4518a8d74ba9afb7f89f77bfdfbba7c433a84095d0eb9573b27a71357909f122",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/screen/CraftingTerminalScreen.java",
+      "sha256": "17428d5eb0c2e24740b59a2842ab0697d99a36533d251375949f9a36ee35819e",
+      "bytes": 9050,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "17428d5eb0c2e24740b59a2842ab0697d99a36533d251375949f9a36ee35819e",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/screen/FilingCabinetScreen.java",
+      "sha256": "d80daa21053aa12a11a6456e06e7e2dab6bae0398a97c0aef9dc2e60e0ca05a9",
+      "bytes": 3573,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "d80daa21053aa12a11a6456e06e7e2dab6bae0398a97c0aef9dc2e60e0ca05a9",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/screen/InventoryConfiguratorScreen.java",
+      "sha256": "0ae24a3a12942fcb04f88f750249c87213cd7c0972101a0ec7c0a165edb8dd02",
+      "bytes": 5656,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "0ae24a3a12942fcb04f88f750249c87213cd7c0972101a0ec7c0a165edb8dd02",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/screen/InventoryLinkScreen.java",
+      "sha256": "a2b2cc3df1dd89d064d863d99fa4c226c124c239102ef4c0bab1be7c3f6b553f",
+      "bytes": 8761,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "a2b2cc3df1dd89d064d863d99fa4c226c124c239102ef4c0bab1be7c3f6b553f",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/screen/IScreen.java",
+      "sha256": "61da1f2069b16a55c9fe7ba332710676be9502532d6bd23d26409d3f9101816b",
+      "bytes": 204,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "61da1f2069b16a55c9fe7ba332710676be9502532d6bd23d26409d3f9101816b",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/screen/ItemFilterScreen.java",
+      "sha256": "74e7d2b250fd68a58d1ed9a6cbee9038f629644431d7118410f2d16d4a818687",
+      "bytes": 2796,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "74e7d2b250fd68a58d1ed9a6cbee9038f629644431d7118410f2d16d4a818687",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/screen/LevelEmitterScreen.java",
+      "sha256": "bf41201499a77af210ddef13c9b69333652644850c62b1e15d2c486e2172db07",
+      "bytes": 4590,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "bf41201499a77af210ddef13c9b69333652644850c62b1e15d2c486e2172db07",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/screen/PlatformContainerScreen.java",
+      "sha256": "ed5696a14ae2023af7579a6bb87c386ba9115491d9c9e9b1e235b2e240a682bb",
+      "bytes": 536,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "ed5696a14ae2023af7579a6bb87c386ba9115491d9c9e9b1e235b2e240a682bb",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/screen/RecipeBookButton.java",
+      "sha256": "964253675d8098285a430793e10d96d2f9b8fa5f420023b449bc405bdb330875",
+      "bytes": 356,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "964253675d8098285a430793e10d96d2f9b8fa5f420023b449bc405bdb330875",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/screen/StorageTerminalScreen.java",
+      "sha256": "3a66e487bb97f14da03b6e157b07dfd3e034ab475267e437b4cffdcb266fb808",
+      "bytes": 797,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "3a66e487bb97f14da03b6e157b07dfd3e034ab475267e437b4cffdcb266fb808",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/screen/TagItemFilterScreen.java",
+      "sha256": "3a66086dfd339edf9809bc048eb5b3a2bdf374774ee28623b47e70a6b76e9ef0",
+      "bytes": 5659,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "3a66086dfd339edf9809bc048eb5b3a2bdf374774ee28623b47e70a6b76e9ef0",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/screen/widget/EnumCycleButton.java",
+      "sha256": "d3cc3ebd8ada00f03d28fdaa053fcde5e3d48fdf96cd6379cdbeec0879bbea87",
+      "bytes": 1677,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "d3cc3ebd8ada00f03d28fdaa053fcde5e3d48fdf96cd6379cdbeec0879bbea87",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/screen/widget/IconButton.java",
+      "sha256": "c9c35d5b3a9d13a89140b00c753dc191296c19bdad73ad2a3110aa5bf6d54c81",
+      "bytes": 2019,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "c9c35d5b3a9d13a89140b00c753dc191296c19bdad73ad2a3110aa5bf6d54c81",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/screen/widget/ListWidget.java",
+      "sha256": "ca9f072daa79051dabae9e55665b6e691139d604b412c0cfbeecba3698b7b65c",
+      "bytes": 6764,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "ca9f072daa79051dabae9e55665b6e691139d604b412c0cfbeecba3698b7b65c",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/screen/widget/TerminalSearchModeButton.java",
+      "sha256": "20ac15e87dfc4ce9c762d568dc9e31f63c761298e3096bfa60d567689dbceddd",
+      "bytes": 4179,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "20ac15e87dfc4ce9c762d568dc9e31f63c761298e3096bfa60d567689dbceddd",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/screen/widget/ToggleButton.java",
+      "sha256": "5c09f664a496559ca7b6c00c437af8ab8ce3bb78ae1d5fe8dfc22190d238f365",
+      "bytes": 1893,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "5c09f664a496559ca7b6c00c437af8ab8ce3bb78ae1d5fe8dfc22190d238f365",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/ServerEvents.java",
+      "sha256": "9060fb6927736de1fc224ed4bc6e457a0602d3883501800f483476603b4b1500",
+      "bytes": 1451,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "9060fb6927736de1fc224ed4bc6e457a0602d3883501800f483476603b4b1500",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/StorageMod.java",
+      "sha256": "7cc645d9ced4a258713fae01df11374dae1fdce3464cade2b8f258ca04dbdf61",
+      "bytes": 3614,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "7cc645d9ced4a258713fae01df11374dae1fdce3464cade2b8f258ca04dbdf61",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/StorageModClient.java",
+      "sha256": "50bbfdb4092d21d1a48bc46bcf93ccd377d6e6ad82b795b971eae6fb5fa6eda3",
+      "bytes": 6238,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "50bbfdb4092d21d1a48bc46bcf93ccd377d6e6ad82b795b971eae6fb5fa6eda3",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/StorageTags.java",
+      "sha256": "59cfb4b8a278a9cf1014864ea8fd721dc458d10da8183a431e62aee5314bf818",
+      "bytes": 769,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "59cfb4b8a278a9cf1014864ea8fd721dc458d10da8183a431e62aee5314bf818",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/top/TheOneProbeHandler.java",
+      "sha256": "1071937aab9dbb9e225fc147dd8f67b511fa109f7d525f37a3227d8e27010468",
+      "bytes": 3689,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "1071937aab9dbb9e225fc147dd8f67b511fa109f7d525f37a3227d8e27010468",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/AbstractSimpleItemFilter.java",
+      "sha256": "2ae97ee1e8aaf5b89767d3d550be64bb86be8480204eb5e75b878ff5d80b584f",
+      "bytes": 1396,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "2ae97ee1e8aaf5b89767d3d550be64bb86be8480204eb5e75b878ff5d80b584f",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/AbstractTagFilter.java",
+      "sha256": "01214cfc2e024fef4d5c4c962860508f15a8dce89fd8a6505693883afecf6330",
+      "bytes": 1390,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "01214cfc2e024fef4d5c4c962860508f15a8dce89fd8a6505693883afecf6330",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/BeaconLevelCalc.java",
+      "sha256": "6241a80b7edc0723d6380f5f920cad68b98a4232a2f43a4bec6ddcfee89a73aa",
+      "bytes": 991,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "6241a80b7edc0723d6380f5f920cad68b98a4232a2f43a4bec6ddcfee89a73aa",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/BlockFace.java",
+      "sha256": "6035e2cf01d47e1d4ac24f06846d8fdc4be77306145eec0e01f53de99bbba035",
+      "bytes": 166,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "6035e2cf01d47e1d4ac24f06846d8fdc4be77306145eec0e01f53de99bbba035",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/BlockFaceReference.java",
+      "sha256": "bbe838667c9ca8bf6d9042183d3a9e4892181ddd908c9440ed3734edf50fdfe4",
+      "bytes": 660,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "bbe838667c9ca8bf6d9042183d3a9e4892181ddd908c9440ed3734edf50fdfe4",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/ComponentJoiner.java",
+      "sha256": "c4d2b2c269ec6ecd9a4570deba4e73c678eda62ac0ebe27645a0a87fa2ec59b5",
+      "bytes": 1768,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "c4d2b2c269ec6ecd9a4570deba4e73c678eda62ac0ebe27645a0a87fa2ec59b5",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/CraftingIngredientPlanner.java",
+      "sha256": "c2bcd25c3ba2328d8bb151e3ceaedb630bd5af0f2bf6736259aa3df6dde73078",
+      "bytes": 10665,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "c2bcd25c3ba2328d8bb151e3ceaedb630bd5af0f2bf6736259aa3df6dde73078",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/CraftingMatrix.java",
+      "sha256": "cf77f8cc8afe3345e14246442c9989b3ade7fb4c68662ea501a1d9be09429d39",
+      "bytes": 2461,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "cf77f8cc8afe3345e14246442c9989b3ade7fb4c68662ea501a1d9be09429d39",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/DataSlots.java",
+      "sha256": "5d71751dc746c535ab257d96d639d42ecfe6d5ab9b577da33b70d3992f76f4ee",
+      "bytes": 881,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "5d71751dc746c535ab257d96d639d42ecfe6d5ab9b577da33b70d3992f76f4ee",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/FilingCabinetContainer.java",
+      "sha256": "c07062e838de7eb0adcfa0643df2c57f51598983032d7f4fbce3af3ec4934204",
+      "bytes": 2356,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "c07062e838de7eb0adcfa0643df2c57f51598983032d7f4fbce3af3ec4934204",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/FloatSupplier.java",
+      "sha256": "283fb9fa415a1221e2c5c103408f356c046b1e076d66e99089c013a0dc30492b",
+      "bytes": 110,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "283fb9fa415a1221e2c5c103408f356c046b1e076d66e99089c013a0dc30492b",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/IAutoFillTerminal.java",
+      "sha256": "8ba1a830c0bf89cdc3c7904648f398511c8f4c1ddb38b6cddb6a218b3071e711",
+      "bytes": 963,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "8ba1a830c0bf89cdc3c7904648f398511c8f4c1ddb38b6cddb6a218b3071e711",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/IDataReceiver.java",
+      "sha256": "ae2ae27b892e028920292906a5b3e6d8756f2eac7e880d0f73ace8e3a65afb6b",
+      "bytes": 141,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "ae2ae27b892e028920292906a5b3e6d8756f2eac7e880d0f73ace8e3a65afb6b",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/IntDataSlots.java",
+      "sha256": "20e88465a736c614100d3e6007faa6d60c19e30479da54021aed4debc64b8640",
+      "bytes": 1028,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "20e88465a736c614100d3e6007faa6d60c19e30479da54021aed4debc64b8640",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/InventoryConnectorConfigUtil.java",
+      "sha256": "fe4eec54915db8895edb533b347bd2984284da6abd0405d4a2feec4419535918",
+      "bytes": 668,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "fe4eec54915db8895edb533b347bd2984284da6abd0405d4a2feec4419535918",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/IValidInfo.java",
+      "sha256": "6e08a0eb9749ba5d2b8d588d66ca97364dc9d8043e71f4c0cb7c7af36690515d",
+      "bytes": 92,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "6e08a0eb9749ba5d2b8d588d66ca97364dc9d8043e71f4c0cb7c7af36690515d",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/LimitedContainer.java",
+      "sha256": "e0f6258e4721c5735da95688b15ca12688c6f833aac34bead08641ea3c1c9c9e",
+      "bytes": 2291,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "e0f6258e4721c5735da95688b15ca12688c6f833aac34bead08641ea3c1c9c9e",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/NumberFormatUtil.java",
+      "sha256": "3d9c5c952fe253b89ec1928b65bd2cb1c8b2b59717d95b790f8f664c6d33bc2b",
+      "bytes": 1447,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "3d9c5c952fe253b89ec1928b65bd2cb1c8b2b59717d95b790f8f664c6d33bc2b",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/PlayerInvUtil.java",
+      "sha256": "7fc7bf9fafe883e4adf882cd28777b058de4f5eb953b46ca137ac2c1c2ac5bc8",
+      "bytes": 857,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "7fc7bf9fafe883e4adf882cd28777b058de4f5eb953b46ca137ac2c1c2ac5bc8",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/PopupMenuManager.java",
+      "sha256": "d4446d447744b521d9a956effac67dfe34dbdb8331df31a38ce83e6d883067f2",
+      "bytes": 5474,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "d4446d447744b521d9a956effac67dfe34dbdb8331df31a38ce83e6d883067f2",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/Priority.java",
+      "sha256": "d180fd0ecfc2cf10602416799db61332c575cadea0a792d7042fe9084671577b",
+      "bytes": 969,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "d180fd0ecfc2cf10602416799db61332c575cadea0a792d7042fe9084671577b",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/TerminalSyncManager.java",
+      "sha256": "270356e6cf7e15a61218fc3aaa18f4647349e421940ab8f7f13940ced7eaaa6e",
+      "bytes": 8194,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "270356e6cf7e15a61218fc3aaa18f4647349e421940ab8f7f13940ced7eaaa6e",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/TickerUtil.java",
+      "sha256": "a2801a2818a1aff39a05b2cd74546ec44bd4dc6ac5d4d6f69e71d3355cdc2b52",
+      "bytes": 686,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "a2801a2818a1aff39a05b2cd74546ec44bd4dc6ac5d4d6f69e71d3355cdc2b52",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/Util.java",
+      "sha256": "2b92eb108fbcad1af85bd45061832e6316e8f7ecf48aa2e9ac811c544078930c",
+      "bytes": 1578,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "2b92eb108fbcad1af85bd45061832e6316e8f7ecf48aa2e9ac811c544078930c",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    },
+    {
+      "path": "src/main/java/com/tom/storagemod/util/WorldStates.java",
+      "sha256": "9aa59ebe7b0aef8f25c4c25a8c68c24ac46e58e446c027e6b27296235d19c07e",
+      "bytes": 952,
+      "license": "MIT",
+      "copyright": "2020 tom5454; fork/ownership contributions YU322142",
+      "archiveSourceSha256": "9aa59ebe7b0aef8f25c4c25a8c68c24ac46e58e446c027e6b27296235d19c07e",
+      "sourceType": "preserved_archived_runtime_source",
+      "historicalIntegratedManuscriptClaimed": false
+    }
+  ]
+}
