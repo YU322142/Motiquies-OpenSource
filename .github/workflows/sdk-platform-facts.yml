@@ -1,0 +1,71 @@
+name: SDK platform facts only
+on:
+  workflow_dispatch:
+permissions: {}
+jobs:
+  facts:
+    runs-on: windows-2022
+    timeout-minutes: 5
+    steps:
+      - name: Read public VM facts only
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $sdkCurlPath = 'C:\Windows\System32\curl.exe'
+          $sdkCurlItem = Get-Item -LiteralPath $sdkCurlPath -Force
+          if ($sdkCurlItem.Attributes -band [IO.FileAttributes]::ReparsePoint) { throw 'linked curl' }
+          if (-not $env:ImageOS -or -not $env:ImageVersion) { throw 'missing image identity' }
+          $sdkCurlHash = (Get-FileHash -LiteralPath $sdkCurlPath -Algorithm SHA256).Hash.ToLowerInvariant()
+          $sdkCurlVersion = @(& $sdkCurlPath --disable --version)[0]
+          if ($LASTEXITCODE -ne 0 -or $sdkCurlVersion.Length -gt 1024) { throw 'curl version fact failed' }
+          if ((Get-FileHash -LiteralPath $sdkCurlPath -Algorithm SHA256).Hash.ToLowerInvariant() -ne $sdkCurlHash) { throw 'curl changed during observation' }
+          $sdkPythonFacts = @()
+          $sdkPythonRoot = 'C:\hostedtoolcache\windows\Python'
+          if (Test-Path -LiteralPath $sdkPythonRoot) {
+            foreach ($sdkPythonVersion in (Get-ChildItem -LiteralPath $sdkPythonRoot -Directory | Sort-Object Name)) {
+              $sdkPythonPath = Join-Path $sdkPythonVersion.FullName 'x64\python.exe'
+              if (Test-Path -LiteralPath $sdkPythonPath) {
+                $sdkPythonItem = Get-Item -LiteralPath $sdkPythonPath -Force
+                if ($sdkPythonItem.Attributes -band [IO.FileAttributes]::ReparsePoint) { throw 'linked Python fact' }
+                $sdkPythonFacts += [ordered]@{
+                  path = $sdkPythonPath
+                  toolcacheVersion = $sdkPythonVersion.Name
+                  fileVersion = $sdkPythonItem.VersionInfo.FileVersion
+                  sha256 = (Get-FileHash -LiteralPath $sdkPythonPath -Algorithm SHA256).Hash.ToLowerInvariant()
+                  executed = $false
+                }
+              }
+            }
+          }
+          if ($sdkPythonFacts.Count -gt 32) { throw 'unexpected platform inventory size' }
+          $sdkDisk = Get-PSDrive -Name C
+          $sdkFacts = [ordered]@{
+            schema = 1
+            recipeCommit = $env:GITHUB_SHA
+            runId = $env:GITHUB_RUN_ID
+            runAttempt = $env:GITHUB_RUN_ATTEMPT
+            imageOS = $env:ImageOS
+            imageVersion = $env:ImageVersion
+            runnerOS = $env:RUNNER_OS
+            runnerArch = $env:RUNNER_ARCH
+            windowsBuild = [Environment]::OSVersion.Version.ToString()
+            powershellVersion = $PSVersionTable.PSVersion.ToString()
+            curlPath = $sdkCurlPath
+            curlSha256 = $sdkCurlHash
+            curlVersion = [string]$sdkCurlVersion
+            availablePythonMetadata = $sdkPythonFacts
+            diskFreeBytes = [long]$sdkDisk.Free
+            networkAcquisition = $false
+            processorExecution = $false
+            checkoutPerformed = $false
+            platformAcceptedForExecution = $false
+          }
+          $sdkFactsJson = $sdkFacts | ConvertTo-Json -Depth 6
+          $sdkFactsOutput = Join-Path $env:RUNNER_TEMP 'sdk-platform-facts.json'
+          if (Test-Path -LiteralPath $sdkFactsOutput) { throw 'facts output already exists' }
+          [IO.File]::WriteAllText($sdkFactsOutput, $sdkFactsJson, [Text.UTF8Encoding]::new($false))
+          Write-Output 'SDK_PLATFORM_FACTS_BEGIN'
+          Write-Output $sdkFactsJson
+          Write-Output 'SDK_PLATFORM_FACTS_END'
+          Write-Output ('factsSha256=' + (Get-FileHash -LiteralPath $sdkFactsOutput -Algorithm SHA256).Hash.ToLowerInvariant())
+          Add-Content -LiteralPath $env:GITHUB_STEP_SUMMARY -Value $sdkFactsJson
