@@ -1,0 +1,293 @@
+{
+  "kind": "yuushya",
+  "inputSha256": "c410c51e1ecdd9d3ff55eb34b84d71da761a8990ec0993a766c9ba40e8c360e8",
+  "outputSha256": "31dffd39d1fed94f2088405af3b8dc862e363ba389015780355571ecca4a813d",
+  "artifact": "yuushya-1.21.0-neoforge-2.3.0-patchouli-safe.1.jar",
+  "changedEntries": {
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/categories/mod_functions.json": "9fd93e4caf27485cecd41efdd3e108687f4925ef5eb98a798b46c7e6bc74a614",
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/building_techniques/bt_survival_building_material.json": "d2eddb5977bff94861d432ee1d5742975444dbf74ab15369789df669a2baf925",
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/building_techniques/bt_survival_gameplay.json": "2f2522457ba97107d987a11d85963db3525c39ed9b479b6b5ff28a967f9342c0",
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_basic.json": "bd6f955fa1f637d86df4221b30c4f76ca01abdf311fbbc50f3bec491e444350a",
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_basic_adjust.json": "989365b46917b956c7a4c8815a74fc62ada2c4348b05254020b7189da20783c4",
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_block_layer.json": "18d650ee3e8b60c212d884d07226ba8c5f9956fe75f5312f0e2dfc29d997945f",
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_special.json": "4fa11db709ca8137b32954c5f38f167e6efdbc324f13c5a65de510a4b36fedcc",
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/categories/mod_functions.json": "9fd93e4caf27485cecd41efdd3e108687f4925ef5eb98a798b46c7e6bc74a614",
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/building_techniques/bt_survival_building_material.json": "d2eddb5977bff94861d432ee1d5742975444dbf74ab15369789df669a2baf925",
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/building_techniques/bt_survival_gameplay.json": "2f2522457ba97107d987a11d85963db3525c39ed9b479b6b5ff28a967f9342c0",
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_basic.json": "bd6f955fa1f637d86df4221b30c4f76ca01abdf311fbbc50f3bec491e444350a",
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_basic_adjust.json": "989365b46917b956c7a4c8815a74fc62ada2c4348b05254020b7189da20783c4",
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_block_layer.json": "18d650ee3e8b60c212d884d07226ba8c5f9956fe75f5312f0e2dfc29d997945f",
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_special.json": "4fa11db709ca8137b32954c5f38f167e6efdbc324f13c5a65de510a4b36fedcc"
+  },
+  "removedEntries": [],
+  "sourceSha256": {
+    "build.py": "3a129eb925d2e457187c334a6b78d19acd7871c4615ed0734ddfd786746bdd59"
+  },
+  "upstreamBinaryRedistributionCleared": false,
+  "mapping": {
+    "yuushya:pos_trans_item": "minecraft:barrier",
+    "yuushya:get_showblock_item": "minecraft:barrier",
+    "yuushya:rot_trans_item": "minecraft:barrier",
+    "yuushya:scale_trans_item": "minecraft:barrier",
+    "yuushya:slot_trans_item": "minecraft:barrier",
+    "yuushya:get_blockstate_item": "minecraft:barrier",
+    "yuushya:micro_pos_trans_item": "minecraft:barrier",
+    "yuushya:get_lit_item": "minecraft:barrier",
+    "yuushya:the_encyclopedia": "minecraft:book"
+  },
+  "expectedFieldCounts": {
+    "yuushya:pos_trans_item": 10,
+    "yuushya:the_encyclopedia": 4,
+    "yuushya:get_showblock_item": 4,
+    "yuushya:rot_trans_item": 2,
+    "yuushya:scale_trans_item": 2,
+    "yuushya:slot_trans_item": 4,
+    "yuushya:get_blockstate_item": 2,
+    "yuushya:micro_pos_trans_item": 2,
+    "yuushya:get_lit_item": 2
+  },
+  "formatting": {
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/categories/mod_functions.json": {
+      "lineCount": 5,
+      "lfLines": [
+        4
+      ],
+      "zipTimestamp": [
+        2026,
+        8,
+        14,
+        14,
+        51,
+        46
+      ]
+    },
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/building_techniques/bt_survival_building_material.json": {
+      "lineCount": 36,
+      "lfLines": [
+        3,
+        36
+      ],
+      "zipTimestamp": [
+        2026,
+        8,
+        14,
+        14,
+        46,
+        34
+      ]
+    },
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/building_techniques/bt_survival_gameplay.json": {
+      "lineCount": 61,
+      "lfLines": [
+        3,
+        61
+      ],
+      "zipTimestamp": [
+        2026,
+        8,
+        14,
+        14,
+        46,
+        34
+      ]
+    },
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_basic.json": {
+      "lineCount": 20,
+      "lfLines": [
+        3,
+        14,
+        20
+      ],
+      "zipTimestamp": [
+        2026,
+        8,
+        14,
+        14,
+        46,
+        18
+      ]
+    },
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_basic_adjust.json": {
+      "lineCount": 30,
+      "lfLines": [
+        3,
+        10,
+        17,
+        24,
+        30
+      ],
+      "zipTimestamp": [
+        2026,
+        8,
+        14,
+        14,
+        51,
+        46
+      ]
+    },
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_block_layer.json": {
+      "lineCount": 53,
+      "lfLines": [
+        3,
+        14,
+        25,
+        32,
+        53
+      ],
+      "zipTimestamp": [
+        2026,
+        8,
+        14,
+        14,
+        51,
+        46
+      ]
+    },
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_special.json": {
+      "lineCount": 33,
+      "lfLines": [
+        3,
+        10,
+        22,
+        33
+      ],
+      "zipTimestamp": [
+        2026,
+        8,
+        14,
+        14,
+        51,
+        46
+      ]
+    },
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/categories/mod_functions.json": {
+      "lineCount": 5,
+      "lfLines": [
+        4
+      ],
+      "zipTimestamp": [
+        2026,
+        8,
+        14,
+        14,
+        51,
+        46
+      ]
+    },
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/building_techniques/bt_survival_building_material.json": {
+      "lineCount": 36,
+      "lfLines": [
+        3,
+        36
+      ],
+      "zipTimestamp": [
+        2026,
+        8,
+        14,
+        14,
+        46,
+        34
+      ]
+    },
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/building_techniques/bt_survival_gameplay.json": {
+      "lineCount": 61,
+      "lfLines": [
+        3,
+        61
+      ],
+      "zipTimestamp": [
+        2026,
+        8,
+        14,
+        14,
+        46,
+        34
+      ]
+    },
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_basic.json": {
+      "lineCount": 20,
+      "lfLines": [
+        3,
+        14,
+        20
+      ],
+      "zipTimestamp": [
+        2026,
+        8,
+        14,
+        14,
+        46,
+        34
+      ]
+    },
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_basic_adjust.json": {
+      "lineCount": 30,
+      "lfLines": [
+        3,
+        10,
+        17,
+        24,
+        30
+      ],
+      "zipTimestamp": [
+        2026,
+        8,
+        14,
+        14,
+        51,
+        46
+      ]
+    },
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_block_layer.json": {
+      "lineCount": 53,
+      "lfLines": [
+        3,
+        14,
+        25,
+        32,
+        53
+      ],
+      "zipTimestamp": [
+        2026,
+        8,
+        14,
+        14,
+        51,
+        46
+      ]
+    },
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_special.json": {
+      "lineCount": 33,
+      "lfLines": [
+        3,
+        10,
+        22,
+        33
+      ],
+      "zipTimestamp": [
+        2026,
+        8,
+        14,
+        14,
+        51,
+        46
+      ]
+    }
+  },
+  "patchOrder": [
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/categories/mod_functions.json",
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_basic.json",
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_basic_adjust.json",
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_block_layer.json",
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_special.json",
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/building_techniques/bt_survival_gameplay.json",
+    "assets/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/building_techniques/bt_survival_building_material.json",
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/categories/mod_functions.json",
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_basic.json",
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_basic_adjust.json",
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_block_layer.json",
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/mod_functions/mf_block_modeling_special.json",
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/building_techniques/bt_survival_gameplay.json",
+    "data/yuushya/patchouli_books/yuushya_guidebook/en_us/entries/building_techniques/bt_survival_building_material.json"
+  ]
+}

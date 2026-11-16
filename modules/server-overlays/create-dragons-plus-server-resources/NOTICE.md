@@ -1,0 +1,7 @@
+Create: Dragons Plus 1.11.4 server-only resource sanitation, historical producer sanitize_target_resources.py; source-only export 2026-11-16.
+
+Upstream author DragonsPlus / DragonsPlusMinecraft. Official project: https://github.com/DragonsPlusMinecraft/CreateDragonsPlus . The exact original LICENSE.txt includes LGPLv3 and GPLv3 texts; LICENSING.txt describes upstream LGPL and Create-derived code/assets; LICENSE-CREATE.txt preserves Copyright (c) 2019 simibubi and MIT terms. All three exact attached notices are preserved under licenses/ and remain unchanged inside local output. No enclosing MIT license replaces upstream licensing.
+
+Only independent first-party ZIP traversal/deletion and verification logic is published under owner-authorized MIT. No third-party method body, class/JAR, resource payload or art is included. The recipe freezes the audited server condition: simulated is absent. It removes six optional air-current/fragile-tank data maps whose registry only exists with that mod. Every remaining entry payload, including every class and all notices, is preserved.
+
+This independent tool's source eligibility does not establish complete LGPL/GPL corresponding-source fulfillment for binary distribution. The official release page links the matching upstream source archive; a complete source/build/relinking delivery has not been exercised. Generated complete binaries are not approved for publication by this review.

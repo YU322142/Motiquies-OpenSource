@@ -3,7 +3,7 @@ from pathlib import Path
 import subprocess,sys,tempfile,unittest,uuid
 
 ROOT=Path(__file__).resolve().parents[1]
-MODULES=['common-compat','tom-jei-isolation','restaurant-workpoint']+['server-guards/'+x for x in ('cctweaked-startup-shutdown-guard','create-carriage-orientation-guard','create-chute-unload-guard','deferred-content-protection','heightmap-384-to-544-compat','kaleidoscope-cookery-scarecrow-compat','waypoint-fire-equivalence')]+['legacy/dh-cache-only','server-overlays/backport-cat-serializer','server-overlays/hotbath-registry-fix','server-overlays/worldedit-direction','server-overlays/tracks-block-tag-fix']
+MODULES=['common-compat','tom-jei-isolation','restaurant-workpoint']+['server-guards/'+x for x in ('cctweaked-startup-shutdown-guard','create-carriage-orientation-guard','create-chute-unload-guard','deferred-content-protection','heightmap-384-to-544-compat','kaleidoscope-cookery-scarecrow-compat','waypoint-fire-equivalence')]+['legacy/dh-cache-only','server-overlays/backport-cat-serializer','server-overlays/hotbath-registry-fix','server-overlays/worldedit-direction','server-overlays/tracks-block-tag-fix','server-overlays/yuushya-patchouli-safe','server-overlays/create-dragons-plus-server-resources','server-overlays/kaleidoscope-nether-server-resources']
 
 class RepositoryOutputBoundary(unittest.TestCase):
  def test_all_affected_builders_refuse_repository_sibling_output(self):
@@ -12,7 +12,7 @@ class RepositoryOutputBoundary(unittest.TestCase):
    for name in MODULES:
     with self.subTest(module=name):
      output=ROOT/('boundary-test-'+uuid.uuid4().hex)
-     args=['--sdk',str(sdk),'--jdk',str(jdk)] if name not in ('legacy/dh-cache-only','server-overlays/backport-cat-serializer','server-overlays/hotbath-registry-fix','server-overlays/worldedit-direction','server-overlays/tracks-block-tag-fix') else ['--input-jar',str(external/'absent.jar'),'--dependencies',str(sdk),'--java-home',str(jdk)]
+     args=['--sdk',str(sdk),'--jdk',str(jdk)] if name not in ('legacy/dh-cache-only','server-overlays/backport-cat-serializer','server-overlays/hotbath-registry-fix','server-overlays/worldedit-direction','server-overlays/tracks-block-tag-fix','server-overlays/yuushya-patchouli-safe','server-overlays/create-dragons-plus-server-resources','server-overlays/kaleidoscope-nether-server-resources') else ['--input-jar',str(external/'absent.jar'),'--dependencies',str(sdk),'--java-home',str(jdk)]
      result=subprocess.run([sys.executable,'-B',str(ROOT/'modules'/name/'build.py'),*args,'--output',str(output)],capture_output=True,text=True,timeout=20)
      self.assertNotEqual(result.returncode,0);self.assertIn('repository',result.stdout+result.stderr)
      self.assertFalse(output.exists(),'Invalid output must never be created')

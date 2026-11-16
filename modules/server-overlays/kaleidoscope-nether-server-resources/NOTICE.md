@@ -1,0 +1,7 @@
+Kaleidoscope Nether 1.1.2 NeoForge 1.21.1 server-only resource sanitation, historical producer sanitize_target_resources.py; source-only export 2026-11-16.
+
+Official project author BmtUltra. Official CurseForge and Modrinth version pages declare MIT. The exact original JAR contains no standalone license/notice file; its metadata declares MIT and leaves author/copyright fields as template placeholders. The complete public CurseForge MIT declaration is retained under licenses/ with its literal copyright placeholders; no copyright holder/date is invented and metadata is not treated as certainty about every asset.
+
+Only original first-party filtering/JSON/ZIP logic is selected under owner-authorized MIT. No upstream method body, class/JAR, loot/resource JSON payload or asset is supplied. The recipe freezes the audited server condition eternalnether absent. On this exact input no prefixed resource file exists to remove; it filters only the stale identifiers in global_loot_modifiers.json and uses the historical stable JSON formatting. Thus precisely one entry content changes, and all classes/assets/other entries remain byte-identical.
+
+Generated binary distribution is not automatically approved. The source revision and complete upstream asset provenance have not been independently verified. Author/source/notice gaps are retained rather than assuming root MIT clears the whole original mod.
