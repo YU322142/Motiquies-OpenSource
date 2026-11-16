@@ -1,0 +1,17 @@
+{
+  "kind": "kaleidoscope-nether",
+  "inputSha256": "4698b09f9a3edd84ab37a9506c3b88c7b59e947b21ae894c477998421335ffb6",
+  "outputSha256": "490d90ccaca95f97c469d55136ac0f231681bc9dc6c335a5b20baef704c191fe",
+  "artifact": "kaleidoscope_nether-1.1.2-neoforge+mc1.21.1.jar",
+  "changedEntries": {
+    "data/neoforge/loot_modifiers/global_loot_modifiers.json": "4e85855882c00b5c6cfececdd1a5535c4da513e8149847c29e5483e65158684e"
+  },
+  "removedEntries": [],
+  "sourceSha256": {
+    "build.py": "3a129eb925d2e457187c334a6b78d19acd7871c4615ed0734ddfd786746bdd59"
+  },
+  "upstreamBinaryRedistributionCleared": false,
+  "globalList": "data/neoforge/loot_modifiers/global_loot_modifiers.json",
+  "excludedPrefix": "kaleidoscope_nether:integration/eternalnether/",
+  "condition": "Historical dedicated server lacks eternalnether; filter its GLM registrations."
+}

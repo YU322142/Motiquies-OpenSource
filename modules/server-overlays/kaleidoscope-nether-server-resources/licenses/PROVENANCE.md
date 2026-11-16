@@ -1,0 +1,1 @@
+Official project author BmtUltra. Complete MIT declaration above preserves the placeholders as displayed at https://www.curseforge.com/minecraft/mc-mods/kaleidoscope-nether/license ; it is not a guessed assignment of copyright. Exact input JAR contains no standalone license/notice file. No vendor code or resource payload is exported.

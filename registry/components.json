@@ -265,6 +265,51 @@
       ],
       "upstreamModOrBinaryPublicationApproved": false,
       "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/server-overlays/yuushya-patchouli-safe",
+      "role": "independent-first-party-resource-transform-tool",
+      "license": "MIT own tool only; upstream code MIT and assets CC-BY-NC-SA-4.0 per preserved author Terms",
+      "sourceStatus": "independent-tool-source-candidate-no-vendor-resource-payload",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "runtimeComparison": "14 guidebook entries transformed from external input; all123 class entries unchanged; complete archive matches historical reference byte-for-byte",
+      "knownGaps": [
+        "No guidebook prose, artwork, resource JSON or mod binary is published",
+        "Generated derivative asset distribution remains subject to CC-BY-NC-SA terms; not approved by this source export",
+        "Exact upstream source rebuild and runtime QA not run; full CC legalcode copy was not fetched, authoritative URI and author Terms retained"
+      ],
+      "upstreamModOrBinaryPublicationApproved": false,
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/server-overlays/create-dragons-plus-server-resources",
+      "role": "independent-first-party-resource-transform-tool",
+      "license": "MIT own tool only; upstream LGPL/GPL and Create license notices retained",
+      "sourceStatus": "independent-tool-source-candidate-no-vendor-resource-payload",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "runtimeComparison": "Six optional data-map entries removed from external input; all360 class entries unchanged; complete archive matches historical reference byte-for-byte",
+      "knownGaps": [
+        "Exact upstream Git revision/full-source rebuild not verified; official matching sources-archive route is documented",
+        "Later generated binary distribution needs corresponding source and notices review",
+        "Runtime QA not run"
+      ],
+      "upstreamModOrBinaryPublicationApproved": false,
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/server-overlays/kaleidoscope-nether-server-resources",
+      "role": "independent-first-party-resource-transform-tool",
+      "license": "MIT own tool only; upstream official MIT declaration retained without inventing missing copyright fields",
+      "sourceStatus": "independent-tool-source-candidate-no-vendor-resource-payload",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "runtimeComparison": "One global-loot-modifier list filtered; no prefixed files existed to delete; all90 class entries unchanged; complete archive matches historical reference byte-for-byte",
+      "knownGaps": [
+        "Exact full upstream source revision/rebuild not verified",
+        "Complete upstream asset rights and generated binary distribution remain separately unapproved",
+        "Runtime QA not run"
+      ],
+      "upstreamModOrBinaryPublicationApproved": false,
+      "gameReleaseApproval": false
     }
   ]
 }

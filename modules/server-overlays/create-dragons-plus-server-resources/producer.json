@@ -1,0 +1,20 @@
+{
+  "kind": "create-dragons-plus",
+  "inputSha256": "80687f22daa95fa6240631097688f1e0295a5d31473d9aa56a14d360d863e98b",
+  "outputSha256": "123a7636377c64b9a92c3712d6572c6d69be69fd892feff44034ab5b738f972b",
+  "artifact": "CreateDragonsPlus-1.11.4.jar",
+  "changedEntries": {},
+  "removedEntries": [
+    "data/create_dragons_plus/data_maps/block/air_current_block_interaction/blasting.json",
+    "data/create_dragons_plus/data_maps/block/air_current_block_interaction/freezing.json",
+    "data/create_dragons_plus/data_maps/block/air_current_block_interaction/smoking.json",
+    "data/create_dragons_plus/data_maps/block/air_current_block_interaction/splashing.json",
+    "data/create_dragons_plus/data_maps/block/fragile_fluid_tank/lava.json",
+    "data/create_dragons_plus/data_maps/block/fragile_fluid_tank/water.json"
+  ],
+  "sourceSha256": {
+    "build.py": "3a129eb925d2e457187c334a6b78d19acd7871c4615ed0734ddfd786746bdd59"
+  },
+  "upstreamBinaryRedistributionCleared": false,
+  "condition": "Historical dedicated server lacks optional simulated mod; exactly the six listed data-map resources are removed."
+}
