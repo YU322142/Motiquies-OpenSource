@@ -3,6 +3,7 @@ from pathlib import Path
 import argparse,hashlib,json,os,shutil,subprocess,tempfile,zipfile
 
 ROOT=Path(__file__).resolve().parent
+SOURCE_ROOT=next((p for p in (ROOT,*ROOT.parents) if (p/"publication-manifest.json").is_file()),ROOT)
 def sha(path):
     with path.open('rb') as stream:return hashlib.file_digest(stream,'sha256').hexdigest()
 def main():
@@ -15,7 +16,7 @@ def main():
     config=json.loads((ROOT/'producer.json').read_text(encoding='utf8'))
     lock=json.loads((ROOT/'dependencies.lock.json').read_text(encoding='utf8'))
     if output.exists():raise SystemExit('Refusing to overwrite an existing output directory')
-    if any(output==root or root in output.parents for root in [ROOT,deps]):raise SystemExit('Output must be outside source and dependency directories')
+    if any(output==root or root in output.parents for root in [SOURCE_ROOT,deps]):raise SystemExit('Output must be outside source repository and dependency directories')
     if sha(source)!=config['input']['sha256']:raise SystemExit('Input SHA256 mismatch: only the exact original DH JAR is accepted')
     classpath=[]
     for entry in lock['classpath']:
