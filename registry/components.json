@@ -344,5 +344,18 @@
       "upstreamModOrBinaryPublicationApproved": false,
       "gameReleaseApproval": false
     }
-  ]
+  ],
+  "upstreamPack": {
+    "name": "Mechanomania",
+    "authorOnOfficialListing": "MoePus",
+    "homepage": "https://www.curseforge.com/minecraft/modpacks/mechanomania",
+    "licensePage": "https://www.curseforge.com/minecraft/modpacks/mechanomania/license",
+    "currentListingLicenseObserved": "All Rights Reserved",
+    "observedAt": "2026-11-16",
+    "historicalBaselineVersion": null,
+    "historicalBaselineArchiveSha256": null,
+    "packOriginAttributionReviewComplete": false,
+    "packContentPublicationApproved": false,
+    "note": "Individual mod/fork code and assets retain their own applicable licenses; possession and original-mod licensing do not automatically clear pack-specific additions."
+  }
 }

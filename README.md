@@ -2,6 +2,8 @@
 
 Motiquies 的定制修复、兼容层、数据迁移和构建工具。目标是让服务器的全部定制修改可以从公开源码和明确的上游依赖复现，并遵守每个组件的许可证。
 
+服务器的大量内容来自 **[Mechanomania（MoePus）](https://www.curseforge.com/minecraft/modpacks/mechanomania)**。上游整合包、自带修改和 Motiquies 新增补丁分别追溯，不能因文件位于服务器或本仓库就认定为 Motiquies 原创。[上游归属与许可边界](docs/UPSTREAM-MECHANOMANIA.md)记录当前复核范围。
+
 **完整覆盖仍在补齐。源码公开与构建通过，不代表 3.3.0 已在生产上线。** 当前以逐文件审计、固定依赖 SHA-256、重复构建和原有运行时 class 对比记录进度；来源或授权未确认的组件不会被标成已复现。
 
 完整范围与逐项验收条件见[全部定制复现标准](docs/COMPLETE-REPRODUCTION.md)，当前不足见[缺口清单](docs/REPRODUCTION-GAPS.md)。

@@ -10,8 +10,8 @@
     ".github/workflows/source-check.yml": "3ac68eca578ac16fe7672b9ba4c9ef4342ec57fe9f5b5d831a77032b89e7ef00",
     ".gitignore": "47e81ab09674db20b1efdeecfe263224088bc6bd7a240f7bf7d2b210bd42d311",
     "AGENTS.md": "546b4a083ff015a95ee7bf579acd0ee48b5d14959e6171f8af6829ce5f5fe1e7",
-    "docs/COMPLETE-REPRODUCTION.md": "db16668d8c85b2e137f4474291c5d46bde5dcd0c5bb5c2894d2050a919eb2422",
-    "docs/REPRODUCTION-GAPS.md": "55a16b5314c2a7b3fe6b7a6ab04d17a7ae1b7e3831768930c265bd746265e5de",
+    "docs/COMPLETE-REPRODUCTION.md": "78c64da78ed1f8cfd4c967250c694cc901182c9e1d89fbadc660d5cd4cf2ae47",
+    "docs/REPRODUCTION-GAPS.md": "3cffedb20b79d2d48263cbe2d1379bee4ffc6123f37594785f1141bab13a8b34",
     "LICENSE": "848780b3605dce780144206da3acdee51b6060f7eac907b32f78500d4fca9d36",
     "modules/client-data-migration/build.ps1": "9b8247d3d6cd853c0e5475f8d8bae72fc9414b10234ab5024ad781dc31d74692",
     "modules/client-data-migration/build.py": "339416609b6c627c3c4e17779b28dbbd85f69f41c748999f87673133b6332078",
@@ -687,11 +687,13 @@
     "modules/wand-toms-null-guard/README.md": "d1da92f280a675a91ce0c45251f165a20e886056ce0c34a61834d0daa21a2cc9",
     "modules/wand-toms-null-guard/SOURCE-PROVENANCE.json": "61fe047b51e90a658e291151ff28c7a0e5c2f05d26e9bba3a629fbe6e2ff760a",
     "modules/wand-toms-null-guard/WandTomsPatch.java": "7b4a9d633f2cf6506ed9ac0d1b69d64bff6d2b6ac4529cecf329b60a87091ae0",
-    "README.md": "d8fbf46c4b669b8c780519626cf9379019ea56081839c8dd48fadd8b61743e31",
-    "registry/components.json": "aa20dd482c2969b41fb92a27444172f1569b4c1975394b1f566973af84418f13",
+    "README.md": "a582e6614653e19ca2b021e9d12365761008554516f9882b378583a4bd2c1d7f",
+    "registry/components.json": "df03f0d973427f00fd6b5a9dfe59349f294812b6b0cd18b2755b39eb9784f315",
     "tests/test_output_boundary.py": "4e76a066181d7f729e3fce2f90865d761db2154be7504be345bb9ae4de594976",
     "tests/test_overlay_jdk_boundary.py": "ec6e254d796ee729113c6ad2b993926842edf8944d79077bfcc9771ee25a5df9",
     "tests/test_publication_check.py": "999128a22f43322fdabfa19406deae5490c6eb621b01de4e0a84d593204aa767",
-    "tools/publication_check.py": "0d632d7427eb468e6ff9f2fdea157d9726243273f47a81fd4c46e1d36bfd7192"
-  }
+    "tools/publication_check.py": "0d632d7427eb468e6ff9f2fdea157d9726243273f47a81fd4c46e1d36bfd7192",
+    "docs/UPSTREAM-MECHANOMANIA.md": "583f2c6e07a4e1a4819e7705a22ef9a7bb05ec18e134172f7094f8e1e589d190"
+  },
+  "upstreamPackAttributionReviewComplete": false
 }
