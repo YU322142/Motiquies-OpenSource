@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "mode": "asm",
+  "artifact": "backport-1.5-cat-serializer-fix.1.jar",
+  "input": {
+    "fileName": "backport-1.5.jar",
+    "sha256": "167534c66d5e6c09dcb01152ebd37d18ced5cf6278a9228c094f937886133af5",
+    "officialFilePage": "https://www.curseforge.com/minecraft/mc-mods/content-backport/files/8203022",
+    "version": "1.5"
+  },
+  "productionSha256": "34291af9d81b6aee0780f5f511b2a9594664f36906aed40687df1c7009e68b1d",
+  "mainClass": "dev.codex.backportfix.BackportJarPatcher",
+  "verifierClass": "dev.codex.backportfix.BackportJarVerifier",
+  "ownLicense": "MIT owner-original tool only",
+  "upstreamLicenseStatus": "UNRESOLVED CONFLICT: original JAR metadata says Unlicense, official author/project page says All Rights Reserved and describes Mojang-derived code; no upstream code/assets/binary clearance inferred.",
+  "ownSourceSha256": {
+    "src/dev/codex/backportfix/BackportJarPatcher.java": "41c8807d7c6f5920545ef258c6547c40945c3f50fb0226ef3fcfb50fc5e80f92",
+    "src/dev/codex/backportfix/BackportJarVerifier.java": "e64d47ec67c9f9e800733edc0fb60f290b14138d0973e3ff50e3a0055608c851",
+    "src/dev/codex/backportfix/BackportPatchContract.java": "fc8768ad51d33cd7b191f9c4c8b2e577fd310d4181dd44701ad070d784d92512",
+    "build.py": "510200607b596850e4f8b698db12588cd6c4e8a1fe9407d4025d3c5a399d7d00"
+  },
+  "expectedChangedEntries": {
+    "com/juanmuscaria/backport/world/entity/animal/BackportedEntityDataSerializers.class": "20789f3a53deaea01141b5de0e51aa22c466e0ed5c79ccce3e415074cc7ac887",
+    "com/juanmuscaria/backport/mixin/common/CatSoundVariantBackport$CatMixin.class": "83ec9fb0d7256b756c52dc0609b186db68eae353da4014690410b54c0b9e2e9a",
+    "com/juanmuscaria/backport/mixin/common/ChickenVariantBackport$ChickenMixin.class": "66a7cb794edcb97003d7f1360e48747132606f24143889242879417ed8732297",
+    "com/juanmuscaria/backport/mixin/common/CowVariantBackport$CowMixin.class": "f260431ca67e3a4bb86269b35e9b5021f5372c482e8ea3d8b27167449eeda194",
+    "com/juanmuscaria/backport/mixin/common/PigVariantBackport$PigMixin.class": "7af5024b998a9bbb631d90e2a16521730b3184e98cf9d6f242a6c94b45672c0b",
+    "com/juanmuscaria/backport/mixin/common/WolfSoundVariantBackport$WolfMixin.class": "7a33e59298e5b3e33ae800d2b81b0878440556e10c4744a017b7c89c8ff00aec"
+  }
+}

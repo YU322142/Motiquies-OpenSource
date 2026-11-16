@@ -1,0 +1,19 @@
+Independent first-party ASM tool candidate; not the Content Backport mod.
+Tool copyright(c)2026 YU322142 and Motiquies contributors, MIT by owner authorization.
+Original mod author: juanmuscaria. Original mod metadata/attribution is unchanged.
+
+IMPORTANT UPSTREAM LICENSE CONFLICT: input metadata declares Unlicense, but the
+official Content Backport CurseForge project/file page declares All Rights Reserved.
+The author explains the implementation derives substantially from Minecraft code
+and is not being published as open source. No complete upstream Unlicense grant
+was found. The tool MIT license applies only to own traversal/insertion/verification
+source. It does not relicense or clear the original mod, Minecraft material,
+modified binaries, textures, sounds, recipes or other assets.
+
+This source-only candidate needs fresh independent copyright-boundary review.
+Upstream source/binary/asset publication and modified-binary redistribution remain
+blocked pending author/license clarification. No vendor code body, class byte array,
+compiled class, original/modified JAR or asset is published in this module.
+The original external input is retained by its operator; this tool has no downloader.
+No game launches or deployment occurs. Local exact-byte build evidence is not a
+claim that the full mod has been legally open-sourced or approved for distribution.

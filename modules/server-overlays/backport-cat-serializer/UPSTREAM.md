@@ -1,0 +1,7 @@
+# Original input and unresolved upstream terms
+
+The external original is backport-1.5.jar by juanmuscaria, Minecraft1.21.1 NeoForge, SHA256 `167534c66d5e6c09dcb01152ebd37d18ced5cf6278a9228c094f937886133af5`. The [official file8203022](https://www.curseforge.com/minecraft/mc-mods/content-backport/files/8203022) identifies that release; no private production roster or hash-query request was sent to identify it.
+
+The exact input has `license="Unlicense"` in its mod metadata but no embedded full license text. The [official project page](https://www.curseforge.com/minecraft/mc-mods/content-backport) labels it All Rights Reserved and the author describes a Minecraft-derived implementation that will not be open-sourced. These facts conflict. Do not treat the metadata string as a complete upstream grant, apply the own tool MIT license to vendor content, or publish the original/modified mod/assets. Author/license clarification remains required; no upstream source-revision route is invented.
+
+This module is independently written own ASM traversal, conditional replacement and verification tooling from the reviewed migration archive. It contains no original implementation method body or encoded patch bytes from that mod. The external original stays separate and every unrelated entry remains intact during local reproduction. Source-only review of this tool and permission to distribute a generated vendor binary are distinct gates. The candidate is not binary redistribution clearance.

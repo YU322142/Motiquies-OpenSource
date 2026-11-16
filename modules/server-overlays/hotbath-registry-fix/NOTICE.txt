@@ -1,0 +1,19 @@
+Hot Bath3.0.0 registry-event delta producer, GPL-3.0-only.
+Original Hot Bath author: CrabMods; public source repository CrabMods/hotBath,
+formerly crabsatellite/hotBath. Original base commit5e382931c20744b2ffe43abc26b917e59f7a21cd.
+Own delta/build tooling copyright(c)2026 YU322142 and Motiquies contributors.
+Full GNU GPLv3 terms: LICENSE.txt. The GPL license is not replaced by root MIT.
+
+Modification: insert one Registries import and an early return unless
+event.getRegistryKey().equals(Registries.TRIGGER_TYPE), then preserve all four
+original advancement registrations. Only the compiled ExtraEventsRegister.class,
+manifest compatibility version and mod TOML compatibility version change.
+Original author/license text and all other class/resource contents are preserved.
+
+The external original GPL Java source is SHA-locked and supplied by the operator;
+the public module includes only own source edits, compiler/packaging code, metadata
+edits and pins, not upstream source bodies, classes, JARs or assets.
+Source-only publication does not publish a modified binary. Any later binary
+distribution must retain upstream terms and satisfy GPL corresponding-source
+requirements; UPSTREAM.md provides the source route and delta instructions.
+No game start, live validation or deployment was performed by the producer.
