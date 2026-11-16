@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "tests/original/com/tom/storagemod/inventory/InventoryChangeTrackerRegression.java",
+      "sha256": "15f49b15468ef99f5871247a8062564c1ac4a3dcfe264a00adf9b47e2b16ae76",
+      "bytes": 5405,
+      "sourceType": "exact_original_pure_regression",
+      "license": "MIT",
+      "gameOrMenuBootstrapRequired": false
+    },
+    {
+      "path": "tests/original/com/tom/storagemod/inventory/InventoryDeduplicatorRegression.java",
+      "sha256": "9ed02114345031e4cec56c81528050c5d00f94e8e86d9d36e150f50b4c676a75",
+      "bytes": 3286,
+      "sourceType": "exact_original_pure_regression",
+      "license": "MIT",
+      "gameOrMenuBootstrapRequired": false
+    },
+    {
+      "path": "tests/original/com/tom/storagemod/util/CraftingIngredientPlannerRegression.java",
+      "sha256": "09f9ac54f199b17700a593552c298a53ba1398f7555bc42fe0c2d175547b7c36",
+      "bytes": 9198,
+      "sourceType": "exact_original_pure_regression",
+      "license": "MIT",
+      "gameOrMenuBootstrapRequired": false
+    }
+  ]
+}

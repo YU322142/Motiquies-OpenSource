@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "module": "server-overlays/zstdnet-production-frame-fix",
+  "upstreamSource": {
+    "repository": "YU322142/zstdnet-frame-compat",
+    "commit": "5ec97007f09f9de357c2aa7404c6ceb12f6c716d",
+    "javaSourcesPreservedUnmodified": true,
+    "license": "MIT independent tooling only"
+  },
+  "inputSha256": "6a53c2eae4e922408e4f5a4715c0282c8b67bcbafbd7131d65196ee1c758785c",
+  "inputOfficialFilePage": "https://www.curseforge.com/minecraft/mc-mods/zstdnet/files/8986886",
+  "inputOfficialUrl": "https://edge.forgecdn.net/files/8986/886/zstdnet-1.21.1-neoforge-1.4.9.jar",
+  "historicalProductionSha256": "e9588d6736c761b30ee1e6e796a4cf6e89de695a6072c4425aa3d7027b907110",
+  "expectedCandidateSha256": "7fbf8518b758da54aee97d18ab0c7432f14a84646cc6c6ebbf3bbb2a8023248d",
+  "classpath": [
+    {
+      "fileName": "asm-9.8.jar",
+      "sha256": "876eab6a83daecad5ca67eb9fcabb063c97b5aeb8cf1fca7a989ecde17522051",
+      "bytes": 126113,
+      "officialUrl": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.8/asm-9.8.jar",
+      "license": "BSD-3-Clause",
+      "officialArtifactCrossCheckExecuted": false
+    },
+    {
+      "fileName": "netty-buffer-4.1.97.Final.jar",
+      "sha256": "a4393f5b395486cc74d0325c9b41311abb9513ba0fd7ef8cf46e9345c3bffbea",
+      "bytes": 306590,
+      "officialUrl": "https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar",
+      "license": "Apache-2.0",
+      "officialArtifactCrossCheckExecuted": false
+    },
+    {
+      "fileName": "netty-codec-4.1.97.Final.jar",
+      "sha256": "bcc96737a0f912fcf031cf8c45ebda352a90a40437db0832caad3d5a63618b38",
+      "bytes": 345274,
+      "officialUrl": "https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.97.Final/netty-codec-4.1.97.Final.jar",
+      "license": "Apache-2.0",
+      "officialArtifactCrossCheckExecuted": false
+    },
+    {
+      "fileName": "netty-common-4.1.97.Final.jar",
+      "sha256": "a8aca0c8e9347acc75c885ecc749195d9775369aa520b9276f2d1128210a6c17",
+      "bytes": 659930,
+      "officialUrl": "https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar",
+      "license": "Apache-2.0",
+      "officialArtifactCrossCheckExecuted": false
+    }
+  ],
+  "jdkExecutableSha256": {
+    "javac.exe": "5b36da4d2778bbd20afbc9d4b686b11488d7dd4a55a4bb003e6a97fd4b45bda7",
+    "java.exe": "bd3d87dfb44651a1c61c995e08ca4fcadb458437a373d46941381f9aeff9d6a0"
+  },
+  "jdkTreeSha256": "46fcbe366509bba6342e3118ec6fc672b291e49fc15a6d32c1e681f6b130e592",
+  "jdkTreeHashAlgorithm": "SHA256 of UTF8 concatenation of sorted relative POSIX filename + NUL + lowercase file SHA256 + LF, over every regular file",
+  "jdkDistribution": "Eclipse Temurin 21.0.10+7 Windows x64 HotSpot",
+  "javaSources": [
+    "src/main/java/io/github/framecompat/ZstdNetFramePatch.java",
+    "src/main/java/cn/tohsaka/factory/zstdnet/core/transport/BoundedVanillaFrame.java"
+  ],
+  "expectedToolClassSha256": {
+    "io/github/framecompat/ZstdNetFramePatch$1.class": "98bb69d93472be840397ec865276728c6d83a13163581470ec8859ba25397c24",
+    "io/github/framecompat/ZstdNetFramePatch.class": "ba60e1212f1bb283df958e75cc9220d7e5f72439cc577300d402e232b2edef8c",
+    "cn/tohsaka/factory/zstdnet/core/transport/BoundedVanillaFrame.class": "5b102bdd2ec0601ca707b8b0d33562f970fbd3abd94515109d605650ef67b2bf"
+  },
+  "sourceSha256": {
+    "build.py": "2ea7e1a64f3f875b8459f7b923bb95816ebed5a68c7c7463defcce8bc7a7c458",
+    "LICENSE.txt": "f16479f9690b989cb04d18d91521e4014ad91ce8f35129a322266ae2c7ee405a",
+    "README.md": "51352af506ab994be219baf9ec292c9ed8910240b80475f6048baab268fe618f",
+    "src/main/java/cn/tohsaka/factory/zstdnet/core/transport/BoundedVanillaFrame.java": "3e5cba4b44436d2456b9260a1f1887bf8c23271c46f580965ce8df6058ad4f20",
+    "src/main/java/io/github/framecompat/ZstdNetFramePatch.java": "5fda48f4285623f184926685fc5d17aa3015b6a69f999c742a239e3d9aa4f4b8",
+    "src/main/resources/LICENSES/ZstdNet-MIT.txt": "83ad46e1b20cbb37928feb4929c61661e85a160ac6d3d6e2842332ef72e3218c",
+    "THIRD_PARTY_NOTICES.md": "c7f2f8699cedfa2823957745f47f4a121f704b5bc91bbc2b09e4de0f48280c14"
+  },
+  "binaryPublicationApproved": false,
+  "oldProducerRecovered": false
+}

@@ -1,0 +1,95 @@
+{
+  "scope": "Actual build/tool/source-origin/reference/patch inputs; update only deliberately and revalidate with a fresh correct-input build",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "683c918da894e32b8e0c2f715ecb7b910e6fa57ce9736f963824d4eb9ec11c34",
+      "bytes": 1064
+    },
+    {
+      "path": "build.py",
+      "sha256": "6ee88f193dadada371ab2713ebbff75e63bd7d850291862dc2776cd324ca50c9",
+      "bytes": 3535
+    },
+    {
+      "path": "build_support.py",
+      "sha256": "2edb7efdd05bc1c331a298543af29b009b57e1388022b2ef5ce3c3db9831cd8d",
+      "bytes": 6458
+    },
+    {
+      "path": "derive_compiler_inputs.py",
+      "sha256": "706cc464bedc78b57dfe23e25ea40fc979a862233894c891e204e3d65db11032",
+      "bytes": 3821
+    },
+    {
+      "path": "classfile.py",
+      "sha256": "3b9f5736f49fa33fd6a688659b3afa22b53d01b66886c4829034777cf58cf098",
+      "bytes": 3020
+    },
+    {
+      "path": "run_pure_regressions.py",
+      "sha256": "08916dc3f25ef48a267fd6c56b39e518bef6475687d2ff5f3f11a004d400c4f2",
+      "bytes": 2744
+    },
+    {
+      "path": "toolchain.lock.json",
+      "sha256": "e0cd80118f2864db425a865125a50848a94771b5ad4697c6ce2b30ede00f4ddf",
+      "bytes": 897
+    },
+    {
+      "path": "dependencies.lock.json",
+      "sha256": "92a505d749f5b0c0182df96520e67c217872b758efca9962ff110bb9daad6d5c",
+      "bytes": 82272
+    },
+    {
+      "path": "SOURCE-ORIGINS.json",
+      "sha256": "6bf523ca52e65130543351f158a8f5542fde09221f33684d9cbbfb9d5aa9f4f5",
+      "bytes": 101485
+    },
+    {
+      "path": "TEST-ORIGINS.json",
+      "sha256": "831d634e5ef061c4707eae0560f6ef39edcbed9d31f1cdd7c4a328be3c03a2d6",
+      "bytes": 1059
+    },
+    {
+      "path": "PATCH-ORIGINS.json",
+      "sha256": "f70c5441f7b8f72172f975f695c1d7fd0967be26d09192051df6b1a5c898edfc",
+      "bytes": 873
+    },
+    {
+      "path": "HISTORICAL-515-ENTRY-HASHES.json",
+      "sha256": "4dab36afb92edf6d92e7731179f5566963d8212a1fd2ee9038ae926785e87400",
+      "bytes": 67366
+    },
+    {
+      "path": "REFERENCE-CLASS-DIAGNOSTICS.json",
+      "sha256": "c2407f4c32ebc87c65401d34af1eb4d8e675aef6ba47c60497abc082ba55d0c7",
+      "bytes": 39141
+    },
+    {
+      "path": "compiler-profile/profile.json",
+      "sha256": "9032812c8a3c7589706d6dfb2e832c67905e28be112bcd0ecf3275c22c9c7e3e",
+      "bytes": 3205
+    },
+    {
+      "path": "compiler-profile/original-tom-at.cfg",
+      "sha256": "161d2bc3e2105f4db167b921ec6c96ca30dcae40e520b266ca1e15e7ff752984",
+      "bytes": 256
+    },
+    {
+      "path": "patches/archive-to-reproduction-java.patch",
+      "sha256": "c3db941e2e35fc1c68e9adce6883db9504f5c2ab2ff9bfdd21f137912e46e909",
+      "bytes": 21390
+    },
+    {
+      "path": "patches/context-joins-java.patch",
+      "sha256": "6c31a8dbcaaee72390e4905ad774c42d5f5ca48e3903f722f3f4240050cb752e",
+      "bytes": 3424
+    },
+    {
+      "path": "patches/original-6e1ce1e8-java.patch",
+      "sha256": "30eddff94d0bc92f95467a6a3ac36a5d267f56ff14e5f2c711bd137235ac63fb",
+      "bytes": 32150
+    }
+  ]
+}

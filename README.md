@@ -21,6 +21,7 @@ python modules/<module>/build.py --sdk-root <existing-sdk> --java-home <jdk21> -
 ## 范围
 
 - `modules/`：按组件分开的源码、配置、构建脚本、测试和原许可。
+- `modules/server-mods/`：运行源码重现；部分组件仅编译完整代码，素材与完整模组打包另列缺口。
 - `modules/legacy/`：历史诊断与迁移工具；其中一些会写 NBT、创建实体或执行其他测试操作，**不是生产默认安装项**。
 - `registry/`：公开来源、构建状态与未闭合项，区分当前生产、候选和历史工具。
 - `tools/publication_check.py`：逐文件指纹、未审文件、二进制及明显隐私内容检查。

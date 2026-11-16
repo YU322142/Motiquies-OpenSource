@@ -1,0 +1,78 @@
+--- original-6e1ce1e8/src/main/java/com/tom/storagemod/menu/CraftingTerminalMenu.java
++++ candidate/src/main/java/com/tom/storagemod/menu/CraftingTerminalMenu.java
+@@ -32,6 +32,7 @@
+ import com.tom.storagemod.StorageMod;
+ import com.tom.storagemod.block.entity.CraftingTerminalBlockEntity;
+ import com.tom.storagemod.inventory.StoredItemStack;
++import com.tom.storagemod.inventory.TerminalItemStack;
+ import com.tom.storagemod.platform.NeoForgeMenu;
+ import com.tom.storagemod.polymorph.PolymorphHelper;
+ import com.tom.storagemod.util.IAutoFillTerminal;
+@@ -167,7 +168,7 @@
+ 				return itemstack;
+ 			} else if (index > 0 && index < 10) {
+ 				if(te == null)return ItemStack.EMPTY;
+-				ItemStack stack = ((CraftingTerminalBlockEntity) te).pushStack(itemstack);
++				ItemStack stack = te.pushStack(itemstack);
+ 				slot.set(stack);
+ 				if (!playerIn.level().isClientSide)
+ 					broadcastChanges();
+@@ -297,7 +298,7 @@
+ 	}
+ 
+ 	@Override
+-	public List<StoredItemStack> getStoredItems() {
++	public List<TerminalItemStack> getStoredItems() {
+ 		return itemList;
+ 	}
+ 
+--- original-6e1ce1e8/src/main/java/com/tom/storagemod/menu/StorageTerminalMenu.java
++++ candidate/src/main/java/com/tom/storagemod/menu/StorageTerminalMenu.java
+@@ -29,6 +29,7 @@
+ import com.tom.storagemod.Content;
+ import com.tom.storagemod.block.entity.StorageTerminalBlockEntity;
+ import com.tom.storagemod.inventory.StoredItemStack;
++import com.tom.storagemod.inventory.TerminalItemStack;
+ import com.tom.storagemod.network.NetworkHandler;
+ import com.tom.storagemod.util.DataSlots;
+ import com.tom.storagemod.util.IDataReceiver;
+@@ -40,9 +41,9 @@
+ 	protected StorageTerminalBlockEntity te;
+ 	protected int playerSlotsStart;
+ 	public List<SlotStorage> storageSlotList = new ArrayList<>();
+-	public List<StoredItemStack> itemList = Lists.<StoredItemStack>newArrayList();
+-	public List<StoredItemStack> itemListClient = Lists.<StoredItemStack>newArrayList();
+-	public List<StoredItemStack> itemListClientSorted = Lists.<StoredItemStack>newArrayList();
++	public List<TerminalItemStack> itemList = Lists.<TerminalItemStack>newArrayList();
++	public List<TerminalItemStack> itemListClient = Lists.<TerminalItemStack>newArrayList();
++	public List<TerminalItemStack> itemListClientSorted = Lists.<TerminalItemStack>newArrayList();
+ 	public List<SlotData> slotData = new ArrayList<>();
+ 	public TerminalSyncManager sync;
+ 	private int lines;
+@@ -164,7 +165,7 @@
+ 		private final int slotIndex;
+ 		/** The inventory we want to extract a slot from. */
+ 		public final StorageTerminalBlockEntity inventory;
+-		public StoredItemStack stack;
++		public TerminalItemStack stack;
+ 
+ 		public SlotStorage(StorageTerminalBlockEntity inventory, int slotIndex, int xPosition, int yPosition) {
+ 			this.xDisplayPosition = xPosition;
+@@ -223,7 +224,7 @@
+ 		}
+ 	}
+ 
+-	public final void setSlotContents(int id, StoredItemStack stack) {
++	public final void setSlotContents(int id, TerminalItemStack stack) {
+ 		storageSlotList.get(id).stack = stack;
+ 	}
+ 
+@@ -234,7 +235,7 @@
+ 	@Override
+ 	public void broadcastChanges() {
+ 		if(te == null)return;
+-		Map<StoredItemStack, StoredItemStack> itemsCount = te.getStacks();
++		Map<StoredItemStack, TerminalItemStack> itemsCount = te.getStacks();
+ 		// Search text is local to this menu. Reading the BE's old lastSearch field
+ 		// would broadcast one player's text to every viewer.
+ 		String nextSearch = search == null ? "" : search;

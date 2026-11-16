@@ -310,6 +310,39 @@
       ],
       "upstreamModOrBinaryPublicationApproved": false,
       "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/server-mods/tom-storage-performance",
+      "role": "reconstructed-runtime-source-compile-only",
+      "license": "MIT original Tom author and owner-authorized reconstruction; notices and original/new provenance retained",
+      "sourceStatus": "reviewed-source-only-subset-182-runtime-java-and-three-original-pure-regressions",
+      "buildStatus": "two-fresh-complete-290-class-compiles-byte-identical-with-143-locked-external-inputs",
+      "runtimeComparison": "279 runtime classes raw exact and11 differ only in debug attributes; all290 complete non-debug class payloads match reference; resources are not built or supplied",
+      "knownGaps": [
+        "All223 runtime resources including94PNG are omitted;3PNG rights remain unresolved",
+        "Historical515 raw comparison remains FAIL; no complete mod JAR is packaged",
+        "Fresh installer/SDK reconstruction remains unverified",
+        "Actual menu/world/gameplay regressions are partial or NOT RUN; static class comparison is separate"
+      ],
+      "historical515RawExact": false,
+      "fullModPackaged": false,
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/server-overlays/zstdnet-production-frame-fix",
+      "role": "independent-first-party-jar-transform-tool",
+      "license": "MIT first-party tool/helper; upstream MIT notice retained; external APIs/native dependencies not relicensed",
+      "sourceStatus": "reviewed-original-two-java-tool-source-with-parameterized-guarded-builder",
+      "buildStatus": "two-fresh-new-deterministic-archives-byte-identical-with-pinned-tested-toolchain",
+      "runtimeComparison": "56 runtime classes:55 raw exact and one complete non-debug equivalent; original metadata/Decoder unchanged relative to frame-fix reference; old notice/new licenses and new ZIP container differ",
+      "knownGaps": [
+        "Historical framefix producer is not recovered; whole historical JAR and all-payload equality remain false",
+        "Official Maven artifact byte cross-check was not executed after approval deadline timeouts; actual SDK inputs and official routes are pinned",
+        "Complete upstream/nested/native redistribution rights and source correspondence remain separately unverified",
+        "Real login/game/frame runtime QA was NOT RUN"
+      ],
+      "upstreamModOrBinaryPublicationApproved": false,
+      "gameReleaseApproval": false
     }
   ]
 }
