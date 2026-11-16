@@ -236,6 +236,35 @@
         "No new live game acceptance was run"
       ],
       "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/server-overlays/worldedit-direction",
+      "role": "gpl-source-overlay",
+      "license": "GPL-3.0-or-later; original combined license and authors retained",
+      "sourceStatus": "pinned-upstream-source-and-reviewed-historical-delta-candidate",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "runtimeComparison": "complete output archive matches historical reference byte-for-byte; only two class entry contents change from pinned official input",
+      "knownGaps": [
+        "Fresh official installer/SDK reconstruction not validated",
+        "Complete upstream source rebuild and runtime QA not run",
+        "This export does not authorize binary publication or production rollout"
+      ],
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/server-overlays/tracks-block-tag-fix",
+      "role": "independent-first-party-resource-transform-tool",
+      "license": "MIT own tool only; upstream MIT code and explicit reserved asset notices retained",
+      "sourceStatus": "reviewed-two-stage-producer-candidate-no-vendor-payload",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "runtimeComparison": "official input to namespace stage to tag stage reproduces complete historical reference archive byte-for-byte; no class content changes",
+      "knownGaps": [
+        "Complete upstream source revision not verified",
+        "Reserved third-party asset redistribution remains BLOCKED",
+        "Full upstream source rebuild and runtime QA not run"
+      ],
+      "upstreamModOrBinaryPublicationApproved": false,
+      "gameReleaseApproval": false
     }
   ]
 }

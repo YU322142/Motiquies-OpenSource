@@ -1,0 +1,18 @@
+{
+  "kind": "worldedit",
+  "inputSha256": "5e7752c97876d87411e3760bcc573cc431f43c453722e6959fa7fe54db1b01ca",
+  "productionSha256": "8eb5e39aa914eb1b09307b6c004478bd1263655fcca880580673481ebfef9283",
+  "artifact": "worldedit-mod-7.3.8-direction-property-fix.1.jar",
+  "sourceSha256": {
+    "source/NeoForgeTransmogrifier.java": "a457e1a08890c515f8942a554fd940b3a293b935262401f9c91879cf55401f79",
+    "build.py": "1e2e372640335770b3aa00ce21bea5f0f18dd6a54081ccc269a09b3bae1e1b0b"
+  },
+  "expectedChangedEntries": {
+    "com/sk89q/worldedit/neoforge/internal/NeoForgeTransmogrifier$1.class": "6b2d9dccf3bc4a099e9134202e231f711e3d3eeab0e53db91f518408466504b2",
+    "com/sk89q/worldedit/neoforge/internal/NeoForgeTransmogrifier.class": "3c0b422d4d7e2d6da8c2c666f9a3b47538b353b84635c019d24623b7c47ff28b"
+  },
+  "compiledEntryOrder": [
+    "com/sk89q/worldedit/neoforge/internal/NeoForgeTransmogrifier.class",
+    "com/sk89q/worldedit/neoforge/internal/NeoForgeTransmogrifier$1.class"
+  ]
+}

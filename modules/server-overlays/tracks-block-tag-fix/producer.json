@@ -1,0 +1,46 @@
+{
+  "kind": "tracks",
+  "inputSha256": "b126b2522a129c13ebec6491b8602726bad9a3df201cf906468ba583796125c8",
+  "productionSha256": "3119fa84955907fd734ef77f2296ec2e546f4442bc3ae13b04046c5d71f61ccf",
+  "artifact": "tracks-neoforge-1.21.1-1.0.1-block-tag-fix.1.jar",
+  "sourceSha256": {
+    "build.py": "1e2e372640335770b3aa00ce21bea5f0f18dd6a54081ccc269a09b3bae1e1b0b"
+  },
+  "tagEntries": [
+    "data/create/tags/block/safe_nbt.json",
+    "data/minecraft/tags/block/mineable/pickaxe.json"
+  ],
+  "originalTag": {
+    "values": [
+      "tracks:track_mount",
+      "tracks:suspension_track",
+      "tracks:track_drive_wheel"
+    ]
+  },
+  "stageSha256": [
+    "b5022c73ae4a36e8798d1e57d8128eb42da2964c6e38c722d2ad7ccd2ff443e5",
+    "3119fa84955907fd734ef77f2296ec2e546f4442bc3ae13b04046c5d71f61ccf"
+  ],
+  "stageChangedEntries": [
+    [
+      "data/create/tags/block/safe_nbt.json",
+      "data/minecraft/tags/block/mineable/axe.json",
+      "data/minecraft/tags/block/mineable/pickaxe.json",
+      "data/tracks/loot_table/blocks/suspension_track.json",
+      "data/tracks/loot_table/blocks/track_drive_wheel.json",
+      "data/tracks/loot_table/blocks/track_mount.json"
+    ],
+    [
+      "data/create/tags/block/safe_nbt.json",
+      "data/minecraft/tags/block/mineable/pickaxe.json"
+    ]
+  ],
+  "expectedChangedEntries": {
+    "data/create/tags/block/safe_nbt.json": "87200040fb19731985386f789d521e9031ae8b23b12b839a6fbcf174ac0f97da",
+    "data/minecraft/tags/block/mineable/axe.json": "87200040fb19731985386f789d521e9031ae8b23b12b839a6fbcf174ac0f97da",
+    "data/minecraft/tags/block/mineable/pickaxe.json": "87200040fb19731985386f789d521e9031ae8b23b12b839a6fbcf174ac0f97da",
+    "data/tracks/loot_table/blocks/suspension_track.json": "0070ed93b1f116cd22cb03f9d5a9553b3253a7933846e78265b3ae6e02a676ad",
+    "data/tracks/loot_table/blocks/track_drive_wheel.json": "37ec8d2371cef7ee987fc625e9039d322e06f69adef0280c5953d56fc089c2ee",
+    "data/tracks/loot_table/blocks/track_mount.json": "c8fdea1955ee21bbd7f6ab828aa768b55d604c3c65c2b460b5a90585002293a0"
+  }
+}
