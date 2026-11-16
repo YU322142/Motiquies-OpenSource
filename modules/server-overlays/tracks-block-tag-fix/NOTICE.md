@@ -1,0 +1,7 @@
+This module publishes only independently authored local JSON/ZIP transformation logic under MIT, authorized by the owner. No third-party method bodies, binary patch payloads, classes, JARs, texture/model/art assets or upstream JSON payload files are included. JSON keys and three registry identifiers describe the interoperability delta.
+
+Tracks author metadata credits qwxon and Trackwork placeholder art. The attached original LICENSE.md attributes code copyright to Simulated Team / Creators of Aeronautics, licenses code MIT and reserves asset rights. assets/trackwork/LICENSE-ARR names Endalion, copyright 2025; assets/trackwork/LICENSE.txt reserves all recursive directory assets. Exact original notices are retained as text under licenses/. Our MIT applies to this tool, not to the upstream mod or its assets.
+
+The builder preserves upstream notices/metadata and all non-target entry contents in operator-local output. Publication of that generated complete mod binary or its assets is NOT cleared. Do not upload the output to a release or repository without resolving upstream asset permissions. Source-only recipe eligibility does not imply blanket binary redistribution authorization.
+
+Historical namespace phase: normalize Tracks: to tracks: in six JSON entry payloads. Then remove item-only suspension_track and track_drive_wheel from exactly two block tags, preserving track_mount. No Java class changes occur. This reproduces the complete historical transformation from the official file, rather than requiring an undocumented intermediate.
