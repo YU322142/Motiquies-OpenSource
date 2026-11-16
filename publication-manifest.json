@@ -694,7 +694,8 @@
     "tests/test_publication_check.py": "999128a22f43322fdabfa19406deae5490c6eb621b01de4e0a84d593204aa767",
     "tools/publication_check.py": "0d632d7427eb468e6ff9f2fdea157d9726243273f47a81fd4c46e1d36bfd7192",
     "docs/UPSTREAM-MECHANOMANIA.md": "bba7c28e2842aa6088d5c858acd5d917214cf52319afdac2d2eea6db68bcfceb",
-    "docs/AUTHORSHIP-POLICY.md": "feb4ef1686e46a0d034ab7a370d0e95e4252bcc211c94383314c0854c4478ea7"
+    "docs/AUTHORSHIP-POLICY.md": "feb4ef1686e46a0d034ab7a370d0e95e4252bcc211c94383314c0854c4478ea7",
+    ".github/workflows/sdk-platform-facts.yml": "a78ea8f69819c31ddd8cea6d789ba5a1239c141583bdb81d92e93bf15aa1e13d"
   },
   "upstreamPackAttributionReviewComplete": false
 }
