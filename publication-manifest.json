@@ -688,12 +688,13 @@
     "modules/wand-toms-null-guard/SOURCE-PROVENANCE.json": "61fe047b51e90a658e291151ff28c7a0e5c2f05d26e9bba3a629fbe6e2ff760a",
     "modules/wand-toms-null-guard/WandTomsPatch.java": "7b4a9d633f2cf6506ed9ac0d1b69d64bff6d2b6ac4529cecf329b60a87091ae0",
     "README.md": "a582e6614653e19ca2b021e9d12365761008554516f9882b378583a4bd2c1d7f",
-    "registry/components.json": "df03f0d973427f00fd6b5a9dfe59349f294812b6b0cd18b2755b39eb9784f315",
+    "registry/components.json": "38351d10d3ec9e0d3d49e22b76763f3daa8afba5034a9f8eb4e5e9bbf40a47b7",
     "tests/test_output_boundary.py": "4e76a066181d7f729e3fce2f90865d761db2154be7504be345bb9ae4de594976",
     "tests/test_overlay_jdk_boundary.py": "ec6e254d796ee729113c6ad2b993926842edf8944d79077bfcc9771ee25a5df9",
     "tests/test_publication_check.py": "999128a22f43322fdabfa19406deae5490c6eb621b01de4e0a84d593204aa767",
     "tools/publication_check.py": "0d632d7427eb468e6ff9f2fdea157d9726243273f47a81fd4c46e1d36bfd7192",
-    "docs/UPSTREAM-MECHANOMANIA.md": "583f2c6e07a4e1a4819e7705a22ef9a7bb05ec18e134172f7094f8e1e589d190"
+    "docs/UPSTREAM-MECHANOMANIA.md": "bba7c28e2842aa6088d5c858acd5d917214cf52319afdac2d2eea6db68bcfceb",
+    "docs/AUTHORSHIP-POLICY.md": "feb4ef1686e46a0d034ab7a370d0e95e4252bcc211c94383314c0854c4478ea7"
   },
   "upstreamPackAttributionReviewComplete": false
 }

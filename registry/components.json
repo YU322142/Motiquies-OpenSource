@@ -356,6 +356,19 @@
     "historicalBaselineArchiveSha256": null,
     "packOriginAttributionReviewComplete": false,
     "packContentPublicationApproved": false,
-    "note": "Individual mod/fork code and assets retain their own applicable licenses; possession and original-mod licensing do not automatically clear pack-specific additions."
+    "note": "Individual mod/fork code and assets retain their own applicable licenses; possession and original-mod licensing do not automatically clear pack-specific additions.",
+    "maintainerReportedAuthorization": {
+      "reportedBy": "server maintainer",
+      "reportedOn": "2026-11-16",
+      "evidenceKind": "explicit maintainer statement and scope clarification",
+      "use": true,
+      "modify": true,
+      "modpackDistribution": true,
+      "publicSourcePublication": "requires separate verification",
+      "copyrightTransferred": false,
+      "blanketRelicensingApproved": false,
+      "otherIndependentComponentsCovered": false,
+      "nostalgiaCovered": false
+    }
   }
 }
