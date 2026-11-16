@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "scope": "Independent source-only own producer/delta candidate; no vendor implementation or asset payload",
+  "canonicalPrivatePath": "archive/migration-baseline/projects/ports/content-backport-cat-serializer-fix",
+  "migrationArchiveOriginCommit": "354bf6af8d186d7b154c8423cbafa3e9a28a7349",
+  "ownSourceSha256": {
+    "src/dev/codex/backportfix/BackportJarPatcher.java": "41c8807d7c6f5920545ef258c6547c40945c3f50fb0226ef3fcfb50fc5e80f92",
+    "src/dev/codex/backportfix/BackportJarVerifier.java": "e64d47ec67c9f9e800733edc0fb60f290b14138d0973e3ff50e3a0055608c851",
+    "src/dev/codex/backportfix/BackportPatchContract.java": "fc8768ad51d33cd7b191f9c4c8b2e577fd310d4181dd44701ad070d784d92512",
+    "build.py": "510200607b596850e4f8b698db12588cd6c4e8a1fe9407d4025d3c5a399d7d00"
+  },
+  "input": {
+    "fileName": "backport-1.5.jar",
+    "sha256": "167534c66d5e6c09dcb01152ebd37d18ced5cf6278a9228c094f937886133af5",
+    "officialFilePage": "https://www.curseforge.com/minecraft/mc-mods/content-backport/files/8203022",
+    "version": "1.5"
+  },
+  "recordedProductionSha256": "34291af9d81b6aee0780f5f511b2a9594664f36906aed40687df1c7009e68b1d",
+  "ownLicense": "MIT owner-original tool only",
+  "upstreamLicenseStatus": "UNRESOLVED CONFLICT: original JAR metadata says Unlicense, official author/project page says All Rights Reserved and describes Mojang-derived code; no upstream code/assets/binary clearance inferred.",
+  "binaryPublication": false,
+  "firstPartyToolReview": "Requires fresh independent copyright-boundary review before root publication"
+}

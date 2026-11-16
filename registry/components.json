@@ -208,6 +208,34 @@
       "sourceStatus": "reviewed-source-export",
       "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
       "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/server-overlays/backport-cat-serializer",
+      "role": "independent-first-party-tool-source",
+      "license": "MIT applies only to own tooling; upstream ARR versus metadata Unlicense conflict unresolved",
+      "sourceStatus": "independent-source-only-scope-reviewed",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "runtimeComparison": "local producer output matches the historical reference artifact exactly; no vendor binary is published",
+      "knownGaps": [
+        "Original/modified upstream mod, assets and binary redistribution remain BLOCKED pending rights clarification",
+        "This does not publish or relicense the complete upstream mod"
+      ],
+      "firstPartyToolSourcePublicationReviewed": true,
+      "upstreamModOrBinaryPublicationApproved": false,
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/server-overlays/hotbath-registry-fix",
+      "role": "gpl-source-delta-tool",
+      "license": "GPL-3.0-only; upstream GPL retained",
+      "sourceStatus": "reviewed-source-delta-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "runtimeComparison": "all 383 archive entry contents match historical reference; whole ZIP hash differs by container packaging",
+      "knownGaps": [
+        "Later binary distribution requires complete corresponding upstream source and notices",
+        "No new live game acceptance was run"
+      ],
+      "gameReleaseApproval": false
     }
   ]
 }

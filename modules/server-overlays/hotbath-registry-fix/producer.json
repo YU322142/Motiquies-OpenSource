@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "mode": "source-delta",
+  "artifact": "hotbath-1.21.1-3.0.0-registry-fix.1.jar",
+  "input": {
+    "fileName": "hotbath-1.21.1-3.0.0.jar",
+    "sha256": "93ee276a0bd10d23101ae2ea7982933347d99b4fa9cd8b7e015f813ba6cf11aa",
+    "officialFilePage": "https://www.curseforge.com/minecraft/mc-mods/hotbath/files/7300421",
+    "officialMavenCoordinate": "curse.maven:hotbath-859412:7300421",
+    "downloadURL": "https://www.cursemaven.com/curse/maven/hotbath-859412/7300421/hotbath-859412-7300421.jar",
+    "version": "1.21.1-3.0.0"
+  },
+  "productionSha256": "1b53a2b7b2c6476bbad3ace344316da7abe62854967de322e9a25ca1d5c7681a",
+  "ownLicense": "GPL-3.0-only; upstream GPLv3 retained",
+  "upstreamLicenseStatus": "GPLv3 on official CurseForge license/file pages and original metadata; full original source commit route recorded.",
+  "upstreamSource": {
+    "fileName": "ExtraEventsRegister.java",
+    "repository": "CrabMods/hotBath",
+    "commit": "5e382931c20744b2ffe43abc26b917e59f7a21cd",
+    "path": "src/main/java/com/crabmod/hotbath/registers/ExtraEventsRegister.java",
+    "gitBlob": "e8bc8e23a869aac0a4f16954d066c01cf04521be",
+    "sha256": "0a0298b852db8094c5ee2c69e3fddb6bc47212449a865df2eaa3b9eb0af35e09",
+    "officialURL": "https://github.com/CrabMods/hotBath/blob/5e382931c20744b2ffe43abc26b917e59f7a21cd/src/main/java/com/crabmod/hotbath/registers/ExtraEventsRegister.java"
+  },
+  "patchedSourceSha256": "99cd50c885734b82d649611ebc17f95f217e30d8813e0739ba5cf202fbf77281",
+  "sourceEdits": [
+    {
+      "before": "import net.minecraft.client.Minecraft;\n",
+      "after": "import net.minecraft.client.Minecraft;\nimport net.minecraft.core.registries.Registries;\n"
+    },
+    {
+      "before": "    public static void registerAdvancementTrigger(RegisterEvent event) {\n",
+      "after": "    public static void registerAdvancementTrigger(RegisterEvent event) {\n        if (!event.getRegistryKey().equals(Registries.TRIGGER_TYPE)) {\n            return;\n        }\n\n"
+    }
+  ],
+  "compiledEntry": "com/crabmod/hotbath/registers/ExtraEventsRegister.class",
+  "compileAccess": [
+    {
+      "declarationJar": "neoforge-21.1.241-universal.jar",
+      "declarationEntry": "META-INF/accesstransformer.cfg",
+      "className": "net.minecraft.advancements.CriteriaTriggers",
+      "methods": [
+        "register(Ljava/lang/String;Lnet/minecraft/advancements/CriterionTrigger;)Lnet/minecraft/advancements/CriterionTrigger;"
+      ]
+    }
+  ],
+  "compileAccessExpectedJarSha256": "8cbb0e2c4e462fe7b2e93ce9386c2998fc1aba6e725dfecb14932f515575cab3",
+  "metadataEdits": {
+    "META-INF/MANIFEST.MF": {
+      "before": "Implementation-Version: 1.21.1-3.0.0",
+      "after": "Implementation-Version: 1.21.1-3.0.0-registry-fix.1"
+    },
+    "META-INF/neoforge.mods.toml": {
+      "before": "version=\"1.21.1-3.0.0\"",
+      "after": "version=\"1.21.1-3.0.0-registry-fix.1\""
+    }
+  },
+  "ownSourceSha256": {
+    "build.py": "3a0436d8daa142df6aa0c053aa82200d26b023f9e3c79e3c957144b797423def"
+  },
+  "expectedChangedEntries": {
+    "com/crabmod/hotbath/registers/ExtraEventsRegister.class": "c8c7948b4143f1a42af3a0fdcf1ce74a1c087da5dd83c0aabeebf95396d0d0f5",
+    "META-INF/MANIFEST.MF": "d710d7a7bda30a8e0ea4e5cb70246dee777f2df7906db46f2cc987ff46b492e1",
+    "META-INF/neoforge.mods.toml": "ac7143e6e664e0472f783fdb60f588f22c87ec4430a54c5b679b209e67c25e79"
+  }
+}

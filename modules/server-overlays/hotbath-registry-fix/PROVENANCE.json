@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "scope": "Independent source-only own producer/delta candidate; no vendor implementation or asset payload",
+  "canonicalPrivatePath": "archive/migration-baseline/projects/ports/hotbath-trigger-registry-fix",
+  "migrationArchiveOriginCommit": "354bf6af8d186d7b154c8423cbafa3e9a28a7349",
+  "ownSourceSha256": {
+    "build.py": "3a0436d8daa142df6aa0c053aa82200d26b023f9e3c79e3c957144b797423def"
+  },
+  "input": {
+    "fileName": "hotbath-1.21.1-3.0.0.jar",
+    "sha256": "93ee276a0bd10d23101ae2ea7982933347d99b4fa9cd8b7e015f813ba6cf11aa",
+    "officialFilePage": "https://www.curseforge.com/minecraft/mc-mods/hotbath/files/7300421",
+    "officialMavenCoordinate": "curse.maven:hotbath-859412:7300421",
+    "downloadURL": "https://www.cursemaven.com/curse/maven/hotbath-859412/7300421/hotbath-859412-7300421.jar",
+    "version": "1.21.1-3.0.0"
+  },
+  "recordedProductionSha256": "1b53a2b7b2c6476bbad3ace344316da7abe62854967de322e9a25ca1d5c7681a",
+  "ownLicense": "GPL-3.0-only; upstream GPLv3 retained",
+  "upstreamLicenseStatus": "GPLv3 on official CurseForge license/file pages and original metadata; full original source commit route recorded.",
+  "binaryPublication": false,
+  "firstPartyToolReview": "GPL source delta with exact original public-source input route; root review remains separate"
+}

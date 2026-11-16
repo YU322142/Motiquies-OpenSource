@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "javacVersion": "javac 21.0.10",
+  "javaRuntime": "21.0.10",
+  "classpath": [
+    {
+      "fileName": "neoforge-21.1.241-client.jar",
+      "sha256": "8e3563a078289f0f07ee6f87f1c8651294387639c8355983ee207cb753f08b7f"
+    },
+    {
+      "fileName": "client-1.21.1-20240808.144430-srg.jar",
+      "sha256": "a649bd3ce77f122d0f83ae1b37b4b303e662470f928b9bee5fbc76580805ffd4"
+    },
+    {
+      "fileName": "bus-8.0.5.jar",
+      "sha256": "705e24f37752809499a5cd0c7dd31eaabf3d933c5d3b2060168e94e9ef62593a"
+    },
+    {
+      "fileName": "loader-4.0.43.jar",
+      "sha256": "ba406038d0ce8242391bb23b9974648748d217b67332c0db620fcabf50edbc37"
+    },
+    {
+      "fileName": "mergetool-2.0.0-api.jar",
+      "sha256": "0260881294d8b218afe3d673f084d3745a55c28b35205d07d5e62d7f22202a00"
+    },
+    {
+      "fileName": "neoforge-21.1.241-universal.jar",
+      "sha256": "4ceaf2c6a1bd9520bf77f227bde8e9eeb441764ecadd33ef1a4328dcbaff4d3f"
+    }
+  ],
+  "originalInputAlsoOnCompileClasspath": true,
+  "generatedClasspath": [
+    {
+      "fileName": "neoforge-compile-access.jar",
+      "sha256": "8cbb0e2c4e462fe7b2e93ce9386c2998fc1aba6e725dfecb14932f515575cab3",
+      "derivation": "Official pinned NeoForge CriteriaTriggers.register access declaration only; SDK class body unchanged and transient."
+    }
+  ]
+}
