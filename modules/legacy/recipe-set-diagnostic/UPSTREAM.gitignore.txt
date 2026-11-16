@@ -1,0 +1,11 @@
+build/
+.gradle/
+out/
+run/
+runs/
+*.jar
+*.zip
+*.log
+*.class
+*.pyc
+__pycache__/

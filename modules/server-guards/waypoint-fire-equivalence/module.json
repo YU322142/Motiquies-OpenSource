@@ -1,0 +1,78 @@
+{
+  "id": "waypoint-fire-equivalence",
+  "artifact": "waypoint-fire-equivalence-0.1.1+mc1.21.1-public.jar",
+  "sources": [
+    "src/main/java/com/bmt/waypointfire/client/ClientWaypointState.java",
+    "src/main/java/com/bmt/waypointfire/client/WaypointClientEvents.java",
+    "src/main/java/com/bmt/waypointfire/client/WaypointClientRuntimeEvents.java",
+    "src/main/java/com/bmt/waypointfire/client/WaypointHud.java",
+    "src/main/java/com/bmt/waypointfire/command/HexColorArgument.java",
+    "src/main/java/com/bmt/waypointfire/command/WaypointCommand.java",
+    "src/main/java/com/bmt/waypointfire/CompatGameRules.java",
+    "src/main/java/com/bmt/waypointfire/mixin/FireBlockMixin.java",
+    "src/main/java/com/bmt/waypointfire/mixin/GameRulesIntegerValueAccessor.java",
+    "src/main/java/com/bmt/waypointfire/mixin/GameRulesLoadProbeMixin.java",
+    "src/main/java/com/bmt/waypointfire/mixin/LivingEntityWaypointDataMixin.java",
+    "src/main/java/com/bmt/waypointfire/network/WaypointDeltaPayload.java",
+    "src/main/java/com/bmt/waypointfire/network/WaypointNetworking.java",
+    "src/main/java/com/bmt/waypointfire/ParitySemantics.java",
+    "src/main/java/com/bmt/waypointfire/server/WaypointManager.java",
+    "src/main/java/com/bmt/waypointfire/WaypointFireEquivalence.java",
+    "src/main/java/com/bmt/waypointfire/WaypointIcon.java",
+    "src/main/java/com/bmt/waypointfire/WaypointIconCarrier.java"
+  ],
+  "classes": [
+    "com/bmt/waypointfire/CompatGameRules$LoadProbe.class",
+    "com/bmt/waypointfire/CompatGameRules.class",
+    "com/bmt/waypointfire/ParitySemantics.class",
+    "com/bmt/waypointfire/WaypointFireEquivalence.class",
+    "com/bmt/waypointfire/WaypointIcon.class",
+    "com/bmt/waypointfire/WaypointIconCarrier.class",
+    "com/bmt/waypointfire/client/ClientWaypointState$1.class",
+    "com/bmt/waypointfire/client/ClientWaypointState.class",
+    "com/bmt/waypointfire/client/WaypointClientEvents.class",
+    "com/bmt/waypointfire/client/WaypointClientRuntimeEvents.class",
+    "com/bmt/waypointfire/client/WaypointHud.class",
+    "com/bmt/waypointfire/command/HexColorArgument.class",
+    "com/bmt/waypointfire/command/WaypointCommand.class",
+    "com/bmt/waypointfire/mixin/FireBlockMixin.class",
+    "com/bmt/waypointfire/mixin/GameRulesIntegerValueAccessor.class",
+    "com/bmt/waypointfire/mixin/GameRulesLoadProbeMixin.class",
+    "com/bmt/waypointfire/mixin/LivingEntityWaypointDataMixin.class",
+    "com/bmt/waypointfire/network/WaypointDeltaPayload$Operation.class",
+    "com/bmt/waypointfire/network/WaypointDeltaPayload$PositionMode.class",
+    "com/bmt/waypointfire/network/WaypointDeltaPayload.class",
+    "com/bmt/waypointfire/network/WaypointNetworking.class",
+    "com/bmt/waypointfire/server/WaypointManager$SentWaypoint.class",
+    "com/bmt/waypointfire/server/WaypointManager.class"
+  ],
+  "resources": [
+    "META-INF/neoforge.mods.toml",
+    "META-INF/waypoint-fire-equivalence-capabilities.json",
+    "assets/waypoint_fire_equivalence/lang/en_us.json",
+    "assets/waypoint_fire_equivalence/lang/zh_cn.json",
+    "waypoint_fire_equivalence.mixins.json"
+  ],
+  "packageNotices": [
+    "LICENSE.txt"
+  ],
+  "compileAccess": [
+    {
+      "declarationJar": "neoforge-21.1.241-universal.jar",
+      "declarationEntry": "META-INF/accesstransformer.cfg",
+      "className": "net.minecraft.world.level.GameRules",
+      "methods": [
+        "register(Ljava/lang/String;Lnet/minecraft/world/level/GameRules$Category;Lnet/minecraft/world/level/GameRules$Type;)Lnet/minecraft/world/level/GameRules$Key;"
+      ]
+    },
+    {
+      "declarationJar": "neoforge-21.1.241-universal.jar",
+      "declarationEntry": "META-INF/accesstransformer.cfg",
+      "className": "net.minecraft.world.level.GameRules$BooleanValue",
+      "methods": [
+        "create(ZLjava/util/function/BiConsumer;)Lnet/minecraft/world/level/GameRules$Type;"
+      ]
+    }
+  ],
+  "compileAccessExpectedJarSha256": "7fa635858b778ff46e7e389f3d099d0b1c2593e48b788ca0a84de6500d050512"
+}

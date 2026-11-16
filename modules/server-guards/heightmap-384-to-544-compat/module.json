@@ -1,0 +1,23 @@
+{
+  "id": "heightmap-384-to-544-compat",
+  "artifact": "heightmap-384-to-544-compat-1.0.0+neoforge.1.21.1-public.jar",
+  "sources": [
+    "src/main/java/dev/migration/heightmap_384_to_544_compat/Heightmap384To544Compat.java",
+    "src/main/java/dev/migration/heightmap_384_to_544_compat/HeightmapArrayConverter.java",
+    "src/main/java/dev/migration/heightmap_384_to_544_compat/mixin/ChunkAccessMixin.java"
+  ],
+  "classes": [
+    "dev/migration/heightmap_384_to_544_compat/Heightmap384To544Compat.class",
+    "dev/migration/heightmap_384_to_544_compat/HeightmapArrayConverter$Conversion.class",
+    "dev/migration/heightmap_384_to_544_compat/HeightmapArrayConverter$Status.class",
+    "dev/migration/heightmap_384_to_544_compat/HeightmapArrayConverter.class",
+    "dev/migration/heightmap_384_to_544_compat/mixin/ChunkAccessMixin.class"
+  ],
+  "resources": [
+    "META-INF/neoforge.mods.toml",
+    "heightmap_384_to_544_compat.mixins.json"
+  ],
+  "packageNotices": [
+    "LICENSE.txt"
+  ]
+}

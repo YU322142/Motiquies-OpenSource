@@ -1,0 +1,44 @@
+MIT License
+
+Copyright (c) 2026 Motiquies contributors
+
+Applies only to newly authored generic local_adapter.py, its synthetic tests,
+and the newly authored org.motiquies.shadercompat compatibility plugin.
+Does not license upstream shader/mod assets, extracted upstream bytecode,
+private recipes, or private reconstructed/modified shader archives.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+Public first-party scope clarification (2026-11-16)
+
+The Motiquies contributors' MIT grant above also expressly covers the newly
+authored build_b10.py, build.py, build_support.py, test_b10.py, ExtractPass.java,
+public build documentation and dependency/source hash metadata in this module.
+The test fixtures embedded in test_b10.py are handwritten test boundaries.
+Existing copyright attribution is retained. This clarification covers these
+original tool sources under the owner's public-source authorization; an import
+commit alone is not asserted to establish their original creation time.
+
+The tools may read a user's legally obtained upstream JAR and generate upstream
+class copies or extracted/transformed instructions solely in local test output.
+Those upstream bytes and generated derivatives are NOT relicensed by this MIT
+grant and are excluded from repository publication and candidate packaging.
+No third-party shader/mod implementation, shader assets, proprietary recipe,
+Nostalgia content or private reconstructed archive is licensed or distributed.

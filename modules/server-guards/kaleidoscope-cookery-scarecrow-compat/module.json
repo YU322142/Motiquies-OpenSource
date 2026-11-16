@@ -1,0 +1,21 @@
+{
+  "id": "kaleidoscope-cookery-scarecrow-compat",
+  "artifact": "kaleidoscope-cookery-scarecrow-compat-1.0.0+neoforge.1.21.1-candidate13.1-public.jar",
+  "sources": [
+    "src/main/java/dev/migration/kaleidoscope_cookery_scarecrow_compat/KaleidoscopeCookeryScarecrowCompat.java",
+    "src/main/java/dev/migration/kaleidoscope_cookery_scarecrow_compat/LegacyScarecrowNbt.java",
+    "src/main/java/dev/migration/kaleidoscope_cookery_scarecrow_compat/mixin/ScarecrowEntityMixin.java"
+  ],
+  "classes": [
+    "dev/migration/kaleidoscope_cookery_scarecrow_compat/KaleidoscopeCookeryScarecrowCompat.class",
+    "dev/migration/kaleidoscope_cookery_scarecrow_compat/LegacyScarecrowNbt.class",
+    "dev/migration/kaleidoscope_cookery_scarecrow_compat/mixin/ScarecrowEntityMixin.class"
+  ],
+  "resources": [
+    "META-INF/neoforge.mods.toml",
+    "kaleidoscope_cookery_scarecrow_compat.mixins.json"
+  ],
+  "packageNotices": [
+    "LICENSE.txt"
+  ]
+}

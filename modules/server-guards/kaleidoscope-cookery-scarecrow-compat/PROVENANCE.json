@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "sourceRepository": "YU322142/Kaleidoscope-Cookery-Scarecrow-Compat",
+  "sourceCommit": "97d7d0ddd0deaa4629260b61399c266a47bc6422",
+  "sourceCanonicalPath": "modules/neoforge-1.21.1/kaleidoscope-cookery-scarecrow-compat--main",
+  "sourceLicenseBeforeExport": "MIT declared; no full own root license present",
+  "publicLicense": "MIT own source under owner authorization",
+  "originalAuthors": "YU322142/Codex migration compatibility build",
+  "productionArtifact": "kaleidoscope-cookery-scarecrow-compat-1.0.0+neoforge.1.21.1-candidate13.1.jar",
+  "productionSha256": "e06fcfea1ff76fb22ead50964c18f22657971e42b6e82f0a2fe844c2f048b463",
+  "exportedSources": [
+    {
+      "path": "src/main/java/dev/migration/kaleidoscope_cookery_scarecrow_compat/KaleidoscopeCookeryScarecrowCompat.java",
+      "sha256": "53fbecbb5f8885e4cca0bf49b0e9f8f702559bddcd656049b0c208fef61d3a07"
+    },
+    {
+      "path": "src/main/java/dev/migration/kaleidoscope_cookery_scarecrow_compat/LegacyScarecrowNbt.java",
+      "sha256": "1ff7967418e22e945d4e41c3d363358fa4ded9691e3fbc487756d192de0f5da0"
+    },
+    {
+      "path": "src/main/java/dev/migration/kaleidoscope_cookery_scarecrow_compat/mixin/ScarecrowEntityMixin.java",
+      "sha256": "c3112b4ec9d22bacba2c7ebe09ffa098ba2c5c0ecad1c6a96ace6939964d4a50"
+    }
+  ],
+  "excludedAssets": []
+}

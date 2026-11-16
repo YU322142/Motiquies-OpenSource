@@ -1,0 +1,68 @@
+{
+  "upstreamRepository": "https://github.com/RuoChennn/MapSyncer-for-XaeroWorldmap",
+  "release": "https://github.com/RuoChennn/MapSyncer-for-XaeroWorldmap/releases/tag/1.0.4beta2",
+  "sourceCommit": "04e5d9c542d5fd0e56fb63b3be87f0dba3091a47",
+  "sourceArchiveSha256": "e48ccc986efd98139aeec234d310578c6c67cc379ba9209efed43c3dee60ece1",
+  "sourceInputs": [
+    {
+      "path": "mc-1.21.1/neoforge/src/main/java/com/mapsyncer/network/impl/NeoForgeNetworkHandler.java",
+      "sha256": "49af5268d3fb8381d214d623cbbd0bafce7b34466befb05819f8f245bb3895a5",
+      "bytes": 6131
+    },
+    {
+      "path": "libs/common/src/main/java/com/mapsyncer/client/XaeroMapIntegrator.java",
+      "sha256": "618bc347f9ffc08166f97f97c8759038a9871823f44d08aa71dcb7780c2d7589",
+      "bytes": 23234
+    },
+    {
+      "path": "libs/common/src/main/java/com/mapsyncer/client/ClientHashManager.java",
+      "sha256": "678f71c5ec909cf4b3d0271ab4299409d181999a9af0aa35e4b519b97fe5dcac",
+      "bytes": 24713
+    },
+    {
+      "path": "libs/common/src/main/java/com/mapsyncer/client/XaeroMapDataHandler.java",
+      "sha256": "10e92caaf7db7008c27dcf5cff2d9ca7e81208ba5d60c754f8a7a281cf9962af",
+      "bytes": 16872
+    },
+    {
+      "path": "libs/common/src/main/java/com/mapsyncer/server/RegionScanner.java",
+      "sha256": "ab970811659cfe9717c6fed552a46919becfc9cf7170916634e5efab25a947c9",
+      "bytes": 10962
+    },
+    {
+      "path": "libs/common/src/main/java/com/mapsyncer/server/GenerationCache.java",
+      "sha256": "ec65e247ada0e5a4c17e1bcba1e08913317b522a15f36b846555eb0a20a5e18b",
+      "bytes": 11266
+    },
+    {
+      "path": "libs/common/src/main/java/com/mapsyncer/server/PlayerJoinHandlerLogic.java",
+      "sha256": "c8745ff4f6ab2fb9c292c96818df6e4ba22a2ae18eeda3a533950dad83886302",
+      "bytes": 4451
+    },
+    {
+      "path": "libs/common/src/main/java/com/mapsyncer/server/ServerSyncHandlerLogic.java",
+      "sha256": "504bb71e88b775ef8633d2756d607fef90d8db478480536848249a8f40333fd5",
+      "bytes": 69320
+    },
+    {
+      "path": "libs/common/src/main/java/com/mapsyncer/server/CacheCommandHandler.java",
+      "sha256": "d2beca1f9e602bda5f590374136fcbeaa72a9b03474f32650075ebfa11c9baf5",
+      "bytes": 16756
+    },
+    {
+      "path": "libs/common/src/main/java/com/mapsyncer/server/XaeroWriter.java",
+      "sha256": "9fe107a2757996456f1b426a292c0417262aa0b2afd47d977d0ee6e545eb9f21",
+      "bytes": 4913
+    },
+    {
+      "path": "libs/common/src/main/java/com/mapsyncer/server/IncrementalUpdateHandlerLogic.java",
+      "sha256": "d666800769006985dea4750fff53684616480b041159e5a19c367a0956e4e7c6",
+      "bytes": 12099
+    },
+    {
+      "path": "libs/mc-1.21/src/main/java/com/mapsyncer/server/ConversionOrchestrator.java",
+      "sha256": "a169dedb08ffbe37a6840f57d647a47f5910ce78202162240ccd9265a3a8d0b0",
+      "bytes": 47706
+    }
+  ]
+}

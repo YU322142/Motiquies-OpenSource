@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "javacVersion": "javac 21.0.10",
+  "classpath": [
+    {
+      "fileName": "neoforge-21.1.241-server.jar",
+      "sha256": "cdea1e7366c1608b6e729d69013a811dd7d554bb2f86b95473fef5fb9ac4fe09"
+    },
+    {
+      "fileName": "sponge-mixin-0.15.2+mixin.0.8.7.jar",
+      "sha256": "1d45cfe3ae4a2eab38dc74276803748cf799088986260d6d912e50ddb35d15c5"
+    },
+    {
+      "fileName": "client-1.21.1-20240808.144430-srg.jar",
+      "sha256": "a649bd3ce77f122d0f83ae1b37b4b303e662470f928b9bee5fbc76580805ffd4"
+    },
+    {
+      "fileName": "loader-4.0.43.jar",
+      "sha256": "ba406038d0ce8242391bb23b9974648748d217b67332c0db620fcabf50edbc37"
+    },
+    {
+      "fileName": "mergetool-2.0.0-api.jar",
+      "sha256": "0260881294d8b218afe3d673f084d3745a55c28b35205d07d5e62d7f22202a00"
+    },
+    {
+      "fileName": "neoforge-21.1.241-universal.jar",
+      "sha256": "4ceaf2c6a1bd9520bf77f227bde8e9eeb441764ecadd33ef1a4328dcbaff4d3f"
+    },
+    {
+      "fileName": "maid_restaurant-0.2.9+motiquies-metadata.1.jar",
+      "sha256": "abe85b3883185827d18a55e666692a19eb4f9d39ea899407bc61c84190176e36"
+    },
+    {
+      "fileName": "touhoulittlemaid-1.5.3-neoforge+mc1.21.1.jar",
+      "sha256": "32be64dd058b7a91f90107972d104bdc0946d858e690d4c72032f64873f9b15b"
+    }
+  ]
+}

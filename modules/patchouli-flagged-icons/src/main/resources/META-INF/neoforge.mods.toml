@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="motiquies_patchouli_flagged_icons"
+version="1.0.0"
+displayName="Motiquies Patchouli Flagged Icons"
+authors="Motiquies maintainers"
+displayTest="IGNORE_SERVER_VERSION"
+description="Applies existing Patchouli entry flags before icon parsing while preserving enabled resource diagnostics."
+[[dependencies.motiquies_patchouli_flagged_icons]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+side="CLIENT"
+[[dependencies.motiquies_patchouli_flagged_icons]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.241]"
+side="CLIENT"
+[[dependencies.motiquies_patchouli_flagged_icons]]
+modId="patchouli"
+type="required"
+versionRange="[1.21.1-92-NEOFORGE]"
+ordering="AFTER"
+side="CLIENT"
+[[mixins]]
+config="motiquies_patchouli_flagged_icons.mixins.json"

@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "sourceRepository": "YU322142/Create-Chute-Unload-Guard",
+  "sourceCommit": "64f0823bdcab09bdc6b0e043893b1246bb490496",
+  "sourceCanonicalPath": "modules/neoforge-1.21.1/create-chute-unload-guard--main",
+  "sourceLicenseBeforeExport": "MIT declared; no full own root license present",
+  "publicLicense": "MIT own source under owner authorization; additional original Create MIT notice retained for chute guard",
+  "originalAuthors": "YU322142/Codex migration compatibility build",
+  "productionArtifact": "create-chute-unload-guard-1.0.0+neoforge.1.21.1-equivalence.1.jar",
+  "productionSha256": "ac51aefdda8437d777b5c8b3e285e9036676d854f7958c6b882807c15be0910a",
+  "exportedSources": [
+    {
+      "path": "src/main/java/dev/migration/create_chute_unload_guard/ChuteGuardDecision.java",
+      "sha256": "cc9d431b51286f3ac583159d220c139d3766e86af720f87d2065c0fe97c326bb"
+    },
+    {
+      "path": "src/main/java/dev/migration/create_chute_unload_guard/CreateChuteUnloadGuard.java",
+      "sha256": "ff2032c8d9ec8f74c7eeee0039aa64a59e2c2f399a25315aae63f1896ad544c4"
+    },
+    {
+      "path": "src/main/java/dev/migration/create_chute_unload_guard/mixin/ChuteBlockEntityMixin.java",
+      "sha256": "7059e9e568f77ef2be472525f5c3b74e2adbc1cd463699a3cf665ebca09a1824"
+    }
+  ],
+  "excludedAssets": []
+}

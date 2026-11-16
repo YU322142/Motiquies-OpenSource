@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "javacVersion": "javac 21.0.10",
+  "classpath": [
+    {
+      "fileName": "toms_storage-neoforge-1.21.1-2.4.1-perf5.2.jar",
+      "sha256": "35851f83707f11afa52113f8424e3c99c1d67ebc1e2f76b8ea938dc7be6ab740"
+    },
+    {
+      "fileName": "jei-1.21.1-neoforge-19.44.0.403.jar",
+      "sha256": "31890ccbaf93cf90e2816b8f7cfb5a1340fe20bd8a1680a84e0050f7e07769bd"
+    },
+    {
+      "fileName": "sponge-mixin-0.15.2+mixin.0.8.7.jar",
+      "sha256": "1d45cfe3ae4a2eab38dc74276803748cf799088986260d6d912e50ddb35d15c5"
+    },
+    {
+      "fileName": "client-1.21.1-20240808.144430-srg.jar",
+      "sha256": "a649bd3ce77f122d0f83ae1b37b4b303e662470f928b9bee5fbc76580805ffd4"
+    },
+    {
+      "fileName": "loader-4.0.43.jar",
+      "sha256": "ba406038d0ce8242391bb23b9974648748d217b67332c0db620fcabf50edbc37"
+    },
+    {
+      "fileName": "mergetool-2.0.0-api.jar",
+      "sha256": "0260881294d8b218afe3d673f084d3745a55c28b35205d07d5e62d7f22202a00"
+    }
+  ]
+}

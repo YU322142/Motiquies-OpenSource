@@ -1,0 +1,14 @@
+Restaurant chair interoperability helper retains BSD-3-Clause treatment.
+Copyright (c) 2025, MasterMarisa
+Own additions Copyright (c) 2026 Motiquies contributors, BSD-3-Clause.
+Full license: LICENSE.txt. No endorsement is implied.
+Upstream repository: https://github.com/MasterMarisa/MaidRestaurant
+Source/license commit: ea2c949f50b0cef6e77bdd1424f0864a0af425ed
+Source: src/main/java/com/mastermarisa/maid_restaurant/maid/task/cook/MaidApproachCookBlockTask.java
+Chair direction/tag/entity-count eligibility mirrors the upstream interoperability rule.
+Own Redirect composition and loaded-chunk guard are additions.
+The prior own addon metadata declared All Rights Reserved. The owner authorized
+publication of own contributions under BSD-3-Clause; upstream attribution is retained.
+This license metadata/notice change creates a new artifact hash. It does not
+alter the original Restaurant JAR or the frozen QA addon. The upstream source
+commit is version0.2.8, not proof of full source equivalence to installed0.2.9.

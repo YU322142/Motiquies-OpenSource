@@ -1,0 +1,21 @@
+{
+  "id": "cctweaked-startup-shutdown-guard",
+  "artifact": "cctweaked-startup-shutdown-guard-1.0.0+neoforge.1.21.1-equivalence.1-public.jar",
+  "sources": [
+    "src/main/java/dev/migration/cctweakedguard/CCTweakedStartupGuard.java",
+    "src/main/java/dev/migration/cctweakedguard/mixin/ServerContextMixin.java",
+    "src/main/java/dev/migration/cctweakedguard/mixin/TimeoutStateMixin.java"
+  ],
+  "classes": [
+    "dev/migration/cctweakedguard/CCTweakedStartupGuard.class",
+    "dev/migration/cctweakedguard/mixin/ServerContextMixin.class",
+    "dev/migration/cctweakedguard/mixin/TimeoutStateMixin.class"
+  ],
+  "resources": [
+    "META-INF/neoforge.mods.toml",
+    "cctweaked_startup_guard.mixins.json"
+  ],
+  "packageNotices": [
+    "LICENSE.txt"
+  ]
+}

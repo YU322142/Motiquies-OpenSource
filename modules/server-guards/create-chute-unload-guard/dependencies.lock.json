@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "javacVersion": "javac 21.0.10",
+  "classpath": [
+    {
+      "fileName": "neoforge-21.1.241-client.jar",
+      "sha256": "8e3563a078289f0f07ee6f87f1c8651294387639c8355983ee207cb753f08b7f"
+    },
+    {
+      "fileName": "logging-1.2.7.jar",
+      "sha256": "3dc3190204bac5f4184d8405bfe1f724f73a6a15a0d3f36ec7f69e6872c1a76c"
+    },
+    {
+      "fileName": "sponge-mixin-0.15.2+mixin.0.8.7.jar",
+      "sha256": "1d45cfe3ae4a2eab38dc74276803748cf799088986260d6d912e50ddb35d15c5"
+    },
+    {
+      "fileName": "client-1.21.1-20240808.144430-srg.jar",
+      "sha256": "a649bd3ce77f122d0f83ae1b37b4b303e662470f928b9bee5fbc76580805ffd4"
+    },
+    {
+      "fileName": "loader-4.0.43.jar",
+      "sha256": "ba406038d0ce8242391bb23b9974648748d217b67332c0db620fcabf50edbc37"
+    },
+    {
+      "fileName": "mergetool-2.0.0-api.jar",
+      "sha256": "0260881294d8b218afe3d673f084d3745a55c28b35205d07d5e62d7f22202a00"
+    },
+    {
+      "fileName": "neoforge-21.1.241-universal.jar",
+      "sha256": "4ceaf2c6a1bd9520bf77f227bde8e9eeb441764ecadd33ef1a4328dcbaff4d3f"
+    },
+    {
+      "fileName": "slf4j-api-2.0.9.jar",
+      "sha256": "0818930dc8d7debb403204611691da58e49d42c50b6ffcfdce02dadb7c3c2b6c"
+    },
+    {
+      "fileName": "create-1.21.1-6.0.10.jar",
+      "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a"
+    },
+    {
+      "fileName": "create-1.21.1-6.0.10.jar",
+      "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+      "embeddedPath": "META-INF/jarjar/ponder-neoforge-1.0.82+mc1.21.1.jar",
+      "embeddedSha256": "0cf4611ad853042b689ac386184c5bbe02950efcffddb49e5f604e82baddb0dc"
+    }
+  ]
+}

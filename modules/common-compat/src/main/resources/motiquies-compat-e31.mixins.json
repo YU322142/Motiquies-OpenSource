@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "package": "org.motiquies.compat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "JadeLecternMixin",
+    "ZstdReadyMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

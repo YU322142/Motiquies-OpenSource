@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="waypoint_fire_equivalence"
+version="0.1.1+mc1.21.1"
+displayName="Waypoint and Fire Rule Equivalence"
+authors="Migration compatibility build"
+description='''Backports Minecraft 1.21.11 waypoint locator and fire spread radius semantics to NeoForge 1.21.1.'''
+
+[[dependencies.waypoint_fire_equivalence]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.waypoint_fire_equivalence]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[mixins]]
+config="waypoint_fire_equivalence.mixins.json"

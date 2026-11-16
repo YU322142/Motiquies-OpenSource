@@ -1,0 +1,32 @@
+{
+  "id": "deferred-content-protection",
+  "artifact": "deferred-content-protection-1.0.0+neoforge.1.21.1-first-release.1-public.jar",
+  "sources": [
+    "src/main/java/dev/migration/deferred_content_protection/DeferredContentProtection.java",
+    "src/main/java/dev/migration/deferred_content_protection/mixin/AbstractContainerMenuMixin.java",
+    "src/main/java/dev/migration/deferred_content_protection/mixin/AbstractHorseMixin.java",
+    "src/main/java/dev/migration/deferred_content_protection/mixin/EntityMixin.java",
+    "src/main/java/dev/migration/deferred_content_protection/mixin/RecipeManagerMixin.java",
+    "src/main/java/dev/migration/deferred_content_protection/ProtectedDeferredItem.java"
+  ],
+  "classes": [
+    "dev/migration/deferred_content_protection/DeferredContentProtection.class",
+    "dev/migration/deferred_content_protection/ProtectedDeferredItem.class",
+    "dev/migration/deferred_content_protection/mixin/AbstractContainerMenuMixin.class",
+    "dev/migration/deferred_content_protection/mixin/AbstractHorseMixin.class",
+    "dev/migration/deferred_content_protection/mixin/EntityMixin.class",
+    "dev/migration/deferred_content_protection/mixin/RecipeManagerMixin.class"
+  ],
+  "resources": [
+    "META-INF/neoforge.mods.toml",
+    "assets/deferred_content_protection/lang/en_us.json",
+    "assets/deferred_content_protection/lang/zh_cn.json",
+    "assets/minecraft/lang/en_us.json",
+    "assets/minecraft/lang/zh_cn.json",
+    "assets/minecraft/models/item/netherite_horse_armor.json",
+    "deferred_content_protection.mixins.json"
+  ],
+  "packageNotices": [
+    "LICENSE.txt"
+  ]
+}

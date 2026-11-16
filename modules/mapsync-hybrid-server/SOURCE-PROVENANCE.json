@@ -1,0 +1,399 @@
+{
+  "schemaVersion": 1,
+  "canonicalCommit": "b94bdffa1b2df170ea49d0271b992b56c9a36fef",
+  "runtimeJavaUnchanged": true,
+  "files": [
+    {
+      "path": "build.py",
+      "originalSha256": null,
+      "publicSha256": "284668088d2beeee518d379168091c603b914eb0dbafb1c0003ceaa7b9c7255a",
+      "status": "new",
+      "reason": "New or adapted public external-input build/docs/license/lock; no runtime Java modification."
+    },
+    {
+      "path": "build_mapsync.py",
+      "originalSha256": "faee34b15edab7e1ee8be96b3bc2b8befe4993449c871bfb6d6cd92a339fbac4",
+      "publicSha256": "4e3f78f495863fbd23947d6f65eaead703b15a39eaa6a480a3c356d167b8eebe",
+      "status": "modified",
+      "reason": "Preserve audited source transformations; externalize generated-source output and delegate public main. Generated upstream code remains GPL."
+    },
+    {
+      "path": "build_support.py",
+      "originalSha256": null,
+      "publicSha256": "6872cd658f55272dd2cddd1f989c8673fe9a6acd08712d17450f143966310847",
+      "status": "new",
+      "reason": "New or adapted public external-input build/docs/license/lock; no runtime Java modification."
+    },
+    {
+      "path": "dependencies.lock.json",
+      "originalSha256": null,
+      "publicSha256": "eb25a4ea7b087a683719c6d81de3526fe09c822c252bdc09fa76e89450ea9311",
+      "status": "new",
+      "reason": "New or adapted public external-input build/docs/license/lock; no runtime Java modification."
+    },
+    {
+      "path": "LICENSE-GPL-3.0.txt",
+      "originalSha256": null,
+      "publicSha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "status": "new",
+      "reason": "New or adapted public external-input build/docs/license/lock; no runtime Java modification."
+    },
+    {
+      "path": "LICENSE-UPSTREAM-QOS.txt",
+      "originalSha256": null,
+      "publicSha256": "4e7f90c86ab51278228bce153122f1d8df30149d13ce9ef524c8444a84c32dcc",
+      "status": "new",
+      "reason": "New or adapted public external-input build/docs/license/lock; no runtime Java modification."
+    },
+    {
+      "path": "NOTICE.md",
+      "originalSha256": null,
+      "publicSha256": "efe814c8ef62717e48c9e8ae993f484251039ac66b175eea723eadbb0d241599",
+      "status": "new",
+      "reason": "New or adapted public external-input build/docs/license/lock; no runtime Java modification."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/client/MotiquiesRegionPolicy.java",
+      "originalSha256": "fcea30e254a39fa8fbe816d6f1f2621876571e7adc1876849a775d5a20695b1e",
+      "publicSha256": "fcea30e254a39fa8fbe816d6f1f2621876571e7adc1876849a775d5a20695b1e",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/network/payload/MotiquiesDownloadControlPayload.java",
+      "originalSha256": "8b7c1d3890a46933b8c0bed816d00aee9a21fee2cd10500b9300dbcf2afa280b",
+      "publicSha256": "8b7c1d3890a46933b8c0bed816d00aee9a21fee2cd10500b9300dbcf2afa280b",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/network/payload/MotiquiesMapClockPayload.java",
+      "originalSha256": "ae04f871e3d795dc0e98927a30c8727d04e59c5bd7ed46c6ee213ccbad619bff",
+      "publicSha256": "ae04f871e3d795dc0e98927a30c8727d04e59c5bd7ed46c6ee213ccbad619bff",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/network/payload/MotiquiesMapUpdatedPayload.java",
+      "originalSha256": "bf23c7d80767e54e67cf1014691e7d834fa664615c7f105eadf72a771ab21fb1",
+      "publicSha256": "bf23c7d80767e54e67cf1014691e7d834fa664615c7f105eadf72a771ab21fb1",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/server/DirtyMapMetadata.java",
+      "originalSha256": "18c0888850d0f78cdbf7d04865db1c6d36fa7bbe805f1f7f83352eca26fff188",
+      "publicSha256": "18c0888850d0f78cdbf7d04865db1c6d36fa7bbe805f1f7f83352eca26fff188",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/server/DirtyRegionQueue.java",
+      "originalSha256": "afc25de4bd954a9eb794de7b88742ecb45451fed3d39c7b1725a5e3b07bf2786",
+      "publicSha256": "afc25de4bd954a9eb794de7b88742ecb45451fed3d39c7b1725a5e3b07bf2786",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/server/DirtyUpdateBudget.java",
+      "originalSha256": "aea7e23378f4f334627d11b5656f0ff35b13d31694294a6d3ffcdbfc098d9aea",
+      "publicSha256": "aea7e23378f4f334627d11b5656f0ff35b13d31694294a6d3ffcdbfc098d9aea",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/server/DownloadController.java",
+      "originalSha256": "2a30866ac9c8b8b393c2b4e787f8f3963909e27f2c213cfc213cd397ce81b3b4",
+      "publicSha256": "2a30866ac9c8b8b393c2b4e787f8f3963909e27f2c213cfc213cd397ce81b3b4",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/server/DownloadControlRate.java",
+      "originalSha256": "bc8a1b272ca4e90aad62ba0aed2b171abfb314c8b2caba768c7fc53f07dbca25",
+      "publicSha256": "bc8a1b272ca4e90aad62ba0aed2b171abfb314c8b2caba768c7fc53f07dbca25",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/server/DownloadEstimate.java",
+      "originalSha256": "6dda0637fb9064bae99e38cc0d339f4d7830fbab16c627cde0c32c3dbe0a9091",
+      "publicSha256": "6dda0637fb9064bae99e38cc0d339f4d7830fbab16c627cde0c32c3dbe0a9091",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/server/DownloadGenerationGate.java",
+      "originalSha256": "fa73bf4f486542fcb3950b237c9cef0af625fae6c65c68d4bf999e7b074d9870",
+      "publicSha256": "fa73bf4f486542fcb3950b237c9cef0af625fae6c65c68d4bf999e7b074d9870",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/server/DownloadHeartbeat.java",
+      "originalSha256": "cf15d04f40c6abe38f8fc0600dae06396cb83c5299ea643bb4752ad516af7aa8",
+      "publicSha256": "cf15d04f40c6abe38f8fc0600dae06396cb83c5299ea643bb4752ad516af7aa8",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/server/DownloadPolicy.java",
+      "originalSha256": "89271adaf13aeb6476e967737cb5a2f0ce3bbde6a51493034f6d448a23c8f5d5",
+      "publicSha256": "89271adaf13aeb6476e967737cb5a2f0ce3bbde6a51493034f6d448a23c8f5d5",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/server/DownloadSnapshot.java",
+      "originalSha256": "ef8a2e6fc6824c29218a52f5c71a0534e2a1eb72c6c49dbc059c8c1215c38762",
+      "publicSha256": "ef8a2e6fc6824c29218a52f5c71a0534e2a1eb72c6c49dbc059c8c1215c38762",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/server/EmptyLayerPublication.java",
+      "originalSha256": "1648a7a1be855633aca4b92424423c93b52b6284daa6c57aa3710d95d8aad92a",
+      "publicSha256": "1648a7a1be855633aca4b92424423c93b52b6284daa6c57aa3710d95d8aad92a",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/server/mixin/SavedRegionFileMixin.java",
+      "originalSha256": "d70c25daa35cac44b46e68c2ba95e388e834903d5d0e92aff6e116ada9c0c39a",
+      "publicSha256": "d70c25daa35cac44b46e68c2ba95e388e834903d5d0e92aff6e116ada9c0c39a",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/server/NativeDirtyMapUpdates.java",
+      "originalSha256": "8a8207607f138edff2982d4f9f275688ebd105bab24fbef72d7a667e5be59307",
+      "publicSha256": "8a8207607f138edff2982d4f9f275688ebd105bab24fbef72d7a667e5be59307",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/server/PostSaveRegions.java",
+      "originalSha256": "987d09c1b24f02089f6150467d63ee4d5eaeb3a38459d2b3241c73c53c9ce7c5",
+      "publicSha256": "987d09c1b24f02089f6150467d63ee4d5eaeb3a38459d2b3241c73c53c9ce7c5",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/server/PublishedMapCache.java",
+      "originalSha256": "4c8a66f052aa4333fae81ad0e2d5b481240817641f8f3a8f2976d66c71ec4e64",
+      "publicSha256": "4c8a66f052aa4333fae81ad0e2d5b481240817641f8f3a8f2976d66c71ec4e64",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/server/SavedRegionSnapshot.java",
+      "originalSha256": "6a40750e4624fc96e8d50f1dde4dfa9c61611cc6fdb8d5ced7e34c4ba47c5731",
+      "publicSha256": "6a40750e4624fc96e8d50f1dde4dfa9c61611cc6fdb8d5ced7e34c4ba47c5731",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/server/SavedWriteTracker.java",
+      "originalSha256": "d1196db449c5ccfba3cc803fe22ffe59f2fee81826f83920dcf009aba0104abe",
+      "publicSha256": "d1196db449c5ccfba3cc803fe22ffe59f2fee81826f83920dcf009aba0104abe",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/com/mapsyncer/server/SourceFreshness.java",
+      "originalSha256": "9277e872341f34bc7f041542c8ae54ce52f504a77557cd63f57f96889a1de1a7",
+      "publicSha256": "9277e872341f34bc7f041542c8ae54ce52f504a77557cd63f57f96889a1de1a7",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/org/motiquies/map/MapSourceTimes.java",
+      "originalSha256": "aa7c57316b5019780fdec4a0b9f7baea0741b555261664754a09ac8d04a01776",
+      "publicSha256": "aa7c57316b5019780fdec4a0b9f7baea0741b555261664754a09ac8d04a01776",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "patchsrc/org/motiquies/map/NativeXaeroRegionCodec.java",
+      "originalSha256": "79ec520a104df796cfc6656ad346ace376e2908f50d890a0a09d33ad3c33a8ce",
+      "publicSha256": "79ec520a104df796cfc6656ad346ace376e2908f50d890a0a09d33ad3c33a8ce",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "policy_patch.py",
+      "originalSha256": "0a27f536de4d9a41345829a559d2cb62bec36523ad33b3118b22fe47eab073f9",
+      "publicSha256": "0a27f536de4d9a41345829a559d2cb62bec36523ad33b3118b22fe47eab073f9",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "README.md",
+      "originalSha256": null,
+      "publicSha256": "8a5d697815efcc7bebc42a22aabb1c7db2609d91c0c3287fe01433542196ad19",
+      "status": "new",
+      "reason": "New or adapted public external-input build/docs/license/lock; no runtime Java modification."
+    },
+    {
+      "path": "resources/motiquies.mapsync.saved-regions.mixins.json",
+      "originalSha256": "378af7b5f67b28990cbba452f8e38e2d1d51abf1ad87709cfcfb8bc3994d2002",
+      "publicSha256": "378af7b5f67b28990cbba452f8e38e2d1d51abf1ad87709cfcfb8bc3994d2002",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "run_freshness_tests.py",
+      "originalSha256": "81f6ec3c87dc057a1a914827ca8591519ffadbdcafdd7f012240bb0f24f829f6",
+      "publicSha256": "6d700d4efb437c41eeca794ef1d93b7c56674366234ce1728b9ef0573dfdcbcf",
+      "status": "modified",
+      "reason": "New or adapted public external-input build/docs/license/lock; no runtime Java modification."
+    },
+    {
+      "path": "run_snapshot_tests.py",
+      "originalSha256": "970fb2b013ac964a8b34b943c6fb05a95150065ad1d9b172247d183e513fc48c",
+      "publicSha256": "6d700d4efb437c41eeca794ef1d93b7c56674366234ce1728b9ef0573dfdcbcf",
+      "status": "modified",
+      "reason": "New or adapted public external-input build/docs/license/lock; no runtime Java modification."
+    },
+    {
+      "path": "run_tests.py",
+      "originalSha256": "ebc5b3dd358fbad65cae0ecd65370dbcc3177c94f848c7695f9c812faae055df",
+      "publicSha256": "6d700d4efb437c41eeca794ef1d93b7c56674366234ce1728b9ef0573dfdcbcf",
+      "status": "modified",
+      "reason": "New or adapted public external-input build/docs/license/lock; no runtime Java modification."
+    },
+    {
+      "path": "tests/DirtyMapMetadataTest.java",
+      "originalSha256": "b8c3edf8cb83bd92c7a5796762df38232226f96825f08263b4d6ba36c1599d3f",
+      "publicSha256": "b8c3edf8cb83bd92c7a5796762df38232226f96825f08263b4d6ba36c1599d3f",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "tests/DirtyRegionQueueTest.java",
+      "originalSha256": "3f87eec977f2011dc04599148a0392267ddc69864e40ced129f317bb24805ffe",
+      "publicSha256": "3f87eec977f2011dc04599148a0392267ddc69864e40ced129f317bb24805ffe",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "tests/DirtyRegionReplayTest.java",
+      "originalSha256": "876c6429843abb53addb19941aef8aff64a2690c3f3cc33281549f097d1a97ff",
+      "publicSha256": "876c6429843abb53addb19941aef8aff64a2690c3f3cc33281549f097d1a97ff",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "tests/DirtyUpdateBudgetTest.java",
+      "originalSha256": "18b63ae180924db7662f1a02065ea47e1c6a1ab5490819fce880345052bc1127",
+      "publicSha256": "18b63ae180924db7662f1a02065ea47e1c6a1ab5490819fce880345052bc1127",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "tests/DownloadControlRateTest.java",
+      "originalSha256": "6c6973708c38a5d24cd2ac49d1e67ba4bc8029394e539207055b274708a1aaf9",
+      "publicSha256": "6c6973708c38a5d24cd2ac49d1e67ba4bc8029394e539207055b274708a1aaf9",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "tests/DownloadCustomTest.java",
+      "originalSha256": "2ced48feaff35fb8d8532a353dbebbb0ff4e1f4949118f49a4fd7a04e0009ddf",
+      "publicSha256": "2ced48feaff35fb8d8532a353dbebbb0ff4e1f4949118f49a4fd7a04e0009ddf",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "tests/DownloadEstimateTest.java",
+      "originalSha256": "97f290727363ac9bccd74108b4d758bbc6d86af2f8003550c175fb5f5626a027",
+      "publicSha256": "97f290727363ac9bccd74108b4d758bbc6d86af2f8003550c175fb5f5626a027",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "tests/DownloadHeartbeatTest.java",
+      "originalSha256": "f7f9f7fde8b61ff9a1795c37a85850cdcba64f1d1799ccce48846104e1c504c6",
+      "publicSha256": "f7f9f7fde8b61ff9a1795c37a85850cdcba64f1d1799ccce48846104e1c504c6",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "tests/DownloadPolicyTest.java",
+      "originalSha256": "25dd51ccbb9681b01673108b8552503e6d7ed07e97fd3350c2e43e84e2cf406c",
+      "publicSha256": "25dd51ccbb9681b01673108b8552503e6d7ed07e97fd3350c2e43e84e2cf406c",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "tests/DownloadSnapshotTest.java",
+      "originalSha256": "2aeb1f15df11c23da695c6c072c1a44317abd0d97ca3d1fea00d78bbcc75f277",
+      "publicSha256": "2aeb1f15df11c23da695c6c072c1a44317abd0d97ca3d1fea00d78bbcc75f277",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "tests/EmptyLayerPublicationTest.java",
+      "originalSha256": "28a3552beae8f263d58591c7a6a12776f6c798d1ec4157a5a47a447efc9f3c5b",
+      "publicSha256": "28a3552beae8f263d58591c7a6a12776f6c798d1ec4157a5a47a447efc9f3c5b",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "tests/GenerationMetadataTest.java",
+      "originalSha256": "f365cab97a90ce2548330b2c7eb4f2d95c41a6fd32f9ccc8a46e4d2f619b1bfe",
+      "publicSha256": "f365cab97a90ce2548330b2c7eb4f2d95c41a6fd32f9ccc8a46e4d2f619b1bfe",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "tests/PostSaveRegionsTest.java",
+      "originalSha256": "95a6b1eff23fdb298fffd7b0a84f9108d72c97999f05d053c2e14f3d87a389a3",
+      "publicSha256": "95a6b1eff23fdb298fffd7b0a84f9108d72c97999f05d053c2e14f3d87a389a3",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "tests/SavedRegionLifecycleTest.java",
+      "originalSha256": "6ed564605707d1342fc058d3d91998abcfdc6ab16b18f5c5348677d8da412773",
+      "publicSha256": "6ed564605707d1342fc058d3d91998abcfdc6ab16b18f5c5348677d8da412773",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "tests/SavedRegionSnapshotTest.java",
+      "originalSha256": "2b6cd8a3d219cc7d38bedf82df25e721c87444816c215b59b3a0a058a3378444",
+      "publicSha256": "2b6cd8a3d219cc7d38bedf82df25e721c87444816c215b59b3a0a058a3378444",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "tests/SourceFreshnessTest.java",
+      "originalSha256": "d1798d121513616fd144fbe3e77a7d3abfc634a02df477fb309bf2417067d47e",
+      "publicSha256": "d1798d121513616fd144fbe3e77a7d3abfc634a02df477fb309bf2417067d47e",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "tests/WriterDeterminismTest.java",
+      "originalSha256": "93ca705b7b98f35c44a0ebfe137647e0edd9842c313a6bd0f230f68beb57306b",
+      "publicSha256": "93ca705b7b98f35c44a0ebfe137647e0edd9842c313a6bd0f230f68beb57306b",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    },
+    {
+      "path": "upstream-source.lock.json",
+      "originalSha256": null,
+      "publicSha256": "eee231dfa1ae95c0e620c31589a9350a59ead5bc923c6c8b5f7e0bc44c741994",
+      "status": "new",
+      "reason": "New or adapted public external-input build/docs/license/lock; no runtime Java modification."
+    },
+    {
+      "path": "verify_artifact.py",
+      "originalSha256": "6a6aa6b8f66d503916a02e73ccd30aad084741c2f84603d7498217572b2fb91c",
+      "publicSha256": "82aed903cc853ebff19a8df753e64f3dafe508228a8c1b4673151220fbafe1be",
+      "status": "modified",
+      "reason": "Keep original substantive assertions; externalize base/Java/output and permit explicit added GPL/QOS/attribution notices."
+    }
+  ]
+}

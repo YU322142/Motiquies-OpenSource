@@ -1,0 +1,27 @@
+Historical Motiquies DH cache-only bytecode overlay, public producer assembly2026-11-16.
+Own producer/tooling copyright(c)2026 YU322142 and Motiquies contributors,
+licensed GPL-3.0-only. See LICENSE.txt. This does not relicense Distant Horizons.
+Distant Horizons original authors: James Seibel, Leonardo Amato, Cola, coolGi,
+Ran, Leetom and pshsh. Original LGPL3/GPL3 texts are preserved without alteration.
+Logos copyright2024 Pankakes under CC BY-SA4.0; LICENSE-LOGOS.txt is retained.
+No logo or upstream implementation class is included in the public source module.
+
+This producer modifies exactly SessionConfig.getValue(String) and
+FullDataSourceRequestHandler.queueWorldGenForRequestMessage by prepending
+conditional instruction sequences. With Java property motiquies.dh.cacheOnly
+true, distant-generation eligibility is advertised but requests are routed
+to existing LOD synchronization instead of queued world generation. Without
+that property, original method instructions remain the fall-through path.
+The actual deployed property state was not inspected and remains UNKNOWN.
+
+The output archive is a historical modified Distant Horizons build, not an
+official unmodified release. This notice and CORRESPONDING-SOURCE.md must
+accompany any handoff. The producer preserves original archive notices/assets,
+changes only the two class contents, and does not insert a new in-archive
+notice because historical byte identity is the explicit reproduction target.
+No output binary is published by this source export. Any distribution of a
+modified upstream binary needs its own LGPL/GPL/source/asset review.
+
+This module is historical maintenance/reproduction only. It does not change
+the3.3.0 target plan to use official native DH. It starts no game, installs
+nothing and enables no JVM property. Prior private probes are not included.

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "sdkLayout": "Read-only installed NeoForge 21.1.241 server libraries/ plus legally obtained mods/; no SDK binaries redistributed.",
+  "javaCompiler": "Java 21; verification toolchain Temurin 21.0.10+7",
+  "artifactName": "poi-migration-diagnostic-0.1.0+mc1.21.1-qa-rebuilt.jar",
+  "originalBuildInputs": {
+    "build.gradle": "3da6c7c496d3b562dc93372c8c8d0d69c2ea11bc142c23a20292b3b00d8b672a",
+    "gradle.properties": "94a5fb0bc1ab1f228e58941f857e76fe89350515c0917dcf046994a5acd8b415",
+    "settings.gradle": "40d38274329e60b85fb1563a5d1c97c6e3e3a05ea656f31aff4ec8f2377a9b91",
+    "src/main/java/com/migration/poi/PoiMigrationDiagnostic.java": "db5fc4971bad5bb68fd5e9702dc538a9b41e79370d2f31fc248ad157541c22c1",
+    "src/main/resources/META-INF/neoforge.mods.toml": "ec6a8ec3735066dd438c21bfbe7e12ef21ae88e6ffec9f6c00915cb10262e01f"
+  },
+  "classpath": [
+    {
+      "path": "libraries/net/neoforged/neoforge/21.1.241/neoforge-21.1.241-server.jar",
+      "sha256": "cdea1e7366c1608b6e729d69013a811dd7d554bb2f86b95473fef5fb9ac4fe09"
+    },
+    {
+      "path": "libraries/net/neoforged/neoforge/21.1.241/neoforge-21.1.241-universal.jar",
+      "sha256": "4ceaf2c6a1bd9520bf77f227bde8e9eeb441764ecadd33ef1a4328dcbaff4d3f"
+    },
+    {
+      "path": "libraries/net/neoforged/fancymodloader/loader/4.0.43/loader-4.0.43.jar",
+      "sha256": "ba406038d0ce8242391bb23b9974648748d217b67332c0db620fcabf50edbc37"
+    },
+    {
+      "path": "libraries/net/neoforged/bus/8.0.5/bus-8.0.5.jar",
+      "sha256": "705e24f37752809499a5cd0c7dd31eaabf3d933c5d3b2060168e94e9ef62593a"
+    },
+    {
+      "path": "libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar",
+      "sha256": "c8ee4136e474ac7723ca2b432ec8d1a2bc88ef7d1ec57c314ba9e33cdc83dd75"
+    },
+    {
+      "path": "libraries/com/mojang/logging/1.2.7/logging-1.2.7.jar",
+      "sha256": "3dc3190204bac5f4184d8405bfe1f724f73a6a15a0d3f36ec7f69e6872c1a76c"
+    },
+    {
+      "path": "libraries/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar",
+      "sha256": "0818930dc8d7debb403204611691da58e49d42c50b6ffcfdce02dadb7c3c2b6c"
+    },
+    {
+      "path": "libraries/com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar",
+      "sha256": "ffc138bc2596c291781b0d5e211ccac51f0f2345f27fc2742f335cedf7e2870d"
+    },
+    {
+      "path": "libraries/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar",
+      "sha256": "bc65dea7cfd9e4dacf8419d8af0e741655857d27885bb35d943d7187fc3a8fce"
+    },
+    {
+      "path": "libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar",
+      "sha256": "b5543ee08d062d551cf0a5c9bc0fb70588b0382079029ba48941fa9c9be8a5d4"
+    },
+    {
+      "path": "libraries/org/joml/joml/1.10.5/joml-1.10.5.jar",
+      "sha256": "cac9f22f83a7aa33eebda73c16ff5261e3cb4911b6bafcf4c79ea486099d0c9a"
+    },
+    {
+      "path": "libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+      "sha256": "4241c14a7727c34feea6507ec801318a3d4a90f070e4525681079fb94ee4c593"
+    },
+    {
+      "path": "libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar",
+      "sha256": "26ca9c40d7e1681190b428583c38816852218e78df3f8bdb60a59a78503aec71"
+    },
+    {
+      "path": "libraries/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar",
+      "sha256": "0260881294d8b218afe3d673f084d3745a55c28b35205d07d5e62d7f22202a00"
+    }
+  ]
+}

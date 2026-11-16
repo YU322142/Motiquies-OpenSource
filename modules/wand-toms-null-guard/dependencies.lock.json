@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "classpath": [
+    {
+      "path": "original/.minecraft/libraries/org/ow2/asm/asm/9.8/asm-9.8.jar",
+      "sha256": "876eab6a83daecad5ca67eb9fcabb063c97b5aeb8cf1fca7a989ecde17522051"
+    },
+    {
+      "path": "original/.minecraft/libraries/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar",
+      "sha256": "14b7880cb7c85eed101e2710432fc3ffb83275532a6a894dc4c4095d49ad59f1"
+    },
+    {
+      "path": "original/.minecraft/libraries/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar",
+      "sha256": "8ba0460ecb28fd0e2980e5f3ef3433a513a457bc077f81a53bdc75b587a08d15"
+    }
+  ],
+  "originalJarSha256": "cf6ed4cf33d7cd44e026c4e6d2d337d022db7050a861ee11cae92c6bb3507b8f"
+}

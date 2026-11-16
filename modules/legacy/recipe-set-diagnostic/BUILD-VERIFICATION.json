@@ -1,0 +1,29 @@
+{
+  "module": "recipe-set-diagnostic",
+  "sourceCommit": "546ad65b35c6f24618ab4aef6972250aa0b6e984",
+  "originalFilesByteExact": true,
+  "qaOnly": true,
+  "productionApproved": false,
+  "originalArtifactSha256": "a82cef8d4a0fef6ad9187338e69767cc2e9914e6320486a7ee60599d92c126e4",
+  "rebuiltArtifactSha256": "dca3595122ea8f3e0d24114655d84be194fc5c10e124584c1d033717ae4acfaf",
+  "repeatArtifactAndAllEntryHashesMatch": true,
+  "originalComparison": {
+    "added": [
+      "LICENSE"
+    ],
+    "removed": [],
+    "changed": [],
+    "identicalEntries": [
+      "META-INF/MANIFEST.MF",
+      "META-INF/neoforge.mods.toml",
+      "com/migration/diagnostic/RecipeSetDiagnostic.class"
+    ]
+  },
+  "sourceRepositoryBoundaryRejected": true,
+  "sdkBoundaryRejected": true,
+  "wrongDependencyRejectedBeforeCompile": true,
+  "javacVersion": "javac 21.0.10",
+  "classpathCount": 14,
+  "historicalClassAndResourceEntriesByteIdentical": true,
+  "historicalExactCustomizationReproductionComplete": true
+}

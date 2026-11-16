@@ -1,0 +1,29 @@
+{
+  "id": "tom-jei-isolation",
+  "artifact": "motiquies-tom-jei-isolation-1.0.3-public.jar",
+  "sources": [
+    "src/main/java/org/motiquies/tomjei/TomJeiFocusKey.java",
+    "src/main/java/org/motiquies/tomjei/TomJeiIsolationMod.java",
+    "src/main/java/org/motiquies/tomjei/TomSearchFocusGuard.java",
+    "src/main/java/org/motiquies/tomjei/mixin/TomJeiRuntimeAccess.java",
+    "src/main/java/org/motiquies/tomjei/mixin/TomJeiRuntimeLifecycleMixin.java",
+    "src/main/java/org/motiquies/tomjei/mixin/TomJeiSearchHandlerMixin.java",
+    "src/main/java/org/motiquies/tomjei/mixin/TomTerminalSearchMixin.java"
+  ],
+  "classes": [
+    "org/motiquies/tomjei/TomJeiFocusKey.class",
+    "org/motiquies/tomjei/TomJeiIsolationMod.class",
+    "org/motiquies/tomjei/TomSearchFocusGuard.class",
+    "org/motiquies/tomjei/mixin/TomJeiRuntimeAccess.class",
+    "org/motiquies/tomjei/mixin/TomJeiRuntimeLifecycleMixin.class",
+    "org/motiquies/tomjei/mixin/TomJeiSearchHandlerMixin.class",
+    "org/motiquies/tomjei/mixin/TomTerminalSearchMixin.class"
+  ],
+  "resources": [
+    "META-INF/neoforge.mods.toml",
+    "motiquies_tom_jei_isolation.mixins.json"
+  ],
+  "packageNotices": [
+    "LICENSE.txt"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.motiquies.tomjei.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["TomJeiRuntimeAccess", "TomJeiRuntimeLifecycleMixin", "TomJeiSearchHandlerMixin", "TomTerminalSearchMixin"],
+  "injectors": {"defaultRequire": 1}
+}

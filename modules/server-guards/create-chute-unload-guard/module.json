@@ -1,0 +1,23 @@
+{
+  "id": "create-chute-unload-guard",
+  "artifact": "create-chute-unload-guard-1.0.0+neoforge.1.21.1-equivalence.1-public.jar",
+  "sources": [
+    "src/main/java/dev/migration/create_chute_unload_guard/ChuteGuardDecision.java",
+    "src/main/java/dev/migration/create_chute_unload_guard/CreateChuteUnloadGuard.java",
+    "src/main/java/dev/migration/create_chute_unload_guard/mixin/ChuteBlockEntityMixin.java"
+  ],
+  "classes": [
+    "dev/migration/create_chute_unload_guard/ChuteGuardDecision.class",
+    "dev/migration/create_chute_unload_guard/CreateChuteUnloadGuard.class",
+    "dev/migration/create_chute_unload_guard/mixin/ChuteBlockEntityMixin.class"
+  ],
+  "resources": [
+    "META-INF/neoforge.mods.toml",
+    "create_chute_unload_guard.mixins.json"
+  ],
+  "packageNotices": [
+    "LICENSE.txt",
+    "LICENSE-Create.txt",
+    "THIRD-PARTY-NOTICES.txt"
+  ]
+}

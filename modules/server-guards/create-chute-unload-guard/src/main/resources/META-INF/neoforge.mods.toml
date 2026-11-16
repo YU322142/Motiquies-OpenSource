@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="create_chute_unload_guard"
+version="1.0.0+neoforge.1.21.1-equivalence.1"
+displayName="Create Chute Unload Guard"
+authors="YU322142/Codex migration compatibility build"
+description='''Restores the Create 1.21.11 chute initialization guard on Create 6.0.10 for NeoForge 1.21.1.'''
+
+[[dependencies.create_chute_unload_guard]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.241,21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.create_chute_unload_guard]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.create_chute_unload_guard]]
+modId="create"
+type="required"
+versionRange="[6.0.10,6.0.11)"
+ordering="AFTER"
+side="BOTH"
+
+[[mixins]]
+config="create_chute_unload_guard.mixins.json"

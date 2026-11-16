@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "javacVersion": "javac 21.0.10",
+  "classpath": [
+    {
+      "fileName": "netty-transport-4.1.97.Final.jar",
+      "sha256": "197fd2d6c6b4afe677d9e95bf2e36b49a0bcabdfce0583683fb73f29a3f5a407"
+    },
+    {
+      "fileName": "sponge-mixin-0.15.2+mixin.0.8.7.jar",
+      "sha256": "1d45cfe3ae4a2eab38dc74276803748cf799088986260d6d912e50ddb35d15c5"
+    },
+    {
+      "fileName": "client-1.21.1-20240808.144430-srg.jar",
+      "sha256": "a649bd3ce77f122d0f83ae1b37b4b303e662470f928b9bee5fbc76580805ffd4"
+    },
+    {
+      "fileName": "loader-4.0.43.jar",
+      "sha256": "ba406038d0ce8242391bb23b9974648748d217b67332c0db620fcabf50edbc37"
+    },
+    {
+      "fileName": "mergetool-2.0.0-api.jar",
+      "sha256": "0260881294d8b218afe3d673f084d3745a55c28b35205d07d5e62d7f22202a00"
+    },
+    {
+      "fileName": "Jade-1.21.1-NeoForge-15.10.6.jar",
+      "sha256": "276f1f65a20d04f536989c4f311949d770b52c440c23c2b904a08860f3c93810"
+    },
+    {
+      "fileName": "zstdnet-1.21.1-neoforge-1.4.9-framefix.2.jar",
+      "sha256": "e9588d6736c761b30ee1e6e796a4cf6e89de695a6072c4425aa3d7027b907110"
+    }
+  ]
+}

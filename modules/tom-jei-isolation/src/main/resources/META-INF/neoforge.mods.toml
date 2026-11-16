@@ -1,0 +1,38 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "motiquies_tom_jei_isolation"
+version = "1.0.3-production"
+displayName = "Motiquies Tom / JEI Search Isolation"
+description = "Client compatibility layer preserving the modified Tom storage JAR and existing search preferences."
+
+[[mixins]]
+config = "motiquies_tom_jei_isolation.mixins.json"
+
+[[dependencies.motiquies_tom_jei_isolation]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+side = "CLIENT"
+
+[[dependencies.motiquies_tom_jei_isolation]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.241,21.2)"
+side = "CLIENT"
+
+[[dependencies.motiquies_tom_jei_isolation]]
+modId = "toms_storage"
+type = "required"
+versionRange = "[2.4.1-perf5.2]"
+ordering = "AFTER"
+side = "CLIENT"
+
+[[dependencies.motiquies_tom_jei_isolation]]
+modId = "jei"
+type = "required"
+versionRange = "[19.44.0.403,19.44.0.404)"
+ordering = "AFTER"
+side = "CLIENT"

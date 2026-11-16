@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+/build/
+/dist/
+.gradle/
+*.jar
+*.class
+*.zip
+*.log
+.env
+.env.*
+accounts.json
+launcher_accounts.json
+/world/
+/worlds/
+/backups/
+*.sqlite*

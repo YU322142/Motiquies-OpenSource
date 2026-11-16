@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "sourceRepository": "YU322142/CCTweaked-Startup-Shutdown-Guard",
+  "sourceCommit": "a5a536059732889625ee72a6e16e136a9717e31d",
+  "sourceCanonicalPath": "modules/neoforge-1.21.1/cctweaked-startup-shutdown-guard--main",
+  "sourceLicenseBeforeExport": "MIT declared; no full own root license present",
+  "publicLicense": "MIT own source under owner authorization",
+  "originalAuthors": "YU322142/Codex migration compatibility build",
+  "productionArtifact": "cctweaked-startup-shutdown-guard-1.0.0+neoforge.1.21.1-equivalence.1.jar",
+  "productionSha256": "6744626e2b43643e9f28c9159fabd7a6a53cdcdeb83ae8252c266f7e987f84f7",
+  "exportedSources": [
+    {
+      "path": "src/main/java/dev/migration/cctweakedguard/CCTweakedStartupGuard.java",
+      "sha256": "b1305f2bd892d55ec9d630ae37f2cfc2cf0704fce7cf04c90a9a3b23c33bc8b9"
+    },
+    {
+      "path": "src/main/java/dev/migration/cctweakedguard/mixin/ServerContextMixin.java",
+      "sha256": "1da451d9f7715ad5fea4203e092ebbb46a4956f813c84054434ae618b46c7882"
+    },
+    {
+      "path": "src/main/java/dev/migration/cctweakedguard/mixin/TimeoutStateMixin.java",
+      "sha256": "c0f50ca385af09e5f73ab47db22508995d57c9daff044b9628068e692879c1bb"
+    }
+  ],
+  "excludedAssets": []
+}

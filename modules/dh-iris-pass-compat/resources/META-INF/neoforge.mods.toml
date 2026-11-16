@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="motiquies_shader_compat"
+version="0.0.1"
+displayName="Motiquies DH Pass Synchronization Candidate"
+displayTest="IGNORE_SERVER_VERSION"
+description="Pinned client-only B10 lifecycle candidate; runtime acceptance pending."
+[[mixins]]
+config="motiquies-shader-compat.mixins.json"
+[[dependencies.motiquies_shader_compat]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="AFTER"
+side="CLIENT"
+[[dependencies.motiquies_shader_compat]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.241]"
+ordering="AFTER"
+side="CLIENT"
+[[dependencies.motiquies_shader_compat]]
+modId="iris"
+type="required"
+versionRange="[1.8.13-snapshot+mc1.21.1-local]"
+ordering="AFTER"
+side="CLIENT"
+[[dependencies.motiquies_shader_compat]]
+modId="distanthorizons"
+type="required"
+versionRange="[3.2.0-b]"
+ordering="AFTER"
+side="CLIENT"

@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "sourceRepository": "YU322142/Waypoint-Fire-Equivalence",
+  "sourceCommit": "d44b102f01713c1b3fcd64ffa7a063fefbdd645d",
+  "sourceCanonicalPath": "modules/neoforge-1.21.1/waypoint-fire-equivalence--main",
+  "sourceLicenseBeforeExport": "MIT declared; no full own root license present",
+  "publicLicense": "MIT own source under owner authorization",
+  "originalAuthors": "Migration compatibility build",
+  "productionArtifact": "waypoint-fire-equivalence-0.1.1+mc1.21.1.jar",
+  "productionSha256": "86a85c0447315ac17d373e3708425ceb8450d9d0cb1fd9c7abdc82ce8d8e5b92",
+  "exportedSources": [
+    {
+      "path": "src/main/java/com/bmt/waypointfire/client/ClientWaypointState.java",
+      "sha256": "9ffee300fb1bd07a1ed7a999c6dbd8c332a6a66e56881b84a70ba3703730f49e"
+    },
+    {
+      "path": "src/main/java/com/bmt/waypointfire/client/WaypointClientEvents.java",
+      "sha256": "15589e1dcf470cbc4b22bee63b7882efdaba40518d66553c91a4973c60e20cb7"
+    },
+    {
+      "path": "src/main/java/com/bmt/waypointfire/client/WaypointClientRuntimeEvents.java",
+      "sha256": "d32f09772840186ac234b9733ce83d3ebad5833c5774c027abc48d51c43cc038"
+    },
+    {
+      "path": "src/main/java/com/bmt/waypointfire/client/WaypointHud.java",
+      "sha256": "ebe78a08c7798e41e6c2d5058bf23329278073035b86600cce1b02dc3a1af719"
+    },
+    {
+      "path": "src/main/java/com/bmt/waypointfire/command/HexColorArgument.java",
+      "sha256": "79cfa20852ce2a650bdc79b1d41a0d5c168bbf46de535018aa4a0ad482930974"
+    },
+    {
+      "path": "src/main/java/com/bmt/waypointfire/command/WaypointCommand.java",
+      "sha256": "240d6b1a75ed8d821116d6ce20e43ac55b7f59f2d620602f56cab583abbc6a94"
+    },
+    {
+      "path": "src/main/java/com/bmt/waypointfire/CompatGameRules.java",
+      "sha256": "caf05513276757fef3e86386b04113a63709e33bf1d6c3fd718dae3b284a86e0"
+    },
+    {
+      "path": "src/main/java/com/bmt/waypointfire/mixin/FireBlockMixin.java",
+      "sha256": "ed31c25900f1c4c9246385b33102922fd754b36154b2ee6b1c7bf6ab4e2962d7"
+    },
+    {
+      "path": "src/main/java/com/bmt/waypointfire/mixin/GameRulesIntegerValueAccessor.java",
+      "sha256": "0b5b5b1f61fbf1f7b5e5d7bb6b457f70288d0a81f05fe405b2c5eb8aa15922a2"
+    },
+    {
+      "path": "src/main/java/com/bmt/waypointfire/mixin/GameRulesLoadProbeMixin.java",
+      "sha256": "33bc3fa47e6b74a017fcc09508123fc349e8b7ec1003b8965a814608ec8559e2"
+    },
+    {
+      "path": "src/main/java/com/bmt/waypointfire/mixin/LivingEntityWaypointDataMixin.java",
+      "sha256": "9596990672aa5a711c21b8826161207cfb3360d57437889f12c06c0757a712d9"
+    },
+    {
+      "path": "src/main/java/com/bmt/waypointfire/network/WaypointDeltaPayload.java",
+      "sha256": "a4165afe21fba21b09836ac6e696b2f3ebc779470de2ab1948af80f74e3e452a"
+    },
+    {
+      "path": "src/main/java/com/bmt/waypointfire/network/WaypointNetworking.java",
+      "sha256": "d34cb29fbdc0752082cbdcfca244e0bd26cf719600ecc3ebf91af37d846516f1"
+    },
+    {
+      "path": "src/main/java/com/bmt/waypointfire/ParitySemantics.java",
+      "sha256": "593d8c357a041c083185c618f05aed4d23706f20dd3d62f781c355f6f5f8f42e"
+    },
+    {
+      "path": "src/main/java/com/bmt/waypointfire/server/WaypointManager.java",
+      "sha256": "f8d50669c6f6942833157a60837c34a71c7429c7ee0a28cc3c27f16e3de1f956"
+    },
+    {
+      "path": "src/main/java/com/bmt/waypointfire/WaypointFireEquivalence.java",
+      "sha256": "b539b3a81cfe868236e5a62b92123cbdd001a3fc9c7867bda1604414d3796a5e"
+    },
+    {
+      "path": "src/main/java/com/bmt/waypointfire/WaypointIcon.java",
+      "sha256": "1fbee4b28be670d83a975aa9c9b47dd27ae7b7f01f38860a30d00cc3ee3e528f"
+    },
+    {
+      "path": "src/main/java/com/bmt/waypointfire/WaypointIconCarrier.java",
+      "sha256": "9f7427c9266bd4646be73c3c917a00b9c4c0d7e1764814c7226c5ca29fc78309"
+    }
+  ],
+  "excludedAssets": []
+}

@@ -1,0 +1,10 @@
+The bounded chute guard preserves the initialization condition from Create.
+Code copyright (c) The Create Team / The Creators of Create, MIT.
+Own adapter/decision glue copyright (c) 2026 YU322142 and Motiquies contributors, MIT.
+Full original code license and asset distinction: LICENSE-Create.txt.
+Source: https://github.com/Creators-of-Create/Create
+License commit:9dcc219501da4ac7a4764b04ea4fd3002350ccae, LICENSE.md.
+The same complete license is embedded in exact target Create6.0.10 JAR
+ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a.
+This addon contains own mixin/decision glue and no Create class, whole target
+method, embedded library or Create asset. It does not relicense Create assets.

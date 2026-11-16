@@ -1,0 +1,20 @@
+{
+  "id": "restaurant-workpoint",
+  "artifact": "motiquies-restaurant-workpoint-1.0.0-public.jar",
+  "sources": [
+    "src/main/java/org/motiquies/restaurantworkpoint/RestaurantWorkpointMod.java",
+    "src/main/java/org/motiquies/restaurantworkpoint/mixin/StockpotWorkpointMixin.java"
+  ],
+  "classes": [
+    "org/motiquies/restaurantworkpoint/RestaurantWorkpointMod.class",
+    "org/motiquies/restaurantworkpoint/mixin/StockpotWorkpointMixin.class"
+  ],
+  "resources": [
+    "META-INF/neoforge.mods.toml",
+    "motiquies_restaurant_workpoint.mixins.json"
+  ],
+  "packageNotices": [
+    "LICENSE.txt",
+    "THIRD-PARTY-NOTICES.txt"
+  ]
+}

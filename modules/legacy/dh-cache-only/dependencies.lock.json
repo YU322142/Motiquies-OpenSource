@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "javacVersion": "javac 21.0.10",
+  "javaRuntime": "21.0.10",
+  "classpath": [
+    {
+      "fileName": "asm-9.8.jar",
+      "sha256": "876eab6a83daecad5ca67eb9fcabb063c97b5aeb8cf1fca7a989ecde17522051",
+      "mavenCoordinate": "org.ow2.asm:asm:9.8",
+      "upstream": "https://asm.ow2.io/"
+    },
+    {
+      "fileName": "asm-tree-9.8.jar",
+      "sha256": "14b7880cb7c85eed101e2710432fc3ffb83275532a6a894dc4c4095d49ad59f1",
+      "mavenCoordinate": "org.ow2.asm:asm-tree:9.8",
+      "upstream": "https://asm.ow2.io/"
+    }
+  ]
+}

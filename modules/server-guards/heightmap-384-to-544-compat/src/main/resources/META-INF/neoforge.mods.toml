@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="heightmap_384_to_544_compat"
+version="1.0.0+neoforge.1.21.1"
+displayName="Heightmap 384 to 544 Compatibility"
+authors="YU322142/Codex migration compatibility build"
+description='''Loads legacy 384-height chunk heightmaps in a 544-height dimension without discarding their semantic values.'''
+
+[[dependencies.heightmap_384_to_544_compat]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.241,21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.heightmap_384_to_544_compat]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[mixins]]
+config="heightmap_384_to_544_compat.mixins.json"

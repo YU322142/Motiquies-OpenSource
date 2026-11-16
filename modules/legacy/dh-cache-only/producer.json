@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "artifact": "DistantHorizons-motiquies-cache-only-3.2.0-b.jar",
+  "input": {
+    "fileName": "DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
+    "version": "3.2.0-b",
+    "minecraft": "1.21.1",
+    "loaders": [
+      "Fabric",
+      "NeoForge"
+    ],
+    "sha256": "d6a7a963f794501678113e2545d8b25c90e123ef6b9256bb5716907d059e1ef5",
+    "sha1": "df25e8cfe06917963778723a1d9a60610dd21bec",
+    "sha512": "d4199f92f992fbd2c75a3b0e4e81c8a98bee889013f7347f2149ffa62c86748bde22135e9b2c82a10875db94fa576571c661c5ee16d2f567bd8a93d6f255fd22",
+    "officialVersionPage": "https://modrinth.com/mod/distanthorizons/version/ZpKb4kZp",
+    "officialDownload": "https://cdn.modrinth.com/data/uCdwusMi/versions/ZpKb4kZp/DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
+    "officialCurseForgePage": "https://www.curseforge.com/minecraft/mc-mods/distant-horizons/files/8389148"
+  },
+  "producerSourceSha256": "116e7151431df27af697cf8bd247e103162393ba84aa8575de13e9dec57d1141",
+  "expectedChangedClassSha256": {
+    "com/seibel/distanthorizons/core/multiplayer/config/SessionConfig.class": "c0a14ed5ef275f27505f227d1c916ca7dec25e92e3803db412a5e83278d2736b",
+    "com/seibel/distanthorizons/core/multiplayer/server/FullDataSourceRequestHandler.class": "ee24592e6eb737d8b811c10581bddb2315b246b66e5ddd5c936f8b1e6a83424a"
+  },
+  "observedHistoricalSha256": "2427cd260d48013e02578e398c7417d5c2708c3f7721ae2c16103a52aa1871ad",
+  "preservedUpstreamNotices": {
+    "LICENSE.txt": "3237699d9e6781c85877365abd9493ca132a0fd31f43e1a3278b8e75f3654af4",
+    "LICENSE.LESSER.txt": "f831e7eed577481687a9bc0b48024e5e40b6f655fcde073ede964b50be5d55d9",
+    "LICENSE-LOGOS.txt": "9a995cb445f5236c309b25c0566508df23cb5346ec00911f3575b1eade1ec54c"
+  }
+}

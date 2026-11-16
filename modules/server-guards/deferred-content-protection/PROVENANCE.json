@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "sourceRepository": "YU322142/Deferred-Content-Protection",
+  "sourceCommit": "cad4220c3b97661cb958144ee0de42a946ca49d4",
+  "sourceCanonicalPath": "modules/neoforge-1.21.1/deferred-content-protection--main",
+  "sourceLicenseBeforeExport": "MIT declared; no full own root license present",
+  "publicLicense": "MIT own source under owner authorization",
+  "originalAuthors": "YU322142/Codex migration compatibility build",
+  "productionArtifact": "deferred-content-protection-1.0.0+neoforge.1.21.1-first-release.1.jar",
+  "productionSha256": "1c7c4b2a76978c563c18ee05aba9292099e6b15ba920cf2699904068f0b1104b",
+  "exportedSources": [
+    {
+      "path": "src/main/java/dev/migration/deferred_content_protection/DeferredContentProtection.java",
+      "sha256": "daacb29f883d2b8a6150bff6088c3cec5dbf1b9da015a3d3ffe08ab99284c56f"
+    },
+    {
+      "path": "src/main/java/dev/migration/deferred_content_protection/mixin/AbstractContainerMenuMixin.java",
+      "sha256": "84d9b91c99a4c752493d19ab9bb9d2c3ae1750400d9dd7f3f49f893a2ae1e08f"
+    },
+    {
+      "path": "src/main/java/dev/migration/deferred_content_protection/mixin/AbstractHorseMixin.java",
+      "sha256": "bd92bab7c10189297d68bdfead1f93c55df3bfa57a59494bbb88c0971018e23d"
+    },
+    {
+      "path": "src/main/java/dev/migration/deferred_content_protection/mixin/EntityMixin.java",
+      "sha256": "bf25f55f38e254bddff4eb3f6917a1d4ab4e3d621a4563dbff212e811ac882f5"
+    },
+    {
+      "path": "src/main/java/dev/migration/deferred_content_protection/mixin/RecipeManagerMixin.java",
+      "sha256": "c95ddc33e9524b3ede7fc87ea40ac183e6b6b8ee0d1dbbdf5901f542a9b2bd26"
+    },
+    {
+      "path": "src/main/java/dev/migration/deferred_content_protection/ProtectedDeferredItem.java",
+      "sha256": "b7a4d57dac694199936fa527377d117db3d74e601ebd732a6cd6e665bc3edb06"
+    }
+  ],
+  "excludedAssets": [
+    {
+      "path": "src/main/resources/assets/minecraft/textures/entity/horse/armor/horse_armor_netherite.png",
+      "sha256": "c20451e01aefe87dc715c623a549b0e562983bcdb8afada6fbf24c4c9e58d762",
+      "reason": "Unresolved original vanilla-derived texture rights/provenance; not copied to public source."
+    },
+    {
+      "path": "src/main/resources/assets/minecraft/textures/item/netherite_horse_armor.png",
+      "sha256": "d5996195af180089a53f98f5c249bda8c268b9d3710365025a221b0db776eea6",
+      "reason": "Unresolved original vanilla-derived texture rights/provenance; not copied to public source."
+    }
+  ]
+}

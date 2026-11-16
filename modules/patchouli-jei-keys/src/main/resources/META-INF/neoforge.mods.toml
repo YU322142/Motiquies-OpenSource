@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="motiquies_patchouli_jei_keys"
+version="1.0.0"
+displayName="Motiquies Patchouli JEI Keys"
+authors="Motiquies maintainers"
+displayTest="IGNORE_SERVER_VERSION"
+description="Resolves book recipe/use shortcuts through current JEI runtime key mappings."
+[[dependencies.motiquies_patchouli_jei_keys]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+side="CLIENT"
+[[dependencies.motiquies_patchouli_jei_keys]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.241]"
+side="CLIENT"
+[[dependencies.motiquies_patchouli_jei_keys]]
+modId="patchouli"
+type="required"
+versionRange="[1.21.1-92-NEOFORGE]"
+side="CLIENT"
+ordering="AFTER"
+[[dependencies.motiquies_patchouli_jei_keys]]
+modId="jei"
+type="optional"
+versionRange="[19.44.0.403]"
+side="CLIENT"
+ordering="AFTER"
+[[mixins]]
+config="motiquies_patchouli_jei_keys.mixins.json"

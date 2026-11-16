@@ -1,0 +1,29 @@
+{
+  "module": "create-saveddata-probe",
+  "sourceCommit": "ab54f95987bd67b383f493f0011229514ab4a1db",
+  "originalFilesByteExact": true,
+  "qaOnly": true,
+  "productionApproved": false,
+  "originalArtifactSha256": "e5532fe8088cafc1c0a8c50d912d959e563f6e1efc0a2fa6b3d365055fbe3e9c",
+  "rebuiltArtifactSha256": "60f6b8095a8465db646f4cdb61fbeecba6d23c1ce60886904ed9b7e1030ac30e",
+  "repeatArtifactAndAllEntryHashesMatch": true,
+  "originalComparison": {
+    "added": [
+      "LICENSE"
+    ],
+    "removed": [],
+    "changed": [],
+    "identicalEntries": [
+      "META-INF/MANIFEST.MF",
+      "META-INF/neoforge.mods.toml",
+      "com/migration/createsaveddata/CreateSavedDataProbe.class"
+    ]
+  },
+  "sourceRepositoryBoundaryRejected": true,
+  "sdkBoundaryRejected": true,
+  "wrongDependencyRejectedBeforeCompile": true,
+  "javacVersion": "javac 21.0.10",
+  "classpathCount": 15,
+  "historicalClassAndResourceEntriesByteIdentical": true,
+  "historicalExactCustomizationReproductionComplete": true
+}

@@ -1,0 +1,53 @@
+{
+  "repository": "YU322142/POI-Migration-Diagnostic",
+  "sourceUrl": "https://github.com/YU322142/POI-Migration-Diagnostic",
+  "commit": "66403b50508284692d054093a53a744bf51e2bfd",
+  "originalAuthorDeclaration": "Migration audit",
+  "originalLicenseDeclarations": [
+    "README.md: License: MIT.",
+    "gradle.properties: mod_license=MIT"
+  ],
+  "originalFiles": {
+    "UPSTREAM.gitignore.txt": {
+      "originalPath": ".gitignore",
+      "sha256": "c0d7ad8cb5ea4e6285a3bfdfc433d76635f76ca1eb6b31ac3655dd94b81461ee"
+    },
+    "UPSTREAM_README.md": {
+      "originalPath": "README.md",
+      "sha256": "06ec64d75b863582251019d16995ca58e94492bb15d128f3b3014bb9f723cd38"
+    },
+    "build.gradle": {
+      "originalPath": "build.gradle",
+      "sha256": "3da6c7c496d3b562dc93372c8c8d0d69c2ea11bc142c23a20292b3b00d8b672a"
+    },
+    "gradle.properties": {
+      "originalPath": "gradle.properties",
+      "sha256": "94a5fb0bc1ab1f228e58941f857e76fe89350515c0917dcf046994a5acd8b415"
+    },
+    "settings.gradle": {
+      "originalPath": "settings.gradle",
+      "sha256": "40d38274329e60b85fb1563a5d1c97c6e3e3a05ea656f31aff4ec8f2377a9b91"
+    },
+    "src/main/java/com/migration/poi/PoiMigrationDiagnostic.java": {
+      "originalPath": "src/main/java/com/migration/poi/PoiMigrationDiagnostic.java",
+      "sha256": "db5fc4971bad5bb68fd5e9702dc538a9b41e79370d2f31fc248ad157541c22c1"
+    },
+    "src/main/resources/META-INF/neoforge.mods.toml": {
+      "originalPath": "src/main/resources/META-INF/neoforge.mods.toml",
+      "sha256": "ec6a8ec3735066dd438c21bfbe7e12ef21ae88e6ffec9f6c00915cb10262e01f"
+    }
+  },
+  "ownerAuthorization": "User explicitly authorized open-sourcing their original customizations under MIT on 2026-11-16; external dependencies retain their original terms.",
+  "sourceReview": "No copied/vendored third-party implementation, assets or conflicting source license headers found in these seven files. Original public commit and author history retained in preserved mirror/bundle.",
+  "originalRelease": {
+    "originalUrl": "https://github.com/YU322142/POI-Migration-Diagnostic/releases/download/v0.1.0/poi-migration-diagnostic-0.1.0%2Bmc1.21.1.jar",
+    "assetId": 546691123,
+    "size": 10120,
+    "sha256": "7b5ba1c44f773aa4f9f50610c96be949ffc2b21fefde0e5be78cd7528f4b5e7f"
+  },
+  "releaseEligible": false,
+  "qaOnly": true,
+  "originalJavaSourceChanged": false,
+  "exactHistoricalBinaryReproductionComplete": false,
+  "historicalReproductionBlocker": "Public-source commit includes a configurable watchlist method and sanitized default identifiers absent/different in the historical binary. Only the reviewed public source is rebuilt. Original identifiers are not exported, guessed or substituted. Exact historical watched-entity behavior remains unresolved."
+}

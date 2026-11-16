@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "sourceRepository": "YU322142/Heightmap-384-to-544-Compat",
+  "sourceCommit": "37ef2bac832d6140b9a276ffef6323cdeeb08c20",
+  "sourceCanonicalPath": "modules/neoforge-1.21.1/heightmap-384-to-544-compat--main",
+  "sourceLicenseBeforeExport": "MIT declared; no full own root license present",
+  "publicLicense": "MIT own source under owner authorization",
+  "originalAuthors": "YU322142/Codex migration compatibility build",
+  "productionArtifact": "heightmap-384-to-544-compat-1.0.0+neoforge.1.21.1.jar",
+  "productionSha256": "ad26b1f429f0e39fcd19d6efd151df93a62f3b0f7262312c7ba1d8340e13efbf",
+  "exportedSources": [
+    {
+      "path": "src/main/java/dev/migration/heightmap_384_to_544_compat/Heightmap384To544Compat.java",
+      "sha256": "82fd745f405a8b3f32642022f76bbc65602af5d37b537bfbb3265387f208dba0"
+    },
+    {
+      "path": "src/main/java/dev/migration/heightmap_384_to_544_compat/HeightmapArrayConverter.java",
+      "sha256": "a8f8d3cc830a88b7689d2484e3a6088c5d322a747071b114d5f35ab88e37f716"
+    },
+    {
+      "path": "src/main/java/dev/migration/heightmap_384_to_544_compat/mixin/ChunkAccessMixin.java",
+      "sha256": "7340e9c620f7407a1b2a5565b02da1d04bbeef68f43441966b2796f1242236ea"
+    }
+  ],
+  "excludedAssets": []
+}

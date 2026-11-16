@@ -1,0 +1,21 @@
+{
+  "id": "common-compat",
+  "artifact": "motiquies-compat-e31-0.0.1-public.jar",
+  "sources": [
+    "src/main/java/org/motiquies/compat/MotiquiesCompat.java",
+    "src/main/java/org/motiquies/compat/mixin/JadeLecternMixin.java",
+    "src/main/java/org/motiquies/compat/mixin/ZstdReadyMixin.java"
+  ],
+  "classes": [
+    "org/motiquies/compat/MotiquiesCompat.class",
+    "org/motiquies/compat/mixin/JadeLecternMixin.class",
+    "org/motiquies/compat/mixin/ZstdReadyMixin.class"
+  ],
+  "resources": [
+    "META-INF/neoforge.mods.toml",
+    "motiquies-compat-e31.mixins.json"
+  ],
+  "packageNotices": [
+    "LICENSE.txt"
+  ]
+}

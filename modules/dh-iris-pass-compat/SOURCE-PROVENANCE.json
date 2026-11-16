@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "upstreamPrivateCanonicalCommit": "b94bdffa1b2df170ea49d0271b992b56c9a36fef",
+  "originalModulePath": "modules/3.3.0/shader-followups-b94f5039",
+  "scope": "Own sources only; external dependency archives and all extracted/transformed upstream test outputs excluded.",
+  "excludedOriginalFiles": [],
+  "runtimeJavaUnchanged": true,
+  "files": [
+    {
+      "path": "build.py",
+      "originalSha256": null,
+      "publicSha256": "88e85b6626a564173ddbdd15932cd27b585f661c184b28e29c2587544273c610",
+      "status": "new",
+      "reason": "New standard entry delegating to retained original named build_b10.py."
+    },
+    {
+      "path": "build_b10.py",
+      "originalSha256": "60abbe47e77536c0fbf0572fa78a592de22296f1a043be1b60fd995dae0cc2ad",
+      "publicSha256": "4ebad5c16aa854b3a70d01bc770b9a208802b058445e2736cbb1eacf060c5b2b",
+      "status": "modified",
+      "reason": "Adapt own original build flow to external SDK/JDK/output, all-input hash checks and deterministic packaging; preserve original runtime and test contracts."
+    },
+    {
+      "path": "build_support.py",
+      "originalSha256": null,
+      "publicSha256": "299f0db57125b2dff71a41272794b5033c78298bf578d474bf6cd7ade75098fb",
+      "status": "new",
+      "reason": "New own standard-library external SDK/JDK/output build support, full classpath verification and deterministic own-code packaging."
+    },
+    {
+      "path": "dependencies.lock.json",
+      "originalSha256": null,
+      "publicSha256": "9c1b2a695a8661c2d6d5d197273d5f3ef0d8742437e4fb7a93ad1629be34e1e9",
+      "status": "new",
+      "reason": "New complete ordered SHA-256 lock for all classpath JARs used by this module."
+    },
+    {
+      "path": "ExtractPass.java",
+      "originalSha256": "4f33ad231eacf537ec3b3d9ed3b734c2bb1f632a14d22eb21a48ebbb690c268f",
+      "publicSha256": "4f33ad231eacf537ec3b3d9ed3b734c2bb1f632a14d22eb21a48ebbb690c268f",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "LICENSE-Motiquies.txt",
+      "originalSha256": "f1a20d2dcf0e2467553199176d513f450d99c0c539eff067816e5577fbd5c084",
+      "publicSha256": "03d52c954c61517110fd04248e39a65b12e1a5a0a5d3caa3693d0ccffb511afd",
+      "status": "modified",
+      "reason": "Original license bytes and contributor attribution preserved; explicit original own-tooling MIT scope clarification appended. Upstream derivatives remain excluded."
+    },
+    {
+      "path": "local_adapter.py",
+      "originalSha256": "cb13ba6301c62c9bdb52198dc07fde276247ae2ef56384c84716732072bbf78d",
+      "publicSha256": "cb13ba6301c62c9bdb52198dc07fde276247ae2ef56384c84716732072bbf78d",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "README.md",
+      "originalSha256": null,
+      "publicSha256": "7ee75cc5b30ec09e87465d19e39b038f2a30553712553580f6aafbfc9323c86a",
+      "status": "new",
+      "reason": "New standalone source/build/test instructions and truthful validation limits."
+    },
+    {
+      "path": "resources/LICENSE-Motiquies.txt",
+      "originalSha256": "f1a20d2dcf0e2467553199176d513f450d99c0c539eff067816e5577fbd5c084",
+      "publicSha256": "03d52c954c61517110fd04248e39a65b12e1a5a0a5d3caa3693d0ccffb511afd",
+      "status": "modified",
+      "reason": "Original license bytes and contributor attribution preserved; explicit original own-tooling MIT scope clarification appended. Upstream derivatives remain excluded."
+    },
+    {
+      "path": "resources/META-INF/neoforge.mods.toml",
+      "originalSha256": "71435a160cffc0d9bb5f9318175605ef415e8c3816e5c81f1a8fa3255e893e82",
+      "publicSha256": "71435a160cffc0d9bb5f9318175605ef415e8c3816e5c81f1a8fa3255e893e82",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "resources/motiquies-shader-compat.mixins.json",
+      "originalSha256": "adf1d8de37536da1403fa307965ed653a5183fe32752ae304ad7674639b17939",
+      "publicSha256": "adf1d8de37536da1403fa307965ed653a5183fe32752ae304ad7674639b17939",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "src/org/motiquies/shadercompat/mixin/DhPassSelectionMixin.java",
+      "originalSha256": "7a2801ffeb90ebbba7ae1a90303051d9a471125a7c5be79500293303de9b4ebb",
+      "publicSha256": "7a2801ffeb90ebbba7ae1a90303051d9a471125a7c5be79500293303de9b4ebb",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "src/org/motiquies/shadercompat/MotiquiesShaderCompat.java",
+      "originalSha256": "c5d236316050b996f74e316a6a9e3da38250b71838c455aefe3925d5262d4a95",
+      "publicSha256": "c5d236316050b996f74e316a6a9e3da38250b71838c455aefe3925d5262d4a95",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "test_b10.py",
+      "originalSha256": "438997427711d73281c25e4a2f2cf196abeb62054fa3315d1b338575fb610671",
+      "publicSha256": "11b431156c7c5f9c0d0a6099d90126ae7efd0a55edf77f6c97e420b7e0740b5d",
+      "status": "modified",
+      "reason": "Preserve original stubs/assertions; externalize SDK/JDK/output arguments, consume locked inputs, select platform executable and explicit production-classes input."
+    },
+    {
+      "path": "test_local_adapter.py",
+      "originalSha256": "051568539dcf65ea6781879ae157347d06526a5dd7dbdfb000fc2beda8175f43",
+      "publicSha256": "83f6ab4a87ffb80bdf0b3ab466e76835fac91704f83c2c3e6d03d98d3c44a0a9",
+      "status": "modified",
+      "reason": "Preserve all eight original test assertions; require external test output instead of nonexistent/in-repository build directory."
+    }
+  ]
+}

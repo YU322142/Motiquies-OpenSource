@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "package": "org.motiquies.patchoulijeikeys.mixin",
+  "plugin": "org.motiquies.patchoulijeikeys.PatchouliJeiMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["PatchouliJeiKeysMixin"],
+  "injectors": {"defaultRequire": 1}
+}

@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "sourceRepository": "YU322142/Create-Carriage-Orientation-Guard",
+  "sourceCommit": "4895ade704fcac1178c2c11327c9b3ad59cccce6",
+  "sourceCanonicalPath": "modules/neoforge-1.21.1/create-carriage-orientation-guard--main",
+  "sourceLicenseBeforeExport": "MIT declared; no full own root license present",
+  "publicLicense": "MIT own source under owner authorization",
+  "originalAuthors": "YU322142/Codex migration compatibility build",
+  "productionArtifact": "create-carriage-orientation-guard-1.0.0+neoforge.1.21.1-p0.2.jar",
+  "productionSha256": "805d6841bd30b514a059b21bee4b6c70e183cb379ca286032975dcb961d6d74e",
+  "exportedSources": [
+    {
+      "path": "src/main/java/dev/migration/create_carriage_orientation_guard/CarriageOrientationDecision.java",
+      "sha256": "f5825ac68c0f29022ca1f2596ce0c659e7e59371d14e5effd60c89c307df9dc7"
+    },
+    {
+      "path": "src/main/java/dev/migration/create_carriage_orientation_guard/CreateCarriageOrientationGuard.java",
+      "sha256": "a08e444148d14511bdcc4c63afe44d86b65009a81af4b6ea74a75c4c1f78c116"
+    },
+    {
+      "path": "src/main/java/dev/migration/create_carriage_orientation_guard/mixin/OrientedContraptionEntityMixin.java",
+      "sha256": "061003dc8759198e4e74a5cb12f86ec6a0a6a82f3e2e8ee3241753d94a2bd843"
+    }
+  ],
+  "excludedAssets": []
+}

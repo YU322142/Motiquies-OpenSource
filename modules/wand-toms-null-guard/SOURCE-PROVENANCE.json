@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "canonicalCommit": "b94bdffa1b2df170ea49d0271b992b56c9a36fef",
+  "runtimeJavaUnchanged": true,
+  "files": [
+    {
+      "path": "build.py",
+      "originalSha256": null,
+      "publicSha256": "3d62f52cb7ba790b9e5610093c4046d3a4a8c6d1192db6fcad074b7b8e5a85a7",
+      "status": "new",
+      "reason": "New or adapted public external-input build/docs/license/lock; no runtime Java modification."
+    },
+    {
+      "path": "build_and_test.py",
+      "originalSha256": "5ea75cc4c1f98834eb7222290ea4bc87332304482ecebef8ef26fa7f63381d18",
+      "publicSha256": "b1a8dda00c124ed12fb1615e33f3aa31fc74c7a9fb58705531ca333ce5068e30",
+      "status": "modified",
+      "reason": "Keep original stubs/assertions/ASM producer; externalize base/SDK/Java/output, deterministic archive and retained own/upstream license entries."
+    },
+    {
+      "path": "build_support.py",
+      "originalSha256": null,
+      "publicSha256": "6872cd658f55272dd2cddd1f989c8673fe9a6acd08712d17450f143966310847",
+      "status": "new",
+      "reason": "New or adapted public external-input build/docs/license/lock; no runtime Java modification."
+    },
+    {
+      "path": "dependencies.lock.json",
+      "originalSha256": null,
+      "publicSha256": "ce6a41add365e3c1a62bbca5c7e2aa1d75d17b1df85ce46f1ceada0d2b2996a1",
+      "status": "new",
+      "reason": "New or adapted public external-input build/docs/license/lock; no runtime Java modification."
+    },
+    {
+      "path": "LICENSE",
+      "originalSha256": null,
+      "publicSha256": "1722c4b0a93e994dabcec06517126ddd68c83f430ccee2b87511bb0bbd78b5d4",
+      "status": "new",
+      "reason": "New or adapted public external-input build/docs/license/lock; no runtime Java modification."
+    },
+    {
+      "path": "LICENSE-UPSTREAM-ConstructionWand.txt",
+      "originalSha256": null,
+      "publicSha256": "520038deca5d37ab21cbdcb0281bfbf463a2e3312cb374b22b25a396009ae715",
+      "status": "new",
+      "reason": "New or adapted public external-input build/docs/license/lock; no runtime Java modification."
+    },
+    {
+      "path": "NOTICE.md",
+      "originalSha256": null,
+      "publicSha256": "d58cd3657acfa671f4164b2f3cd1cef26c2e164f093fc73eb0ccc2a3e7c670da",
+      "status": "new",
+      "reason": "New or adapted public external-input build/docs/license/lock; no runtime Java modification."
+    },
+    {
+      "path": "README.md",
+      "originalSha256": null,
+      "publicSha256": "d1da92f280a675a91ce0c45251f165a20e886056ce0c34a61834d0daa21a2cc9",
+      "status": "new",
+      "reason": "New or adapted public external-input build/docs/license/lock; no runtime Java modification."
+    },
+    {
+      "path": "WandTomsPatch.java",
+      "originalSha256": "7b4a9d633f2cf6506ed9ac0d1b69d64bff6d2b6ac4529cecf329b60a87091ae0",
+      "publicSha256": "7b4a9d633f2cf6506ed9ac0d1b69d64bff6d2b6ac4529cecf329b60a87091ae0",
+      "status": "unchanged",
+      "reason": "Byte-for-byte original current source/test/runtime resource."
+    }
+  ]
+}

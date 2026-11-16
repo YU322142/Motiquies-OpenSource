@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="motiquies_compat_e31"
+version="0.0.1"
+displayName="Motiquies E31 Compatibility Candidate"
+displayTest="IGNORE_SERVER_VERSION"
+description="Private candidate for pinned Jade/Create and ZstdNet closed-ready-offer handling."
+[[mixins]]
+config="motiquies-compat-e31.mixins.json"
+[[dependencies.motiquies_compat_e31]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.motiquies_compat_e31]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.241]"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.motiquies_compat_e31]]
+modId="jade"
+type="required"
+versionRange="[15.10.6,15.11)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.motiquies_compat_e31]]
+modId="zstdnet"
+type="required"
+versionRange="[1.4.9-framefix.2]"
+ordering="AFTER"
+side="BOTH"

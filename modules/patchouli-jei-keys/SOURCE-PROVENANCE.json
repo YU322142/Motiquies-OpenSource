@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "upstreamPrivateCanonicalCommit": "b94bdffa1b2df170ea49d0271b992b56c9a36fef",
+  "originalModulePath": "modules/neoforge-1.21.1/patchouli-jei-keys--main",
+  "scope": "Own sources only; external dependency archives and all extracted/transformed upstream test outputs excluded.",
+  "excludedOriginalFiles": [],
+  "runtimeJavaUnchanged": true,
+  "files": [
+    {
+      "path": "build.py",
+      "originalSha256": "35a976fa9ab0b544c61afbf7b24fed7da30401ee938a74daf0742895e96934b5",
+      "publicSha256": "4e5901bca56dfd23fbcfea2cf71a460e61ddea6cd04107705f8d0fc40dda2c00",
+      "status": "modified",
+      "reason": "Adapt own original build flow to external SDK/JDK/output, all-input hash checks and deterministic packaging; preserve original runtime and test contracts."
+    },
+    {
+      "path": "build_support.py",
+      "originalSha256": null,
+      "publicSha256": "299f0db57125b2dff71a41272794b5033c78298bf578d474bf6cd7ade75098fb",
+      "status": "new",
+      "reason": "New own standard-library external SDK/JDK/output build support, full classpath verification and deterministic own-code packaging."
+    },
+    {
+      "path": "dependencies.lock.json",
+      "originalSha256": null,
+      "publicSha256": "b6ae2a6baf0b5987eacf54a5d740a4731fd1431ff27482513f7675e1c1f41c2a",
+      "status": "new",
+      "reason": "New complete ordered SHA-256 lock for all classpath JARs used by this module."
+    },
+    {
+      "path": "LICENSE",
+      "originalSha256": "1722c4b0a93e994dabcec06517126ddd68c83f430ccee2b87511bb0bbd78b5d4",
+      "publicSha256": "1722c4b0a93e994dabcec06517126ddd68c83f430ccee2b87511bb0bbd78b5d4",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "README.md",
+      "originalSha256": "719732fb635e835164e0f8d31f40e32b37d5141c4b6f44b090c8a85d7b5ac6a5",
+      "publicSha256": "eab93eb0a28ce2e7685c808c8d3f8eb8618ccc9b8de74222db7954b38c38a7ad",
+      "status": "modified",
+      "reason": "Replace internal build paths/context with external SDK instructions, pinned dependency lock and bounded E40 acceptance status; remove private AUDIT link."
+    },
+    {
+      "path": "src/main/java/org/motiquies/patchoulijeikeys/JeiBookKeys.java",
+      "originalSha256": "c111377cd0d24407a240117556d7ee89255b411c0729bf67ce4ff4217339ffe6",
+      "publicSha256": "c111377cd0d24407a240117556d7ee89255b411c0729bf67ce4ff4217339ffe6",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "src/main/java/org/motiquies/patchoulijeikeys/mixin/PatchouliJeiKeysMixin.java",
+      "originalSha256": "70ae2c4920b3385c48aa120721d97947bef7e7add87b127fbe26715b565d91c8",
+      "publicSha256": "70ae2c4920b3385c48aa120721d97947bef7e7add87b127fbe26715b565d91c8",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "src/main/java/org/motiquies/patchoulijeikeys/PatchouliJeiMixinPlugin.java",
+      "originalSha256": "446c9414a10ec262b4fc5e831e398c22d3bdefdbc2f8694c47e50b04545ee9dd",
+      "publicSha256": "446c9414a10ec262b4fc5e831e398c22d3bdefdbc2f8694c47e50b04545ee9dd",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "src/main/resources/META-INF/neoforge.mods.toml",
+      "originalSha256": "dba85cd66a32c10f390bf130bc69b7501eb1e61baec87ce985a6f35c1d710ece",
+      "publicSha256": "dba85cd66a32c10f390bf130bc69b7501eb1e61baec87ce985a6f35c1d710ece",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "src/main/resources/motiquies_patchouli_jei_keys.mixins.json",
+      "originalSha256": "56469d22d9bbb6ac4638052feee62d28f4fea7ed9f940d56e6d309865291df44",
+      "publicSha256": "56469d22d9bbb6ac4638052feee62d28f4fea7ed9f940d56e6d309865291df44",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "test/fixtures/net/minecraft/world/item/ItemStack.java",
+      "originalSha256": "61d3c1f2a467659319db958771c5c691841502f28651a0f849b91a0836d4ec2a",
+      "publicSha256": "61d3c1f2a467659319db958771c5c691841502f28651a0f849b91a0836d4ec2a",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "test/fixtures/net/neoforged/fml/loading/LoadingModList.java",
+      "originalSha256": "38b9389c05b4dacbb3d9c0fc9a72f8925d5dd92af5c1a508a65cdbbdf1d2d189",
+      "publicSha256": "38b9389c05b4dacbb3d9c0fc9a72f8925d5dd92af5c1a508a65cdbbdf1d2d189",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "test/fixtures/net/neoforged/fml/loading/moddiscovery/ModFileInfo.java",
+      "originalSha256": "f477db0b1793012d56ba3faff5f33a5436389cb5d984337a6a3e581547c150b5",
+      "publicSha256": "f477db0b1793012d56ba3faff5f33a5436389cb5d984337a6a3e581547c150b5",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "test/fixtures/vazkii/patchouli/mixin/client/AccessorKeyMapping.java",
+      "originalSha256": "a37c3de29aa997a51fa78eec5355fb976c23cd0768f8a2f9329775adc1ab614f",
+      "publicSha256": "a37c3de29aa997a51fa78eec5355fb976c23cd0768f8a2f9329775adc1ab614f",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "test/java/org/motiquies/patchoulijeikeys/BookKeyContractTest.java",
+      "originalSha256": "64bfa89867647724462410445192f2557f5b212c0763b69f219330e9787138a6",
+      "publicSha256": "64bfa89867647724462410445192f2557f5b212c0763b69f219330e9787138a6",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "test/java/org/motiquies/patchoulijeikeys/MixinContractTest.java",
+      "originalSha256": "761e1d7822dd93280e77901ac7f626f035da18d5adcf4730addbec1d5b995467",
+      "publicSha256": "761e1d7822dd93280e77901ac7f626f035da18d5adcf4730addbec1d5b995467",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "test/java/org/motiquies/patchoulijeikeys/OfflineMixinService.java",
+      "originalSha256": "7849db10c702d8844281912e94663b59371fd6535982c5a2a3fd2ca23477fc71",
+      "publicSha256": "7849db10c702d8844281912e94663b59371fd6535982c5a2a3fd2ca23477fc71",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "test/java/org/motiquies/patchoulijeikeys/OfflineProperties.java",
+      "originalSha256": "e53ac88adfbc3a977f64266be3c5814f27baa8a8dd9c3f8d1106ac0fc4692215",
+      "publicSha256": "e53ac88adfbc3a977f64266be3c5814f27baa8a8dd9c3f8d1106ac0fc4692215",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    },
+    {
+      "path": "test/java/org/motiquies/patchoulijeikeys/OptionalJeiContractTest.java",
+      "originalSha256": "969a9868757f56589c5ab3c93d6e038bb07c37c75c74de94524019dcf4c3d785",
+      "publicSha256": "969a9868757f56589c5ab3c93d6e038bb07c37c75c74de94524019dcf4c3d785",
+      "status": "unchanged",
+      "reason": "Byte-for-byte preserved original source/resource/attribution."
+    }
+  ]
+}

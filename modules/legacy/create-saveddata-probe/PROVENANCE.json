@@ -1,0 +1,52 @@
+{
+  "repository": "YU322142/Create-SavedData-Probe",
+  "sourceUrl": "https://github.com/YU322142/Create-SavedData-Probe",
+  "commit": "ab54f95987bd67b383f493f0011229514ab4a1db",
+  "originalAuthorDeclaration": "Migration audit",
+  "originalLicenseDeclarations": [
+    "README.md: License: MIT.",
+    "gradle.properties: mod_license=MIT"
+  ],
+  "originalFiles": {
+    "UPSTREAM.gitignore.txt": {
+      "originalPath": ".gitignore",
+      "sha256": "c0d7ad8cb5ea4e6285a3bfdfc433d76635f76ca1eb6b31ac3655dd94b81461ee"
+    },
+    "UPSTREAM_README.md": {
+      "originalPath": "README.md",
+      "sha256": "d232ec757a4d280bbdf16098819b207f25fbf0cb308cd49a89c0a95516a55d5b"
+    },
+    "build.gradle": {
+      "originalPath": "build.gradle",
+      "sha256": "7494166d4df13d1afdef285547760eb655727d65c308f807ff17c5c835f3b31f"
+    },
+    "gradle.properties": {
+      "originalPath": "gradle.properties",
+      "sha256": "5ca8289a525ce047e5540644c82bdb08f6c95302bc2bbb89add740e1779442b0"
+    },
+    "settings.gradle": {
+      "originalPath": "settings.gradle",
+      "sha256": "5d26047ba0bb7aeaf483de0cc4e6cd1f43cab2616218bebe4fc5a3a6b97b9843"
+    },
+    "src/main/java/com/migration/createsaveddata/CreateSavedDataProbe.java": {
+      "originalPath": "src/main/java/com/migration/createsaveddata/CreateSavedDataProbe.java",
+      "sha256": "6287d5a1bcafff593c6fcff27388c7ec19b789a605e61253c558e2541fc58131"
+    },
+    "src/main/resources/META-INF/neoforge.mods.toml": {
+      "originalPath": "src/main/resources/META-INF/neoforge.mods.toml",
+      "sha256": "54cfd0b97185c487f02ab76120d36fc5fb504639a4d086adefc03c51cd436de6"
+    }
+  },
+  "ownerAuthorization": "User explicitly authorized open-sourcing their original customizations under MIT on 2026-11-16; external dependencies retain their original terms.",
+  "sourceReview": "No copied/vendored third-party implementation, assets or conflicting source license headers found in these seven files. Original public commit and author history retained in preserved mirror/bundle.",
+  "originalRelease": {
+    "originalUrl": "https://github.com/YU322142/Create-SavedData-Probe/releases/download/v1.0.0/create-saveddata-probe-1.0.0%2Bmc1.21.1.jar",
+    "assetId": 546691066,
+    "size": 5779,
+    "sha256": "e5532fe8088cafc1c0a8c50d912d959e563f6e1efc0a2fa6b3d365055fbe3e9c"
+  },
+  "releaseEligible": false,
+  "qaOnly": true,
+  "originalJavaSourceChanged": false,
+  "exactHistoricalBinaryReproductionComplete": true
+}

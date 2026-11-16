@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="deferred_content_protection"
+version="1.0.0+neoforge.1.21.1-first-release.1"
+displayName="Deferred Content Protection"
+authors="YU322142/Codex migration compatibility build"
+description='''Fail-closed data carrier and interaction lock for content deferred to a later OTA release.'''
+
+[[dependencies.deferred_content_protection]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.241,21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.deferred_content_protection]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[mixins]]
+config="deferred_content_protection.mixins.json"

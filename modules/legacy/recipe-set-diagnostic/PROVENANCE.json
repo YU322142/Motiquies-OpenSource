@@ -1,0 +1,52 @@
+{
+  "repository": "YU322142/Recipe-Set-Diagnostic",
+  "sourceUrl": "https://github.com/YU322142/Recipe-Set-Diagnostic",
+  "commit": "546ad65b35c6f24618ab4aef6972250aa0b6e984",
+  "originalAuthorDeclaration": "Migration audit",
+  "originalLicenseDeclarations": [
+    "README.md: License: MIT.",
+    "gradle.properties: mod_license=MIT"
+  ],
+  "originalFiles": {
+    "UPSTREAM.gitignore.txt": {
+      "originalPath": ".gitignore",
+      "sha256": "c0d7ad8cb5ea4e6285a3bfdfc433d76635f76ca1eb6b31ac3655dd94b81461ee"
+    },
+    "UPSTREAM_README.md": {
+      "originalPath": "README.md",
+      "sha256": "5eca49645d23ae5c616153e12a521d46a6d87c93bbc74f75ebeeeec045d21f67"
+    },
+    "build.gradle": {
+      "originalPath": "build.gradle",
+      "sha256": "6b3a4dde5fb0b1e8c62462be028aa56a241caa9e8ea9703ffc9eb6a23163ad1c"
+    },
+    "gradle.properties": {
+      "originalPath": "gradle.properties",
+      "sha256": "d4d4df85d5f946e3b4b4be5e6c6a82cc09f89dcbbf73d83453c84bcf6bafef09"
+    },
+    "settings.gradle": {
+      "originalPath": "settings.gradle",
+      "sha256": "c638704497db6b79851af19ee52c90858ec7aaa91780dafcb6c9080d08429886"
+    },
+    "src/main/java/com/migration/diagnostic/RecipeSetDiagnostic.java": {
+      "originalPath": "src/main/java/com/migration/diagnostic/RecipeSetDiagnostic.java",
+      "sha256": "36138867ef6ed0d551ca62e153855b08fa89a4a00a0cf581f59f04b353aebfe4"
+    },
+    "src/main/resources/META-INF/neoforge.mods.toml": {
+      "originalPath": "src/main/resources/META-INF/neoforge.mods.toml",
+      "sha256": "ec6a8ec3735066dd438c21bfbe7e12ef21ae88e6ffec9f6c00915cb10262e01f"
+    }
+  },
+  "ownerAuthorization": "User explicitly authorized open-sourcing their original customizations under MIT on 2026-11-16; external dependencies retain their original terms.",
+  "sourceReview": "No copied/vendored third-party implementation, assets or conflicting source license headers found in these seven files. Original public commit and author history retained in preserved mirror/bundle.",
+  "originalRelease": {
+    "originalUrl": "https://github.com/YU322142/Recipe-Set-Diagnostic/releases/download/v1.0.0/recipe-set-diagnostic-1.0.0%2Bmc1.21.1.jar",
+    "assetId": 546691186,
+    "size": 4728,
+    "sha256": "a82cef8d4a0fef6ad9187338e69767cc2e9914e6320486a7ee60599d92c126e4"
+  },
+  "releaseEligible": false,
+  "qaOnly": true,
+  "originalJavaSourceChanged": false,
+  "exactHistoricalBinaryReproductionComplete": true
+}

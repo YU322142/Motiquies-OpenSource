@@ -1,0 +1,22 @@
+{
+  "id": "create-carriage-orientation-guard",
+  "artifact": "create-carriage-orientation-guard-1.0.0+neoforge.1.21.1-p0.2-public.jar",
+  "sources": [
+    "src/main/java/dev/migration/create_carriage_orientation_guard/CarriageOrientationDecision.java",
+    "src/main/java/dev/migration/create_carriage_orientation_guard/CreateCarriageOrientationGuard.java",
+    "src/main/java/dev/migration/create_carriage_orientation_guard/mixin/OrientedContraptionEntityMixin.java"
+  ],
+  "classes": [
+    "dev/migration/create_carriage_orientation_guard/CarriageOrientationDecision$Resolution.class",
+    "dev/migration/create_carriage_orientation_guard/CarriageOrientationDecision.class",
+    "dev/migration/create_carriage_orientation_guard/CreateCarriageOrientationGuard.class",
+    "dev/migration/create_carriage_orientation_guard/mixin/OrientedContraptionEntityMixin.class"
+  ],
+  "resources": [
+    "META-INF/neoforge.mods.toml",
+    "create_carriage_orientation_guard.mixins.json"
+  ],
+  "packageNotices": [
+    "LICENSE.txt"
+  ]
+}

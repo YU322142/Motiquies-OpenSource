@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="BSD-3-Clause"
+[[mods]]
+modId="motiquies_restaurant_workpoint"
+version="1.0.0"
+displayName="Motiquies Restaurant Workpoint Compatibility"
+displayTest="IGNORE_SERVER_VERSION"
+description="Keep native stockpot selection eligible for an available native cook chair."
+[[mixins]]
+config="motiquies_restaurant_workpoint.mixins.json"
+[[dependencies.motiquies_restaurant_workpoint]]
+modId="maid_restaurant"
+type="required"
+versionRange="[0.2.9+motiquies.metadata.1]"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.motiquies_restaurant_workpoint]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+side="BOTH"
+[[dependencies.motiquies_restaurant_workpoint]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.241]"
+side="BOTH"

@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "serverReproductionComplete": false,
+  "privateLiveInventoryIncluded": false,
+  "components": [
+    {
+      "path": "modules/patchouli-flagged-icons",
+      "role": "candidate-source",
+      "license": "MIT",
+      "runtimeComparison": "class and resource entry contents match tested client candidate",
+      "knownGaps": [],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/patchouli-jei-keys",
+      "role": "candidate-source",
+      "license": "MIT",
+      "runtimeComparison": "class and resource entry contents match tested client candidate",
+      "knownGaps": [],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/dh-iris-pass-compat",
+      "role": "candidate-source",
+      "license": "MIT for first-party plugin/tools; upstream dependencies separate",
+      "runtimeComparison": "runtime classes match tested candidate; license notice expanded",
+      "knownGaps": [],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/tom-jei-isolation",
+      "role": "candidate-source",
+      "license": "MIT",
+      "runtimeComparison": "seven runtime classes match tested candidate; notices/metadata differ",
+      "knownGaps": [],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/common-compat",
+      "role": "candidate-source",
+      "license": "MIT",
+      "runtimeComparison": "three runtime classes match tested candidate; notices differ",
+      "knownGaps": [],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/restaurant-workpoint",
+      "role": "candidate-source",
+      "license": "BSD-3-Clause; MasterMarisa attribution retained",
+      "runtimeComparison": "two runtime classes match tested candidate; BSD3 notices/metadata differ",
+      "knownGaps": [],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/client-data-migration",
+      "role": "candidate-source",
+      "license": "MIT; original upstream dependencies separate",
+      "runtimeComparison": "runtime classes match tested client candidate; first-party license metadata differs",
+      "knownGaps": [],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/mapsync-hybrid-server",
+      "role": "candidate-source",
+      "license": "GPL-3.0; upstream QOS MIT notice separately retained",
+      "runtimeComparison": "runtime classes match future stage6i server candidate; differs from existing snapshot version",
+      "knownGaps": [],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/wand-toms-null-guard",
+      "role": "candidate-source",
+      "license": "MIT; ThetaDev/Polaris_Light notices retained",
+      "runtimeComparison": "runtime classes match tested bounded null-guard candidate; upstream MIT retained",
+      "knownGaps": [],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/server-guards/cctweaked-startup-shutdown-guard",
+      "role": "server-customization-source",
+      "license": "MIT; Create attribution retained where applicable",
+      "runtimeComparison": "all runtime class bytes match hash-verified reference artifact",
+      "knownGaps": [],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/server-guards/create-carriage-orientation-guard",
+      "role": "server-customization-source",
+      "license": "MIT; Create attribution retained where applicable",
+      "runtimeComparison": "all runtime class bytes match hash-verified reference artifact",
+      "knownGaps": [],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/server-guards/create-chute-unload-guard",
+      "role": "server-customization-source",
+      "license": "MIT; Create attribution retained where applicable",
+      "runtimeComparison": "all runtime class bytes match hash-verified reference artifact",
+      "knownGaps": [],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/server-guards/deferred-content-protection",
+      "role": "server-customization-source",
+      "license": "MIT; Create attribution retained where applicable",
+      "runtimeComparison": "all runtime class bytes match hash-verified reference artifact",
+      "knownGaps": [
+        "Two texture assets are not redistributed; full resource artifact reproduction incomplete"
+      ],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/server-guards/heightmap-384-to-544-compat",
+      "role": "server-customization-source",
+      "license": "MIT; Create attribution retained where applicable",
+      "runtimeComparison": "all runtime class bytes match hash-verified reference artifact",
+      "knownGaps": [],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/server-guards/kaleidoscope-cookery-scarecrow-compat",
+      "role": "server-customization-source",
+      "license": "MIT; Create attribution retained where applicable",
+      "runtimeComparison": "all runtime class bytes match hash-verified reference artifact",
+      "knownGaps": [],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/server-guards/waypoint-fire-equivalence",
+      "role": "server-customization-source",
+      "license": "MIT; Create attribution retained where applicable",
+      "runtimeComparison": "all runtime class bytes match hash-verified reference artifact",
+      "knownGaps": [],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/legacy/create-saveddata-probe",
+      "role": "legacy-diagnostic-not-default-production",
+      "license": "MIT for first-party source",
+      "runtimeComparison": "historical class/resource entries match reference release",
+      "knownGaps": [],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/legacy/recipe-set-diagnostic",
+      "role": "legacy-diagnostic-not-default-production",
+      "license": "MIT for first-party source",
+      "runtimeComparison": "historical class/resource entries match reference release",
+      "knownGaps": [],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/legacy/poi-migration-diagnostic",
+      "role": "legacy-diagnostic-not-default-production",
+      "license": "MIT for first-party source",
+      "runtimeComparison": "builds reviewed public source; historical binary has a different watchlist configuration method",
+      "knownGaps": [
+        "Historical binary defaults/configuration behavior are not fully reproduced; no real watched UUIDs published"
+      ],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/legacy/dh-cache-only",
+      "role": "historical-overlay-not-the-3.3.0-native-target",
+      "license": "Upstream LGPL/GPL and logo CC-BY-SA notices preserved; first-party producer GPL-3.0",
+      "runtimeComparison": "complete produced artifact matches historical overlay reference; runtime property state not inferred",
+      "knownGaps": [
+        "Complete recursive upstream source rebuild is not verified; delta producer uses pinned official input"
+      ],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
+    }
+  ]
+}

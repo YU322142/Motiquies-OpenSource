@@ -1,0 +1,38 @@
+{
+  "module": "poi-migration-diagnostic",
+  "sourceCommit": "66403b50508284692d054093a53a744bf51e2bfd",
+  "originalFilesByteExact": true,
+  "qaOnly": true,
+  "productionApproved": false,
+  "originalArtifactSha256": "7b5ba1c44f773aa4f9f50610c96be949ffc2b21fefde0e5be78cd7528f4b5e7f",
+  "rebuiltArtifactSha256": "1708e7f097d48d8a5a404f8956d6d320734ebd4d889c1dea8e3a39ebc9262956",
+  "repeatArtifactAndAllEntryHashesMatch": true,
+  "originalComparison": {
+    "added": [
+      "LICENSE"
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "entry": "com/migration/poi/PoiMigrationDiagnostic.class",
+        "oldSha256": "2c763fec466d298850ac79e22a1c96ce47fdc9cdc1c319f2cb0eef55f254aecd",
+        "newSha256": "9fa078a4eee90cbab5981486082f53e103d47602a5fb5c5cd8ebdfacd5a18302",
+        "oldBytes": 21372,
+        "newBytes": 21980
+      }
+    ],
+    "identicalEntries": [
+      "META-INF/MANIFEST.MF",
+      "META-INF/neoforge.mods.toml"
+    ]
+  },
+  "sourceRepositoryBoundaryRejected": true,
+  "sdkBoundaryRejected": true,
+  "wrongDependencyRejectedBeforeCompile": true,
+  "javacVersion": "javac 21.0.10",
+  "classpathCount": 14,
+  "historicalClassAndResourceEntriesByteIdentical": false,
+  "historicalExactCustomizationReproductionComplete": false,
+  "historicalReproductionBlocker": "Public-source commit includes a configurable watchlist method and sanitized default identifiers absent/different in the historical binary. Only the reviewed public source is rebuilt. Original identifiers are not exported, guessed or substituted. Exact historical watched-entity behavior remains unresolved.",
+  "requiredOperatorConfiguration": "Operator must supply their own four villager UUIDs through migration.poi.watchedVillagers JVM system property; see watchlist.example.properties."
+}
