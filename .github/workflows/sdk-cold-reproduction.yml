@@ -1,0 +1,98 @@
+# Own-source sparse checkout only; manual dispatch requires an exact reviewed commit.
+name: Two fresh Windows SDK derivations
+on:
+  workflow_dispatch:
+    inputs:
+      approved_commit:
+        description: Exact independently reviewed own-only recipe commit
+        required: true
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: sdk-cold-reproduction
+  cancel-in-progress: false
+jobs:
+  cold:
+    if: github.event_name == 'workflow_dispatch' && inputs.approved_commit == github.sha
+    strategy:
+      fail-fast: false
+      matrix:
+        label: [fresh-a, fresh-b]
+    runs-on: windows-2022
+    timeout-minutes: 120
+    env:
+      SDK_FRESH_JOB: ${{ matrix.label }}
+    steps:
+      - name: Require Git with sparse checkout support
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $sdkGitVersion = & git --version
+          if ($LASTEXITCODE -ne 0 -or $sdkGitVersion -notmatch '^git version (\d+\.\d+\.\d+)') { throw 'Git unavailable' }
+          if ([version]$Matches[1] -lt [version]'2.28.0') { throw 'Sparse checkout requires Git 2.28 or newer' }
+      # Exclude all other aggregate modules and resources from the checked-out worktree.
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: ${{ inputs.approved_commit }}
+          persist-credentials: false
+          fetch-depth: 1
+          submodules: false
+          lfs: false
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /tools/sdk-reproduction/*
+            /.github/workflows/sdk-cold-reproduction.yml
+      - name: Verify own-source checkout before execution
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $sdkRoot = $env:GITHUB_WORKSPACE
+          if (-not (Test-Path -LiteralPath (Join-Path $sdkRoot '.git') -PathType Container)) { throw 'Git checkout required; REST fallback is not admitted' }
+          $sdkHead = & git -C $sdkRoot rev-parse HEAD
+          if ($LASTEXITCODE -ne 0 -or $sdkHead -cne '${{ inputs.approved_commit }}') { throw 'Checkout commit differs' }
+          $sdkExpected = @(
+            '.github/workflows/sdk-cold-reproduction.yml',
+            'tools/sdk-reproduction/bootstrap.ps1',
+            'tools/sdk-reproduction/bootstrap_paths.ps1',
+            'tools/sdk-reproduction/compare_runs.py',
+            'tools/sdk-reproduction/hosted_sdk.py',
+            'tools/sdk-reproduction/hosted_worker.py',
+            'tools/sdk-reproduction/LICENSE',
+            'tools/sdk-reproduction/README.md',
+            'tools/sdk-reproduction/recipe.json',
+            'tools/sdk-reproduction/recipe.pending.json',
+            'tools/sdk-reproduction/source-pins.json',
+            'tools/sdk-reproduction/test_bootstrap_paths.ps1',
+            'tools/sdk-reproduction/test_budget_repairs.py',
+            'tools/sdk-reproduction/test_compare.py',
+            'tools/sdk-reproduction/test_hosted_sdk.py',
+            'tools/sdk-reproduction/test_worker.py'
+          )
+          $sdkActual = @(foreach ($sdkTop in Get-ChildItem -LiteralPath $sdkRoot -Force) {
+            if ($sdkTop.Attributes -band [IO.FileAttributes]::ReparsePoint) { throw 'Reparse point refused' }
+            if ($sdkTop.Name -ceq '.git') { continue }
+            $sdkNodes = @($sdkTop)
+            if ($sdkTop.PSIsContainer) { $sdkNodes += @(Get-ChildItem -LiteralPath $sdkTop.FullName -Recurse -Force) }
+            foreach ($sdkNode in $sdkNodes) {
+              if ($sdkNode.Attributes -band [IO.FileAttributes]::ReparsePoint) { throw 'Reparse point refused' }
+              if (-not $sdkNode.PSIsContainer) { [IO.Path]::GetRelativePath($sdkRoot, $sdkNode.FullName).Replace('\', '/') }
+            }
+          })
+          if ($sdkActual.Count -ne $sdkExpected.Count -or @(Compare-Object -ReferenceObject $sdkExpected -DifferenceObject $sdkActual -CaseSensitive).Count -ne 0) { throw 'Unexpected checkout payload' }
+      - name: Platform admission and exact official recipe
+        shell: pwsh
+        env:
+          SDK_APPROVED_COMMIT: ${{ inputs.approved_commit }}
+        working-directory: tools/sdk-reproduction
+        run: ./bootstrap.ps1 -Mode run -ApprovedCommit $env:SDK_APPROVED_COMMIT
+      - name: Only digest and ZIP metadata
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: sdk-${{ matrix.label }}-metadata
+          path: ${{ runner.temp }}/sdk-${{ matrix.label }}/result.metadata.json
+          if-no-files-found: error
+          retention-days: 14
+          include-hidden-files: false

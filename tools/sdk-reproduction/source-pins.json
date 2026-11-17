@@ -1,0 +1,18 @@
+{
+  "files": {
+    "LICENSE": "06cf88427fea1d597fe115d49426ea879a6678b94a05377b2001c22eb73a4eee",
+    "README.md": "dc8fe05c89f33fefe5777ae0bce6ac418efbc4654ddb41711a95455a58d074fc",
+    "bootstrap_paths.ps1": "2906aac89ae693d8be0c0744d443dd511764e8038dfd4ed110578a47309ae1d2",
+    "compare_runs.py": "126ff6c752dc99e977a4592e57c211160d32344a79e842e8a409c35f3f071bab",
+    "hosted_sdk.py": "3853f2942e3e953864d2d7fbb648913927c78c7f77bc45c0fd7a3d419ed7b84b",
+    "hosted_worker.py": "2bfab3f26c91f1cea06a6e38b86a7bd934db614b866ea2149944f8194e215e02",
+    "recipe.json": "bf8a8b9cd9089271d5cf9379c2fdcd05ad956a6c04613054faa45e02fdf88b6c",
+    "recipe.pending.json": "d0dd75b145a06eea26091f8a33ddb547704e4cde9657a9f11571abf7da237e9b",
+    "test_bootstrap_paths.ps1": "45c05f0d6bf468c14b320f394dbb7dfacffea346e9932829f91e2beb84845096",
+    "test_budget_repairs.py": "3ba5875982ddb054fd6a58bd2ce08f41ba9833eaa39478c398b36716be04c52e",
+    "test_compare.py": "8514c83a81f5821c9811fcb53aa4c9366311b571e857e7cb11a909a4219c4cfb",
+    "test_hosted_sdk.py": "644b0272ec8fd2d59d40c69ad50f02cbae53735b1c97ed5633916062d722c3c5",
+    "test_worker.py": "20bec2d458d6357bcc5e5f418951287d3a5854591d1f885af6f7f991ed70728b"
+  },
+  "schema": 1
+}
