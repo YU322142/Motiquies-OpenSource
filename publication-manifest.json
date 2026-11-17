@@ -11,7 +11,7 @@
     ".gitignore": "47e81ab09674db20b1efdeecfe263224088bc6bd7a240f7bf7d2b210bd42d311",
     "AGENTS.md": "546b4a083ff015a95ee7bf579acd0ee48b5d14959e6171f8af6829ce5f5fe1e7",
     "docs/COMPLETE-REPRODUCTION.md": "78c64da78ed1f8cfd4c967250c694cc901182c9e1d89fbadc660d5cd4cf2ae47",
-    "docs/REPRODUCTION-GAPS.md": "3cffedb20b79d2d48263cbe2d1379bee4ffc6123f37594785f1141bab13a8b34",
+    "docs/REPRODUCTION-GAPS.md": "729faf53e78bc40cb3cb645098743a8c79b7ae6e61e713b0f1d7b5d1757fa83b",
     "LICENSE": "848780b3605dce780144206da3acdee51b6060f7eac907b32f78500d4fca9d36",
     "modules/client-data-migration/build.ps1": "9b8247d3d6cd853c0e5475f8d8bae72fc9414b10234ab5024ad781dc31d74692",
     "modules/client-data-migration/build.py": "339416609b6c627c3c4e17779b28dbbd85f69f41c748999f87673133b6332078",
@@ -711,7 +711,8 @@
     "tools/sdk-reproduction/test_compare.py": "8514c83a81f5821c9811fcb53aa4c9366311b571e857e7cb11a909a4219c4cfb",
     "tools/sdk-reproduction/test_hosted_sdk.py": "644b0272ec8fd2d59d40c69ad50f02cbae53735b1c97ed5633916062d722c3c5",
     "tools/sdk-reproduction/test_worker.py": "20bec2d458d6357bcc5e5f418951287d3a5854591d1f885af6f7f991ed70728b",
-    ".github/workflows/sdk-cold-reproduction.yml": "ff8810447df7e97fb754cdaf9f98fd153c8a6b6080cd0e2cc008137881cd6a83"
+    ".github/workflows/sdk-cold-reproduction.yml": "ff8810447df7e97fb754cdaf9f98fd153c8a6b6080cd0e2cc008137881cd6a83",
+    "docs/SDK-COLD-REPRODUCTION-20261117.md": "434e19a42ccee1360b77569c929be63856fa174b2754192dac1b72fda98dc75a"
   },
   "upstreamPackAttributionReviewComplete": false
 }
