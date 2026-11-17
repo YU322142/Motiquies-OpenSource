@@ -1,0 +1,1564 @@
+{
+  "downloads": [
+    {
+      "bytes": 979212,
+      "id": "fb90c859172b33e0f806b3077ce42ed3148aff5edcb9b3d9993d7a3004f4ebf9",
+      "libraryPath": "com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar",
+      "sha1": "b1d8ab82d11d92fd639b56d639f8f46f739dd5fa",
+      "sha256": "fef001a7a13515c273f30915915580782afbc45273cc07aa15994e51563ef310",
+      "url": "https://libraries.minecraft.net/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar"
+    },
+    {
+      "bytes": 19936,
+      "id": "c2f82c43f82a0f849289b0659f95a1993280c1322a924b7159398a2fedeb35d1",
+      "libraryPath": "com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+      "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+      "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7",
+      "url": "https://libraries.minecraft.net/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+    },
+    {
+      "bytes": 283367,
+      "id": "6e87ffbeb3df2a9a97e6565d4d610e1b169a4b3ad8bf437c018f36493441e2c6",
+      "libraryPath": "com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+      "sha1": "b3add478d4382b78ea20b1671390a858002feb6c",
+      "sha256": "4241c14a7727c34feea6507ec801318a3d4a90f070e4525681079fb94ee4c593",
+      "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar"
+    },
+    {
+      "bytes": 258075,
+      "id": "4352fced0dbd7b416404f308851355f9a9f85f4fd8def2236690a673c7df341c",
+      "libraryPath": "com/google/code/gson/gson/2.8.9/gson-2.8.9.jar",
+      "sha1": "8a432c1d6825781e21a02db2e2c33c5fde2833b9",
+      "sha256": "d3999291855de495c94c743761b8ab5176cfeabe281a5ab0d8e8d45326fd703e",
+      "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar"
+    },
+    {
+      "bytes": 16017,
+      "id": "844f0ff1f1fc47ee08c74fee4345041b03bc45aea856179a1960307464d16279",
+      "libraryPath": "com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar",
+      "sha1": "89b684257096f548fa39a7df9fdaa409d4d4df91",
+      "sha256": "9e6814cb71816988a4fd1b07a993a8f21bb7058d522c162b1de849e19bea54ae",
+      "url": "https://libraries.minecraft.net/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar"
+    },
+    {
+      "bytes": 4617,
+      "id": "bd530c4e34bcf3f85c51b9db733ec381d8e9f7443715a1d87ae263ccb13d9e4a",
+      "libraryPath": "com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+      "sha1": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+      "sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26",
+      "url": "https://libraries.minecraft.net/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"
+    },
+    {
+      "bytes": 3041591,
+      "id": "0f376f7692f4d3ef1dd23a41accba5500a4a0dc40e84b7dbc29f09d76a536b51",
+      "libraryPath": "com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar",
+      "sha1": "5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318",
+      "sha256": "bc65dea7cfd9e4dacf8419d8af0e741655857d27885bb35d943d7187fc3a8fce",
+      "url": "https://libraries.minecraft.net/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
+    },
+    {
+      "bytes": 2199,
+      "id": "3e6c4cbcf5c64ab22d9e218d8379936548f1d859ad20af413f004ba4ae122985",
+      "libraryPath": "com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+      "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
+      "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99",
+      "url": "https://libraries.minecraft.net/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+    },
+    {
+      "bytes": 9301,
+      "id": "f50eedca9f61ad3eeed481b0f25ae9076b812312ca928b7030b511928724c319",
+      "libraryPath": "com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar",
+      "sha1": "c85270e307e7b822f1086b93689124b89768e273",
+      "sha256": "f02a95fa1a5e95edb3ed859fd0fb7df709d121a35290eff8b74dce2ab7f4d6ed",
+      "url": "https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar"
+    },
+    {
+      "bytes": 14567819,
+      "id": "46dfebc762a71803e550b8bfbae4fd07cef28a87b5864090296d1002e6f82e05",
+      "libraryPath": "com/ibm/icu/icu4j/73.2/icu4j-73.2.jar",
+      "sha1": "61ad4ef7f9131fcf6d25c34b817f90d6da06c9e9",
+      "sha256": "29280822f4b0796acef1f79b90b1d0c1edd86c10e876a848e04b8a6298a16bf9",
+      "url": "https://libraries.minecraft.net/com/ibm/icu/icu4j/73.2/icu4j-73.2.jar"
+    },
+    {
+      "bytes": 115242,
+      "id": "8a72a73032b7b02476553e76e620382e5b715cf0f961938691b7b027d2fe88a7",
+      "libraryPath": "com/mojang/authlib/6.0.54/authlib-6.0.54.jar",
+      "sha1": "de8bc95660e1b2fe8793fd427a7a10dcec5b3ea7",
+      "sha256": "319ea7b53b5e52f62ad3e2b81e9db7f0751240edac548bd74f5f19e35dc21a3b",
+      "url": "https://libraries.minecraft.net/com/mojang/authlib/6.0.54/authlib-6.0.54.jar"
+    },
+    {
+      "bytes": 964,
+      "id": "d43bed227d5e534043e1038c5164bfa2c5b852bf3c3c2093ed1bbd64e51ff0b4",
+      "libraryPath": "com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar",
+      "sha1": "5c685c5ffa94c4cd39496c7184c1d122e515ecef",
+      "sha256": "830bfd639c8db49236bbd8e45d3a2b8c96c56ff654a10118654958a6235d4c44",
+      "url": "https://libraries.minecraft.net/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar"
+    },
+    {
+      "bytes": 80082,
+      "id": "32820bd0e55d862557b54bf12b8d54eaea682835707742cba5d540517161796c",
+      "libraryPath": "com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar",
+      "sha1": "d15b53a14cf20fdcaa98f731af5dda654452c010",
+      "sha256": "c8ee4136e474ac7723ca2b432ec8d1a2bc88ef7d1ec57c314ba9e33cdc83dd75",
+      "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar"
+    },
+    {
+      "bytes": 724313,
+      "id": "cf4647e34951d907853c4afe03722956806689b7c2bd8259780c4fe8c2bf9bc1",
+      "libraryPath": "com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar",
+      "sha1": "67d4de6d7f95d89bcf5862995fb854ebaec02a34",
+      "sha256": "ffc138bc2596c291781b0d5e211ccac51f0f2345f27fc2742f335cedf7e2870d",
+      "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar"
+    },
+    {
+      "bytes": 15343,
+      "id": "d3ce20f44533216ccd5f2050d035d04c94356fc2625f408f3fb062b425069a4e",
+      "libraryPath": "com/mojang/logging/1.2.7/logging-1.2.7.jar",
+      "sha1": "24cb95ffb0e3433fd6e844c04e68009e504ca1c0",
+      "sha256": "3dc3190204bac5f4184d8405bfe1f724f73a6a15a0d3f36ec7f69e6872c1a76c",
+      "url": "https://libraries.minecraft.net/com/mojang/logging/1.2.7/logging-1.2.7.jar"
+    },
+    {
+      "bytes": 4439,
+      "id": "6d7addec030f0a169fe3b94f07dc123be619c646cc7e51899ed9585bf839c3b1",
+      "libraryPath": "com/mojang/patchy/2.2.10/patchy-2.2.10.jar",
+      "sha1": "da05971b07cbb379d002cf7eaec6a2048211fefc",
+      "sha256": "16d70e7968b45caffc81576268eb000f473fb60bf257182d3447dea8ec919d5a",
+      "url": "https://libraries.minecraft.net/com/mojang/patchy/2.2.10/patchy-2.2.10.jar"
+    },
+    {
+      "bytes": 12243,
+      "id": "413abf1c0d308f1681589161df3faa7f425e1c4272a330b7e07cc7b20e16de25",
+      "libraryPath": "com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar",
+      "sha1": "3cad216e3a7f0c19b4b394388bc9ffc446f13b14",
+      "sha256": "c2a95b499e76fada7dd63e9b0ec797b678d411c2b0ee6f37f4dc674662bfb0af",
+      "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar"
+    },
+    {
+      "bytes": 360738,
+      "id": "9903b61451ee05dc368216335d90166c1f69a739269d07f23165f6cc9ab187cb",
+      "libraryPath": "commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar",
+      "sha1": "4e3eb3d79888d76b54e28b350915b5dc3919c9de",
+      "sha256": "56595fb20b0b85bc91d0d503dad50bb7f1b9afc0eed5dffa6cbb25929000484d",
+      "url": "https://libraries.minecraft.net/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar"
+    },
+    {
+      "bytes": 501218,
+      "id": "0a79fa7b31f8d02e2e05732cb9caa7cbcdd960cdd310486d398ef0be99b78cd7",
+      "libraryPath": "commons-io/commons-io/2.15.1/commons-io-2.15.1.jar",
+      "sha1": "f11560da189ab563a5c8e351941415430e9304ea",
+      "sha256": "a58af12ee1b68cfd2ebb0c27caef164f084381a00ec81a48cc275fd7ea54e154",
+      "url": "https://libraries.minecraft.net/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar"
+    },
+    {
+      "bytes": 61829,
+      "id": "2c06f981b7de49be146b2e1382c683ca0d2fedd4c45ae9e0ae09fb618ffbb24b",
+      "libraryPath": "commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+      "sha1": "4bfc12adfe4842bf07b657f0369c4cb522955686",
+      "sha256": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636",
+      "url": "https://libraries.minecraft.net/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+    },
+    {
+      "bytes": 306590,
+      "id": "ace5be23946d21d91f8b24235ba38ae544b01c94afb89a269e413fb76cf384db",
+      "libraryPath": "io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar",
+      "sha1": "f8f3d8644afa5e6e1a40a3a6aeb9d9aa970ecb4f",
+      "sha256": "a4393f5b395486cc74d0325c9b41311abb9513ba0fd7ef8cf46e9345c3bffbea",
+      "url": "https://libraries.minecraft.net/io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar"
+    },
+    {
+      "bytes": 345274,
+      "id": "5c62a95724daaadc7c8930e72cf186091fb525ef8490009fa7895d8a26279494",
+      "libraryPath": "io/netty/netty-codec/4.1.97.Final/netty-codec-4.1.97.Final.jar",
+      "sha1": "384ba4d75670befbedb45c4d3b497a93639c206d",
+      "sha256": "bcc96737a0f912fcf031cf8c45ebda352a90a40437db0832caad3d5a63618b38",
+      "url": "https://libraries.minecraft.net/io/netty/netty-codec/4.1.97.Final/netty-codec-4.1.97.Final.jar"
+    },
+    {
+      "bytes": 659930,
+      "id": "732bec344365fdd7a1beca94ce37f6b32bdb980a8dd9b1020ca39714ab3849c8",
+      "libraryPath": "io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar",
+      "sha1": "7cceacaf11df8dc63f23d0fb58e9d4640fc88404",
+      "sha256": "a8aca0c8e9347acc75c885ecc749195d9775369aa520b9276f2d1128210a6c17",
+      "url": "https://libraries.minecraft.net/io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar"
+    },
+    {
+      "bytes": 560040,
+      "id": "dd3f30a6701b177c80b2087513414abaa4265e75df6fc560c5d5a88ba7155af5",
+      "libraryPath": "io/netty/netty-handler/4.1.97.Final/netty-handler-4.1.97.Final.jar",
+      "sha1": "abb86c6906bf512bf2b797a41cd7d2e8d3cd7c36",
+      "sha256": "bd4771d19149cbc9c7464ed2d58035d79cdfed7adb59d38718b0d8e7a3dcc2de",
+      "url": "https://libraries.minecraft.net/io/netty/netty-handler/4.1.97.Final/netty-handler-4.1.97.Final.jar"
+    },
+    {
+      "bytes": 37792,
+      "id": "5e41d7e3606f78f5b2a91221d19af7b59475276c333e49e1be373c327d7e0f1f",
+      "libraryPath": "io/netty/netty-resolver/4.1.97.Final/netty-resolver-4.1.97.Final.jar",
+      "sha1": "cec8348108dc76c47cf87c669d514be52c922144",
+      "sha256": "38a018c6d9fb2cb11b72881354782b45080bbd20b9a0ad6cde28b80d431ed0b1",
+      "url": "https://libraries.minecraft.net/io/netty/netty-resolver/4.1.97.Final/netty-resolver-4.1.97.Final.jar"
+    },
+    {
+      "bytes": 147139,
+      "id": "09a95d9026522eb09844ab94b3997097ff78639a84cc995be6f491b1e14f33de",
+      "libraryPath": "io/netty/netty-transport-classes-epoll/4.1.97.Final/netty-transport-classes-epoll-4.1.97.Final.jar",
+      "sha1": "795da37ded759e862457a82d9d92c4d39ce8ecee",
+      "sha256": "ee65fa17fe65f18fd22269f92bddad85bfb3a263cf65eba01e116a2f30b86ff5",
+      "url": "https://libraries.minecraft.net/io/netty/netty-transport-classes-epoll/4.1.97.Final/netty-transport-classes-epoll-4.1.97.Final.jar"
+    },
+    {
+      "bytes": 43897,
+      "id": "fc260500bff62d686aba332b3233b80c75e3923127973bca376d5e8410408904",
+      "libraryPath": "io/netty/netty-transport-native-unix-common/4.1.97.Final/netty-transport-native-unix-common-4.1.97.Final.jar",
+      "sha1": "d469d84265ab70095b01b40886cabdd433b6e664",
+      "sha256": "412fe140257c2dda5a5e15bee911298bd61928d03ee6be4db588e82c196c5dc6",
+      "url": "https://libraries.minecraft.net/io/netty/netty-transport-native-unix-common/4.1.97.Final/netty-transport-native-unix-common-4.1.97.Final.jar"
+    },
+    {
+      "bytes": 489624,
+      "id": "030ecf84aa12e66e1b42f25aee3377e5fd546fd4301ae526c890a22f71aee200",
+      "libraryPath": "io/netty/netty-transport/4.1.97.Final/netty-transport-4.1.97.Final.jar",
+      "sha1": "f37380d23c9bb079bc702910833b2fd532c9abd0",
+      "sha256": "197fd2d6c6b4afe677d9e95bf2e36b49a0bcabdfce0583683fb73f29a3f5a407",
+      "url": "https://libraries.minecraft.net/io/netty/netty-transport/4.1.97.Final/netty-transport-4.1.97.Final.jar"
+    },
+    {
+      "bytes": 23326598,
+      "id": "d422e1b47cd53b006c57c430cc297977d356834ce62e69d4feffe38f145009e4",
+      "libraryPath": "it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar",
+      "sha1": "c24946d46824bd528054bface3231d2ecb7e95e8",
+      "sha256": "b5543ee08d062d551cf0a5c9bc0fb70588b0382079029ba48941fa9c9be8a5d4",
+      "url": "https://libraries.minecraft.net/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar"
+    },
+    {
+      "bytes": 1369287,
+      "id": "ee7608af78d660b85a99241c382b82de4a3df85c36ed4981e108cf32081fc4bc",
+      "libraryPath": "net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.jar",
+      "sha1": "28934d48aed814f11e4c584da55c49fa7032b31b",
+      "sha256": "ae4caceb3840730c2537f9b7fb55a01baba580286b4122951488bcee558c2449",
+      "url": "https://libraries.minecraft.net/net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.jar"
+    },
+    {
+      "bytes": 1878533,
+      "id": "7973c8ce9a698e0faaf4c5405edf6cdd5ae647998fea6d1abcf9238188b85e6d",
+      "libraryPath": "net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar",
+      "sha1": "67bf3eaea4f0718cb376a181a629e5f88fa1c9dd",
+      "sha256": "34ed1e1f27fa896bca50dbc4e99cf3732967cec387a7a0d5e3486c09673fe8c6",
+      "url": "https://libraries.minecraft.net/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar"
+    },
+    {
+      "bytes": 78146,
+      "id": "ac5974e2cffe922a25c9142d65f46b8d191f907fa1e908a92c127ad5142bf8fe",
+      "libraryPath": "net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
+      "sha1": "4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c",
+      "sha256": "df26cc58f235f477db07f753ba5a3ab243ebe5789d9f89ecf68dd62ea9a66c28",
+      "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+    },
+    {
+      "bytes": 1078328,
+      "id": "96f1dd92cf2b1272111f83b21c1c1ca75d4931378890402cd077d814cfbacbeb",
+      "libraryPath": "org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar",
+      "sha1": "659feffdd12280201c8aacb8f7be94f9a883c824",
+      "sha256": "051aceb8bbcc62d0f5b2b8ac72c53767f9c59bfbd050151e65bef6f51c8ed9c9",
+      "url": "https://libraries.minecraft.net/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar"
+    },
+    {
+      "bytes": 657952,
+      "id": "8886a9da44e390ce22a6176e71cbab6ee38aaaf99a94f3a0a4b0d3b61c52d21d",
+      "libraryPath": "org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar",
+      "sha1": "1ed471194b02f2c6cb734a0cd6f6f107c673afae",
+      "sha256": "7b96bf3ee68949abb5bc465559ac270e0551596fa34523fddf890ec418dde13c",
+      "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar"
+    },
+    {
+      "bytes": 780321,
+      "id": "bf604c63db3d2936555ababc7be5103c225b11df054d37a15e78dd8ebc311e0d",
+      "libraryPath": "org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar",
+      "sha1": "e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada",
+      "sha256": "6fe9026a566c6a5001608cf3fc32196641f6c1e5e1986d1037ccdbd5f31ef743",
+      "url": "https://libraries.minecraft.net/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"
+    },
+    {
+      "bytes": 327891,
+      "id": "240d94b2da82305ef4017a453dac5b4c0ce316c1732c440ed5ef01d80e644c87",
+      "libraryPath": "org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar",
+      "sha1": "51cf043c87253c9f58b539c9f7e44c8894223850",
+      "sha256": "6c9b3dd142a09dc468e23ad39aad6f75a0f2b85125104469f026e52a474e464f",
+      "url": "https://libraries.minecraft.net/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar"
+    },
+    {
+      "bytes": 335001,
+      "id": "d3685326e548cba6ac855f5159aec05888984b9a1beb815d4abe5c586331b947",
+      "libraryPath": "org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar",
+      "sha1": "bea6fede6328fabafd7e68363161a7ea6605abd1",
+      "sha256": "5d7beae7ff15d8516d6517121d7f12a79a6ac180df64b5fcec55d5be21056e53",
+      "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar"
+    },
+    {
+      "bytes": 1900022,
+      "id": "16c9ad252b0e516da4cd1fd487bd67f61e46220cdfb5391ac19ebc2325c288b6",
+      "libraryPath": "org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar",
+      "sha1": "7183a25510a02ad00cc6a95d3b3d2a7d3c5a8dc4",
+      "sha256": "46dccecac556623d8e2ce8648496824a82951d139062a4e61148aff1a25ed18d",
+      "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar"
+    },
+    {
+      "bytes": 27364,
+      "id": "42207fc0cccee43967ea39e16fa2c0e21fd10bac4d3c01e3d9bf3d3864ca8ccd",
+      "libraryPath": "org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar",
+      "sha1": "d7e6693c2606cb7e7335047d7bb96dec52db5665",
+      "sha256": "1920cd69d8682c7ef249bb407a3d0685723aa1785867cf4c53258da6bf14da97",
+      "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar"
+    },
+    {
+      "bytes": 223979,
+      "id": "50a5b3510de20ec5626d4d4d3c96be663cced9790f31ef66d9b67ac8ebdefbcb",
+      "libraryPath": "org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar",
+      "sha1": "de2b60b62da487644fc11f734e73c8b0b431238f",
+      "sha256": "e316255bbfcd9fe50d165314b85abb2b33cb2a66a93c491db648e498a82c2de1",
+      "url": "https://libraries.minecraft.net/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar"
+    },
+    {
+      "bytes": 99701,
+      "id": "c7681f26ccca179ff735be285bb9e40e92942287e2cb26d36e2014ea11c674f4",
+      "libraryPath": "org/jcraft/jorbis/0.0.17/jorbis-0.0.17.jar",
+      "sha1": "8872d22b293e8f5d7d56ff92be966e6dc28ebdc6",
+      "sha256": "e067f29a3701426b67ed973036949c6e58ca5bb53eef7240b2e71e286d252a9e",
+      "url": "https://libraries.minecraft.net/org/jcraft/jorbis/0.0.17/jorbis-0.0.17.jar"
+    },
+    {
+      "bytes": 712082,
+      "id": "3fcbaeace9984c2abd150c73d5f28e3cf68d23ea833735cbfc684e0c003ce8cc",
+      "libraryPath": "org/joml/joml/1.10.5/joml-1.10.5.jar",
+      "sha1": "22566d58af70ad3d72308bab63b8339906deb649",
+      "sha256": "cac9f22f83a7aa33eebda73c16ff5261e3cb4911b6bafcf4c79ea486099d0c9a",
+      "url": "https://libraries.minecraft.net/org/joml/joml/1.10.5/joml-1.10.5.jar"
+    },
+    {
+      "bytes": 886068,
+      "id": "d11e2004600c848643bb0473bbd9be06cbd61a6e47bc0e66a448522a7a8c7ee2",
+      "libraryPath": "org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3-natives-windows-arm64.jar",
+      "sha1": "82028265a0a2ff33523ca75137ada7dc176e5210",
+      "sha256": "b589983ec143ff09acd8d9a215b4ef3f80750855646c1b96279066ea5e44f40c",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3-natives-windows-arm64.jar"
+    },
+    {
+      "bytes": 877480,
+      "id": "a2945dfc1a84eb7764a5a9584f9d14affafa274678196f63ce760692e3a52c4f",
+      "libraryPath": "org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3-natives-windows-x86.jar",
+      "sha1": "15a8c1de7f51d07a92eae7ce1222557073a0c0c3",
+      "sha256": "75a798a5f492e1376d05dc637a9105198e71d06f38a11e9bce1c5072e0d60b3a",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3-natives-windows-x86.jar"
+    },
+    {
+      "bytes": 1035586,
+      "id": "a20e6ec932343638441730ecc0a7036c201745da11e8c4dcd4c8c571d0b293d8",
+      "libraryPath": "org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3-natives-windows.jar",
+      "sha1": "81091b006dbb43fab04c8c638e9ac87c51b4096d",
+      "sha256": "022e59514b1ecb45249413ae62ad094971d7ac88c0dce9a32c627d06a3c01a1f",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3-natives-windows.jar"
+    },
+    {
+      "bytes": 450896,
+      "id": "91c88ab7ef63ba522174460ebc332b25eb4931ca2cdd6340cb0ebb9296be73d0",
+      "libraryPath": "org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3.jar",
+      "sha1": "a0db6c84a8becc8ca05f9dbfa985edc348a824c7",
+      "sha256": "e1a7ab07106349d9a8a68f6860b7b73b353c502b81e662aca77f931c6fdd3de8",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3.jar"
+    },
+    {
+      "bytes": 141970,
+      "id": "04abc94ffa660515369ac05fa018636136ff642ad097918fa1b3575d80db5c24",
+      "libraryPath": "org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3-natives-windows-arm64.jar",
+      "sha1": "f27018dc74f6289574502b46cce55d52817554e2",
+      "sha256": "70ca9db0d2764cb9dbc8fb5fd425318c5af597173b134d03259e2030652e94b5",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3-natives-windows-arm64.jar"
+    },
+    {
+      "bytes": 157123,
+      "id": "edc208edc1c5025125963cce5dd66b0ce58b0c38c7e59a088a767d92009cd72b",
+      "libraryPath": "org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3-natives-windows-x86.jar",
+      "sha1": "32334f3fd5270a59bad9939a93115acb6de36dcf",
+      "sha256": "9646555d405f0d2a3a9576b506f57c1632af64f69a8ae58cb0448ae04a9c7824",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3-natives-windows-x86.jar"
+    },
+    {
+      "bytes": 166368,
+      "id": "43f3882611a48732e8b139c3733a1fd5974b73152753471cf2db293d011a626c",
+      "libraryPath": "org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3-natives-windows.jar",
+      "sha1": "e449e28b4891fc423c54c85fbc5bb0b9efece67a",
+      "sha256": "98155b451dfc6f585089dec77a12f9c05789c4dceb8da472f9d308160101a70d",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3-natives-windows.jar"
+    },
+    {
+      "bytes": 135546,
+      "id": "b9c084ff5de4c320caebabdf4b914b6742a6c8a244751ad3fb28367e498ecead",
+      "libraryPath": "org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3.jar",
+      "sha1": "efa1eb78c5ccd840e9f329717109b5e892d72f8e",
+      "sha256": "bedc757fd2b1b255146db26b74b9cbd1fcf5644b89b47b104fa721c741604259",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3.jar"
+    },
+    {
+      "bytes": 154415,
+      "id": "89e169f0a642c1426a0f2950b39ba882e256b275a06da6184499a06ba01a9be5",
+      "libraryPath": "org/lwjgl/lwjgl-jemalloc/3.3.3/lwjgl-jemalloc-3.3.3-natives-windows-arm64.jar",
+      "sha1": "ba1f3fed0ee4be0217eaa41c5bbfb4b9b1383c33",
+      "sha256": "1f204ace18e3512765003d83b9a853856f65dda70b63b9722638483f2d5d34c2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.3.3/lwjgl-jemalloc-3.3.3-natives-windows-arm64.jar"
+    },
+    {
+      "bytes": 148612,
+      "id": "6588eba282b2671964f450628b9f26b544e568b5f8b4ce0062b4f79f42fbf303",
+      "libraryPath": "org/lwjgl/lwjgl-jemalloc/3.3.3/lwjgl-jemalloc-3.3.3-natives-windows-x86.jar",
+      "sha1": "f6063b6e0f23be483c5c88d84ce51b39dc69126c",
+      "sha256": "d9b4e06e2a84205583fb05440d2238385a91cb01a060ddb1d376223ae225f14a",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.3.3/lwjgl-jemalloc-3.3.3-natives-windows-x86.jar"
+    },
+    {
+      "bytes": 180344,
+      "id": "01f74f4f52cc89be0caee2901027921f0c3ef867b1c833faff4f6cca6628a823",
+      "libraryPath": "org/lwjgl/lwjgl-jemalloc/3.3.3/lwjgl-jemalloc-3.3.3-natives-windows.jar",
+      "sha1": "426222fc027602a5f21b9c0fe79cde6a4c7a011f",
+      "sha256": "9949c8e49998bd0c878d842884011f1383e2851005091e0b2bcf7b7671b848eb",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.3.3/lwjgl-jemalloc-3.3.3-natives-windows.jar"
+    },
+    {
+      "bytes": 43896,
+      "id": "03d98adf73e9df3b568b4769c264015eae546d6630a096fb0c071588547bb5d3",
+      "libraryPath": "org/lwjgl/lwjgl-jemalloc/3.3.3/lwjgl-jemalloc-3.3.3.jar",
+      "sha1": "b543467b7ff3c6920539a88ee602d34098628be5",
+      "sha256": "e99e31269e6678a4bfc62ef24c50a481c01cbdd004861ece9a59ba12768c6516",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.3.3/lwjgl-jemalloc-3.3.3.jar"
+    },
+    {
+      "bytes": 630410,
+      "id": "c6e6f757e56ac8756e2e61abb8f9da15453366994066d1d24bb76bb025cc7258",
+      "libraryPath": "org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3-natives-windows-arm64.jar",
+      "sha1": "8e0615235116b9e4160dfe87bec90f5f6378bf72",
+      "sha256": "875f81451731df2cac48bbe3c4559834a94d36fc15f461c933e4d4acdd2f1f26",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3-natives-windows-arm64.jar"
+    },
+    {
+      "bytes": 638424,
+      "id": "625620d340a0ed6323555a5fd32eb9352e6bb77c805b8e1e944b75796792b83f",
+      "libraryPath": "org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3-natives-windows-x86.jar",
+      "sha1": "87b8d5050e3adb46bb58fe1cb2669a4a48fce10d",
+      "sha256": "852ca4e36b1fdfdd3efb6ce42f08b7d0f957b04c4bcfbd78057b0c799f399231",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3-natives-windows-x86.jar"
+    },
+    {
+      "bytes": 698720,
+      "id": "6d29f5fe22b0f8e0836f35098bbf92381c56a5fce3f2cf99af4feb5edc1b8e92",
+      "libraryPath": "org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3-natives-windows.jar",
+      "sha1": "cf83862ae95d98496b26915024c7e666d8ab1c8f",
+      "sha256": "e3da7c3db25c81db8d425ef1e3dbfa15000b040d669f008b0813c94333ac96c8",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3-natives-windows.jar"
+    },
+    {
+      "bytes": 110586,
+      "id": "90f12e83e67e536a440d407f213d5e6ae0cb9a6d78bb39c89031b46573afb888",
+      "libraryPath": "org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3.jar",
+      "sha1": "daada81ceb5fc0c291fbfdd4433cb8d9423577f2",
+      "sha256": "ae0e82767cacf08921f578fba9d84753ddeb00ceada0510a2b4a882be28fbf95",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3.jar"
+    },
+    {
+      "bytes": 83095,
+      "id": "66891288b7c113cd56593ea13ef3aca9621973a7245a46f6946e4fd1c48b09d4",
+      "libraryPath": "org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3-natives-windows-arm64.jar",
+      "sha1": "65e956d3735a1abdc82eff4baec1b61174697d4b",
+      "sha256": "68c8dbc41436e421ff0b3927e62d2aa533552d8f02d73de3fd928d7a51fd797a",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3-natives-windows-arm64.jar"
+    },
+    {
+      "bytes": 88612,
+      "id": "8e5cccd483f2c809bb4dec4515f1b7c3062d539145dd0ad284487a89777e4541",
+      "libraryPath": "org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3-natives-windows-x86.jar",
+      "sha1": "0d32d833dcaa2f355a886eaf21f0408b5f03241d",
+      "sha256": "9d99d203de4e31286cae753a1dfb981367c93734f1944644ba71be521b3af2cc",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3-natives-windows-x86.jar"
+    },
+    {
+      "bytes": 101535,
+      "id": "2e8a05044353f41d00147dc92bddd5f9a4645b2aa77ca370e649da5dcb25fa85",
+      "libraryPath": "org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3-natives-windows.jar",
+      "sha1": "e6c1eec8be8a71951b830a4d69efc01c6531900c",
+      "sha256": "f45e5f60596b03b2e3d8b98a123c855ebd0b5154c8155dc2a56b890ccc907477",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3-natives-windows.jar"
+    },
+    {
+      "bytes": 929192,
+      "id": "df5a81bfc87aaa9d764a01eed88ccdc6af3847879fdfd1a277a18bd9c4d98f01",
+      "libraryPath": "org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3.jar",
+      "sha1": "02f6b0147078396a58979125a4c947664e98293a",
+      "sha256": "5062da750e5f7ec89e27e8b67b7d40fa8c4b16890159e35f828116ce6c8eca1e",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3.jar"
+    },
+    {
+      "bytes": 219511,
+      "id": "2b14bff5e8b383ea3e26595a443afff47184be8d81dbbb615686d1548e812c2b",
+      "libraryPath": "org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3-natives-windows-arm64.jar",
+      "sha1": "a584ab44de569708871f0a79561f4d8c37487f2c",
+      "sha256": "3d1454dfbad9e1b8a7da25e2928c16a4a63a14050b27da1912c3be0c60b02e7c",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3-natives-windows-arm64.jar"
+    },
+    {
+      "bytes": 227800,
+      "id": "0b6a8998673dbd22a3eb2c3132ac89790ffe072d75a2d6230ef04c975c5c80e7",
+      "libraryPath": "org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3-natives-windows-x86.jar",
+      "sha1": "b5c874687b9aac1a936501d4ed2c49567fd1b575",
+      "sha256": "46424e45459733b26c4a7b0dd2695209cb6938dafa3a9012c6a5682c94a2c40e",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3-natives-windows-x86.jar"
+    },
+    {
+      "bytes": 261297,
+      "id": "f0c68d4671173eacf587d51fe8c9dc125b5cdd3150f6deb42a90a8753fa20cd7",
+      "libraryPath": "org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3-natives-windows.jar",
+      "sha1": "1d9facdf6541de114b0f963be33505b7679c78cb",
+      "sha256": "d12ab866fe1169e924ac5b4d6bb7767ae7842a9fc8652798682c0069bb73fcf2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3-natives-windows.jar"
+    },
+    {
+      "bytes": 120283,
+      "id": "b839b962f2f9b6f273d9440484ccc4ffcb21649e9fe79cdbc5c194de2d1ee1f0",
+      "libraryPath": "org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3.jar",
+      "sha1": "25dd6161988d7e65f71d5065c99902402ee32746",
+      "sha256": "0cff7aa46ea9d70fcc20857015293ea80fbf21adcac34600c84da9b81a44ca93",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3.jar"
+    },
+    {
+      "bytes": 110867,
+      "id": "cf65ec99d1db0d3c6e436179f8c3314a166d93bff4cf937f7ee85b65ec6c34ec",
+      "libraryPath": "org/lwjgl/lwjgl-tinyfd/3.3.3/lwjgl-tinyfd-3.3.3-natives-windows-arm64.jar",
+      "sha1": "a88c494f3006eb91a7433b12a3a55a9a6c20788b",
+      "sha256": "71076fc5c01788577719f4b1983473026b2eb8cbb02d3dc736f8b5724a49fd8c",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.3.3/lwjgl-tinyfd-3.3.3-natives-windows-arm64.jar"
+    },
+    {
+      "bytes": 111797,
+      "id": "113b362755cc09874faad5d1be727032917bda528b8772d788d84189f081a498",
+      "libraryPath": "org/lwjgl/lwjgl-tinyfd/3.3.3/lwjgl-tinyfd-3.3.3-natives-windows-x86.jar",
+      "sha1": "c336c84ee88cccb495c6ffa112395509e7378e8a",
+      "sha256": "43c9264f0661087b06ae29d78aab98121dfad69efe3202424e3419738d5e9994",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.3.3/lwjgl-tinyfd-3.3.3-natives-windows-x86.jar"
+    },
+    {
+      "bytes": 130253,
+      "id": "b16498aca04287414bfda35a692850cf86770f771cdb2389496d786e3f0cca61",
+      "libraryPath": "org/lwjgl/lwjgl-tinyfd/3.3.3/lwjgl-tinyfd-3.3.3-natives-windows.jar",
+      "sha1": "a6697981b0449a5087c1d546fc08b4f73e8f98c9",
+      "sha256": "02285911f1c881735fa4d0eb141ffeaafd9a2bb9349d98f7c1fb8a9cb49c0f58",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.3.3/lwjgl-tinyfd-3.3.3-natives-windows.jar"
+    },
+    {
+      "bytes": 13400,
+      "id": "9679a738c510a0f0e6b8db30cbb52e6ed1c00e2e6b3dc61a664d6c96e077782e",
+      "libraryPath": "org/lwjgl/lwjgl-tinyfd/3.3.3/lwjgl-tinyfd-3.3.3.jar",
+      "sha1": "82d755ca94b102e9ca77283b9e2dc46d1b15fbe5",
+      "sha256": "ee0515054ee19a3f4088426fee9d879eb2ee657b07e5064e4e2c851f6adcf14b",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.3.3/lwjgl-tinyfd-3.3.3.jar"
+    },
+    {
+      "bytes": 133378,
+      "id": "385ae54dad4d09b0235f8eb71853f1c00aca1488f3d6c7cd03891ff041509fd6",
+      "libraryPath": "org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3-natives-windows-arm64.jar",
+      "sha1": "e9aca8c5479b520a2a7f0d542a118140e812c5e8",
+      "sha256": "d35582ca7edff59d4a5c8f4a0edec779caea4ca8e26c9aff8244710049bb4350",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3-natives-windows-arm64.jar"
+    },
+    {
+      "bytes": 139653,
+      "id": "30b1fb9b965b3a3c15b072ed65515ffcad771d2300e7b6b75ddcb50259069dd8",
+      "libraryPath": "org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3-natives-windows-x86.jar",
+      "sha1": "9e670718e050aeaeea0c2d5b907cffb142f2e58f",
+      "sha256": "22a22338262554eb5e133c8441deeedac84da082eb3bac84d032da4faf369749",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3-natives-windows-x86.jar"
+    },
+    {
+      "bytes": 165442,
+      "id": "b8560dce1ad68ea245b4e468ddef790448c3500bb7284db888fcb562b659e741",
+      "libraryPath": "org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3-natives-windows.jar",
+      "sha1": "a5ed18a2b82fc91b81f40d717cb1f64c9dcb0540",
+      "sha256": "5ee63a19187efe5bb8747fd24f7b13257db348df5ad641113a3695e43f213959",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3-natives-windows.jar"
+    },
+    {
+      "bytes": 785029,
+      "id": "e58d16d9ec6632c9dd8244d179a806fe3309ffa333f0ebda4dde90acde0c2ad7",
+      "libraryPath": "org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3.jar",
+      "sha1": "29589b5f87ed335a6c7e7ee6a5775f81f97ecb84",
+      "sha256": "dc9c7b2d48e8396d68895f8902ffa01e46253de44dfe927533ff09457ebfeec4",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3.jar"
+    },
+    {
+      "bytes": 682804,
+      "id": "b165b112be8748d5a319a9c60cd88d5766748e05dc97cdbbafde0048af7a8ed3",
+      "libraryPath": "org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar",
+      "sha1": "4b986a99445e49ea5fbf5d149c4b63f6ed6c6780",
+      "sha256": "d74a3334fb35195009b338a951f918203d6bbca3d1d359033dc33edd1cadc9ef",
+      "url": "https://libraries.minecraft.net/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar"
+    },
+    {
+      "bytes": 122176,
+      "id": "730449e4c68f0586340ebd8a7c295c17f448435176f7582577f755fb3fc37e35",
+      "libraryPath": "org/ow2/asm/asm/9.3/asm-9.3.jar",
+      "sha1": "8e6300ef51c1d801a7ed62d07cd221aca3a90640",
+      "sha256": "1263369b59e29c943918de11d6d6152e2ec6085ce63e5710516f8c67d368e4bc",
+      "url": "https://libraries.minecraft.net/org/ow2/asm/asm/9.3/asm-9.3.jar"
+    },
+    {
+      "bytes": 64579,
+      "id": "3538032841460edad416d3a38916d5091ff9de46584b19a6dede83ce87be9b48",
+      "libraryPath": "org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar",
+      "sha1": "7cf2726fdcfbc8610f9a71fb3ed639871f315340",
+      "sha256": "0818930dc8d7debb403204611691da58e49d42c50b6ffcfdce02dadb7c3c2b6c",
+      "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar"
+    },
+    {
+      "bytes": 382911,
+      "id": "52ffcbe0221339d81f8447d080f4eb69fc74b31668869477cd430909d9180044",
+      "libraryPath": "com/electronwill/night-config/core/3.8.3/core-3.8.3.jar",
+      "sha1": "b442a95f09e349927f5a945ecb594455870fcf4f",
+      "sha256": "971dc88c1c22085611ee1c300f5bbf8595938178e819befbb5e98c3cbd272b79",
+      "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar"
+    },
+    {
+      "bytes": 39516,
+      "id": "ff5d006592bab4a2bb3f2805dc5d90fb10252fa024ec52a5b14944e2487ba5d3",
+      "libraryPath": "com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar",
+      "sha1": "90b2fd6efcb4a7d5b9810cf78f9d824994d717f2",
+      "sha256": "ccb92882264bf071e3916ab122fe5ea3e211b8ebf199201698a1324f151f928f",
+      "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar"
+    },
+    {
+      "bytes": 2442625,
+      "id": "80ee9e64cbd2751f5a5f4a07f7057cf124ed6f15461bf51b16952cd38bc1fdbe",
+      "libraryPath": "com/google/guava/guava/20.0/guava-20.0.jar",
+      "sha1": "89507701249388e1ed5ddcf8c41f4ce1be7831ef",
+      "sha256": "36a666e3b71ae7f0f0dca23654b67e086e6c93d192f60ba5dfd5519db6c288c8",
+      "url": "https://maven.neoforged.net/releases/com/google/guava/guava/20.0/guava-20.0.jar"
+    },
+    {
+      "bytes": 250861,
+      "id": "cd3e6ccff136f78a0681ed58e4bd5cb14614f77059f43c96913f544985521214",
+      "libraryPath": "com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar",
+      "sha1": "b65330c98e38a1f915fa54a6e5eca496505e3f0a",
+      "sha256": "3d70aaea3904918587a21bdf99ab6ade9ab1dd0eaf6119344ba513f60f575816",
+      "url": "https://maven.neoforged.net/releases/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar"
+    },
+    {
+      "bytes": 167167,
+      "id": "57ac4c71a8959dabc821012757f5a9e9ddd4d6b19e387acdf6cceffea983fd9d",
+      "libraryPath": "com/opencsv/opencsv/4.4/opencsv-4.4.jar",
+      "sha1": "525932a1edf46c9ca75aa9c83d31dc180c186865",
+      "sha256": "5d8969c14c7acecc318a9321d34b1289afd1bdd41c0e772667fd0a4f53e291a0",
+      "url": "https://maven.neoforged.net/releases/com/opencsv/opencsv/4.4/opencsv-4.4.jar"
+    },
+    {
+      "bytes": 246174,
+      "id": "31f61d8da1b20466a19912cf112140b29b0c6fcd311837ecf076037fff98aa14",
+      "libraryPath": "commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar",
+      "sha1": "c845703de334ddc6b4b3cd26835458cb1cba1f3d",
+      "sha256": "c058e39c7c64203d3a448f3adb588cb03d6378ed808485618f26e137f29dae73",
+      "url": "https://maven.neoforged.net/releases/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar"
+    },
+    {
+      "bytes": 588337,
+      "id": "a9f40fdf719a7d51a1a69986c30c9dca25cfb703e29c26c8142a43292bc9a7f5",
+      "libraryPath": "commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar",
+      "sha1": "8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5",
+      "sha256": "eeeae917917144a68a741d4c0dff66aa5c5c5fd85593ff217bced3fc8ca783b8",
+      "url": "https://maven.neoforged.net/releases/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar"
+    },
+    {
+      "bytes": 11116,
+      "id": "c83a3b3d115b88a7134d36cef43d54d6f6b68338379620fcc3e1d4458a41c150",
+      "libraryPath": "cpw/mods/bootstraplauncher/2.0.2/bootstraplauncher-2.0.2.jar",
+      "sha1": "1a2d076cbc33b0520cbacd591224427b2a20047d",
+      "sha256": "d3f29309140540570fd6c709509706aa8fb133c1c8aef24491688f1a3f4e1d49",
+      "url": "https://maven.neoforged.net/releases/cpw/mods/bootstraplauncher/2.0.2/bootstraplauncher-2.0.2.jar"
+    },
+    {
+      "bytes": 116486,
+      "id": "1eff5d3893ff9acf7fbf0e69723072841047fce0267b3ae175e6919d772fb9e0",
+      "libraryPath": "cpw/mods/modlauncher/11.0.5/modlauncher-11.0.5.jar",
+      "sha1": "b8f0d49294f733fdb6173931b263553e943dc950",
+      "sha256": "fd9b9fc7cf043d2264ea0113eac6b258f0a71fece5b00e831bfbdf9726c78a24",
+      "url": "https://maven.neoforged.net/releases/cpw/mods/modlauncher/11.0.5/modlauncher-11.0.5.jar"
+    },
+    {
+      "bytes": 103765,
+      "id": "cf1ca599168ac015e12d12df02d99ac16639b3a10e2f8c9855f376dad0425912",
+      "libraryPath": "cpw/mods/securejarhandler/3.0.8/securejarhandler-3.0.8.jar",
+      "sha1": "c0ef95cecd8699a0449053ac7d9c160748d902cd",
+      "sha256": "945c63d6deafc821616b0380c23867d9b8c2852438f8a6df72732ab933fc587d",
+      "url": "https://maven.neoforged.net/releases/cpw/mods/securejarhandler/3.0.8/securejarhandler-3.0.8.jar"
+    },
+    {
+      "bytes": 29476,
+      "id": "a067b2ffce574d0e50029f2d62ea7ac015bd11f578b141553cdcd7709a3a83ef",
+      "libraryPath": "de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar",
+      "sha1": "b615f26c03edeac966618b93b9ee4f4eed50aae1",
+      "sha256": "665d52cb6f35ca236919be9ac81653c208628507f91d6bf13479bc11496db616",
+      "url": "https://maven.neoforged.net/releases/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar"
+    },
+    {
+      "bytes": 1494751,
+      "id": "667bea7f9e5210254ebaaac826fd79380f1d165ee4cc3303b9e4992952a41542",
+      "libraryPath": "net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar",
+      "sha1": "2af2f021d8e02a0220dc27a7a72b4666d66d44ca",
+      "sha256": "1d45cfe3ae4a2eab38dc74276803748cf799088986260d6d912e50ddb35d15c5",
+      "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar"
+    },
+    {
+      "bytes": 18281,
+      "id": "b9573cf733ed8ad3827bc6597218537a8d1c0fdf3c396b1589a4b18f96beacaa",
+      "libraryPath": "net/jodah/typetools/0.6.3/typetools-0.6.3.jar",
+      "sha1": "a01aaa6ddaea9ec07ec4f209487b7a46a526283a",
+      "sha256": "408300867804be05d1083cc0287dd3a21295a9e76090e288013ba5a4182dc96d",
+      "url": "https://maven.neoforged.net/releases/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+    },
+    {
+      "bytes": 88737,
+      "id": "d20a818166a9b01321c6d625d9335f2f175fdaa7ee70ef4d14041336f5e59e14",
+      "libraryPath": "net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0.jar",
+      "sha1": "43b84c4bb8d01cf90a29dfeec1c958a4b64baf46",
+      "sha256": "a47cd9a3db46a0cc3b769bd19a2a91d4ad0e9d019153d186f099bbaf5db16445",
+      "url": "https://maven.neoforged.net/releases/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0.jar"
+    },
+    {
+      "bytes": 69393,
+      "id": "a3aeb011b8971c9c1c77faa81fd600e5e7a7daa210066ac573d66371734ea6c9",
+      "libraryPath": "net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar",
+      "sha1": "ca408b131759478f164e010fae0d73997e125fb5",
+      "sha256": "f6bdebb7fae108329acddfc812f237c7f6328a98e3f282a105edfc161d0215e3",
+      "url": "https://maven.neoforged.net/releases/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar"
+    },
+    {
+      "bytes": 16949,
+      "id": "1dd50ac92429af1f20b5d1a90ee8e94ee601cca43e140f7c6db497b3400decab",
+      "libraryPath": "net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar",
+      "sha1": "b562e9bb61235c9520e26282cdee71f8f802d1fc",
+      "sha256": "1afea1bca095068f7f4483f061feed94753be34233ddb0df9ec380fc14d5a985",
+      "url": "https://maven.neoforged.net/releases/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar"
+    },
+    {
+      "bytes": 746919,
+      "id": "8bfdadd349b8046595857df4609c0e5ce37d12e55cf00ce1b9e7b46d6912d947",
+      "libraryPath": "net/neoforged/AutoRenamingTool/2.0.3/AutoRenamingTool-2.0.3-all.jar",
+      "sha1": "d9890c71b4366f886c2b1006782043a6a6816eb6",
+      "sha256": "43fcb978664ba04fc0b3b1b1a14eccabb4bc87b7a415e0eb8bdd1c2f12324321",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/AutoRenamingTool/2.0.3/AutoRenamingTool-2.0.3-all.jar"
+    },
+    {
+      "bytes": 31807,
+      "id": "11801a94a736b0ae284484f224e67819c057f512c70a0e09c064fbd6cb7a3b69",
+      "libraryPath": "net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar",
+      "sha1": "78f59f89defcd032ed788b151ca6a0d40ace796a",
+      "sha256": "d9f88af1223ff23395c64ff0b0fe367563288a37bd38709bf667b6b39944bfab",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar"
+    },
+    {
+      "bytes": 15648,
+      "id": "4508d1087db4a4478b80d881b21be8911c5162c94bf95716fcb62502817e623f",
+      "libraryPath": "net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar",
+      "sha1": "f8da03683dc81694556dc3e177c5e3bb77ae6fcb",
+      "sha256": "05d7b89f09c6de1a9b61d0e786c8fd808aed044babf321653e14abd6740d5546",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar"
+    },
+    {
+      "bytes": 17168,
+      "id": "db94ae7289ab2a564d4ecfcbf5338a7c9c6c05e7dd527b731d78c7a9da3ec2f2",
+      "libraryPath": "net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar",
+      "sha1": "fb3cc7a58af22ad2880adb98af6d518128c47dae",
+      "sha256": "f34bab02a5e967650dc52b7cb37a200051a7078f7d1868597699d78697da2400",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar"
+    },
+    {
+      "bytes": 67234,
+      "id": "042edc23ce5fce6edf0a6da7e1768d7919a24ee7bcd7a3d3778650d2d577fa3f",
+      "libraryPath": "net/neoforged/accesstransformers/10.0.1/accesstransformers-10.0.1.jar",
+      "sha1": "fd83b5725f76eae9115e9355fa1c456a6a441400",
+      "sha256": "89fb0dc3d68f8a5961f309ee110dad7d2c1094ba204595602b71e02e104838a1",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/10.0.1/accesstransformers-10.0.1.jar"
+    },
+    {
+      "bytes": 2347,
+      "id": "090f42a3aa0ba4440e29e86853bf6821951cae8ac1c747346bf1e880d8f800a6",
+      "libraryPath": "net/neoforged/accesstransformers/at-modlauncher/10.0.1/at-modlauncher-10.0.1.jar",
+      "sha1": "5aba50202aceead086bc09fbc2751c9f05cb4890",
+      "sha256": "2a4b447c6944a2b89e383c1eed9a26bb5cc60330a5bb26ef0a912a38d52df935",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/at-modlauncher/10.0.1/at-modlauncher-10.0.1.jar"
+    },
+    {
+      "bytes": 30340,
+      "id": "1ca4acb4ff933400852351a82cb83a79554041208f94e41d3cb94c452360fde7",
+      "libraryPath": "net/neoforged/bus/8.0.5/bus-8.0.5.jar",
+      "sha1": "5b2d33285ab5d1554e9798ad98c40d6ea3868bd5",
+      "sha256": "705e24f37752809499a5cd0c7dd31eaabf3d933c5d3b2060168e94e9ef62593a",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/bus/8.0.5/bus-8.0.5.jar"
+    },
+    {
+      "bytes": 22659,
+      "id": "0d1093ecbda9dba92aef1706d084044aa8fcad10019a5776baca7aa973e49351",
+      "libraryPath": "net/neoforged/coremods/7.0.3/coremods-7.0.3.jar",
+      "sha1": "09147e6f638b4272b3bd5fc8f92ad37802512c6c",
+      "sha256": "d24c0d3e31af23cac36a0f9f98654b875f678b27ddccd8b28d331c1878a6de4a",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/coremods/7.0.3/coremods-7.0.3.jar"
+    },
+    {
+      "bytes": 261719,
+      "id": "43c73b90a98bbfc6c1e8211ea7454b01b09994b616d20031c5f9e19aebb8b4d5",
+      "libraryPath": "net/neoforged/fancymodloader/earlydisplay/4.0.43/earlydisplay-4.0.43.jar",
+      "sha1": "3a941fcf258b5a7dde0445377a7206a55d11630d",
+      "sha256": "76461588a12fd0d1f2a4b8d570676f919fc57eba0f82066da0ac0e884fc93242",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.43/earlydisplay-4.0.43.jar"
+    },
+    {
+      "bytes": 505633,
+      "id": "99b36e4e31b2ee29f233efac3c840c536a565fcd0a425b58bb57aa9fa317061f",
+      "libraryPath": "net/neoforged/fancymodloader/loader/4.0.43/loader-4.0.43.jar",
+      "sha1": "fb10b7bf2f568a9676ad8b426b19c23badbbd98a",
+      "sha256": "ba406038d0ce8242391bb23b9974648748d217b67332c0db620fcabf50edbc37",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.43/loader-4.0.43.jar"
+    },
+    {
+      "bytes": 624217,
+      "id": "4e7ba9d30f3afcc80637bfcf34b45d154436cd10e2d7fbee0328b139c8d459c1",
+      "libraryPath": "net/neoforged/installertools/binarypatcher/2.1.2/binarypatcher-2.1.2-fatjar.jar",
+      "sha1": "759b63ef393ed80418ec1ea4d233cd6152d02637",
+      "sha256": "9d73d565b775c8ec9da83da6d2a25454c7aad95eba22f64def9261f214cc49ba",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/installertools/binarypatcher/2.1.2/binarypatcher-2.1.2-fatjar.jar"
+    },
+    {
+      "bytes": 9379,
+      "id": "6117fa2a9d75f2882abc46c79a3d198d6038fbf12a77ae8b1c24b42e69b80857",
+      "libraryPath": "net/neoforged/installertools/cli-utils/2.1.2/cli-utils-2.1.2.jar",
+      "sha1": "e5a3115eb9e299117472675946be8a72e4990ad6",
+      "sha256": "023a5a0cc7579fbf10a0bdd2a47a8ac1a10046a6432fef36ec850ab1ccf5504d",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/installertools/cli-utils/2.1.2/cli-utils-2.1.2.jar"
+    },
+    {
+      "bytes": 83543,
+      "id": "bbaec9e03f0de2b99bfe0b48472899d29b1209a56cc6c098de9a967e4813793d",
+      "libraryPath": "net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar",
+      "sha1": "72524c0362f812d8aa4cdb4c03e9b45e2b71ae3b",
+      "sha256": "fc695a63f7cdc7f673f7a94d94c9f35518850594bd8fa5c933b0fff38352d8bb",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/installertools/installertools/2.1.2/installertools-2.1.2.jar"
+    },
+    {
+      "bytes": 7790,
+      "id": "e64bafe62aa0fec8429798329cfabb3b35ea51328a3d2cb9ef7b66062bf235b2",
+      "libraryPath": "net/neoforged/installertools/jarsplitter/2.1.2/jarsplitter-2.1.2.jar",
+      "sha1": "8a7916be0a0e589897beab7c839072631067e48e",
+      "sha256": "fe98ac94c75afcf77b1b6156effcffe72140d861f7e165303c35a5abe1a4f834",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/installertools/jarsplitter/2.1.2/jarsplitter-2.1.2.jar"
+    },
+    {
+      "bytes": 2550,
+      "id": "f95f3c51fc759d14bb8e67a461eb48ba932b43e9999a50f7c8cc4d778acc1a97",
+      "libraryPath": "net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar",
+      "sha1": "52fe1949be64e3303aabaaa21e315f551db9c9f4",
+      "sha256": "0260881294d8b218afe3d673f084d3745a55c28b35205d07d5e62d7f22202a00",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar"
+    },
+    {
+      "bytes": 6966206,
+      "id": "6061e251dbc7df694c485a65ca93e8231f5fcaa528181e53d1cea237705019aa",
+      "sha1": null,
+      "sha256": "9b8f4a63a7dcee3a92bdb2debe2303f8d07ddbd9f7eec4e5c4d9a8700ef01dd6",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.241/neoforge-21.1.241-installer.jar"
+    },
+    {
+      "bytes": 3544283,
+      "id": "27e48c2186b264c696ef549422f9c43b7ae0a503a80814d5f89933beac025f6a",
+      "libraryPath": "net/neoforged/neoforge/21.1.241/neoforge-21.1.241-universal.jar",
+      "sha1": "7e2cc2b9b1fd89b215ebd27bba698fedc0452fac",
+      "sha256": "4ceaf2c6a1bd9520bf77f227bde8e9eeb441764ecadd33ef1a4328dcbaff4d3f",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.241/neoforge-21.1.241-universal.jar"
+    },
+    {
+      "bytes": 1683830,
+      "id": "17ec00f3c481ff5e496238e1cff3b00874afd40266342c7abf3b6e43fa5a9d9b",
+      "libraryPath": "net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430.zip",
+      "sha1": "811e2bd86fa2cda2812e5e8e51d718ea8bd6d3f4",
+      "sha256": "3fcdf0f0d115774cfceaf206a05a6dc964e2189bfd00f5b5f863e37f4b7733c7",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/neoform/1.21.1-20240808.144430/neoform-1.21.1-20240808.144430.zip"
+    },
+    {
+      "bytes": 71421,
+      "id": "acff32ac23be04fdd401d2667c67eccf2e25cb86647c2357a628809811ae90a0",
+      "libraryPath": "net/neoforged/srgutils/1.0.0/srgutils-1.0.0.jar",
+      "sha1": "b9fe6cdab494983217cbc14cc6f92c8e6c616526",
+      "sha256": "16663ae2504a0522cca386af6c11281d3fde61d25b6bd2690d7200e900b26c36",
+      "url": "https://maven.neoforged.net/releases/net/neoforged/srgutils/1.0.0/srgutils-1.0.0.jar"
+    },
+    {
+      "bytes": 326305,
+      "id": "36a4ef0f7442cabbeb250c95f9eef66889fd62c45fea27c2de1f5ce0a62177d1",
+      "libraryPath": "org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar",
+      "sha1": "17125bae1d965624e265ef49552f6465a2bfa307",
+      "sha256": "54665d2838cc66458343468efc539e454fc95b46a8a04b13c6ac43fc9be63505",
+      "url": "https://maven.neoforged.net/releases/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar"
+    },
+    {
+      "bytes": 752798,
+      "id": "f23fc00c46adf59d3662d4b2f9d342793991b8420c123c82b7fa62b99a5ef05d",
+      "libraryPath": "org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar",
+      "sha1": "54ebea0a5b653d3c680131e73fe807bb8f78c4ed",
+      "sha256": "6a594721d51444fd97b3eaefc998a77f606dedb03def494f74755aead3c9df3e",
+      "url": "https://maven.neoforged.net/releases/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar"
+    },
+    {
+      "bytes": 501879,
+      "id": "c6a9ac8f55f58a8564fabe73e81c9982731521941fca8cff5df67745d332e55c",
+      "libraryPath": "org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar",
+      "sha1": "6505a72a097d9270f7a9e7bf42c4238283247755",
+      "sha256": "dac807f65b07698ff39b1b07bfef3d87ae3fd46d91bbf8a2bc02b2a831616f68",
+      "url": "https://maven.neoforged.net/releases/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar"
+    },
+    {
+      "bytes": 182954,
+      "id": "484437a38447c2be32e195682735a00e0875cdabb2436375326fb2e19c953a61",
+      "libraryPath": "org/apache/commons/commons-text/1.3/commons-text-1.3.jar",
+      "sha1": "9abf61708a66ab5e55f6169a200dbfc584b546d9",
+      "sha256": "8185b3a5311092d83ed1f184c2d093b3105d726bbd76867c32b3511542bb99a8",
+      "url": "https://maven.neoforged.net/releases/org/apache/commons/commons-text/1.3/commons-text-1.3.jar"
+    },
+    {
+      "bytes": 58077,
+      "id": "9c5922c527bdd929e966a1bb67c6ac8afeb026f736cdd019d59269a48af0ae2b",
+      "libraryPath": "org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar",
+      "sha1": "4433f50c07debefaed0553bd0068f4f48d449313",
+      "sha256": "91172bc294d6eab02fc9f45f4ea01fd0e418962d128cf489abea7b6957d988ee",
+      "url": "https://maven.neoforged.net/releases/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+    },
+    {
+      "bytes": 263253,
+      "id": "e7df5f576c67c78372aae6be466318ae0be98106a75f2c95e78c77d84b7a9b78",
+      "libraryPath": "org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar",
+      "sha1": "cf43b5391de623b36fe066a21127baef82c64022",
+      "sha256": "76d174792540e2775af94d03d10fb2d3c776e2cd0ac0ebf427d3e570072bb9ce",
+      "url": "https://maven.neoforged.net/releases/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar"
+    },
+    {
+      "bytes": 171052,
+      "id": "33ee552d544d111683b4099bc99c99909bc096dbaeee70cab302a163344fe08e",
+      "libraryPath": "org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar",
+      "sha1": "8f15415b022a25b473e8e16c28ae913186ffb9c4",
+      "sha256": "acd1c94d1e228aa7b7962f69b21ed3a9fd828eb3a63e4baf9086954e626af1f0",
+      "url": "https://maven.neoforged.net/releases/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar"
+    },
+    {
+      "bytes": 228481,
+      "id": "58ce1e980a192545cdfece64a08c0589645ae6f71cf9d3b3366aea2f52520280",
+      "libraryPath": "org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar",
+      "sha1": "d0ddcc708ddf527a3454c941b7b9225cc83a15ff",
+      "sha256": "12125170e795519ba6dc8010c070b53c76aae92b485c1e37530e54ab5dd08d43",
+      "url": "https://maven.neoforged.net/releases/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar"
+    },
+    {
+      "bytes": 2167292,
+      "id": "2126789c673ff1b3e345342d7e828f68a477d16f396fe508d29e3e64f641b53f",
+      "libraryPath": "org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar",
+      "sha1": "f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5",
+      "sha256": "6f816e84dfd63a81d4eaa7829c08337bbaff3ec683ff3bf6bbd90d017a00dc6f",
+      "url": "https://maven.neoforged.net/releases/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+    },
+    {
+      "bytes": 34276,
+      "id": "0bad31ae45862f024b2b70e9190dba84c3f6c5f745033bdc844405d8fe909db3",
+      "libraryPath": "org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar",
+      "sha1": "4b071f211b37c38e0e9f5998550197c8593f6ad8",
+      "sha256": "37fd5392bb2cf4c15f202ffefd46d0e92bb34ff848c549f30d426a60d6b29495",
+      "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar"
+    },
+    {
+      "bytes": 35151,
+      "id": "92442cf5c69cf11dec8457d42beafce74a4240ac3c81e7973cc16d932faa4963",
+      "libraryPath": "org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar",
+      "sha1": "b9747a320844b6cb1eacd90d8ecfd260a16c01d3",
+      "sha256": "e640732fbcd3c6271925a504f125e38384688f4dfbbf92c8622dfcee0d09edb9",
+      "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+    },
+    {
+      "bytes": 72716,
+      "id": "96a93e2be70ffb1d21f83636a21527a81a3bedbdc925e9e0a6421eb2e107d2cd",
+      "libraryPath": "org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar",
+      "sha1": "1f2a432d1212f5c352ae607d7b61dcae20c20af5",
+      "sha256": "a347c24732db2aead106b6e5996a015b06a3ef86e790a4f75b61761f0d2f7f39",
+      "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar"
+    },
+    {
+      "bytes": 73498,
+      "id": "692b41d5e96ab203c507e5da5b233946d18a8badf47302a1827ec0de235195e1",
+      "libraryPath": "org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar",
+      "sha1": "36e4d212970388e5bd2c5180292012502df461bb",
+      "sha256": "3301a1c1cb4c59fcc5292648dac1d7c5aed4c0f067dfbe88873b8cdfe77404f4",
+      "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+    },
+    {
+      "bytes": 52669,
+      "id": "437325de86378d25bdf0fd45920c25e6cb647f8a3a9c130718571bf74df48541",
+      "libraryPath": "org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar",
+      "sha1": "78d2ecd61318b5a58cd04fb237636c0e86b77d97",
+      "sha256": "ae629c2609f39681ef8d140a42a23800464a94f2d23e36d8f25cd10d5e4caff4",
+      "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar"
+    },
+    {
+      "bytes": 51934,
+      "id": "2c09fba10539a545cfc046754d1b61606472a705136d0cd8ebb42c87c0bb5a7b",
+      "libraryPath": "org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar",
+      "sha1": "018419ca5b77a2f81097c741e7872e6ab8d2f40d",
+      "sha256": "14b7880cb7c85eed101e2710432fc3ffb83275532a6a894dc4c4095d49ad59f1",
+      "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+    },
+    {
+      "bytes": 94559,
+      "id": "99a32a996a5c900412c8dc9b6c3ae61d1972e0eba15b8f748d658c05e8db70d5",
+      "libraryPath": "org/ow2/asm/asm-util/9.8/asm-util-9.8.jar",
+      "sha1": "395f1c1f035258511f27bc9b2583d76e4b143f59",
+      "sha256": "8ba0460ecb28fd0e2980e5f3ef3433a513a457bc077f81a53bdc75b587a08d15",
+      "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+    },
+    {
+      "bytes": 126113,
+      "id": "d5e85088fbd570b372ccef99eb75afe6f76e07ba5e189902e566753ac64d074a",
+      "libraryPath": "org/ow2/asm/asm/9.8/asm-9.8.jar",
+      "sha1": "dc19ecb3f7889b7860697215cae99c0f9b6f6b4b",
+      "sha256": "876eab6a83daecad5ca67eb9fcabb063c97b5aeb8cf1fca7a989ecde17522051",
+      "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.8/asm-9.8.jar"
+    },
+    {
+      "bytes": 7456063,
+      "id": "2cd5d9bcdb9ebd0119ae8cae16d50186ec3a467b67f300e223335c257b1330ce",
+      "sha1": "03f8985492bda0afc0898465341eb0acef35f570",
+      "sha256": "9d0b04bead421c8229aff14b534432bbc927bea642e7c8593d1276b8df8ba53f",
+      "url": "https://piston-data.mojang.com/v1/objects/03f8985492bda0afc0898465341eb0acef35f570/server.txt",
+      "vanilla": "server_mappings"
+    },
+    {
+      "bytes": 9598610,
+      "id": "28ecf480d3944d17c8737f74466fd9ef356e430a8f678310ca4c4c2aece90184",
+      "sha1": "2244b6f072256667bcd9a73df124d6c58de77992",
+      "sha256": "140c47931cccc8fc9e4c22d7603e2d714d1a953a146f51ea7397d95c955536ec",
+      "url": "https://piston-data.mojang.com/v1/objects/2244b6f072256667bcd9a73df124d6c58de77992/client.txt",
+      "vanilla": "client_mappings"
+    },
+    {
+      "bytes": 26836906,
+      "id": "cd14a5830c17a8dc4e5fe4f757d74f8addf4f41e7244df825ccfeb28cf2c0798",
+      "sha1": "30c73b1c5da787909b2f73340419fdf13b9def88",
+      "sha256": "499f6897d1837516680f3114072d8106e11c9adcd933fe5cf051b551089b0c99",
+      "url": "https://piston-data.mojang.com/v1/objects/30c73b1c5da787909b2f73340419fdf13b9def88/client.jar",
+      "vanilla": "client"
+    },
+    {
+      "bytes": 51627615,
+      "id": "1fd8481d5daf45c6ac28d17dbe46a01001378f715d29709e9a39d6e97a619fd3",
+      "sha1": "59353fb40c36d304f2035d51e7d6e6baa98dc05c",
+      "sha256": "e3bc55693e93cda0188f2e60aea28113fc647c5e85a15fa3d1b347349231b4bb",
+      "url": "https://piston-data.mojang.com/v1/objects/59353fb40c36d304f2035d51e7d6e6baa98dc05c/server.jar",
+      "vanilla": "server"
+    }
+  ],
+  "executionApproval": "PENDING_ROOT_REVIEW_AND_DISPATCH",
+  "expectedOutputs": [
+    {
+      "bytes": 12372293,
+      "kind": "installer-generated-output",
+      "path": "net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-extra.jar",
+      "sha256": "fd02f80f4eec9dfaa1714cb62595d013cbac03d52d19dd0623d1922b999c40b7"
+    },
+    {
+      "bytes": 14464635,
+      "kind": "installer-generated-output",
+      "path": "net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-slim.jar",
+      "sha256": "93224371dda52351038d0957e392729e692dce031f55ae29ea4b47d909433a5c"
+    },
+    {
+      "bytes": 18725656,
+      "kind": "installer-generated-output",
+      "path": "net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar",
+      "sha256": "a649bd3ce77f122d0f83ae1b37b4b303e662470f928b9bee5fbc76580805ffd4"
+    },
+    {
+      "bytes": 5673830,
+      "kind": "installer-generated-output",
+      "path": "net/neoforged/neoforge/21.1.241/neoforge-21.1.241-client.jar",
+      "sha256": "8e3563a078289f0f07ee6f87f1c8651294387639c8355983ee207cb753f08b7f"
+    },
+    {
+      "bytes": 5673830,
+      "kind": "installer-generated-output",
+      "path": "net/neoforged/neoforge/21.1.241/neoforge-21.1.241-server.jar",
+      "sha256": "cdea1e7366c1608b6e729d69013a811dd7d554bb2f86b95473fef5fb9ac4fe09"
+    },
+    {
+      "bytes": 3544283,
+      "kind": "official-published-artifact",
+      "path": "net/neoforged/neoforge/21.1.241/neoforge-21.1.241-universal.jar",
+      "sha256": "4ceaf2c6a1bd9520bf77f227bde8e9eeb441764ecadd33ef1a4328dcbaff4d3f"
+    },
+    {
+      "bytes": 14246609,
+      "kind": "installer-generated-output",
+      "path": "net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar",
+      "sha256": "26ca9c40d7e1681190b428583c38816852218e78df3f8bdb60a59a78503aec71"
+    }
+  ],
+  "installer": {
+    "bytes": 6966206,
+    "embeddedPatchFingerprints": {
+      "data/client.lzma": {
+        "bytes": 3239723,
+        "sha256": "d257068d3ea730d63a04d1eb9a98d96dbbbd975527893a0b41a13beb42a2cd63"
+      },
+      "data/server.lzma": {
+        "bytes": 3215209,
+        "sha256": "7bfbe49fa2ebbc27e5c0440ef16cfccc4bb9ad46978408a2841393eb03bcd2f8"
+      }
+    },
+    "installProfileSha256": "553ebfd672972511cc5e8cda5caeab90f7366552ca1609a6b98d98452b1aab88",
+    "officialUrl": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.241/neoforge-21.1.241-installer.jar",
+    "sha256": "9b8f4a63a7dcee3a92bdb2debe2303f8d07ddbd9f7eec4e5c4d9a8700ef01dd6",
+    "versionJsonSha256": "b45bf8331e72c393538948ecd5d08197af629a4d0c1dacb4af5cb5319b6a168c"
+  },
+  "jdk": {
+    "bytes": 204939612,
+    "entryCount": 490,
+    "javaSha256": "bd3d87dfb44651a1c61c995e08ca4fcadb458437a373d46941381f9aeff9d6a0",
+    "javacSha256": "5b36da4d2778bbd20afbc9d4b686b11488d7dd4a55a4bb003e6a97fd4b45bda7",
+    "root": "jdk-21.0.10+7",
+    "sha256": "08cae782814f027f8b159d6b68823f0f87422eb475c1a0ea1abc7a4357aaf11f",
+    "treeSha256": "46fcbe366509bba6342e3118ec6fc672b291e49fc15a6d32c1e681f6b130e592",
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jdk_x64_windows_hotspot_21.0.10_7.zip"
+  },
+  "jdkSupport": [
+    {
+      "bytes": 115,
+      "sha256": "2ef13dbd478ba0a2b237324d37fcfe9641043c70bee6cb503d67d18bfa97f914",
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jdk_x64_windows_hotspot_21.0.10_7.zip.sha256.txt"
+    },
+    {
+      "bytes": 310,
+      "sha256": "b0d1346ac9801bf96f372ae966cd710547f039b272782e78ad0eb896f8499888",
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jdk_x64_windows_hotspot_21.0.10_7.zip.sig"
+    }
+  ],
+  "limits": {
+    "cpu": 2,
+    "heapGiB": 2,
+    "jobMinutes": 120,
+    "logBytesPerProcess": 8388608,
+    "minimumFreeGiB": 12,
+    "processorSeconds": 900,
+    "reserveGiB": 2,
+    "totalSeconds": 3600
+  },
+  "mappingMetadataOrigins": [
+    "https://launchermeta.mojang.com/mc/game/version_manifest.json",
+    "https://piston-meta.mojang.com/v1/packages/9aa86ea608c3ec777dcdc09e6c5a06c85b53599e/1.21.1.json"
+  ],
+  "metadataSHA256": {
+    "install_profile.json": "553ebfd672972511cc5e8cda5caeab90f7366552ca1609a6b98d98452b1aab88",
+    "version.json": "b45bf8331e72c393538948ecd5d08197af629a4d0c1dacb4af5cb5319b6a168c"
+  },
+  "networkBoundary": "ordinary-hosted-default-network-no-egress-isolation-proof",
+  "platform": {
+    "curlSha256": "73d24149ff289afc49ec41f08918ef9faa727d39ad993e929757dc2ddafab805",
+    "imageOS": "win22",
+    "imageVersion": "20261112.366.7",
+    "pythonSha256": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203",
+    "pythonVersion": "3.13.17"
+  },
+  "processorMains": {
+    "net.neoforged.installertools:binarypatcher:2.1.2:fatjar": "net.neoforged.binarypatcher.ConsoleTool",
+    "net.neoforged.installertools:installertools:2.1.2": "net.neoforged.installertools.ConsoleTool",
+    "net.neoforged.installertools:jarsplitter:2.1.2": "net.neoforged.jarsplitter.ConsoleTool",
+    "net.neoforged:AutoRenamingTool:2.0.3:all": "net.neoforged.art.Main"
+  },
+  "processors": [
+    {
+      "args": [
+        "--task",
+        "EXTRACT_FILES",
+        "--archive",
+        "{INSTALLER}",
+        "--from",
+        "data/run.sh",
+        "--to",
+        "{ROOT}/run.sh",
+        "--exec",
+        "{ROOT}/run.sh",
+        "--from",
+        "data/run.bat",
+        "--to",
+        "{ROOT}/run.bat",
+        "--from",
+        "data/user_jvm_args.txt",
+        "--to",
+        "{ROOT}/user_jvm_args.txt",
+        "--optional",
+        "{ROOT}/user_jvm_args.txt",
+        "--from",
+        "data/win_args.txt",
+        "--to",
+        "{ROOT}/libraries/net/neoforged/neoforge/21.1.241/win_args.txt",
+        "--from",
+        "data/unix_args.txt",
+        "--to",
+        "{ROOT}/libraries/net/neoforged/neoforge/21.1.241/unix_args.txt"
+      ],
+      "classpath": [
+        "net.neoforged.installertools:installertools:2.1.2",
+        "net.neoforged:srgutils:1.0.0",
+        "net.md-5:SpecialSource:1.11.0",
+        "net.sf.jopt-simple:jopt-simple:5.0.4",
+        "com.google.code.gson:gson:2.8.9",
+        "de.siegmar:fastcsv:2.0.0",
+        "org.ow2.asm:asm-commons:9.3",
+        "net.neoforged.installertools:cli-utils:2.1.2",
+        "com.google.guava:guava:20.0",
+        "com.opencsv:opencsv:4.4",
+        "org.ow2.asm:asm-analysis:9.3",
+        "org.ow2.asm:asm-tree:9.3",
+        "org.ow2.asm:asm:9.3",
+        "org.apache.commons:commons-text:1.3",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "commons-beanutils:commons-beanutils:1.9.3",
+        "org.apache.commons:commons-collections4:4.2",
+        "commons-logging:commons-logging:1.2",
+        "commons-collections:commons-collections:3.2.2"
+      ],
+      "jar": "net.neoforged.installertools:installertools:2.1.2",
+      "sides": [
+        "server"
+      ]
+    },
+    {
+      "args": [
+        "--task",
+        "BUNDLER_EXTRACT",
+        "--input",
+        "{MINECRAFT_JAR}",
+        "--output",
+        "{ROOT}/libraries/",
+        "--libraries"
+      ],
+      "classpath": [
+        "net.neoforged.installertools:installertools:2.1.2",
+        "net.neoforged:srgutils:1.0.0",
+        "net.md-5:SpecialSource:1.11.0",
+        "net.sf.jopt-simple:jopt-simple:5.0.4",
+        "com.google.code.gson:gson:2.8.9",
+        "de.siegmar:fastcsv:2.0.0",
+        "org.ow2.asm:asm-commons:9.3",
+        "net.neoforged.installertools:cli-utils:2.1.2",
+        "com.google.guava:guava:20.0",
+        "com.opencsv:opencsv:4.4",
+        "org.ow2.asm:asm-analysis:9.3",
+        "org.ow2.asm:asm-tree:9.3",
+        "org.ow2.asm:asm:9.3",
+        "org.apache.commons:commons-text:1.3",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "commons-beanutils:commons-beanutils:1.9.3",
+        "org.apache.commons:commons-collections4:4.2",
+        "commons-logging:commons-logging:1.2",
+        "commons-collections:commons-collections:3.2.2"
+      ],
+      "jar": "net.neoforged.installertools:installertools:2.1.2",
+      "sides": [
+        "server"
+      ]
+    },
+    {
+      "args": [
+        "--task",
+        "BUNDLER_EXTRACT",
+        "--input",
+        "{MINECRAFT_JAR}",
+        "--output",
+        "{MC_UNPACKED}",
+        "--jar-only"
+      ],
+      "classpath": [
+        "net.neoforged.installertools:installertools:2.1.2",
+        "net.neoforged:srgutils:1.0.0",
+        "net.md-5:SpecialSource:1.11.0",
+        "net.sf.jopt-simple:jopt-simple:5.0.4",
+        "com.google.code.gson:gson:2.8.9",
+        "de.siegmar:fastcsv:2.0.0",
+        "org.ow2.asm:asm-commons:9.3",
+        "net.neoforged.installertools:cli-utils:2.1.2",
+        "com.google.guava:guava:20.0",
+        "com.opencsv:opencsv:4.4",
+        "org.ow2.asm:asm-analysis:9.3",
+        "org.ow2.asm:asm-tree:9.3",
+        "org.ow2.asm:asm:9.3",
+        "org.apache.commons:commons-text:1.3",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "commons-beanutils:commons-beanutils:1.9.3",
+        "org.apache.commons:commons-collections4:4.2",
+        "commons-logging:commons-logging:1.2",
+        "commons-collections:commons-collections:3.2.2"
+      ],
+      "jar": "net.neoforged.installertools:installertools:2.1.2",
+      "sides": [
+        "server"
+      ]
+    },
+    {
+      "args": [
+        "--task",
+        "MCP_DATA",
+        "--input",
+        "[net.neoforged:neoform:1.21.1-20240808.144430@zip]",
+        "--output",
+        "{MAPPINGS}",
+        "--key",
+        "mappings"
+      ],
+      "classpath": [
+        "net.neoforged.installertools:installertools:2.1.2",
+        "net.neoforged:srgutils:1.0.0",
+        "net.md-5:SpecialSource:1.11.0",
+        "net.sf.jopt-simple:jopt-simple:5.0.4",
+        "com.google.code.gson:gson:2.8.9",
+        "de.siegmar:fastcsv:2.0.0",
+        "org.ow2.asm:asm-commons:9.3",
+        "net.neoforged.installertools:cli-utils:2.1.2",
+        "com.google.guava:guava:20.0",
+        "com.opencsv:opencsv:4.4",
+        "org.ow2.asm:asm-analysis:9.3",
+        "org.ow2.asm:asm-tree:9.3",
+        "org.ow2.asm:asm:9.3",
+        "org.apache.commons:commons-text:1.3",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "commons-beanutils:commons-beanutils:1.9.3",
+        "org.apache.commons:commons-collections4:4.2",
+        "commons-logging:commons-logging:1.2",
+        "commons-collections:commons-collections:3.2.2"
+      ],
+      "jar": "net.neoforged.installertools:installertools:2.1.2"
+    },
+    {
+      "args": [
+        "--task",
+        "DOWNLOAD_MOJMAPS",
+        "--version",
+        "1.21.1",
+        "--side",
+        "{SIDE}",
+        "--output",
+        "{MOJMAPS}"
+      ],
+      "classpath": [
+        "net.neoforged.installertools:installertools:2.1.2",
+        "net.neoforged:srgutils:1.0.0",
+        "net.md-5:SpecialSource:1.11.0",
+        "net.sf.jopt-simple:jopt-simple:5.0.4",
+        "com.google.code.gson:gson:2.8.9",
+        "de.siegmar:fastcsv:2.0.0",
+        "org.ow2.asm:asm-commons:9.3",
+        "net.neoforged.installertools:cli-utils:2.1.2",
+        "com.google.guava:guava:20.0",
+        "com.opencsv:opencsv:4.4",
+        "org.ow2.asm:asm-analysis:9.3",
+        "org.ow2.asm:asm-tree:9.3",
+        "org.ow2.asm:asm:9.3",
+        "org.apache.commons:commons-text:1.3",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "commons-beanutils:commons-beanutils:1.9.3",
+        "org.apache.commons:commons-collections4:4.2",
+        "commons-logging:commons-logging:1.2",
+        "commons-collections:commons-collections:3.2.2"
+      ],
+      "jar": "net.neoforged.installertools:installertools:2.1.2"
+    },
+    {
+      "args": [
+        "--task",
+        "MERGE_MAPPING",
+        "--left",
+        "{MAPPINGS}",
+        "--right",
+        "{MOJMAPS}",
+        "--output",
+        "{MERGED_MAPPINGS}",
+        "--classes",
+        "--fields",
+        "--methods",
+        "--reverse-right"
+      ],
+      "classpath": [
+        "net.neoforged.installertools:installertools:2.1.2",
+        "net.neoforged:srgutils:1.0.0",
+        "net.md-5:SpecialSource:1.11.0",
+        "net.sf.jopt-simple:jopt-simple:5.0.4",
+        "com.google.code.gson:gson:2.8.9",
+        "de.siegmar:fastcsv:2.0.0",
+        "org.ow2.asm:asm-commons:9.3",
+        "net.neoforged.installertools:cli-utils:2.1.2",
+        "com.google.guava:guava:20.0",
+        "com.opencsv:opencsv:4.4",
+        "org.ow2.asm:asm-analysis:9.3",
+        "org.ow2.asm:asm-tree:9.3",
+        "org.ow2.asm:asm:9.3",
+        "org.apache.commons:commons-text:1.3",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "commons-beanutils:commons-beanutils:1.9.3",
+        "org.apache.commons:commons-collections4:4.2",
+        "commons-logging:commons-logging:1.2",
+        "commons-collections:commons-collections:3.2.2"
+      ],
+      "jar": "net.neoforged.installertools:installertools:2.1.2"
+    },
+    {
+      "args": [
+        "--input",
+        "{MINECRAFT_JAR}",
+        "--slim",
+        "{MC_SLIM}",
+        "--extra",
+        "{MC_EXTRA}",
+        "--srg",
+        "{MERGED_MAPPINGS}"
+      ],
+      "classpath": [
+        "net.neoforged.installertools:jarsplitter:2.1.2",
+        "net.sf.jopt-simple:jopt-simple:5.0.4",
+        "net.neoforged:srgutils:1.0.0",
+        "net.neoforged.installertools:cli-utils:2.1.2"
+      ],
+      "jar": "net.neoforged.installertools:jarsplitter:2.1.2",
+      "sides": [
+        "client"
+      ]
+    },
+    {
+      "args": [
+        "--input",
+        "{MC_UNPACKED}",
+        "--slim",
+        "{MC_SLIM}",
+        "--extra",
+        "{MC_EXTRA}",
+        "--srg",
+        "{MERGED_MAPPINGS}"
+      ],
+      "classpath": [
+        "net.neoforged.installertools:jarsplitter:2.1.2",
+        "net.sf.jopt-simple:jopt-simple:5.0.4",
+        "net.neoforged:srgutils:1.0.0",
+        "net.neoforged.installertools:cli-utils:2.1.2"
+      ],
+      "jar": "net.neoforged.installertools:jarsplitter:2.1.2",
+      "sides": [
+        "server"
+      ]
+    },
+    {
+      "args": [
+        "--input",
+        "{MC_SLIM}",
+        "--output",
+        "{MC_SRG}",
+        "--names",
+        "{MERGED_MAPPINGS}",
+        "--ann-fix",
+        "--ids-fix",
+        "--src-fix",
+        "--record-fix"
+      ],
+      "classpath": [
+        "net.neoforged:AutoRenamingTool:2.0.3:all"
+      ],
+      "jar": "net.neoforged:AutoRenamingTool:2.0.3:all"
+    },
+    {
+      "args": [
+        "--clean",
+        "{MC_SRG}",
+        "--output",
+        "{PATCHED}",
+        "--apply",
+        "{BINPATCH}"
+      ],
+      "classpath": [
+        "net.neoforged.installertools:binarypatcher:2.1.2:fatjar"
+      ],
+      "jar": "net.neoforged.installertools:binarypatcher:2.1.2:fatjar"
+    }
+  ],
+  "profileData": {
+    "BINPATCH": {
+      "client": "/data/client.lzma",
+      "server": "/data/server.lzma"
+    },
+    "MAPPINGS": {
+      "client": "[net.neoforged:neoform:1.21.1-20240808.144430:mappings@txt]",
+      "server": "[net.neoforged:neoform:1.21.1-20240808.144430:mappings@txt]"
+    },
+    "MCP_VERSION": {
+      "client": "'1.21.1-20240808.144430'",
+      "server": "'1.21.1-20240808.144430'"
+    },
+    "MC_EXTRA": {
+      "client": "[net.minecraft:client:1.21.1-20240808.144430:extra]",
+      "server": "[net.minecraft:server:1.21.1-20240808.144430:extra]"
+    },
+    "MC_SLIM": {
+      "client": "[net.minecraft:client:1.21.1-20240808.144430:slim]",
+      "server": "[net.minecraft:server:1.21.1-20240808.144430:slim]"
+    },
+    "MC_SRG": {
+      "client": "[net.minecraft:client:1.21.1-20240808.144430:srg]",
+      "server": "[net.minecraft:server:1.21.1-20240808.144430:srg]"
+    },
+    "MC_UNPACKED": {
+      "client": "[net.minecraft:client:1.21.1-20240808.144430:unpacked]",
+      "server": "[net.minecraft:server:1.21.1-20240808.144430:unpacked]"
+    },
+    "MERGED_MAPPINGS": {
+      "client": "[net.neoforged:neoform:1.21.1-20240808.144430:mappings-merged@txt]",
+      "server": "[net.neoforged:neoform:1.21.1-20240808.144430:mappings-merged@txt]"
+    },
+    "MOJMAPS": {
+      "client": "[net.minecraft:client:1.21.1-20240808.144430:mappings@txt]",
+      "server": "[net.minecraft:server:1.21.1-20240808.144430:mappings@txt]"
+    },
+    "PATCHED": {
+      "client": "[net.neoforged:neoforge:21.1.241:client]",
+      "server": "[net.neoforged:neoforge:21.1.241:server]"
+    }
+  },
+  "schema": 1,
+  "scope": "sdk-parent-derivation-only",
+  "sideOrder": {
+    "client": [
+      3,
+      4,
+      5,
+      6,
+      8,
+      9
+    ],
+    "server": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9
+    ]
+  },
+  "vanillaSha256Origin": {
+    "meaning": "independently measured authenticated official bytes; not publisher supplied SHA256",
+    "rootFreezeSha256": "54585c98ca4ee075e1bcaa146caf123e7e7304457ad2bf2520b5ecd433ec69e2"
+  }
+}
