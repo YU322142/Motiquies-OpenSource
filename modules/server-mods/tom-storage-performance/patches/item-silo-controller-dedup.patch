@@ -1,0 +1,28 @@
+diff --git a/src/main/java/com/tom/storagemod/inventory/PlatformInventoryAccess.java b/src/main/java/com/tom/storagemod/inventory/PlatformInventoryAccess.java
+--- a/src/main/java/com/tom/storagemod/inventory/PlatformInventoryAccess.java
++++ b/src/main/java/com/tom/storagemod/inventory/PlatformInventoryAccess.java
+@@ -59,11 +59,14 @@
+ 	};
+ 
+ 	public static class BlockInventoryAccess implements PlatformInventoryAccess {
++		private static final String ITEM_SILO_ENTITY = "com.hlysine.create_connected.content.itemsilo.ItemSiloBlockEntity";
++
+ 		private static final ClassValue<Optional<Method>> CONTROLLER_METHOD = new ClassValue<>() {
+ 			@Override
+ 			protected Optional<Method> computeValue(Class<?> type) {
+ 				Class<?> current = type;
+-				while (current != null && !current.getSimpleName().equals("ItemVaultBlockEntity")) {
++				while (current != null && !current.getSimpleName().equals("ItemVaultBlockEntity")
++						&& !current.getName().equals(ITEM_SILO_ENTITY)) {
+ 					current = current.getSuperclass();
+ 				}
+ 				if (current == null)return Optional.empty();
+@@ -155,7 +158,7 @@
+ 
+ 		@Override
+ 		public IInventoryAccess getRootHandler(Set<IProxy> dejaVu) {
+-			// Create item vaults are known physical inventories, not Tom's Storage
++			// Create item vaults and Create: Connected silos are physical inventories, not Tom's Storage
+ 			// proxies. Avoid materializing their capability during de-duplication.
+ 			if (refreshInventoryKind())return this;
+ 			if (get() instanceof IProxy p) {
