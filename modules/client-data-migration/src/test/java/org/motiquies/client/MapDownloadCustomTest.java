@@ -25,6 +25,22 @@ public final class MapDownloadCustomTest {
         c.receive(o,true,pausedStatus,5); // already queued before the resume request reached the server
         check(!c.downloadAllowed(o),"stale status cannot authorize start");
         check(c.receive(o,true,STATUS.replace("\"action\":\"status\"","\"action\":\"start\""),6).start(),"queued pause status must not consume new matching resume ACK");
+        var prior = o;
+        var reconnect = new Object();
+        c.connection(reconnect);
+        c.begin(reconnect, MapDownloadController.Command.STATUS, 7);
+        c.receive(reconnect, true, STATUS, 8);
+        check(c.canResume(), "a different connection can resume the server's saved nonpaused selection");
+        check("motiquiesmap resume".equals(c.begin(reconnect, MapDownloadController.Command.RESUME, 9)), "resume uses the persisted selection without selecting another range");
+        String start = STATUS.replace("\"action\":\"status\"", "\"action\":\"start\"");
+        check(!c.receive(prior, true, start, 10).start(), "the previous connection cannot authorize resume");
+        check(!c.receive(reconnect, true, start.replace("\"radius\":4", "\"radius\":5"), 11).start(), "the new connection must use the original radius");
+        check(c.receive(reconnect, true, start, 12).start() && !c.canResume(), "one matching ACK resumes the stored range once");
+        check(c.downloadAllowed(reconnect) && !c.backgroundRefreshAllowed(reconnect), "large selections remain available for explicit transfer without background rescan");
+        c = ready(); o = c.connection();
+        check(c.beginCustom(o, 1, 2) != null, "nearby selection is available");
+        check(c.receive(o, true, start.replace("\"radius\":4", "\"radius\":1"), 3).start()
+                && c.backgroundRefreshAllowed(o), "nearby selections retain background notices");
         check(DownloadDisplay.duration(3661).equals("约 1小时2分"),"round upward, readable time");
         check(DownloadDisplay.duration(-1).contains("统计"),"unknown is not zero");
         check(DownloadDisplay.bytes(1048576).equals("1.0 MiB"),"binary units");

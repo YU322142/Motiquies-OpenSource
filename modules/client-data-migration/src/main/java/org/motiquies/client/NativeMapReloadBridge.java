@@ -4,7 +4,6 @@ import com.mapsyncer.client.ClientSyncSession;
 import com.mapsyncer.client.RegionPipelineTracker;
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Path;
 import java.util.Objects;
 import net.minecraft.client.Minecraft;
 import net.neoforged.neoforge.client.event.ClientPlayerNetworkEvent;
@@ -23,7 +22,6 @@ import xaero.map.task.MapRunnerTask;
 public final class NativeMapReloadBridge {
     private static final Logger LOG = LogManager.getLogger();
     private static final NativeMapReloadQueue QUEUE = new NativeMapReloadQueue();
-    private static final NativeReloadNoticeQueue NOTICES = new NativeReloadNoticeQueue();
     // The queue and this flag belong to the render thread; native tasks only consume tickets.
     private static boolean taskInFlight;
     private static volatile NativeMapReloadQueue.Context activeContext;
@@ -33,32 +31,6 @@ public final class NativeMapReloadBridge {
     static void register() {
         NeoForge.EVENT_BUS.addListener(NativeMapReloadBridge::frame);
         NeoForge.EVENT_BUS.addListener(NativeMapReloadBridge::logout);
-    }
-
-    /** Called only from MapPacketHandler's main-thread write/reload callbacks. */
-    public static void enqueue(int x, int z, int caveLayer, Path sourceDirectory) {
-        Minecraft client = Minecraft.getInstance();
-        var context = context();
-        var last = context != null ? context : captureContext();
-        Object dimensionId = client.level == null ? null : client.level.dimension();
-        NOTICES.enqueue(client.getConnection(), last == null ? null : last.processor(), dimensionId,
-                sourceDirectory, new NativeMapReloadQueue.Key(x, z, caveLayer));
-        resolveNotices(context);
-    }
-
-    private static void resolveNotices(NativeMapReloadQueue.Context context) {
-        if (context == null) return;
-        MapProcessor processor = (MapProcessor) context.processor();
-        requireMainThread();
-        synchronized (processor.renderThreadPauseSync) {
-            if (!mainViewReady(processor, context)) return;
-            var dimension = processor.getMapWorld().getCurrentDimension();
-            if (dimension == null || processor.getCurrentWorldId() == null || processor.getCurrentDimId() == null
-                    || processor.getCurrentMWId() == null) return;
-            Path directory = processor.getMapSaveLoad().getMWSubFolder(processor.getCurrentWorldId(),
-                    processor.getCurrentDimId(), processor.getCurrentMWId());
-            NOTICES.resolve(context, dimension.getDimId(), directory, key -> QUEUE.enqueue(context, key));
-        }
     }
 
     private static NativeMapReloadQueue.Context context() {
@@ -96,14 +68,12 @@ public final class NativeMapReloadBridge {
             if (connection == null || (activeContext != null && activeContext.connection() != connection)) {
                 activeContext = null;
                 NativeMapWriteBridge.cancelAll();
-                NOTICES.clear();
             } else NativeMapWriteBridge.cancelStale(); // Proven generation changes still cancel.
             return;
         }
         activeContext = context;
         NativeMapWriteBridge.cancelStale();
         QUEUE.updateContext(context);
-        resolveNotices(context);
         if (taskInFlight || WorldMap.mapRunner == null) return;
         var ticket = QUEUE.next(context);
         if (ticket != null && ticket.prepared() != null) {
@@ -219,9 +189,7 @@ public final class NativeMapReloadBridge {
                                 && (state == 0 || state == 2 || state == 4)
                                 && !region.reloadHasBeenRequested() && !region.recacheHasBeenRequested()
                                 && !region.isRefreshing() && !saveLoad.toCacheContains(region)
-                                && !saveLoad.getToSave().contains(region)
-                                && (!context.sameMap(activeContext) || saveLoad.getNextToLoadByViewing() == null
-                                || saveLoad.getNextToLoadByViewing().shouldAllowAnotherRegionToLoad());
+                                && !saveLoad.getToSave().contains(region);
                     }
                     public byte loadState() { return region.getLoadState(); }
                     public boolean invalidateCache() {
@@ -269,7 +237,6 @@ public final class NativeMapReloadBridge {
         LocalMapObservations.logout();
         activeContext = null;
         NativeMapWriteBridge.cancelAll();
-        NOTICES.clear();
         QUEUE.clear();
     }
 }

@@ -196,14 +196,14 @@ final class Migration {
                 regular(source.resolve("options.txt")), copyFiles, regular(source.resolve("servers.dat")));
     }
 
-    void migrate(Path source, Selection selected) throws IOException {
+    void migrate(Path source, Selection selected, Set<String> registeredKeys) throws IOException {
         Preview available = preview(source);
         for (var group : waypointSources(source, available, selected).entrySet()) {
             mergeWaypoints(group.getKey(), group.getValue(), selected.excluded());
         }
         mergeJei(source, available.history(), selected.history(), "lookupHistory.json", selected.excluded());
         mergeJei(source, available.bookmarks(), selected.bookmarks(), "bookmarks.json", selected.excluded());
-        if (selected.keys() && !source.equals(target)) migrateKeys(source.resolve("options.txt"));
+        if (selected.keys() && !source.equals(target)) migrateKeys(source.resolve("options.txt"), registeredKeys);
         if (selected.files() && !source.equals(target)) migratePersonal(source);
         configureXaero();
     }
@@ -427,22 +427,33 @@ final class Migration {
         };
     }
 
-    private void migrateKeys(Path source) throws IOException {
-        Path options = target.resolve("options.txt");
-        if (!regular(options) || !regular(source)) return;
+    private void migrateKeys(Path source, Set<String> registeredKeys) throws IOException {
+        if (registeredKeys.isEmpty()) return;
+        if (!regular(source)) throw new IOException("无法读取旧实例键位：" + source);
         Map<String, String> keys = new LinkedHashMap<>();
         for (String line : Files.readAllLines(source)) {
             String name = optionKey(line);
-            if (name != null) keys.put(name, line);
+            if (name != null && registeredKeys.contains(name)) keys.put(name, line);
         }
+        if (keys.isEmpty()) return;
+        Path options = target.resolve("options.txt");
+        verifyDestination(options);
         List<String> old = Files.readAllLines(options);
-        List<String> result = old.stream().map(line -> keys.getOrDefault(optionKey(line), line)).toList();
+        List<String> result = new ArrayList<>(old.size() + keys.size());
+        Set<String> existingKeys = new LinkedHashSet<>();
+        for (String line : old) {
+            String name = optionKey(line);
+            result.add(keys.getOrDefault(name, line));
+            existingKeys.add(name);
+        }
+        keys.keySet().removeAll(existingKeys);
+        result.addAll(keys.values());
         if (!old.equals(result)) put(options, String.join("\n", result) + "\n");
     }
 
     private static String optionKey(String line) {
         int colon = line.indexOf(':');
-        return line.startsWith("key_") && colon > 4 ? line.substring(0, colon) : null;
+        return line.startsWith("key_") && colon > 4 ? line.substring(4, colon) : null;
     }
 
     private void migratePersonal(Path source) throws IOException {

@@ -22,4 +22,4 @@ if os.name=='nt':
 else:
     link.symlink_to(victim_dir,target_is_directory=True)
 c.run([c.java,'-Djava.io.tmpdir='+str(temp),'-cp',cp,'org.motiquies.client.DhCacheJunctionTest',instance,victim],'DhCacheJunctionTest')
-c.artifact('motiquies-client-migration-0.3.15.jar',classes,ROOT/'src/main/resources')
+c.artifact('motiquies-client-migration-0.3.19.jar',classes,ROOT/'src/main/resources')

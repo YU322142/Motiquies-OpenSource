@@ -1,7 +1,9 @@
 package org.motiquies.client;
 
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Arrays;
 import java.util.Set;
 
 public final class MigrationTest {
@@ -20,8 +22,15 @@ public final class MigrationTest {
         write(old, "config/jei/world/server/Shanghai (mc_322142_xyz)/lookupHistory.json", "[{\"version\":1}," + ITEM + "]");
         write(old, "config/jei/world/server/Zhenjiang (frp-web_com 43765)/lookupHistory.json", "[{\"version\":1}," + ITEM + "]");
         write(old, "config/jei/world/server/Zhenjiang (frp-web_com 43765)/bookmarks.json", "[{\"version\":2}," + ITEM + "]");
-        write(old, "options.txt", "key_key.jump:key.keyboard.j\nkey_unregistered:key.keyboard.a\nfov:100\n");
-        write(target, "options.txt", "key_key.jump:key.keyboard.space\nkey_key.sneak:key.keyboard.left.shift\nfov:70\n");
+        String importedJump = "key_key.jump:key.keyboard.j\n";
+        String importedModifier = "key_key.motiquies.fixture:key.keyboard.g:SHIFT\n";
+        Path oldOptions = write(old, "options.txt", importedJump + importedModifier
+                + "key_unregistered:key.keyboard.a\nfov:100\n");
+        byte[] oldOptionsBytes = Files.readAllBytes(oldOptions);
+        String retainedOptions = "key_key.sneak:key.keyboard.left.shift\n"
+                + "key_target.only:key.keyboard.b\nfov:70\n";
+        write(target, "options.txt", "key_key.jump:key.keyboard.space\n" + retainedOptions);
+        Set<String> registeredKeys = Set.of("key.jump", "key.sneak", "key.motiquies.fixture");
         write(target, "config/xaero/minimap/client.cfg", "differentiate_by_server_address = true\nother = true\n");
         write(target, "config/xaero/world-map/client.cfg", "differentiate_by_server_address = true\n");
 
@@ -30,8 +39,8 @@ public final class MigrationTest {
         check(preview.waypoints().size() == 2, "Only known Motiquies waypoint routes must be offered");
         check(preview.history().size() == 2, "History routes must be discovered");
         var all = preview.selection(true, true, true, true, false, false);
-        migration.migrate(old, all);
-        migration.migrate(old, all);
+        migration.migrate(old, all, registeredKeys);
+        migration.migrate(old, all, registeredKeys);
         String waypoints = Files.readString(target.resolve("xaero/minimap/Multiplayer_Any Address/dim%0/mw$123_1.txt"));
         check(waypoints.lines().filter(line -> line.startsWith("waypoint:")).count() == 2, "Retry must not duplicate waypoints");
         check(waypoints.contains(FIRST) && waypoints.contains(SECOND), "Same-name different coordinates must survive");
@@ -42,10 +51,39 @@ public final class MigrationTest {
                 target.resolve("config/jei/world/server/Motiquies/bookmarks.json"))).getAsJsonArray();
         check(bookmarks.size() == 2 && bookmarks.get(0).getAsJsonObject().get("version").getAsInt() == 2,
                 "Bookmarks produced by installed JEI use version 2 and must survive migration and retry");
-        check(Files.readString(target.resolve("options.txt")).equals("key_key.jump:key.keyboard.j\nkey_key.sneak:key.keyboard.left.shift\nfov:70\n"),
-                "Import must update existing keys only and leave unrelated settings");
+        check(Files.readString(target.resolve("options.txt")).equals(importedJump + retainedOptions + importedModifier),
+                "Import must insert or update registered keys, preserve modifiers and retain target-only settings");
         check(Files.readString(target.resolve("config/xaero/minimap/client.cfg")).equals("differentiate_by_server_address = false\nother = true\n"),
                 "Only Xaero address differentiation must change");
+
+        Path packaged = Files.createDirectory(work.resolve("packaged-options"));
+        String packagedDefaults = "version:3955\nresourcePacks:[\"vanilla\"]\n"
+                + "incompatibleResourcePacks:[]\nlang:zh_cn\nonboardAccessibility:false\n";
+        Path packagedOptions = write(packaged, "options.txt", packagedDefaults);
+        Migration packagedMigration = new Migration(packaged);
+        write(packaged, "config/motiquies-client/previous-version.txt", "3.2.0\n");
+        write(packaged, "config/motiquies-client/previous-instance.txt", old.toString() + "\n");
+        Path upgradeSource = packagedMigration.upgradeSource().orElseThrow();
+        var automatic = packagedMigration.automaticSelection(packagedMigration.preview(upgradeSource));
+        packagedMigration.migrate(upgradeSource, automatic, registeredKeys);
+        packagedMigration.migrate(upgradeSource, automatic, registeredKeys);
+        String expectedOptions = packagedDefaults + importedJump + importedModifier;
+        check(Files.readString(packagedOptions).equals(expectedOptions),
+                "Registered keys must import once into packaged options that contain no key rows");
+        check(Files.readString(packaged.resolve("config/motiquies-client/backup-v1/options.txt")).equals(packagedDefaults),
+                "Import must back up the original packaged options");
+        check(Arrays.equals(Files.readAllBytes(oldOptions), oldOptionsBytes), "Import must leave source options untouched");
+
+        Path missingOptions = Files.createDirectory(work.resolve("no-source-options"));
+        var noKeys = packagedMigration.automaticSelection(packagedMigration.preview(missingOptions));
+        check(!noKeys.keys(), "Automatic migration should skip a source with no options file");
+        packagedMigration.migrate(missingOptions, noKeys, registeredKeys);
+        try {
+            packagedMigration.migrate(missingOptions, automatic, registeredKeys);
+            throw new AssertionError("A selected options file that disappears before import must fail");
+        } catch (IOException expected) {
+            check(Files.readString(packagedOptions).equals(expectedOptions), "A missing source must leave current options untouched");
+        }
 
         Path emptyUpgrade = Files.createDirectory(work.resolve("empty-upgrade"));
         write(emptyUpgrade, "config/motiquies-client/previous-version.txt", "3.2.1\n");
@@ -57,7 +95,7 @@ public final class MigrationTest {
 
         Path chosen = Files.createDirectory(work.resolve("chosen"));
         Migration selected = new Migration(chosen);
-        selected.migrate(old, new Migration.Selection(Set.of("Multiplayer_mc.322142.xyz"), Set.of(), Set.of(), false, false, false));
+        selected.migrate(old, new Migration.Selection(Set.of("Multiplayer_mc.322142.xyz"), Set.of(), Set.of(), false, false, false), Set.of());
         check(Files.readString(chosen.resolve("xaero/minimap/Multiplayer_Any Address/dim%0/mw$123_1.txt")).contains(FIRST),
                 "A single selected route must be imported");
         check(!Files.readString(chosen.resolve("xaero/minimap/Multiplayer_Any Address/dim%0/mw$123_1.txt")).contains(SECOND),
@@ -69,15 +107,15 @@ public final class MigrationTest {
         check(conflicts.size() == 2, "Both differing same-name waypoint records must be shown for review");
         var exclusion = conflicts.stream().filter(item -> item.key().content().equals(SECOND)).findFirst().orElseThrow();
         check(exclusion.source().contains("frp-web.com"), "Conflict must show the source route");
-        review.migrate(old, all.withExcluded(Set.of(exclusion.key())));
+        review.migrate(old, all.withExcluded(Set.of(exclusion.key())), Set.of());
         String afterReview = Files.readString(reviewed.resolve("xaero/minimap/Multiplayer_Any Address/dim%0/mw$123_1.txt"));
         check(afterReview.contains(FIRST) && !afterReview.contains(SECOND), "Unchecked conflicting record must not be imported");
         write(old, "saves/SharedName/level.dat", "Old world");
         write(old, "saves/SharedName/region/r.0.0.mca", "Only in the old world");
         write(chosen, "saves/SharedName/level.dat", "New world");
         var filesOnly = new Migration.Selection(Set.of(), Set.of(), Set.of(), false, true, false);
-        selected.migrate(old, filesOnly);
-        selected.migrate(old, filesOnly);
+        selected.migrate(old, filesOnly, Set.of());
+        selected.migrate(old, filesOnly, Set.of());
         check(!Files.exists(chosen.resolve("saves/SharedName/region/r.0.0.mca")),
                 "An old region must never be injected into a different same-named save");
         check(Files.readString(chosen.resolve("saves/SharedName (导入 1)/level.dat")).equals("Old world"),

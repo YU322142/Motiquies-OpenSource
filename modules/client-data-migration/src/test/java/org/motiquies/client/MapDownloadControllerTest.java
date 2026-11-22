@@ -30,6 +30,8 @@ public final class MapDownloadControllerTest {
         check(received.hidden() && !received.start(), "status is hidden and never starts MapSyncer");
         check(c.supported() && c.canChoose(), "a valid status confirms controls");
         check(c.reply().mode().equals("NEARBY") && !c.downloadAllowed(connection), "default range is nearby but querying does not authorize auto-download");
+        check(c.backgroundRefreshAllowed(connection), "nearby notice can use the confirmed status for this connection");
+        check(!c.backgroundRefreshAllowed(new Object()), "nearby status is tied to the current connection");
     }
 
     private static void startGate() {
@@ -133,6 +135,7 @@ public final class MapDownloadControllerTest {
         check(c.receive(connection,true,status("PAUSED"),2).stop(),"first server pause stops native work");
         check(!c.receive(connection,true,status("PAUSED"),3).stop(),"unchanged heartbeat must not cancel/announce once per second");
         check(!c.downloadAllowed(connection),"remains paused");
+        check(!c.backgroundRefreshAllowed(connection),"pause blocks nearby notices");
     }
     private static String status(String mode) { return STATUS.replace("\"mode\":\"NEARBY\"", "\"mode\":\"" + mode + "\""); }
     private static String start(String mode) { return status(mode).replace("\"action\":\"status\"", "\"action\":\"start\""); }

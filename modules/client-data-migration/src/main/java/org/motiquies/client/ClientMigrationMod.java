@@ -2,8 +2,13 @@ package org.motiquies.client;
 
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.LinkOption;
 import java.nio.file.Path;
+import java.util.Arrays;
 import java.util.Optional;
+import java.util.Set;
+import java.util.stream.Collectors;
+import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.screens.TitleScreen;
@@ -56,14 +61,10 @@ public final class ClientMigrationMod {
     }
 
     private void title(ScreenEvent.Init.Post event) {
-        if (!(event.getScreen() instanceof TitleScreen title)) return;
         Minecraft client = Minecraft.getInstance();
+        ensurePrepared(client);
+        if (!(event.getScreen() instanceof TitleScreen title)) return;
         Path directory = client.gameDirectory.toPath().toAbsolutePath().normalize();
-        if (!prepared) {
-            prepared = true;
-            prepare(directory);
-            if (!dhStatus.isEmpty()) status = status + " " + dhStatus;
-        }
         event.addListener(Button.builder(Component.literal("Motiquies 数据迁移"), button ->
                 client.setScreen(new MigrationScreen(title, directory, status)))
                 .bounds(Math.max(4, title.width - 144), 6, 140, 20).build());
@@ -71,13 +72,23 @@ public final class ClientMigrationMod {
 
     private void tick(ClientTickEvent.Post event) {
         Minecraft client = Minecraft.getInstance();
+        ensurePrepared(client);
         if (!showIntro || !(client.screen instanceof TitleScreen title)) return;
         showIntro = false;
         client.setScreen(new MigrationScreen(title, client.gameDirectory.toPath().toAbsolutePath().normalize(),
                 "新安装：可选择旧实例导入，或直接返回主菜单。"));
     }
 
-    private void prepare(Path directory) {
+    private void ensurePrepared(Minecraft client) {
+        // QuickPlay can open the connection screen without initializing a title screen.
+        // Claim before running migration so nested screen initialization cannot re-enter it.
+        if (prepared || client.options == null) return;
+        prepared = true;
+        prepare(client, client.gameDirectory.toPath().toAbsolutePath().normalize());
+        if (!dhStatus.isEmpty()) status = status + " " + dhStatus;
+    }
+
+    private void prepare(Minecraft client, Path directory) {
         Migration migration = new Migration(directory);
         try {
             var source = migration.upgradeSource();
@@ -85,12 +96,10 @@ public final class ClientMigrationMod {
                 Path old = source.orElseThrow();
                 var preview = migration.preview(old);
                 var selection = migration.automaticSelection(preview);
-                if (selection.keys() && !Files.exists(directory.resolve("options.txt"))) {
-                    Minecraft.getInstance().options.save();
-                }
-                migration.migrate(old, selection);
+                Set<String> registeredKeys = selection.keys() ? prepareKeyImport(client, directory) : Set.of();
+                migration.migrate(old, selection, registeredKeys);
                 ServerFiles.merge(directory, selection.servers() ? old : null);
-                if (selection.keys()) Minecraft.getInstance().options.load();
+                if (selection.keys()) client.options.load();
                 enableSharedXaero();
                 migration.markComplete();
                 status = "旧实例迁移已完成。";
@@ -107,6 +116,13 @@ public final class ClientMigrationMod {
             status = "自动迁移未完成，可从主菜单检查旧实例或重试。";
             LOG.error("Motiquies client migration did not complete", failure);
         }
+    }
+
+    static Set<String> prepareKeyImport(Minecraft client, Path directory) {
+        if (Files.notExists(directory.resolve("options.txt"), LinkOption.NOFOLLOW_LINKS)) {
+            client.options.save();
+        }
+        return Arrays.stream(client.options.keyMappings).map(KeyMapping::getName).collect(Collectors.toUnmodifiableSet());
     }
 
     static void enableSharedXaero() {

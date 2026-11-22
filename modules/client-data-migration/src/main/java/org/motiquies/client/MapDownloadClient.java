@@ -30,6 +30,7 @@ final class MapDownloadClient {
     private final MapDownloadController controller = new MapDownloadController();
     private final MapDownloadStartScheduler pendingStart = new MapDownloadStartScheduler();
     private final MapUpdateRefresh refresh = new MapUpdateRefresh();
+    private boolean queriedOnJoin;
     private static MapDownloadClient active;
 
     static void registerPayloads(IEventBus bus){bus.addListener((RegisterPayloadHandlersEvent event)->{
@@ -40,7 +41,7 @@ final class MapDownloadClient {
                 context.enqueueWork(()->{
                     var client=Minecraft.getInstance();var controls=active;
                     if(controls!=null&&client.getConnection()==context.listener())
-                        controls.refresh.receive(client.getConnection(),payload.revision(),controls.controller.downloadAllowed(client.getConnection()),now());
+                        controls.refresh.receive(client.getConnection(),payload.revision(),controls.backgroundAllowed(client.getConnection()),now());
                 });
             });
             registrar.playToClient(org.motiquies.client.network.MotiquiesMapClockPayload.TYPE,
@@ -131,15 +132,21 @@ final class MapDownloadClient {
         connection(connection);
         controller.tick(now());
         try {
+            if (!queriedOnJoin && connection != null && client.player != null
+                    && ((ICommonPacketListener) connection).hasChannel(MotiquiesMapUpdatedPayload.TYPE)
+                    && ((ICommonPacketListener) connection).hasChannel(MotiquiesDownloadControlPayload.TYPE)) {
+                queriedOnJoin = true;
+                if (!controller.supported()) request(MapDownloadController.Command.STATUS);
+            }
             if (pendingStart.take(connection, controller.downloadAllowed(connection),
                     ClientHashManager.isComputingMeta(), ClientSyncWriteQueue.hasPendingWrites(),
                     client.player == null || MapPacketHandler.isSyncInProgress())) {
                 start();
             }
-            if(refresh.take(connection,controller.downloadAllowed(connection),
-                    client.player==null||!writesComplete(),pendingStart.pending()||!controller.canChoose(),now())){
+            if(refresh.take(connection,backgroundAllowed(connection),
+                    client.player==null||client.level==null||!writesComplete(),pendingStart.pending()||!controller.canChoose(),now())){
                 AutoSyncManager.markPeriodicSync();
-                MapSyncerCommandLogic.executeSyncAll(true);
+                MapSyncerCommandLogic.sendSyncRequest(client,client.level.dimension().location().toString(),false,true);
                 LOG.debug("Motiquies saved-region update dispatched after native idle");
             }
         } catch (RuntimeException | LinkageError failure) {
@@ -155,8 +162,17 @@ final class MapDownloadClient {
     }
 
     private void connection(Object connection) {
-        if (controller.connection() != connection) {pendingStart.cancel();refresh.reset();}
+        if (controller.connection() != connection) {
+            pendingStart.cancel();
+            refresh.reset();
+            queriedOnJoin = false;
+        }
         controller.connection(connection);
+    }
+
+    private boolean backgroundAllowed(Object connection) {
+        return controller.backgroundRefreshAllowed(connection)
+                && com.mapsyncer.platform.PlatformManager.getPlatform().isClientAutoSyncEnabled();
     }
 
     private void suspend() {

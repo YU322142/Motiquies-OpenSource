@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "version": "0.3.19",
+  "runtimeJavaUnchangedFromBeta3": true,
+  "baselinePublicCommit": "6121312b70f785f57b9024ec8c33fcc698a0315d",
+  "beta3ReferenceJarSha256": "8e4bf8ab9b1ad14d30f06bb97c312231e9dce2320a8bcbcf7b1e2418ade4652a",
+  "files": [
+    {
+      "path": "src/main/java/org/motiquies/client/ClientMigrationMod.java",
+      "baselinePublicSha256": "1b9f9e80ccd1c7d54c1a628efa23ce3bd47633b5c41eb734cf30a7aa764ea055",
+      "beta3SourceSha256": "8f621d679ee2799913ef0e387ff2af8863ed304082ac1ec1ab1383057d04f2a4",
+      "publicSha256": "8f621d679ee2799913ef0e387ff2af8863ed304082ac1ec1ab1383057d04f2a4"
+    },
+    {
+      "path": "src/main/java/org/motiquies/client/MapDownloadClient.java",
+      "baselinePublicSha256": "df0f6caf40f62da108fd6e5f34220c3b85c7438d87e60906c51b69c43a67cf46",
+      "beta3SourceSha256": "52c415a59f18241b04f2a9d55d147f0884ae92eb8dbfced723c64f63e57aab22",
+      "publicSha256": "52c415a59f18241b04f2a9d55d147f0884ae92eb8dbfced723c64f63e57aab22"
+    },
+    {
+      "path": "src/main/java/org/motiquies/client/MapDownloadController.java",
+      "baselinePublicSha256": "077558bfe0c0265c132936bcbdf7a198aca3aaf035782391fa26a2a566b2f1bd",
+      "beta3SourceSha256": "8329b6430998e3ebe6a593412cf97019e6a94c8329f503634139a94b3b6e8c81",
+      "publicSha256": "8329b6430998e3ebe6a593412cf97019e6a94c8329f503634139a94b3b6e8c81"
+    },
+    {
+      "path": "src/main/java/org/motiquies/client/Migration.java",
+      "baselinePublicSha256": "a8c09bc3492685159afc516fc8e2ac9737fd897e6045b3e0d7d4c27b2bce6f18",
+      "beta3SourceSha256": "d3afdcb5c36e81798b8a37cf1d17f0cf705d1548d1c2690388bac51b9fd482cb",
+      "publicSha256": "d3afdcb5c36e81798b8a37cf1d17f0cf705d1548d1c2690388bac51b9fd482cb"
+    },
+    {
+      "path": "src/main/java/org/motiquies/client/MigrationScreen.java",
+      "baselinePublicSha256": "eac4656710d090e9dc1fb5741dde25d9853af15edc4e397a941153f6879c8f36",
+      "beta3SourceSha256": "690b65b409868c4c50d6e5105b6e7ec8847edbf20c91354fcbb0ab702eac4eaa",
+      "publicSha256": "690b65b409868c4c50d6e5105b6e7ec8847edbf20c91354fcbb0ab702eac4eaa"
+    },
+    {
+      "path": "src/main/java/org/motiquies/client/mixin/MapSyncerPeriodicMixin.java",
+      "baselinePublicSha256": null,
+      "beta3SourceSha256": "39b4dfab25f1fae1c971a9a98228888ab4b5d0b97b7cca6bb64a047259c34a2d",
+      "publicSha256": "39b4dfab25f1fae1c971a9a98228888ab4b5d0b97b7cca6bb64a047259c34a2d"
+    },
+    {
+      "path": "src/main/java/org/motiquies/client/mixin/MapSyncerReloadMixin.java",
+      "baselinePublicSha256": "0806a755a170a5500f9718a6d46d21c81b8421ab34628ba4c5a2f4e0947a7f3e",
+      "beta3SourceSha256": "183100e68160944bd47d5cf2ccc0170183c469904eaf4a84fdc33f7f871005ac",
+      "publicSha256": "183100e68160944bd47d5cf2ccc0170183c469904eaf4a84fdc33f7f871005ac"
+    },
+    {
+      "path": "src/main/java/org/motiquies/client/mixin/MapSyncerWriteMixin.java",
+      "baselinePublicSha256": "461da117bda4e4686489bc7391531c82a212b432b695cf1a862d2e58433f31b1",
+      "beta3SourceSha256": "be613545601a64d2ba2703584bbc2e0d2e3ccd35d8f0f41648101137a47fa32c",
+      "publicSha256": "be613545601a64d2ba2703584bbc2e0d2e3ccd35d8f0f41648101137a47fa32c"
+    },
+    {
+      "path": "src/main/java/org/motiquies/client/NativeMapCommit.java",
+      "baselinePublicSha256": "64a30ce730d233030d9ab7f44c9ba35278429724b8f12463199ac5c4227b058e",
+      "beta3SourceSha256": "ca2a1b741d7feaeac9f8b99f764124438ec954141f2b1507167b1350f48f4bcf",
+      "publicSha256": "ca2a1b741d7feaeac9f8b99f764124438ec954141f2b1507167b1350f48f4bcf"
+    },
+    {
+      "path": "src/main/java/org/motiquies/client/NativeMapReloadBridge.java",
+      "baselinePublicSha256": "1acef0eed4362f3eaef3f6d7bb6d21188b26e0c28df6498694d24bd4e8e443c7",
+      "beta3SourceSha256": "20cf8d6012036e5cd3c4436a37febe6c2fae6bbf752ab92103e5b533276c33a3",
+      "publicSha256": "20cf8d6012036e5cd3c4436a37febe6c2fae6bbf752ab92103e5b533276c33a3"
+    },
+    {
+      "path": "src/main/java/org/motiquies/client/NativeMapWriteBridge.java",
+      "baselinePublicSha256": "bb6de02ccfa61ece1aee175b95294eaa63933ba509d91937df25dd173aec3e08",
+      "beta3SourceSha256": "58526697f3c3ab48dc12a5ea7a0b72d042ce9529d36c153da298c4ea52abcfd0",
+      "publicSha256": "58526697f3c3ab48dc12a5ea7a0b72d042ce9529d36c153da298c4ea52abcfd0"
+    },
+    {
+      "path": "src/main/resources/assets/motiquies_client_migration/lang/en_us.json",
+      "baselinePublicSha256": null,
+      "beta3SourceSha256": "120562983a6c848d092356af560ee2508dea0f6d84bd791b69c42e32b09f87fd",
+      "publicSha256": "120562983a6c848d092356af560ee2508dea0f6d84bd791b69c42e32b09f87fd"
+    },
+    {
+      "path": "src/main/resources/assets/motiquies_client_migration/lang/zh_cn.json",
+      "baselinePublicSha256": null,
+      "beta3SourceSha256": "ba58b59bea26dbaa7664d87f01b016eae2df36a15e313e2af74755cc18d97799",
+      "publicSha256": "ba58b59bea26dbaa7664d87f01b016eae2df36a15e313e2af74755cc18d97799"
+    },
+    {
+      "path": "src/main/resources/META-INF/neoforge.mods.toml",
+      "baselinePublicSha256": "c8f482c8ae179ae9cc6db08b208780458ed2f127db0abe0f6092af9062b6bccb",
+      "beta3SourceSha256": "c4c42e4a074eb9d6586d39a34f7ed2616462cb2d483cd7691eb724b7f8164c25",
+      "publicSha256": "13f87d96f62025401aa9302563cfe3faab0fe44ee5c2c1646d0670d584aeb81c"
+    },
+    {
+      "path": "src/main/resources/motiquies_client_migration.mixins.json",
+      "baselinePublicSha256": "7c7fe87223608015e9757deafd44428600841f1e1f903846dbf0b695cca32847",
+      "beta3SourceSha256": "19e39697f55e10a0ebbb67c5cad830f901bb1cea983d010f4c90fcfd61806ce0",
+      "publicSha256": "19e39697f55e10a0ebbb67c5cad830f901bb1cea983d010f4c90fcfd61806ce0"
+    },
+    {
+      "path": "src/test/java/org/motiquies/client/MapDownloadControllerTest.java",
+      "baselinePublicSha256": "378bd0a3a8526f52467ded1d8211ec383af97df8ba30e465c4f34e3b57531a15",
+      "beta3SourceSha256": "a4b5b0b9352a23227d882a781764e5f512b0ab5a94a8f534dc28da431741de63",
+      "publicSha256": "a4b5b0b9352a23227d882a781764e5f512b0ab5a94a8f534dc28da431741de63"
+    },
+    {
+      "path": "src/test/java/org/motiquies/client/MapDownloadCustomTest.java",
+      "baselinePublicSha256": "b35128d8f190d2930fd86a247c4c84615a6d8399581439fc4f05723c57d230c6",
+      "beta3SourceSha256": "5bbbf067fa72322d1205038577ddfb03200ca72c7e5da9e73f21eacdee0d5d7d",
+      "publicSha256": "5bbbf067fa72322d1205038577ddfb03200ca72c7e5da9e73f21eacdee0d5d7d"
+    },
+    {
+      "path": "src/test/java/org/motiquies/client/MigrationTest.java",
+      "baselinePublicSha256": "d5224116db1c852683b96e03dd459bc10ea7e44ec30a9d7c155afa84e1b415b6",
+      "beta3SourceSha256": "1d8cc1cc8e18dff15f0ed16a93e02d67f302cd102bd85d317a41d5eb6eafbeea",
+      "publicSha256": "1d8cc1cc8e18dff15f0ed16a93e02d67f302cd102bd85d317a41d5eb6eafbeea"
+    },
+    {
+      "path": "src/test/java/org/motiquies/client/NativeMapCommitTest.java",
+      "baselinePublicSha256": "5e6b516b24323cb7838ad9cac2ee8ec007fc45867a5a6274cd77fb51f0168cd4",
+      "beta3SourceSha256": "7a16ce57bca754d317ddace898d1c5d5c085ab2e0b80e06c79424d85eda7f090",
+      "publicSha256": "7a16ce57bca754d317ddace898d1c5d5c085ab2e0b80e06c79424d85eda7f090"
+    },
+    {
+      "path": "src/test/java/org/motiquies/client/Shared322MigrationTest.java",
+      "baselinePublicSha256": "07bcb6c7feb8cee946da006c44d6098be65e6214c71d60853db402f9eddf8062",
+      "beta3SourceSha256": "48744b5c052b54274d3df006ad1017676b5180c70ece03658817a60fcb89669e",
+      "publicSha256": "48744b5c052b54274d3df006ad1017676b5180c70ece03658817a60fcb89669e"
+    },
+    {
+      "path": "src/test/java/org/motiquies/client/Shared323MigrationTest.java",
+      "baselinePublicSha256": "49413fbed75c3b86b44683acabfab29469128fb9018acaac9c517a1cc9ab9c86",
+      "beta3SourceSha256": "be16bc276aa838a488368d3d425b00752cfd90a8d1b44876dd66e4d36ae1f7ab",
+      "publicSha256": "be16bc276aa838a488368d3d425b00752cfd90a8d1b44876dd66e4d36ae1f7ab"
+    }
+  ],
+  "verification": {
+    "jdk": "Eclipse Adoptium 21.0.10+7",
+    "freshBuilds": 2,
+    "testsPerBuild": 21,
+    "sameClassEntries": 90,
+    "publicArtifactSha256": "f38d74dbe6a880e534e4b4a7f1062fa7d8e130817420d328945dcabd3cd0936f",
+    "added": [
+      "LICENSE"
+    ],
+    "removed": [
+      "META-INF/MANIFEST.MF"
+    ],
+    "changed": [
+      "META-INF/neoforge.mods.toml"
+    ]
+  }
+}
