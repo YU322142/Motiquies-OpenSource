@@ -2,6 +2,7 @@ package org.motiquies.client;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Set;
 
 public final class Shared322MigrationTest {
     public static void main(String[] args) throws Exception {
@@ -19,8 +20,8 @@ public final class Shared322MigrationTest {
         var preview = migration.preview(source);
         check(preview.waypoints().contains("Multiplayer_Any Address"), "3.2.2 shared waypoint source must be discoverable");
         check(preview.bookmarks().contains("Motiquies") && preview.history().contains("Motiquies"), "3.2.2 shared JEI sources must be discoverable");
-        migration.migrate(source, preview.selection(true, true, true, false, false, false));
-        migration.migrate(source, preview.selection(true, true, true, false, false, false));
+        migration.migrate(source, preview.selection(true, true, true, false, false, false), Set.of());
+        migration.migrate(source, preview.selection(true, true, true, false, false, false), Set.of());
         check(Files.readString(target.resolve("xaero/minimap/Multiplayer_Any Address/dim%0/mw$322_1.txt")).equals(waypoint), "322 waypoint survives and retries do not duplicate");
         check(Files.readString(target.resolve("config/jei/world/server/Motiquies/bookmarks.json")).contains("minecraft:stone"), "322 bookmark survives");
         check(Files.readString(target.resolve("config/jei/world/server/Motiquies/lookupHistory.json")).contains("minecraft:stone"), "322 history survives");

@@ -47,7 +47,7 @@ public final class Shared323MigrationTest {
                 "An explicit supported previous version must identify the in-place upgrade without personal data");
         var preview = migration.preview(target);
         check(preview.isEmpty(), "Empty personal data must be a valid upgrade preview");
-        migration.migrate(target, migration.automaticSelection(preview));
+        migration.migrate(target, migration.automaticSelection(preview), Set.of());
         migration.markComplete();
         check(migration.upgradeSource().isEmpty() && migration.isComplete(),
                 "Completed empty upgrades must not repeat");
@@ -82,8 +82,8 @@ public final class Shared323MigrationTest {
                         && preview.bookmarks().equals(java.util.List.of("Motiquies")),
                 "Shared JEI history and bookmarks must be offered independently");
         var selection = migration.automaticSelection(preview);
-        migration.migrate(source, selection);
-        migration.migrate(source, selection);
+        migration.migrate(source, selection, Set.of());
+        migration.migrate(source, selection, Set.of());
         String waypoints = Files.readString(target.resolve(WAYPOINT));
         check(waypoints.contains(SOURCE_POINT) && waypoints.contains(TARGET_POINT)
                         && waypoints.lines().filter(line -> line.startsWith("waypoint:")).count() == 2,

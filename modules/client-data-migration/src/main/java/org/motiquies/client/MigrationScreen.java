@@ -1,5 +1,6 @@
 package org.motiquies.client;
 
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.LinkedHashSet;
@@ -189,23 +190,27 @@ final class MigrationScreen extends Screen {
         Path old = source;
         running = true;
         status = "正在导入，源文件会保留。";
-        if (selection.keys() && !Files.exists(target.resolve("options.txt"))) minecraft.options.save();
+        Set<String> registeredKeys = selection.keys() ? ClientMigrationMod.prepareKeyImport(minecraft, target) : Set.of();
         refresh();
         CompletableFuture.runAsync(() -> {
             try {
-                migration.migrate(old, selection);
+                migration.migrate(old, selection, registeredKeys);
                 ServerFiles.merge(target, selection.servers() ? old : null);
                 migration.savePreferences(selection);
-                migration.markComplete();
             } catch (Exception failure) {
                 throw new java.util.concurrent.CompletionException(failure);
             }
         }).whenComplete((ignored, failure) -> minecraft.execute(() -> {
             running = false;
             if (failure == null) {
-                if (selection.keys()) minecraft.options.load();
-                ClientMigrationMod.enableSharedXaero();
-                status = "已导入。名称相同但内容不同的记录已保留。";
+                try {
+                    if (selection.keys()) minecraft.options.load();
+                    ClientMigrationMod.enableSharedXaero();
+                    migration.markComplete();
+                    status = "已导入。名称相同但内容不同的记录已保留。";
+                } catch (IOException | RuntimeException completionFailure) {
+                    status = "导入未完成，可重试：" + completionFailure.getMessage();
+                }
             } else {
                 status = "导入未完成，可重试：" + failure.getCause().getMessage();
             }

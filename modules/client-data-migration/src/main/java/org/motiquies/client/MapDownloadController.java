@@ -61,7 +61,7 @@ final class MapDownloadController {
         if (command == Command.RESUME && !canResume()) return null;
         expectedMode = switch (command) {
             case NEARBY, CUSTOM, DIMENSION, GLOBAL -> command.name();
-            case RESUME -> reply.previousMode();
+            case RESUME -> resumableMode();
             default -> null;
         };
         pending = command;
@@ -139,8 +139,17 @@ final class MapDownloadController {
     boolean canChoose() { return supported && pending == null; }
     boolean canQuery() { return connection != null && pending == null; }
     boolean canPause() { return supported && pending != Command.PAUSE && (reply == null || !reply.mode().equals("PAUSED") || (pending != null && isStart(pending))); }
-    boolean canResume() { return supported && pending == null && reply != null && reply.mode().equals("PAUSED") && !reply.previousMode().equals("PAUSED"); }
+    boolean canResume() {
+        return supported && pending == null && reply != null && !allowed && !resumableMode().equals("PAUSED");
+    }
+    private String resumableMode() {
+        return reply.mode().equals("PAUSED") ? reply.previousMode() : reply.mode();
+    }
     boolean downloadAllowed(Object source) { return source != null && source == connection && supported && allowed; }
+    boolean backgroundRefreshAllowed(Object source) {
+        if (source == null || source != connection || !supported || pending != null || reply == null) return false;
+        return reply.mode().equals("NEARBY") || (reply.mode().equals("CUSTOM") && reply.radius() <= 1);
+    }
     Reply reply() { return reply; }
     String message() { return message; }
 

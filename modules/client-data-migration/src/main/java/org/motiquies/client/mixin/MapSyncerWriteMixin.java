@@ -26,4 +26,11 @@ abstract class MapSyncerWriteMixin {
             int worldId, boolean integratedHost, String selectedMultiworld) {
         return NativeMapWriteBridge.write(chunk, serverDir, worldId, integratedHost, selectedMultiworld);
     }
+
+    @Redirect(method = "lambda$submit$1", at = @At(value = "INVOKE",
+            target = "Lcom/mapsyncer/client/XaeroMapDataHandler;clearRegionCacheFiles(Ljava/nio/file/Path;Lcom/mapsyncer/client/XaeroMapDataHandler$RegionCoord;)V"), remap = false)
+    private static void motiquies$skipLegacyCacheClear(Path directory, XaeroMapDataHandler.RegionCoord coordinate) {
+        // The native task already invalidated the old cache. The IO callback can race
+        // the new cache and also deletes Xaero's .outdated recovery file.
+    }
 }

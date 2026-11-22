@@ -67,8 +67,10 @@
       "path": "modules/client-data-migration",
       "role": "candidate-source",
       "license": "MIT; original upstream dependencies separate",
-      "runtimeComparison": "runtime classes match tested client candidate; first-party license metadata differs",
-      "knownGaps": [],
+      "runtimeComparison": "90 runtime classes match the delivered 3.3.0-Beta3 client module 0.3.19",
+      "knownGaps": [
+        "The exact Beta3 MapSyncer client compile input must be provided externally."
+      ],
       "sourceStatus": "reviewed-source-export",
       "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
       "gameReleaseApproval": false

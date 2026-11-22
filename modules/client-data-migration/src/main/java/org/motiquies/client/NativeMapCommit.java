@@ -5,38 +5,52 @@ final class NativeMapCommit {
     record Outcome<R>(boolean deferred, R receipt) {}
     interface Access<R> {
         void pauseRender(); void resumeRender(); NativeMapReloadQueue.Region existingRegion();
-        R commitSource(); boolean affectsRegion(R receipt); boolean currentView(); void retainDirtyRegion();
+        void captureMemory(); R commitSource(); void retainDirtyRegion(R receipt);
         boolean invalidateColdCache(R receipt);
+        void publishColdRegion(R receipt);
     }
     static <R> Outcome<R> attempt(Access<R> access) {
-        access.pauseRender();
+        NativeMapReloadQueue.Region region = null;
+        boolean writerPaused = false;
         try {
-            var region = access.existingRegion();
-            if (region == null) {
-                R receipt=access.commitSource();
-                return receipt==null||access.invalidateColdCache(receipt)?new Outcome<>(false,receipt):new Outcome<>(true,null);
-            }
-            region.pauseWriter();
+            access.pauseRender();
             try {
-                synchronized (region.lock()) {
-                    if (!region.canReload()) return new Outcome<>(true, null);
-                    // Preflight the fallible cache operation before a source merge. Otherwise
-                    // a retry could mistake the still-loaded old pixels for new exploration.
-                    if (!region.invalidateCache()) return new Outcome<>(true, null);
-                    R receipt = access.commitSource();
-                    if (receipt == null || !access.affectsRegion(receipt)) return new Outcome<>(false, receipt);
-                    if (region.loadState() == 2) region.clearLoadedData();
-                    region.markTerrain();
-                    // requestLoad prepares highlights and is main-thread-only. State4 already
-                    // contains no old terrain, so native saves cannot undo this source commit.
-                    access.retainDirtyRegion();
-                    return new Outcome<>(false, receipt);
+                region = access.existingRegion();
+                if (region != null) {
+                    region.pauseWriter();
+                    writerPaused = true;
+                    synchronized (region.lock()) {
+                        // Preflight before the merge so a retry cannot read outdated memory.
+                        if (!region.canReload() || !region.invalidateCache()) return new Outcome<>(true, null);
+                    }
                 }
             } finally {
-                region.resumeWriter();
+                access.resumeRender();
             }
+
+            // The native runner serializes source IO. Pausing the whole renderer here
+            // would make GuiMap skip terrain drawing through every ZIP decode and write.
+            if (region != null) {
+                synchronized (region.lock()) { access.captureMemory(); }
+            }
+            R receipt = access.commitSource();
+            if (receipt == null) return new Outcome<>(false, null);
+            if (region == null && !access.invalidateColdCache(receipt)) return new Outcome<>(true, null);
+
+            access.pauseRender();
+            try {
+                if (region == null) access.publishColdRegion(receipt);
+                else synchronized (region.lock()) {
+                    if (region.loadState() == 2) region.clearLoadedData();
+                    region.markTerrain();
+                    access.retainDirtyRegion(receipt);
+                }
+            } finally {
+                access.resumeRender();
+            }
+            return new Outcome<>(false, receipt);
         } finally {
-            access.resumeRender();
+            if (writerPaused) region.resumeWriter();
         }
     }
 }

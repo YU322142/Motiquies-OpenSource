@@ -7,6 +7,7 @@
     "JeiSharedPathMixin",
     "RejectServerPackMixin",
     "MapSyncerReloadMixin",
+    "MapSyncerPeriodicMixin",
     "MapSyncerWriteMixin",
     "FTBQuestsJeiGuardMixin",
     "QuietInsecureChatToastMixin",

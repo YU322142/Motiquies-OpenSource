@@ -21,6 +21,7 @@ public final class NativeMapCommitTest {
         check(!result.deferred() && "real-crc".equals(result.receipt()) && access.commits == 1, "disk-only commit returns the original real receipt");
         check(access.loads == 0 && access.clears == 0 && access.lookups == 1, "no existing region means no allocation, clear, or load");
         check(access.coldInvalidations==1,"disk-only source commit must invalidate old on-disk textures without allocating a region");
+        check(access.steps.equals(List.of("commit", "detect")), "cold source must be visible to native viewing without allocating pixels");
         check(!access.renderPaused, "disk-only commit releases render isolation");
         var blocked=new Access();blocked.existing=false;blocked.invalidationReady=false;
         var request=new NativeMapWriteRequest<String>();
@@ -35,7 +36,7 @@ public final class NativeMapCommitTest {
         var result = NativeMapCommit.attempt(access);
         check(!result.deferred() && access.disk == 2 && access.memory == 0 && access.state == 4 && access.clears == 1 && access.loads == 0 && access.dirty,
                 "native commit must clear old terrain into state4 and retain main-thread handoff before returning real receipt");
-        check(access.steps.equals(List.of("invalidate", "commit", "clear", "terrain")), "native worker must stop after source commit/invalidate/clear without calling main-only requestLoad");
+        check(access.steps.equals(List.of("invalidate", "snapshot", "commit", "clear", "terrain")), "capture and replacement use short native pauses around the source commit");
         check(!access.renderPaused && !access.writerPaused, "both native pauses balance");
         finishOnMain(access);
         check(access.memory == 2 && access.loads == 1, "main-thread handoff reads new source after native worker releases all locks");
@@ -101,17 +102,16 @@ public final class NativeMapCommitTest {
         int disk = 1, memory = 1, commits, loads, clears, lookups, coldInvalidations; final List<String> steps = new ArrayList<>();
         byte state = 2;
         public void pauseRender() { check(!renderPaused, "render isolation must not nest"); renderPaused = true; }
-        public void resumeRender() { check(!writerPaused, "writer must resume before render"); renderPaused = false; }
+        public void resumeRender() { renderPaused = false; }
         public NativeMapReloadQueue.Region existingRegion() { check(renderPaused, "lookup must be isolated"); lookups++; return existing ? this : null; }
+        public void captureMemory() { check(!renderPaused && writerPaused && Thread.holdsLock(this), "memory capture is isolated to the source leaf"); steps.add("snapshot"); }
+        public void publishColdRegion(String receipt) { check(renderPaused && !writerPaused, "native detection must publish under the render boundary"); steps.add("detect"); }
         public String commitSource() {
-            check(renderPaused, "source commit must run inside native serialization and render isolation");
-            if (existing) locked();
+            check(!renderPaused && writerPaused == existing && !Thread.holdsLock(this), "ZIP merge and source IO must leave the world map drawable");
             steps.add("commit"); commits++; disk = 2; return "real-crc";
         }
-        public boolean affectsRegion(String result) { return true; }
-        public boolean invalidateColdCache(String receipt){check(renderPaused&&!writerPaused,"cold cache invalidation stays on native serialized boundary");coldInvalidations++;return invalidationReady;}
-        public boolean currentView() { return active; }
-        public void retainDirtyRegion() { locked(); dirty = true; }
+        public boolean invalidateColdCache(String receipt){check(!renderPaused&&!writerPaused,"cold cache IO must leave the world map drawable");coldInvalidations++;return invalidationReady;}
+        public void retainDirtyRegion(String receipt) { locked(); dirty = true; }
         public Object lock() { return this; }
         public void pauseWriter() { check(nativePhase, "main handoff must not acquire native writer pause"); check(renderPaused, "render pause precedes writer"); writerPaused = true; }
         public void resumeWriter() { writerPaused = false; }
