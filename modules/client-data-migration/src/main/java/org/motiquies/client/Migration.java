@@ -111,7 +111,8 @@ final class Migration {
     private static boolean isSupportedPrevious(String version) {
         String value = version.strip();
         return isLegacy(value) || value.equals("3.2.2") || value.equals("Motiquies-3.2.2-release")
-                || value.equals("3.2.3") || value.equals("Motiquies-3.2.3-release");
+                || value.equals("3.2.3") || value.equals("Motiquies-3.2.3-release")
+                || value.equals("3.3.0-Beta3") || value.equals("Motiquies-3.3.0-Beta3");
     }
 
     boolean isComplete() {

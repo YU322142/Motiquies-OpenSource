@@ -25,7 +25,7 @@
 | Tracks 资源 | 原创两阶段工具已对照；上游完整源码版本待核，明确保留权利的素材与完整二进制不随本次公开 |
 | Yuushya 资源 | 仅原创字段转换工具公开；作者原条款区分代码 MIT 与资源 CC-BY-NC-SA，正文/美术/原版及生成版 JAR 不在仓库；资源二次分发仍受原条款约束 |
 | 服务端资源裁剪 | 独立工具可精确重现指定 CDP/Nether 输入的裁剪；完整上游源码重建、对应源码义务、素材及后续二进制发布仍分别核查 |
-| Beta3 客户端迁移 | 已覆盖 0.3.19，自有源码两次独立构建一致，90 个运行类与交付包相同。精确的 Beta3 MapSyncer 客户端编译输入仍需从仓库外提供。见[构建说明与校验记录](../modules/client-data-migration/README.md) |
+| Beta4 客户端迁移 | 已覆盖 0.3.20，两次独立构建一致，92 个运行类与交付包相同。Beta3 和 Beta4 共用的精确 MapSyncer 客户端编译输入仍需从仓库外提供。见[构建说明与校验记录](../modules/client-data-migration/README.md) |
 | Tom 运行源码 | 182 个 Java 文件可独立编译，290 个类的非调试内容与参考相符。223 个资源的复现、3 张 PNG 的权利、完整 JAR 和真实菜单验收仍未闭合。纵向保险库[源码补丁和隔离证据](../modules/server-mods/tom-storage-performance/patches/ITEM-SILO-CANDIDATE.md)单独维护 |
 | Zstd 生产帧修复 | 独立工具重现当前运行class差异；旧producer/notice/整包未精确复原，4API主站字节复核与嵌套native/完整binary发布仍有缺口 |
 | Nostalgia | 未取得修改版分发授权，修改版、派生代码和重建配方未公开；授权缺口仍保留 |

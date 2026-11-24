@@ -16,6 +16,7 @@ import net.minecraft.network.chat.Component;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.client.event.ClientPlayerNetworkEvent;
 import net.neoforged.neoforge.client.event.ClientTickEvent;
 import net.neoforged.neoforge.client.event.ScreenEvent;
 import net.neoforged.neoforge.common.NeoForge;
@@ -46,6 +47,7 @@ public final class ClientMigrationMod {
         }
         NeoForge.EVENT_BUS.addListener(this::title);
         NeoForge.EVENT_BUS.addListener(this::tick);
+        NeoForge.EVENT_BUS.addListener((ClientPlayerNetworkEvent.LoggingOut event) -> DhLoadNoticeGate.reset());
         new MapDownloadClient();
         NativeMapReloadBridge.register();
         ShaderResizeRecovery.register();
