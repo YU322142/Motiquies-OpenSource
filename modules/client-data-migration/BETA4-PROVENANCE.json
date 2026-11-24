@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "version": "0.3.20",
+  "baselinePublicCommit": "a07cbb63711df61becbb4a54087573f14762fa7d",
+  "runtimeJavaUnchangedFromBeta4": true,
+  "beta4ReferencePackSha256": "3842484c0a17c6f186ad6cc8301e611e3f0eef0591389beca4cac9f672df95dc",
+  "beta4ReferenceJarSha256": "3219ecb4a663fb908aa28579cb4912fc44421079c80ecd446782c864b7744fe1",
+  "files": [
+    {
+      "path": "src/main/java/org/motiquies/client/ClientMigrationMod.java",
+      "baselinePublicSha256": "8f621d679ee2799913ef0e387ff2af8863ed304082ac1ec1ab1383057d04f2a4",
+      "beta4SourceSha256": "8a231b2da953c038293e7b8aa5aba2611c8b31215475ca1c7ef0ca9160374ae5",
+      "publicSha256": "8a231b2da953c038293e7b8aa5aba2611c8b31215475ca1c7ef0ca9160374ae5"
+    },
+    {
+      "path": "src/main/java/org/motiquies/client/DhLoadNoticeGate.java",
+      "baselinePublicSha256": null,
+      "beta4SourceSha256": "b630df544585c604aca9bef986c97a49f49bf344687644b3211a39a5acddbafb",
+      "publicSha256": "b630df544585c604aca9bef986c97a49f49bf344687644b3211a39a5acddbafb"
+    },
+    {
+      "path": "src/main/java/org/motiquies/client/Migration.java",
+      "baselinePublicSha256": "d3afdcb5c36e81798b8a37cf1d17f0cf705d1548d1c2690388bac51b9fd482cb",
+      "beta4SourceSha256": "d6b4006a2826e96c755a0e442d6b80f0190aa4147ed971d4a16d129396ed5693",
+      "publicSha256": "d6b4006a2826e96c755a0e442d6b80f0190aa4147ed971d4a16d129396ed5693"
+    },
+    {
+      "path": "src/main/java/org/motiquies/client/mixin/DhClientNoticeMixin.java",
+      "baselinePublicSha256": null,
+      "beta4SourceSha256": "9738cf23b6cfb6b2239a28226955103e07377804511b5761449ac303efe0449a",
+      "publicSha256": "9738cf23b6cfb6b2239a28226955103e07377804511b5761449ac303efe0449a"
+    },
+    {
+      "path": "src/main/resources/META-INF/neoforge.mods.toml",
+      "baselinePublicSha256": "13f87d96f62025401aa9302563cfe3faab0fe44ee5c2c1646d0670d584aeb81c",
+      "beta4SourceSha256": "99598dad67cd92f2d15065da522049bf0404ca8c46c3cb586ffc18cf5049eada",
+      "publicSha256": "4f3e52d937cb7b73e6638b362d6da30d30e9b66fda9baac53bf899c2122a440c"
+    },
+    {
+      "path": "src/main/resources/motiquies_client_migration.mixins.json",
+      "baselinePublicSha256": "19e39697f55e10a0ebbb67c5cad830f901bb1cea983d010f4c90fcfd61806ce0",
+      "beta4SourceSha256": "1870f23e431a38175b76bd317f6171a2f3ba32a728402dffa7943e5b27b6f709",
+      "publicSha256": "67b6e84a85d672eb1030625ade1aa53dc3a689e9b97f027f8e4c4dae159b8d31"
+    },
+    {
+      "path": "src/test/java/org/motiquies/client/DhLoadNoticeGateTest.java",
+      "baselinePublicSha256": null,
+      "beta4SourceSha256": "2fc1492af6e72f347b1886ed5a3b59dde998186e6e3a3aa1919db3373d5de3f0",
+      "publicSha256": "2fc1492af6e72f347b1886ed5a3b59dde998186e6e3a3aa1919db3373d5de3f0"
+    },
+    {
+      "path": "src/test/java/org/motiquies/client/SharedBeta3MigrationTest.java",
+      "baselinePublicSha256": null,
+      "beta4SourceSha256": "637de3c43bdb8653ad0e26f9a8d39c2c8e4ca16309d13eb31c7cb158f1565f96",
+      "publicSha256": "637de3c43bdb8653ad0e26f9a8d39c2c8e4ca16309d13eb31c7cb158f1565f96"
+    }
+  ]
+}

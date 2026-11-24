@@ -11,6 +11,7 @@
     "MapSyncerWriteMixin",
     "FTBQuestsJeiGuardMixin",
     "QuietInsecureChatToastMixin",
+    "DhClientNoticeMixin",
     "NativeMapSaveAccess",
     "LocalMapWriteMixin",
     "LocalMapSaveMixin"
