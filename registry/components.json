@@ -345,6 +345,18 @@
       ],
       "upstreamModOrBinaryPublicationApproved": false,
       "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/gd656-online-roster",
+      "role": "independent-first-party-client-compatibility-module",
+      "license": "MIT for Motiquies extension; GD656 is an external dependency",
+      "runtimeComparison": "full JAR matches the isolated game-tested 0.2.0 artifact",
+      "knownGaps": [
+        "Production package integration and live multiplayer combat/reconnect validation are separate."
+      ],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
+      "gameReleaseApproval": false
     }
   ],
   "upstreamPack": {

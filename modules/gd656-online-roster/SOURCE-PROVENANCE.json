@@ -1,0 +1,26 @@
+{
+  "origin": "Motiquies first-party scoreboard extension",
+  "version": "0.2.0",
+  "upstream": "MinecraftGD656",
+  "upstreamVersion": "1.1.0.020-1.21.1-neoforge",
+  "upstreamVersionId": "a2uttm7Y",
+  "upstreamLicense": "MIT",
+  "publicChanges": [
+    "pin the complete build classpath and nested MixinExtras",
+    "document the official external input"
+  ],
+  "runtimeSourceAndResourcesUnchanged": true,
+  "confirmedBuilds": 2,
+  "artifactSha256": "e1d0a77353ee54eb8b07881725fdb7fbd45032bd8287054ffbc502fc733a466d",
+  "sourceFiles": {
+    "src/main/java/org/motiquies/client/tab/mixin/Gd656ScoreboardMixin.java": "984ead6e849684081c4b1f9cfc391cbdca598378e80fb6a0004ab25f5bb83ea3",
+    "src/main/java/org/motiquies/client/tab/mixin/Gd656TextRendererAccessor.java": "ef8e6d32c9f4ffa2374a3f6eb5dae6899d7fe2b1392a38f2b00bb3d2d3b868c0",
+    "src/main/java/org/motiquies/client/tab/OnlineCountText.java": "673a0407d561293fe5c41c4008a23628881e8e2d447579ad3e35474694ab4c0e",
+    "src/main/java/org/motiquies/client/tab/OnlineScoreboardRows.java": "a05e6961e40bba6449cbdfb52620cc4727810c02b960784f9cd56ad8ff6b5908",
+    "src/main/resources/assets/motiquies_tab_count/lang/en_us.json": "0ae42edd45e25b8d81ed50155802daa7e53962e459f416785d75b68942434d92",
+    "src/main/resources/assets/motiquies_tab_count/lang/zh_cn.json": "3ee599b2b01e428bb6effd63ba4278a0bd7e550c08eccee1d1dba604d6013527",
+    "src/main/resources/META-INF/neoforge.mods.toml": "30969a842aa3901cf381a4548952e47febef54f63f5172563aa3f7eedc861261",
+    "src/main/resources/motiquies_tab_count.mixins.json": "2179e10441793f800276f14bb6fb0104eac9ebce471e7573f6b34dbd5e0c0ff9",
+    "src/test/java/org/motiquies/client/tab/OnlineCountTextTest.java": "01caf31091d2e805ece441d0d230e88d7732b352ab846c38251eec87f41011d6"
+  }
+}
