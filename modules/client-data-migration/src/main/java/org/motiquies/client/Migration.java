@@ -6,6 +6,7 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.google.gson.JsonPrimitive;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -105,14 +106,51 @@ final class Migration {
         if (isLegacy(target.getFileName().toString()) && regular(target.resolve("PCL/Setup.ini"))) {
             return Optional.of(target);
         }
+        if (!regular(marker) && hasHmclLegacyRouteData()) return Optional.of(target);
         return Optional.empty();
+    }
+
+    private boolean hasHmclLegacyRouteData() {
+        Path metadata = target.resolve("modpack.cfg");
+        if (!regular(metadata)) return false;
+        try {
+            JsonObject pack = JsonParser.parseString(Files.readString(metadata)).getAsJsonObject();
+            if (!new JsonPrimitive("Curse").equals(pack.get("type"))
+                    || !new JsonPrimitive("Motiquies").equals(pack.get("name"))) return false;
+
+            Preview data = preview(target);
+            for (String route : data.waypoints()) {
+                if (route.equals(SHARED_XAERO)) continue;
+                for (Path path : files(target.resolve(WAYPOINT_ROOT).resolve(route))) {
+                    if (!isWaypointFile(path)) continue;
+                    try (var lines = Files.lines(path)) {
+                        if (lines.anyMatch(line -> line.startsWith("waypoint:") && line.split(":", -1).length >= 6)) return true;
+                    }
+                }
+            }
+            return hasLegacyJeiRecords(data.history(), "lookupHistory.json")
+                    || hasLegacyJeiRecords(data.bookmarks(), "bookmarks.json");
+        } catch (IOException | RuntimeException invalid) {
+            // A broken optional hint must leave the existing manual import available.
+            return false;
+        }
+    }
+
+    private boolean hasLegacyJeiRecords(List<String> routes, String file) throws IOException {
+        for (String route : routes) {
+            if (!route.equals("Motiquies") && !readJei(target.resolve(JEI_ROOT).resolve(route).resolve(file)).isEmpty()) {
+                return true;
+            }
+        }
+        return false;
     }
 
     private static boolean isSupportedPrevious(String version) {
         String value = version.strip();
         return isLegacy(value) || value.equals("3.2.2") || value.equals("Motiquies-3.2.2-release")
                 || value.equals("3.2.3") || value.equals("Motiquies-3.2.3-release")
-                || value.equals("3.3.0-Beta3") || value.equals("Motiquies-3.3.0-Beta3");
+                || value.equals("3.3.0-Beta3") || value.equals("Motiquies-3.3.0-Beta3")
+                || value.equals("3.3.0-Beta4") || value.equals("Motiquies-3.3.0-Beta4");
     }
 
     boolean isComplete() {

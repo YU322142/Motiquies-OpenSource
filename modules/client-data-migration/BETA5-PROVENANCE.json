@@ -1,0 +1,56 @@
+{
+  "version": "0.3.23",
+  "baselinePublicCommit": "93ad3c4ea2f1d12f5392bf79e0e8da4ab5691492",
+  "sourceOrigin": "Motiquies first-party client migration module",
+  "referenceArtifactSha256": "97c901683e251824fa4674949a92edbc0930cbee36664aaab74997fdaf4f3484",
+  "verifiedIndependentBuilds": 2,
+  "matchesDeliveredClientJarByteForByte": true,
+  "runtimeClassCount": 95,
+  "regressionTestClassesPerBuild": 24,
+  "changedFiles": [
+    {
+      "path": "build.py",
+      "sha256": "97036cf7a4352e135d86676aca12c64ae43b4545a65bdf07e8a9cf95cf170dba"
+    },
+    {
+      "path": "src/main/java/org/motiquies/client/android/mixin/AndroidPonderStencilMixin.java",
+      "sha256": "0dd761caaa1612c49a9a57648ba2047189bc3d2f80d41a438f90ce8167efdb88"
+    },
+    {
+      "path": "src/main/java/org/motiquies/client/android/mixin/AndroidTaczStencilMixin.java",
+      "sha256": "2573e1531a603b862507d9f2c243720f238c3d88068832958d125f5fe0b20fd7"
+    },
+    {
+      "path": "src/main/java/org/motiquies/client/AndroidPonderMixinPlugin.java",
+      "sha256": "c25ed18cefcb78bdbbabb87c219685064e43ad2c86a76428957c65683a6b1343"
+    },
+    {
+      "path": "src/main/java/org/motiquies/client/Migration.java",
+      "sha256": "b8275c0e3bb5af8193910e9002b62552babc1b32ce4ed2495e4f3418fb508f99"
+    },
+    {
+      "path": "src/main/java/org/motiquies/client/NativeMapWriteRequest.java",
+      "sha256": "bee01891053ecddfafe77a687b382ad8fcfceabd74862d4865a4ddf971afb298"
+    },
+    {
+      "path": "src/main/resources/META-INF/neoforge.mods.toml",
+      "sha256": "9b4edaf05721f1a3a71fb4b9909a5e0162adc499d230515ea5191d05c6c1a712"
+    },
+    {
+      "path": "src/main/resources/motiquies_android_ponder.mixins.json",
+      "sha256": "ceda6dbd4fa19833caf687f862058a8d99e3922c953fadd308c47daedc2ac48d"
+    },
+    {
+      "path": "src/test/java/org/motiquies/client/AndroidPonderGateTest.java",
+      "sha256": "46ee729a7cf871a4453d978cdbd90bfb5a46a8577e788cb01c0ff69e142fb4df"
+    },
+    {
+      "path": "src/test/java/org/motiquies/client/MapFreshnessJournalTest.java",
+      "sha256": "f14abef371b89e6c890dc631c5d16396561891978dc7600594a16b965ab4b60d"
+    },
+    {
+      "path": "src/test/java/org/motiquies/client/SharedBeta3MigrationTest.java",
+      "sha256": "480837ccfe5dedc255d3d8c6558c428a16a552c3e2bc8c16757096f8daff433e"
+    }
+  ]
+}

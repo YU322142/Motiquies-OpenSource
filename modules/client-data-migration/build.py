@@ -1,4 +1,4 @@
-"""Build complete own client module and exercise all 23 file/policy tests."""
+"""Build the Motiquies client module and run its regression tests."""
 import sys
 sys.dont_write_bytecode=True
 import os
@@ -22,4 +22,4 @@ if os.name=='nt':
 else:
     link.symlink_to(victim_dir,target_is_directory=True)
 c.run([c.java,'-Djava.io.tmpdir='+str(temp),'-cp',cp,'org.motiquies.client.DhCacheJunctionTest',instance,victim],'DhCacheJunctionTest')
-c.artifact('motiquies-client-migration-0.3.20.jar',classes,ROOT/'src/main/resources')
+c.artifact('motiquies-client-migration-0.3.23.jar',classes,ROOT/'src/main/resources')
