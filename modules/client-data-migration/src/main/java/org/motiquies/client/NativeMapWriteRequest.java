@@ -1,5 +1,6 @@
 package org.motiquies.client;
 
+import java.nio.channels.ClosedByInterruptException;
 import java.util.concurrent.CompletableFuture;
 import java.util.function.BooleanSupplier;
 import java.util.function.Supplier;
@@ -17,8 +18,17 @@ final class NativeMapWriteRequest<R> {
             if(committing || !mayCommit(permitted)) return null;
             committing = true;
         }
-        try { return operation.write(); }
-        finally { synchronized(this) { committing = false; } }
+        try {
+            return operation.write();
+        } catch (ClosedByInterruptException interrupted) {
+            // Xaero interrupts its native worker when the map session closes. A ZIP that
+            // already committed returns its receipt even if the sidecar finish is deferred.
+            Thread.currentThread().interrupt();
+            cancel();
+            return null;
+        } finally {
+            synchronized (this) { committing = false; }
+        }
     }
     boolean attempt(BooleanSupplier ready, BooleanSupplier permitted, Supplier<NativeMapCommit.Outcome<R>> operation) {
         if (future.isDone()) return true;

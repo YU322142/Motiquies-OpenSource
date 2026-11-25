@@ -10,21 +10,27 @@ public final class SharedBeta3MigrationTest {
     private static final String CACHE = "Distant_Horizons_server_data/-1921347326_Motiquies/overworld/DistantHorizons.sqlite";
 
     public static void main(String[] args) throws Exception {
-        Path root = Files.createTempDirectory("upgrade-beta3-");
-        Path target = Files.createDirectory(root.resolve("Beta4"));
-        Path source = Files.createDirectory(root.resolve("Beta3"));
+        verifyUpgrade("3.3.0-Beta3");
+        verifyUpgrade("3.3.0-Beta4");
+    }
+
+    private static void verifyUpgrade(String version) throws Exception {
+        Path root = Files.createTempDirectory("upgrade-");
+        Path target = Files.createDirectory(root.resolve("target"));
+        Path source = Files.createDirectory(root.resolve("source"));
         Migration migration = new Migration(target);
 
-        put(target, CONFIG + "previous-version.txt", "Motiquies-3.3.0-Beta3\n");
-        require(migration.upgradeSource().filter(target::equals).isPresent(), "Empty Beta3 upgrade should recognize its version");
-        require(migration.preview(target).isEmpty(), "Empty Beta3 should have no personal data");
+        put(target, CONFIG + "previous-version.txt", "Motiquies-" + version + "\n");
+        require(migration.upgradeSource().filter(target::equals).isPresent(), "Empty upgrade should recognize " + version);
+        require(migration.preview(target).isEmpty(), "Empty upgrade should have no personal data");
 
+        put(target, CONFIG + "previous-version.txt", version + "\n");
         put(target, CONFIG + "previous-instance.txt", source.toString());
         String point = "waypoint:Beta3 Home:H:12:70:34:0:false:0:gui.xaero_default:false:0:0:false\n";
         put(source, WAYPOINT, point);
         put(source, CACHE, "Beta3 source cache fixture");
         put(source, CONFIG + "migration-v1.done", "1\n");
-        require(migration.upgradeSource().filter(source::equals).isPresent(), "A separate Beta3 source should support automatic migration");
+        require(migration.upgradeSource().filter(source::equals).isPresent(), "A separate source should migrate automatically for " + version);
         var preview = migration.preview(source);
         migration.migrate(source, migration.automaticSelection(preview), Set.of());
         migration.markComplete();
@@ -39,7 +45,7 @@ public final class SharedBeta3MigrationTest {
         put(existing, CACHE, "Existing Beta3 download");
         require(DhCacheMigration.migrate(existing, DhCacheMigration.defaultFolders()).isEmpty(), "An in-place upgrade must keep existing native-cache marker semantics");
         require(Files.readString(existing.resolve(CACHE)).equals("Existing Beta3 download"), "Existing download must be preserved");
-        System.out.println("Beta3 empty upgrade, separate-instance import, completion and native-cache protection passed");
+        System.out.println(version + " empty upgrade, separate-instance import, completion and native-cache protection passed");
     }
 
     private static void put(Path root, String name, String contents) throws Exception {

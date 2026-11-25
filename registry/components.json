@@ -67,9 +67,9 @@
       "path": "modules/client-data-migration",
       "role": "candidate-source",
       "license": "MIT; original upstream dependencies separate",
-      "runtimeComparison": "92 runtime classes match the delivered 3.3.0-Beta4 client module 0.3.20",
+      "runtimeComparison": "Byte-identical with the delivered 3.3.0-Beta5 client module 0.3.23 with 95 runtime classes",
       "knownGaps": [
-        "The exact MapSyncer client compile input shared by Beta3 and Beta4 must be provided externally."
+        "The exact MapSyncer client compile input shared by Beta3, Beta4 and Beta5 must be provided externally."
       ],
       "sourceStatus": "reviewed-source-export",
       "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
@@ -344,6 +344,18 @@
         "Real login/game/frame runtime QA was NOT RUN"
       ],
       "upstreamModOrBinaryPublicationApproved": false,
+      "gameReleaseApproval": false
+    },
+    {
+      "path": "modules/gd656-online-roster",
+      "role": "independent-first-party-client-compatibility-module",
+      "license": "MIT for Motiquies extension; GD656 is an external dependency",
+      "runtimeComparison": "full JAR matches the isolated game-tested 0.2.0 artifact",
+      "knownGaps": [
+        "Production package integration and live multiplayer combat/reconnect validation are separate."
+      ],
+      "sourceStatus": "reviewed-source-export",
+      "buildStatus": "two-fresh-builds-byte-identical-with-pinned-tested-toolchain",
       "gameReleaseApproval": false
     }
   ],

@@ -1,0 +1,27 @@
+modLoader = "lowcodefml"
+loaderVersion = "[2,)"
+license = "MIT"
+
+[[mods]]
+modId = "motiquies_tab_count"
+version = "0.2.0"
+displayName = "Motiquies GD656 Online Count"
+description = "Shows the current online roster and server scores inside the GD656 scoreboard."
+displayTest = "IGNORE_ALL_VERSION"
+
+[[mixins]]
+config = "motiquies_tab_count.mixins.json"
+
+[[dependencies.motiquies_tab_count]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.motiquies_tab_count]]
+modId = "gd656killicon"
+type = "required"
+versionRange = "[1.1.0.020-1.21.1-neoforge]"
+ordering = "AFTER"
+side = "CLIENT"

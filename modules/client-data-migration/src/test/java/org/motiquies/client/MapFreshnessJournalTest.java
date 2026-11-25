@@ -104,8 +104,10 @@ public final class MapFreshnessJournalTest {
  static void stageFailureDoesNotWriteSource()throws Exception{
   Path source=source();var a=region(1);zip(source,a);byte[] before=Files.readAllBytes(source);
   var old=stamps(a,"epoch",100,false);MapTileFreshness.write(MapTileFreshness.sidecar(source),old);Files.createDirectory(pending(source));
+  var request=new NativeMapWriteRequest<String>();
   int[] writes={0};boolean failed=false;
-  try{MapTileFreshness.commit(source,stamps(region(2),"epoch",200,false),()->{writes[0]++;return "crc";},failure->{throw new AssertionError(failure);});}catch(IOException expected){failed=true;}
+  try{request.finalCommit(()->true,()->MapTileFreshness.commit(source,stamps(region(2),"epoch",200,false),()->{writes[0]++;return "crc";},failure->{throw new AssertionError(failure);}));}
+  catch(IOException expected){failed=expected.getMessage().equals("Unsafe pending provenance path");}
   check(failed&&writes[0]==0&&Arrays.equals(before,Files.readAllBytes(source))&&old[0].equals(MapTileFreshness.read(MapTileFreshness.sidecar(source))[0]),"journal stage failure prevents source write and preserves old provenance");
  }
  static void unrepairedJournalCannotBeOverwritten()throws Exception{
@@ -115,6 +117,57 @@ public final class MapFreshnessJournalTest {
   try{MapTileFreshness.commit(source,stamps(region(3),"epoch",300,false),()->{writes[0]++;return null;},failure->{throw new AssertionError(failure);});}catch(IOException expected){blocked=true;}
   check(blocked&&writes[0]==0,"unrepaired pending B must prevent a new C stage and source transaction");
   check(fresh[0].equals(MapTileFreshness.read(pending(source))[0])&&fresh[0].equals(LocalMapObservations.readSafe(source)[0]),"sole durable matching B provenance survives repeated main-sidecar failure");
+ }
+ static void interruptedJournalStageCancelsRequest()throws Exception{
+  Path source=source();var localRegion=region(1);zip(source,localRegion);
+  var local=stamps(localRegion,"epoch",300,true);
+  Path sidecar=MapTileFreshness.sidecar(source);MapTileFreshness.write(sidecar,local);
+  byte[] beforeZip=Files.readAllBytes(source),beforeSidecar=Files.readAllBytes(sidecar);
+  var incoming=stamps(region(2),"epoch",200,false);
+  var request=new NativeMapWriteRequest<String>();
+  try{
+   request.attempt(()->true,()->{
+    try{
+     String receipt=request.finalCommit(()->true,()->{
+      Thread.currentThread().interrupt();
+      return MapTileFreshness.commit(source,incoming,()->{throw new AssertionError("interrupted staging must not enter ZIP writer");},
+              failure->{throw new AssertionError(failure);});
+     });
+     return new NativeMapCommit.Outcome<>(false,receipt);
+    }catch(IOException failure){throw new IllegalStateException("native source commit failed",failure);}
+   });
+   check(Thread.currentThread().isInterrupted(),"native cancellation preserves worker interrupt status");
+  }finally{Thread.interrupted();}
+  check(request.future().isDone()&&request.future().join()==null,"interrupted staging completes without a source receipt");
+  check(Arrays.equals(beforeZip,Files.readAllBytes(source))&&Arrays.equals(beforeSidecar,Files.readAllBytes(sidecar)),
+          "interrupted staging preserves original ZIP and newest local sidecar bytes");
+  var recovered=LocalMapObservations.readSafe(source);
+  check(local[0].equals(recovered[0]),"next connection can recover newer local provenance");
+  long[] ticks=new long[1024];Arrays.fill(ticks,200);
+  var retry=NativeMapMerge.merge(NativeMapMerge.zip(region(2),new MapSourceTimes("epoch",ticks)),beforeZip,null,recovered,null);
+  check(retry.retained()==1&&retry.imported()==0,"retry on the next line retains the proven newer local tile");
+  try(var files=Files.list(source.getParent())){
+   check(files.noneMatch(file->file.getFileName().toString().startsWith(".motiquies-freshness-")),"interrupted stage cleans its temporary file");
+  }
+ }
+ static void interruptedFinishKeepsCommittedReceipt()throws Exception{
+  Path source=source();var local=region(1);zip(source,local);
+  MapTileFreshness.write(MapTileFreshness.sidecar(source),stamps(local,"epoch",100,false));
+  var next=region(2);var incoming=stamps(next,"epoch",200,false);var warnings=new ArrayList<IOException>();
+  var request=new NativeMapWriteRequest<String>();
+  String receipt;
+  try{
+   receipt=request.finalCommit(()->true,()->MapTileFreshness.commit(source,incoming,()->{
+    zip(source,next);
+    Thread.currentThread().interrupt();
+    return "B-crc";
+   },warnings::add));
+   check(Thread.currentThread().isInterrupted(),"deferred metadata finish preserves worker interrupt status");
+  }finally{Thread.interrupted();}
+  check("B-crc".equals(receipt)&&warnings.size()==1&&warnings.getFirst() instanceof java.nio.channels.ClosedByInterruptException,
+          "already committed source keeps its real handoff receipt when sidecar finish is interrupted");
+  check(Files.exists(pending(source))&&incoming[0].equals(LocalMapObservations.readSafe(source)[0]),
+          "next connection recovers provenance of the committed source from the durable journal");
  }
  static void legacyHashUpgradeIsContentBound()throws Exception{
   Path source=source();var tiles=new NativeXaeroRegionCodec.Tile[1024];tiles[0]=NativeMapMergeTest.stairs(true,"north");var region=new NativeXaeroRegionCodec.Region(tiles);zip(source,region);
@@ -126,10 +179,12 @@ public final class MapFreshnessJournalTest {
   check(LocalMapObservations.readSafe(source)[0]==null,"changed state cannot inherit old legacy provenance");
  }
  public static void main(String[] args)throws Exception{
+  interruptedJournalStageCancelsRequest();
+  interruptedFinishKeepsCommittedReceipt();
   legacyHashUpgradeIsContentBound();var failures=new ArrayList<String>();
   for(var test:List.<Checked>of(MapFreshnessJournalTest::restartRecovery,MapFreshnessJournalTest::failedReplacementRecovery,MapFreshnessJournalTest::finishFailureRecovery,MapFreshnessJournalTest::stalePendingCannotDemoteLocal,MapFreshnessJournalTest::sameHashOrdering,MapFreshnessJournalTest::corruptMetadataAndSource,MapFreshnessJournalTest::unknownAndNativeReencode,MapFreshnessJournalTest::failedReplacementThenRetry,MapFreshnessJournalTest::successfulZipFailedFinishStillReceipts,MapFreshnessJournalTest::stageFailureDoesNotWriteSource,MapFreshnessJournalTest::unrepairedJournalCannotBeOverwritten))try{test.run();}catch(AssertionError error){failures.add(error.getMessage());}
   if(!failures.isEmpty())throw new AssertionError(String.join("\n",failures));
-  System.out.println("MapFreshnessJournalTest passed: restart, failed replacement/finish, local priority, tick/tie ordering, corrupt metadata/source, legacy, native re-encode");
+  System.out.println("MapFreshnessJournalTest passed: interrupted stage/finish, restart, failed replacement/finish, local priority, tick/tie ordering, corrupt metadata/source, legacy, native re-encode");
  }
  interface Checked{void run()throws Exception;}
 }

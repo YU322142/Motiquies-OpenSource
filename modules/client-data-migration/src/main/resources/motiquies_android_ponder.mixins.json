@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.motiquies.client.android.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "org.motiquies.client.AndroidPonderMixinPlugin",
+  "client": ["AndroidPonderStencilMixin", "AndroidTaczStencilMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

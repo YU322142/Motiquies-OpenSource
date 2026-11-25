@@ -4,12 +4,15 @@ license = "MIT"
 
 [[mods]]
 modId = "motiquies_client_migration"
-version = "0.3.20"
+version = "0.3.23"
 displayName = "Motiquies Client Migration"
 description = "Local migration tools for the Motiquies client."
 
 [[mixins]]
 config = "motiquies_client_migration.mixins.json"
+
+[[mixins]]
+config = "motiquies_android_ponder.mixins.json"
 
 [[dependencies.motiquies_client_migration]]
 modId = "minecraft"
